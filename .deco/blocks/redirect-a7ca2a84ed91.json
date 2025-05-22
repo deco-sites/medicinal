@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/produtos", "from": "/145", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/por-objetivo/perda-de-peso",
+		"from": "/cha-diuretico-xlean-abacaxi-com-coco/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

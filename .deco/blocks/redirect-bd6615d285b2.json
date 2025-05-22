@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/produtos/vitaminas-e-minerais",
+		"from": "/cha-diuretico-xlean-strawberry-kiwi/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

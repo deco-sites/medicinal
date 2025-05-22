@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/true-whey-protein-hidrolisado_e_isolado-837g-coconut-ice-cream/p",
+		"from": "/true-whey-protein-hidrolisado_e_isolado-418g--coconut-ice-cream-2154-/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

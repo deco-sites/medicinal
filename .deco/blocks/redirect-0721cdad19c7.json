@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/produtos/vitaminas-e-minerais",
+		"from": "/inositol-magnesio-maracuja-375g-true-source/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

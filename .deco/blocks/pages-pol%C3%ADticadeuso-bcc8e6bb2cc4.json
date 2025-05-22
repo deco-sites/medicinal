@@ -1,0 +1,40 @@
+{
+  "name": "Política de Uso",
+  "path": "/politicas/uso",
+  "sections": [
+    {
+      "noIndexing": false,
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "canonical": "https://www.truesource.com.br/politicas/uso"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Banner Central de Atendimento"
+    },
+    {
+      "loader": {
+        "__resolveType": "Navegações Central de Atendimento"
+      },
+      "sections": [
+        {
+          "__resolveType": "site/sections/CentralAtendimento/CardsTitleSimple.tsx",
+          "contentTitleSimple": "POLÍTICA DE USO"
+        },
+        {
+          "text": "<p><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Introdução</strong></span><br>Bem-vindo à nossa plataforma de e-commerce de suplementos alimentares. Esta Política de Uso tem como objetivo estabelecer as diretrizes e regras para garantir uma experiência segura, transparente e ética para todos os usuários. Ao utilizar nosso site, você concorda com os termos e condições descritos abaixo.<br><br><strong></strong></p><p><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>2. Informações Gerais</strong></span></p><p><br><strong>‎ ‎ ‎ 2.1. Idade Mínima:</strong> O uso deste site é restrito a usuários com idade igual ou superior a 18 anos. Menores de idade só podem utilizar o site sob a supervisão de um responsável legal.</p><p><br><strong>‎ ‎ ‎ 2.2. Informações Precisas:</strong> Ao cadastrar-se, você concorda em fornecer informações precisas e atualizadas. A empresa não se responsabiliza por informações incorretas ou desatualizadas.</p><p><br><strong>‎ ‎ ‎ 2.3. Proibição de Revenda:</strong> A revenda dos produtos adquiridos em nosso e-commerce é estritamente proibida sem autorização prévia por escrito.</p><p><br><br><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>3. Compras e Pagamentos</strong></span></p><p><br><strong>‎ ‎ ‎ 3.1. Transações Seguras:</strong> Utilizamos tecnologias seguras para garantir a confidencialidade e integridade das transações. Contudo, não nos responsabilizamos por problemas decorrentes de falhas de terceiros, como provedores de pagamento. Após a administradora do seu cartão aprovar o crédito, alertamos que para a sua segurança todos os seus pedidos realizados em nossa loja poderão passar por uma análise interna. A central de atendimento de nossa loja entrará em contato caso haja qualquer tipo de ocorrência que possa impedir a compra dos nossos produtos.</p><p><br><strong>‎ ‎ ‎ 3.2. Devoluções e Reembolsos:</strong> Consulte nossa política de devolução para obter informações detalhadas sobre devoluções e reembolsos.</p><p><br><br><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>4. Uso Responsável dos Suplementos</strong></span></p><p><br><strong>‎ ‎ ‎ 4.1. Consulte um Profissional de Saúde:</strong> Antes de iniciar o uso de qualquer suplemento, recomendamos que consulte um profissional de saúde para garantir que seja adequado às suas necessidades individuais.</p><p><br><strong>‎ ‎ ‎ 4.2. Respeito às Dosagens Recomendadas:</strong> Siga sempre as dosagens recomendadas pelos fabricantes. O uso excessivo pode ser prejudicial à saúde.</p><p><br><strong>‎ ‎ ‎ 4.3.</strong> Atentar-se à validade do produto após a sua abertura, pois esta se difere da validade final do produto lacrado, a mesma encontra-se disponível no rótulo.<br><br><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>5. Conteúdo do Site</strong></span></p><p><br><strong>‎ ‎ ‎ 5.1. Propriedade Intelectual:</strong> Todo o conteúdo do site, incluindo textos, imagens e marcas registradas, é de propriedade exclusiva da empresa. Qualquer uso não autorizado é proibido.</p><p><br><strong>‎ ‎ ‎ 5.2. Avaliações e Comentários:</strong> Os usuários são encorajados a fornecer feedback construtivo, mas comentários ofensivos, difamatórios ou fraudulentos serão removidos.</p><p><br><br><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>6. Segurança e Privacidade</strong></span></p><p><br><strong>‎ ‎ ‎ 6.1. Proteção de Dados:</strong> Comprometemo-nos a proteger suas informações pessoais de acordo com nossa Política de Privacidade. Para manter uma compra 100% segura todos os dados de sua compra são criptografados.</p><p><br><strong>‎ ‎ ‎&nbsp;6.2. Credenciais de Acesso:</strong> Mantenha suas credenciais de acesso seguras. A empresa não se responsabiliza por acessos não autorizados à sua conta.</p><p><br><br><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong></strong></span><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>7. Cancelamentos</strong></span></p><p dir=\"ltr\">A True Source se reserva o direito de cancelar pedidos, reembolsando integralmente o valor pago pelo consumidor, em casos de mau funcionamento das plataformas eletrônicas, erros de digitação, problemas de estoque alheios ao nosso controle ou se detectada alguma atividade que possa indicar risco de fraude. Caso ocorra o cancelamento, o cliente será prontamente notificado através dos canais de contato fornecidos no momento da compra.<strong></strong></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>8. Alterações de Pedidos</strong></span></p><p dir=\"ltr\">Caso o pedido já tenha sido concluído, não será possível fazer a alteração do endereço do destinatário, incluir/substituir produtos do pedido ou alterar a modalidade de pagamento.<strong></strong></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>9. Pagamentos com Boletos</strong></span></p><p dir=\"ltr\">Os boletos gerados em nosso site tem validade de 3 dias úteis, após esse prazo o pedido será automaticamente cancelado e os produtos retornarão para nosso estoque.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>10. Disposições Finais</strong></span></p><p><br><strong>‎ ‎ ‎ 10.1. Alterações na Política:</strong> Reservamo-nos o direito de realizar alterações nesta Política de Uso. Recomendamos que os usuários revisem periodicamente os termos.</p><p><br><strong>‎ ‎ ‎ 10.2. Contato:</strong> Em caso de dúvidas ou preocupações, entre em contato conosco através dos meios fornecidos em nosso site.</p><p><br data-mce-bogus=\"1\"></p><p><br>Ao utilizar nosso e-commerce, você concorda em cumprir estas diretrizes. O não cumprimento pode resultar em medidas disciplinares, incluindo a suspensão ou encerramento da conta. Obrigado por escolher nossa plataforma.<br></p>",
+          "__resolveType": "site/sections/CentralAtendimento/CardRichText.tsx"
+        }
+      ],
+      "__resolveType": "site/sections/CentralAtendimento/NavigationPage.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    },
+    {
+      "__resolveType": "Insider - Content Page"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

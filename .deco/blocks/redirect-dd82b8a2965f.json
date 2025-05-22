@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/spirulina-600mg---120-tabletes---true-source/p",
+		"from": "/spirulina-500g-120-capsulas-true-source",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

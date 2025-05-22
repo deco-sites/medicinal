@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/por-objetivo/energia", "from": "/true-energy-blackberry-lemonade/p", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

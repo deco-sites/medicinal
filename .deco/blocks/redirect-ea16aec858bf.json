@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/slim-shape---bloqueador-de-gordura-natural---120-capsulas---true-source/p",
+		"from": "/slim-shape-bloqueador-de-gordura-natural-120-capsulas-true-source/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

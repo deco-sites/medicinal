@@ -1,0 +1,643 @@
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "type": "website",
+      "canonical": "https://www.truesource.com.br/",
+      "noIndexing": false
+    },
+    {
+      "__resolveType": "site/sections/Content/SeoCustom.tsx",
+      "websiteData": {
+        "jsonWebsite": {
+          "url": "https://www.truesource.com.br/",
+          "name": "True Source",
+          "potentialAction": {
+            "target": "https://www.truesource.com.br/#&search-term=whey{search_term_string}",
+            "queryInput": "required name=search_term_string"
+          }
+        }
+      },
+      "organizationData": {
+        "jsonOrganization": {
+          "url": "https://www.truesource.com.br/",
+          "logo": "https://www.truesource.com.br/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fozksgdmyrqcxcwhnbepg.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fassets%2F4232%2F7d61abfa-5f3c-420d-afd6-98c074b83f21&fit=cover&width=280&height=98",
+          "name": "True Source",
+          "sameAs": [
+            "https://www.instagram.com/truesourcenutrition/",
+            "https://www.youtube.com/channel/UC5SApjxQ3zeYCwZA-pvQc2w"
+          ],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+55 (27) 3319-4635",
+              "areaServed": "BR",
+              "contactType": "customer service",
+              "availableLanguage": "Portuguese"
+            },
+            {
+              "@type": "ContactPoint",
+              "telephone": "+55 (27) 9 9914-1539",
+              "areaServed": "BR",
+              "contactType": "sales",
+              "availableLanguage": "Portuguese"
+            },
+            {
+              "@type": "ContactPoint",
+              "telephone": "+55 (27) 9 9225-8761",
+              "areaServed": "BR",
+              "contactType": "sales",
+              "availableLanguage": "Portuguese"
+            }
+          ],
+          "alternateName": "True Source"
+        }
+      }
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Images/Carousel.tsx",
+      "images": [
+        {
+          "mobile": {
+            "src": "https://assets.decocache.com/true-source/314f6381-bee0-4122-a009-dc0eda5ef4dc/MOBILE.jpg",
+            "width": 1187,
+            "height": 1134
+          },
+          "desktop": {
+            "src": "https://assets.decocache.com/true-source/23e96ed7-c9b5-44c8-8b53-5e11ff40f405/DESKTOP.jpg",
+            "width": 3755,
+            "height": 1134
+          },
+          "start": "2025-05-21T03:00:00.000Z",
+          "end": "2025-05-30T02:59:00.000Z",
+          "alt": "Ação Sachês Magnésio",
+          "href": "https://www.truesource.com.br/kit-4-saches-magnesio/p"
+        },
+        {
+          "alt": "01 | Mês das Mães",
+          "mobile": {
+            "src": "https://assets.decocache.com/true-source/8a661cab-a0df-4417-853d-400ee918a070/MOBILE-02.jpg",
+            "width": 1187,
+            "height": 1134
+          },
+          "desktop": {
+            "src": "https://assets.decocache.com/true-source/fee1e706-cbb2-4c17-8aa6-c9d345c0f4e2/DESKTOP-02.jpg",
+            "width": 3755,
+            "height": 1134
+          },
+          "start": "2025-05-01T03:00:00.000Z",
+          "end": "2025-05-30T02:59:00.000Z",
+          "href": "https://www.truesource.com.br/produtos"
+        },
+        {
+          "alt": "Mês das Mães - Promo de FDS 2",
+          "end": "2025-05-19T02:59:00.000Z",
+          "mobile": {
+            "src": "https://assets.decocache.com/true-source/67d2bddb-c24d-419a-b731-00831e5ac4be/MOBILE.jpg",
+            "width": 1187,
+            "height": 1134
+          },
+          "desktop": {
+            "src": "https://assets.decocache.com/true-source/16ff82a2-f34e-4463-97dd-0dda99952a5b/DESKTOP.jpg",
+            "width": 3755,
+            "height": 1134
+          },
+          "start": "2025-05-16T03:00:00.000Z",
+          "href": "https://www.truesource.com.br/302?map=productClusterIds"
+        },
+        {
+          "alt": "02 | Mês das Mães",
+          "end": "2025-05-30T02:59:00.000Z",
+          "mobile": {
+            "src": "https://assets.decocache.com/true-source/92f9a6e8-e5f9-468e-8ba0-172d57aaf9cc/MOBILE.jpg",
+            "width": 1187,
+            "height": 1134
+          },
+          "desktop": {
+            "width": 3755,
+            "height": 1134,
+            "src": "https://assets.decocache.com/true-source/585d548c-c64c-4939-8ee1-7bf170fb7eb9/DESKTOP.jpg"
+          },
+          "start": "2025-05-15T03:00:00.000Z",
+          "href": "https://www.truesource.com.br/produtos"
+        },
+        {
+          "alt": "03 | Mês das Mães - Mom Day",
+          "end": "2025-05-15T02:59:00.000Z",
+          "mobile": {
+            "src": "https://assets.decocache.com/true-source/71c539d6-7349-406c-aadb-94334c7bdcdd/MOBILE.jpg",
+            "width": 1187,
+            "height": 1134
+          },
+          "desktop": {
+            "src": "https://assets.decocache.com/true-source/d8870d4e-28aa-4547-b090-55be995d0605/DESKTOP.jpg",
+            "width": 3755,
+            "height": 1134
+          },
+          "start": "2025-05-14T03:00:00.000Z",
+          "href": "https://www.truesource.com.br/produtos"
+        },
+        {
+          "alt": "Mês das Mães - Promo de FDS 1",
+          "end": "2025-05-12T02:59:00.000Z",
+          "mobile": {
+            "src": "https://assets.decocache.com/true-source/34384ab0-38e3-4f7a-8cbc-b632999db32c/MOBILE.jpg",
+            "width": 1187,
+            "height": 1134
+          },
+          "desktop": {
+            "src": "https://assets.decocache.com/true-source/b2f818b0-5375-4911-84ed-b68b8f4df30c/DESKTOP.jpg",
+            "width": 3755,
+            "height": 1134
+          },
+          "start": "2025-05-09T03:00:00.000Z",
+          "href": "https://www.truesource.com.br/produtos/linha-saude-feminina"
+        },
+        {
+          "alt": "Upsell",
+          "end": "2025-03-24T02:59:00.000Z",
+          "mobile": {
+            "src": "https://assets.decocache.com/true-source/fb369479-5d6e-4800-ac71-994879c05934/MOBILE.jpg",
+            "width": 1187,
+            "height": 1134
+          },
+          "desktop": {
+            "src": "https://assets.decocache.com/true-source/4071c6df-4bee-4e7b-b2e3-11a954a47684/DESKTOP.jpg",
+            "width": 3755,
+            "height": 1134
+          },
+          "start": "2025-03-21T12:45:00.000Z",
+          "href": "https://www.truesource.com.br/produtos"
+        },
+        {
+          "desktop": {
+            "src": "https://assets.decocache.com/true-source/8435bd9f-d08e-4863-adb5-91183255c6c5/DESKTOP-01V2.jpg",
+            "width": 3755,
+            "height": 1134
+          },
+          "mobile": {
+            "src": "https://assets.decocache.com/true-source/1a27889e-1ecb-4d4e-ad8e-d7b2436f427e/MOBILE-01V2.jpg",
+            "width": 1187,
+            "height": 1134
+          },
+          "alt": "Lançamento B12",
+          "start": "2025-04-22T13:00:00.000Z",
+          "end": "2025-05-01T02:59:00.000Z",
+          "href": "https://www.truesource.com.br/vitamin-b12-liquido-30ml-true-source/p"
+        },
+        {
+          "desktop": {
+            "src": "https://assets.decocache.com/true-source/8cd698f9-2e31-4511-9058-16885a7f8f63/DESKTOP.jpg",
+            "width": 3755,
+            "height": 1134
+          },
+          "mobile": {
+            "src": "https://assets.decocache.com/true-source/c6828d87-d6b2-47af-87b8-b38c4f7a670c/MOBILE.jpg",
+            "width": 1187,
+            "height": 1134
+          },
+          "alt": "Semana do Autocuidado",
+          "start": "2025-05-19T13:50:00.000Z",
+          "end": "2025-05-26T02:59:00.000Z",
+          "href": "https://www.truesource.com.br/303?map=productClusterIds&page=2"
+        }
+      ],
+      "preload": true,
+      "interval": 7
+    },
+    {
+      "__resolveType": "site/sections/Miscellaneous/Space.tsx",
+      "mobile": 32,
+      "desktop": 40
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "list": [
+          {
+            "href": "/masculino",
+            "image": "https://data.decoassets.com/true-source/fcaca16b-d3e4-4917-b464-0a905264077a/1742235042437-5a8edfec-400f-421f-b436-4ce23d2b13e7",
+            "label": "Dresses",
+            "description": "Amazing"
+          },
+          {
+            "href": "/feminino",
+            "image": "https://data.decoassets.com/true-source/d60944dc-7222-4c9f-bdfd-bccc70d9d969/1742235049497-7363da7a-8530-4e19-8b76-6f92c4da3f1e",
+            "label": "Bags",
+            "description": "Bags"
+          },
+          {
+            "href": "/",
+            "image": "https://data.decoassets.com/true-source/e369da09-a319-4d27-b931-1390bc5a3e85/1742235070215-33755494-9104-410e-9e48-256aef7fc113",
+            "label": "Shoes",
+            "description": "New deals"
+          },
+          {
+            "href": "/",
+            "image": "https://data.decoassets.com/true-source/699fcdbf-c4c7-4f46-8c9c-6de0b89f1a05/1742235088926-2d507523-6f5a-4bb5-98d5-d9c944b35845",
+            "label": "Jackets",
+            "description": "New colors"
+          },
+          {
+            "href": "/",
+            "image": "https://data.decoassets.com/true-source/d88c55a9-91bd-4181-a2d4-f7d68156756c/1742235097897-907b5510-d4a0-4d75-b2bf-c0c9e9b0ba68",
+            "label": "Jeans",
+            "description": "Amazing"
+          },
+          {
+            "href": "/",
+            "image": "https://data.decoassets.com/true-source/6d4d2339-b06a-46e3-a6c7-90cfd69803c9/1742235116988-40eb7c93-59a7-4963-9917-32508c56e4cc",
+            "label": "Shorts",
+            "description": "Summer"
+          }
+        ],
+        "header": {
+          "title": "Categories",
+          "description": "Take a look at our categories"
+        },
+        "layout": {
+          "categoryCard": {
+            "textPosition": "top",
+            "textAlignment": "center"
+          },
+          "headerAlignment": "center"
+        },
+        "__resolveType": "site/sections/Category/CategoryList.tsx",
+        "title": "SUPLEMENTOS PARA TODAS AS FASES DA VIDA",
+        "categories": [
+          {
+            "label": "Gestação + 1ª infância",
+            "href": "https://www.truesource.com.br/246?map=productClusterIds"
+          },
+          {
+            "label": "Adolescência",
+            "href": "https://www.truesource.com.br/247?map=productClusterIds"
+          },
+          {
+            "label": "Vida Adulta",
+            "href": "https://www.truesource.com.br/248?map=productClusterIds"
+          },
+          {
+            "label": "Melhor Idade",
+            "href": "https://www.truesource.com.br/249?map=productClusterIds"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/Miscellaneous/Space.tsx",
+      "mobile": 32,
+      "desktop": 40
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "Produtos mais vendidos",
+      "products": {
+        "props": {
+          "sort": "",
+          "count": 20,
+          "collection": "184",
+          "hideUnavailableItems": true
+        },
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+      },
+      "removePaddingTop": true
+    },
+    {
+      "__resolveType": "site/sections/Images/Carousel.tsx",
+      "images": [
+        {
+          "desktop": {
+            "src": "https://assets.decocache.com/true-source/8c7c693c-ef0d-4d09-8b13-4c2e81c20072/DESKTOP.jpg",
+            "width": 4226,
+            "height": 954
+          },
+          "mobile": {
+            "src": "https://assets.decocache.com/true-source/5c7586a0-6a67-4a5c-ad85-01ae0dea79bd/MOBILE.jpg",
+            "width": 1782,
+            "height": 777
+          },
+          "alt": "Mês das Mães - Frete grátis + brinde",
+          "href": "https://www.truesource.com.br/produtos",
+          "start": "2025-05-05T03:00:00.000Z",
+          "end": "2025-05-08T02:59:00.000Z"
+        },
+        {
+          "desktop": {
+            "src": "https://data.decoassets.com/true-source/553849f3-3013-4239-8f7b-06bc7bf29030/MIDLE-DESKTOP-02.jpg",
+            "width": 4226,
+            "height": 954
+          },
+          "mobile": {
+            "src": "https://data.decoassets.com/true-source/c51862f8-90a9-495e-86a0-8cadb2b7444a/MIDLE-MOBILE-02.jpg",
+            "width": 1782,
+            "height": 777
+          },
+          "alt": "True Points",
+          "href": "https://www.truesource.com.br/true-source-points",
+          "start": "2025-03-31T03:00:00.000Z",
+          "end": "2026-01-01T02:59:00.000Z"
+        },
+        {
+          "desktop": {
+            "src": "https://assets.decocache.com/true-source/9f2d526e-ae8c-4ea3-827e-2d276b5a6273/MIDDLE-DESKTOP-01.jpg",
+            "width": 4226,
+            "height": 954
+          },
+          "mobile": {
+            "src": "https://assets.decocache.com/true-source/42808be0-9485-4be8-8290-7e01c920b7ba/MIDDLE-MOBILE-01.jpg",
+            "width": 1782,
+            "height": 777
+          },
+          "alt": "E-book 1",
+          "href": "https://www.truesource.com.br/ebook-receitas",
+          "start": "2025-04-01T03:00:00.000Z",
+          "end": "2025-06-01T02:59:00.000Z"
+        },
+        {
+          "desktop": {
+            "src": "https://data.decoassets.com/true-source/707d5cee-0b21-4b8c-a03f-4492f1f74ead/MIDLE-DESKTOP-01.jpg",
+            "width": 4226,
+            "height": 954
+          },
+          "mobile": {
+            "src": "https://data.decoassets.com/true-source/fff47f8e-b118-4e2d-8539-d7ee49d11e99/MIDLE-MOBILE-01.jpg",
+            "width": 1782,
+            "height": 777
+          },
+          "alt": "Indique e Ganhe",
+          "href": "https://www.truesource.com.br/true-source-points",
+          "start": "2025-04-03T03:00:00.000Z",
+          "end": "2026-01-01T02:59:00.000Z"
+        }
+      ],
+      "preload": true,
+      "interval": 5
+    },
+    {
+      "__resolveType": "site/sections/Miscellaneous/Space.tsx",
+      "mobile": 32,
+      "desktop": 40
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "title": "NOVIDADES",
+      "products": {
+        "props": {
+          "sort": "",
+          "count": 20,
+          "collection": "228",
+          "hideUnavailableItems": true
+        },
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+      },
+      "removePaddingTop": true
+    },
+    {
+      "__resolveType": "site/sections/Images/AccordionWithImages.tsx",
+      "grayBackground": true,
+      "sections": [
+        {
+          "image": {
+            "alt": "35% off",
+            "mobile": {
+              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/b6aa4046-d13a-446d-bad7-1dd94ccfc45a/03.jpg",
+              "width": 390,
+              "height": 442
+            },
+            "desktop": {
+              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/077a3431-f1c4-491b-868d-13f7aa989abe/SLIDER03.jpg",
+              "width": 864,
+              "height": 600
+            }
+          },
+          "button": {
+            "href": "/produtos/whey-protein",
+            "text": "Saiba mais"
+          },
+          "description": "Limpo, leve e saboroso",
+          "tag": "Proteínas",
+          "title": "Whey Protein"
+        },
+        {
+          "tag": "Endurance",
+          "image": {
+            "alt": "Frete grátis",
+            "mobile": {
+              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/1fad9620-b415-4f2b-b9ed-a0423438c77f/02.jpg",
+              "width": 390,
+              "height": 442
+            },
+            "desktop": {
+              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/a4129dbe-e1d4-4452-bb22-f3bb1186def9/SLIDER02.jpg",
+              "width": 864,
+              "height": 600
+            }
+          },
+          "title": "Sport Line",
+          "button": {
+            "href": "/produtos/sport-line",
+            "text": "Quero conhecer"
+          },
+          "description": "Sua performance em outro nível!"
+        },
+        {
+          "tag": "Praticidade",
+          "image": {
+            "alt": "True Points",
+            "mobile": {
+              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/653f5a32-3bc3-44bc-be18-761d47709aee/01.jpg",
+              "width": 390,
+              "height": 442
+            },
+            "desktop": {
+              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/4ce527a4-aa01-4dd7-a15c-986dbf892968/SLIDER01.jpg",
+              "width": 864,
+              "height": 600
+            }
+          },
+          "title": "Saúde em qualquer lugar",
+          "button": {
+            "href": "/produtos",
+            "text": "Aproveite"
+          },
+          "description": "Leve seus suplementos com praticidade aonde for"
+        }
+      ],
+      "topRounded": true,
+      "bottomRounded": false
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelfWithImage.tsx",
+      "grayBackground": true,
+      "mobile": {
+        "src": "https://data.decoassets.com/true-source/c8e2b660-283b-4bde-b3f7-5c0a18c65ac0/1742235130050-280e4ab7-52f2-477c-9ff6-0bfc8a7a7738",
+        "title": "SUPLEMENTOS DE PROTEÍNA"
+      },
+      "desktop": {
+        "src": "https://data.decoassets.com/true-source/b2e9cb1a-53cc-49f3-ba22-18a29ada29de/1742235132891-7065ef85-061f-440e-b043-06be657a8052",
+        "title": "SUPLEMENTOS DE PROTEÍNA"
+      },
+      "products": {
+        "props": {
+          "sort": "",
+          "count": 12,
+          "collection": "244",
+          "hideUnavailableItems": true
+        },
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+      },
+      "bannerUrl": "/244?map=productClusterIds"
+    },
+    {
+      "__resolveType": "site/sections/Product/ProductShelfWithImage.tsx",
+      "grayBackground": true,
+      "mobile": {
+        "src": "https://data.decoassets.com/true-source/1694aaa0-39d2-4c2e-ac89-804984768585/1742235136258-456c2bdc-50a8-4110-8220-5cb8d3117621",
+        "title": "SUPLEMENTOS DE VITAMINAS, MINERAIS e ATIVOS"
+      },
+      "desktop": {
+        "src": "https://data.decoassets.com/true-source/2efa4b1d-9afe-4b25-bce2-aeddfc27d8a8/1742235139494-e31a42e7-caf3-4aa1-b530-d26fae91eb23",
+        "title": "SUPLEMENTOS DE VITAMINAS, MINERAIS e ATIVOS"
+      },
+      "products": {
+        "props": {
+          "sort": "",
+          "count": 12,
+          "collection": "156",
+          "hideUnavailableItems": true
+        },
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+      },
+      "bannerUrl": "/156?map=productClusterIds",
+      "removePaddingTop": true
+    },
+    {
+      "__resolveType": "site/sections/Content/HighlightsBanner.tsx",
+      "grayBackground": true,
+      "cards": [
+        {
+          "tag": "Nootrópico",
+          "url": "https://www.truesource.com.br/brain-up-ready-to-drink-blueberry-269ml-true-source/p",
+          "image": {
+            "alt": "Brain Up RTD",
+            "desktopSrc": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/d5b86ef6-5884-4ff8-babb-2b06bd82056d/Brain-Up-RTD-Desktop.jpg",
+            "mobileSrc": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/119c84f3-d478-4dc8-a622-4d29796c3dfa/Brain-Up-RTD-Mobile.jpg"
+          },
+          "productDescription": "Potencialize sua performance mental!"
+        },
+        {
+          "tag": "Snack Proteico",
+          "url": "https://www.truesource.com.br/true-crunch-pro-cookies-and-cream-e-chocolate-unidade-true-source/p",
+          "image": {
+            "mobileSrc": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/a813de41-c9c8-4b0f-aace-79b14768e0f4/True-Crunch-Pro-Mobile.jpg",
+            "desktopSrc": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/08d2e406-0b2e-4fef-b8c0-67bdef868bfb/True-Crunch-Pro-Desktop.jpg",
+            "alt": "True Crunch Pro"
+          },
+          "productDescription": "Saudável, saborosa e proteica: sua companhia ideal para o dia a dia"
+        }
+      ],
+      "title": "Ganhe pontos para trocar por recompensas",
+      "topRounded": false,
+      "bottomRounded": true
+    },
+    {
+      "__resolveType": "site/sections/Miscellaneous/Space.tsx",
+      "mobile": 8,
+      "desktop": 40
+    },
+    {
+      "__resolveType": "site/sections/Content/InfluencersCarousel.tsx",
+      "title": "PROFISSIONAIS DA SAÚDE QUE RECOMENDAM TRUE SOURCE",
+      "cards": [
+        {
+          "name": "Dr. Victor Sorrentino",
+          "user": "@drvictorsorrentino",
+          "image": "https://data.decoassets.com/true-source/647cbb46-9efc-4c06-91cd-169824d3a756/1742235147994-606d798e-0f5d-4230-84fc-a8ff8581dfb8",
+          "occupation": "Médico Funcional Integrativo",
+          "description": "<p>“A True é minha parceira há muitos anos, trazendo tecnologia e inovação no cuidado dos meus pacientes.”</p>"
+        },
+        {
+          "name": "Dr.ᵃ Rita de Cássia Nunes",
+          "user": "@draritadecassianunes",
+          "image": "https://data.decoassets.com/true-source/699b5e73-4e21-4ced-bd6e-dbb2acc17895/1742235150039-2e8643c0-e0bb-494f-8a1b-acd4ee2836e5",
+          "occupation": "Médica Pediatra - Pneumologista",
+          "description": "<p>&nbsp;“Aqui encontro qualidade para o desenvolvimento saudável dos meus pequenos.”</p>"
+        },
+        {
+          "name": "Dr. Barakat ",
+          "user": "@doutorbarakat",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/cd7c3276-6fb3-4675-95d4-aa589cf94b96/DrBarakat-25-.jpg",
+          "occupation": "Médico",
+          "description": "<p>“Há mais de 30 anos, somos referência em medicina integrativa, construindo uma parceria educacional com a True para transformar vidas.\"</p>"
+        },
+        {
+          "name": "Dr.ᵃ Mariana Uebel",
+          "user": "@dramarinauebel",
+          "image": "https://data.decoassets.com/true-source/1f3556b7-e59a-421e-8f9c-9b276a571aa8/1742235151725-88a31d0d-5048-4685-a6cc-8bd37be5e84f",
+          "occupation": "Médica Psiquiatra",
+          "description": "<p>“Marca inovadora: promovendo saúde e bem-estar para pacientes e família.”</p>"
+        },
+        {
+          "name": "Dr. Bruno Pitanga",
+          "user": "@drbrunopitanga",
+          "image": "https://data.decoassets.com/true-source/2cf3fbda-a4d9-4759-b795-d1a0baa56762/1742235154840-37aaaf6a-b968-4a2e-baba-e993d05e5c1f",
+          "occupation": "Médico Preventivo Integrativo",
+          "description": "<p>“A True Source preenche uma lacuna no país, oferecendo suplementos de qualidade, eficiência e respeito à natureza. Indicar esses produtos traz segurança e resultados inestimáveis no tratamento.”</p>"
+        },
+        {
+          "name": "Dr.ᵃ Renata Giacometti",
+          "user": "@renatagiacometti",
+          "image": "https://data.decoassets.com/true-source/b8e9860b-5a3a-41ca-b261-54927f0f3f3e/1742235157306-a9337491-0787-4e6c-8098-9627e69c4aa4",
+          "occupation": "Médica Pediatra",
+          "description": "<p>“Os produtos True são meu suporte diário, vital na vida e no consultório.”</p>"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Content/TextAndBanner.tsx",
+      "title": "<p>Suplementos para todos os objetivos</p>",
+      "cta": {
+        "link": "/true-source",
+        "label": "Conheça a true source"
+      },
+      "text": "<p><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">Somos movidos pelo bem-estar, rendimento físico e pela natureza. A origem dos ingredientes é matéria-prima importada. As proteínas são limpas, com nutrientes extraídos da natureza, sem qualquer tipo de aditivo. E o resultado disso tudo são <strong><span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\">produtos de excelente qualidade e sabor</span></strong>.</span></p><p><br data-mce-bogus=\"1\"></p><p><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">Em nosso site você encontra uma seleção de suplementos para diferentes objetivos, todos produzidos por uma equipe especializada. Além de suplementos, por aqui nós selecionamos os&nbsp;<strong>melhores <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\">Whey Proteins</span> do mercado</strong>, <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\">barras de proteínas</span>, <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\">produtos energéticos</span>, <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\">emagrecedores</span>, <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\">colágenos</span> e <strong>fórmulas ricas em vitaminas e minerais</strong>.</span></p>",
+      "banner": {
+        "alt": "banner",
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/0c1ce406-e362-4483-b75c-03c7a5b398d7/True-Whey-Fior-Di-Latte-(4)-(1)-(1).jpg"
+      },
+      "button": {
+        "buttonLink": "/true-source",
+        "buttonLabel": "Conheça a true source",
+        "buttonTarget": false
+      },
+      "contentText": "<p>Somos movidos pelo bem-estar, pelo rendimento físico e pela natureza. A do planeta e a sua. É por isso que estamos atentos a todo o caminho. A origem dos ingredientes é matéria-prima importada. As proteínas são limpas, com nutrientes extraídos da natureza, sem qualquer tipo de aditivo. E o resultado disso tudo são <strong>produtos de excelente qualidade e sabor.</strong></p><p>Em nosso site você encontra uma seleção de suplementos para diferentes objetivos, todos produzidos por uma equipe especializada em saúde e nutrição. Além de suplementos, por aqui nós selecionamos os <a href=\"https://www.truesource.com.br/produtos/whey-protein\" target=\"_blank\" rel=\"noopener\" style=\"text-decoration: underline;\" data-mce-href=\"https://www.truesource.com.br/produtos/whey-protein\" data-mce-style=\"text-decoration: underline;\" data-mce-selected=\"inline-boundary\">melhores Whey Proteins do mercado</a>, barras de proteínas, produtos energéticos, emagrecedores, colágenos e <strong>fórmulas ricas em vitaminas e minerais.</strong></p>"
+    },
+    {
+      "__resolveType": "site/sections/Miscellaneous/Space.tsx",
+      "mobile": 32,
+      "desktop": 64
+    },
+    {
+      "__resolveType": "Footer - 04"
+    },
+    {
+      "__resolveType": "site/sections/Insider/InsiderTracking.tsx",
+      "page": {
+        "pageType": "Home"
+      },
+      "user": {
+        "__resolveType": "vtex/loaders/user.ts"
+      },
+      "currentPage": {
+        "@type": "Home"
+      }
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

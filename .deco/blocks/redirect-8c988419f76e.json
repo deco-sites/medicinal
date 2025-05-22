@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/true-whey-protein-hidrolisado-e-isolado/p",
+		"from": "/true-whey-abacate-sache-true-sourceee/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

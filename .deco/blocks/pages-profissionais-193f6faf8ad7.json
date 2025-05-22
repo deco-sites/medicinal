@@ -1,0 +1,247 @@
+{
+  "name": "Profissionais",
+  "path": "/profissionais",
+  "sections": [
+    {
+      "canonical": "https://www.truesource.com.br/profissionais",
+      "noIndexing": false,
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "title": "Programa de Profissionais True Source | Participe Agora",
+      "description": "Junte-se à nossa comunidade e promova a saúde natural! Agende uma visita online com nossa especialista e ganhe cupons exclusivos. Inscreva-se!"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "banner": {
+        "alt": "man with cofee and computer",
+        "mobileSrc": "https://data.decoassets.com/true-source/66111896-3ad6-4dd0-8ae3-5e89c9b0cc68/1742235041639-b74b3869-0e97-40b3-a608-bb53523f69d3",
+        "desktopSrc": "https://data.decoassets.com/true-source/5e4ec042-2096-48d2-9245-5044adb3d0c5/1742235051549-7c9efd4b-a72f-4517-8fbe-681ec746152b",
+        "mobileHeight": 600,
+        "desktopHeight": 683
+      },
+      "content": {
+        "cta": {
+          "link": "#form-profissionais",
+          "text": "FAÇA PARTE"
+        },
+        "tag": "profissionais",
+        "title": "PROGRAMA DE PROFISSIONAIS TRUE SOURCE",
+        "titleIsH1": true,
+        "titleSize": "medium",
+        "description": "Seja parte de uma comunidade exclusiva comprometida com a promoção da saúde natural e holística. O Programa Profissionais True Source é a sua porta de entrada para uma parceria dedicada ao bem-estar autêntico."
+      },
+      "rounded": "bottom",
+      "textPosition": "left",
+      "__resolveType": "site/sections/Images/BannerInfo.tsx"
+    },
+    {
+      "cards": [
+        {
+          "title": "DESCONTOS EXCLUSIVOS",
+          "description": "Como membro do Programa Profissionais True Source, você terá acesso a descontos especiais em toda a nossa linha premium de produtos naturais. Maximize sua prática com produtos de qualidade, projetados para promover o bem-estar."
+        },
+        {
+          "title": "SUPORTE PERSONALIZADO",
+          "description": "Nossa equipe dedicada está pronta para oferecer suporte personalizado, fornecendo informações privilegiadas e orientações adaptadas às necessidades específicas da sua prática. Conte conosco para ajudá-lo(a) a alcançar seus objetivos de saúde."
+        },
+        {
+          "title": "Acesso Antecipado a Novidades",
+          "description": "Mantenha-se à frente na oferta de soluções naturais aos seus pacientes. Como membro, você terá acesso exclusivo a lançamentos de produtos e informações inovadoras antes do público em geral."
+        },
+        {
+          "title": "DESCONTOS EXCLUSIVOS",
+          "description": "Como membro do Programa Profissionais True Source, você terá acesso a descontos especiais em toda a nossa linha premium de produtos naturais. Maximize sua prática com produtos de qualidade, projetados para promover o bem-estar."
+        },
+        {
+          "title": "SUPORTE PERSONALIZADO",
+          "description": "Nossa equipe dedicada está pronta para oferecer suporte personalizado, fornecendo informações privilegiadas e orientações adaptadas às necessidades específicas da sua prática. Conte conosco para ajudá-lo(a) a alcançar seus objetivos de saúde."
+        },
+        {
+          "title": "Acesso Antecipado a Novidades",
+          "description": "Mantenha-se à frente na oferta de soluções naturais aos seus pacientes. Como membro, você terá acesso exclusivo a lançamentos de produtos e informações inovadoras antes do público em geral."
+        },
+        {
+          "title": "DESCONTOS EXCLUSIVOS",
+          "description": "Como membro do Programa Profissionais True Source, você terá acesso a descontos especiais em toda a nossa linha premium de produtos naturais. Maximize sua prática com produtos de qualidade, projetados para promover o bem-estar."
+        },
+        {
+          "title": "SUPORTE PERSONALIZADO",
+          "description": "Nossa equipe dedicada está pronta para oferecer suporte personalizado, fornecendo informações privilegiadas e orientações adaptadas às necessidades específicas da sua prática. Conte conosco para ajudá-lo(a) a alcançar seus objetivos de saúde."
+        },
+        {
+          "title": "Acesso Antecipado a Novidades",
+          "description": "Mantenha-se à frente na oferta de soluções naturais aos seus pacientes. Como membro, você terá acesso exclusivo a lançamentos de produtos e informações inovadoras antes do público em geral."
+        }
+      ],
+      "title": "FAÇA PARTE DE UM PROGRAMA COM VANTAGENS EXCLUSIVAS PARA PROFISSIONAIS DE SAÚDE",
+      "__resolveType": "site/sections/Content/CardsSlider.tsx",
+      "hasBackgroundColor": false
+    },
+    {
+      "mobileImages": [
+        {
+          "alt": "Mulher comendo salada",
+          "src": "https://data.decoassets.com/true-source/1fd79a05-366a-44d9-a3cb-17f450a02af9/1742235072341-204ee93d-9f29-4cbc-8c90-6b51b82d3c2e",
+          "width": 175,
+          "height": 167
+        },
+        {
+          "alt": "Mulher sorrindo enquanto usa o notebook",
+          "src": "https://data.decoassets.com/true-source/93d9f6df-f02a-45c8-8e61-438331d8f222/1742235075560-5b03de33-8c26-4eb8-b890-4d25852227d1",
+          "width": 175,
+          "height": 167
+        }
+      ],
+      "__resolveType": "site/sections/Images/ImageGrid.tsx",
+      "desktopImages": [
+        {
+          "alt": "Mulher comendo salada",
+          "src": "https://data.decoassets.com/true-source/1e1879e2-e92c-4e58-83e5-41230aa4b7a2/1742235080064-47acfcb4-b30c-4f96-beae-7ab21c028443",
+          "width": 448,
+          "height": 357
+        },
+        {
+          "alt": "Mulher sorrindo enquanto usa o notebook",
+          "src": "https://data.decoassets.com/true-source/d301222f-b094-4e19-a620-2bb45765029d/1742235086944-5a984bbb-89e0-4a61-b8db-a797eb6a79ad",
+          "width": 448,
+          "height": 357
+        },
+        {
+          "alt": "Mulher preparando whey",
+          "src": "https://data.decoassets.com/true-source/883d1489-eb39-4532-a5e9-efa88e2eaf43/1742235091571-fed87dd0-567c-4d07-be95-ac5835a24cc8",
+          "width": 448,
+          "height": 357
+        }
+      ]
+    },
+    {
+      "size": "medium",
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "backgroundColor": "white"
+    },
+    {
+      "cta": {
+        "url": "#form-profissionais",
+        "text": "FAÇA SEU CADASTRO"
+      },
+      "title": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><strong>BENEFÍCIOS PERSONALIZADOS</strong></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">PARA VOCÊ</span></p>",
+      "hasIcon": true,
+      "description": "<p><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">Entendemos a singularidade de sua prática e estamos aqui para oferecer suporte personalizado. Nossa equipe está comprometida em fornecer informações privilegiadas e orientações adaptadas às suas necessidades específicas.</span></p>",
+      "hasContainer": false,
+      "__resolveType": "site/sections/Content/DescriptionWithCta.tsx",
+      "hasBackgroundColor": true
+    },
+    {
+      "banner": {
+        "alt": "woman with computer",
+        "mobileSrc": "https://data.decoassets.com/true-source/47972554-8e75-418a-8765-689f69adf4f2/1742235095037-c0b946ae-2b9e-49f1-962f-6ba5d3f245ac",
+        "desktopSrc": "https://data.decoassets.com/true-source/4c32bfd4-ced7-486c-a4b8-0e27ae488c78/1742235101707-88fb121e-a951-449a-b32a-292365c53e6e",
+        "mobileHeight": 600,
+        "desktopHeight": 712
+      },
+      "content": {
+        "cta": {
+          "link": "/",
+          "text": "Faça parte"
+        },
+        "title": "Junte-se à Missão pela Saúde Natural",
+        "description": "Ao aderir ao Programa Profissionais True Source, você se une a uma comunidade de profissionais comprometidos com a missão de promover a saúde natural. Seja parte da busca pela verdadeira fonte do bem-estar para seus pacientes e clientes."
+      },
+      "rounded": "full",
+      "textPosition": "center",
+      "__resolveType": "site/sections/Images/BannerInfo.tsx"
+    },
+    {
+      "topText": "<h2 style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">FAÇA PARTE DO PROGRAMA DE PROFISSIONAIS TRUE SOURCE</span></h2><p><br data-mce-bogus=\"1\"></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">Faça uma visita online com nossa Nutricionista Técnica Especialista para obter mais informações sobre o programa!</span></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\"><br>Ao participar da visita, você recebe um cupom exclusivo para prescritor e para pacientes, além de informações sobre o envio dos kits.</span></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><br data-mce-bogus=\"1\"></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">Acesse o cronograma de visitas <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><span style=\"color: rgb(224, 62, 45); text-decoration: underline;\" data-mce-style=\"color: rgb(224, 62, 45); text-decoration: underline;\"><a data-mce-href=\"https://linktr.ee/truesourcenutrition?fbclid=PAZXh0bgNhZW0CMTEAAab0-byi4v5zrbhRTvwcyfX7waTs_pdK8qHO0iv2jWu5gS80uk1V5aQfYAc_aem_hISe9WgGup7sc96--yAOLQ\" href=\"https://linktr.ee/truesourcenutrition?fbclid=PAZXh0bgNhZW0CMTEAAab0-byi4v5zrbhRTvwcyfX7waTs_pdK8qHO0iv2jWu5gS80uk1V5aQfYAc_aem_hISe9WgGup7sc96--yAOLQ\" style=\"color: rgb(224, 62, 45); text-decoration: underline;\" data-mce-style=\"color: rgb(224, 62, 45); text-decoration: underline;\" data-mce-selected=\"inline-boundary\">clicando aqui</a></span></span>!</span></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><br data-mce-bogus=\"1\"></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\"><strong>Importante:</strong> o link para a visita online será enviada por e-mail na confirmação do agendamento com o assunto \"CONFIRMADO: Apresentação da Marca com True Source\". Recomendamos que verifique todas as pastas de seu e-mail, incluindo a de Spam.</span></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><br data-mce-bogus=\"1\"></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">Até breve!</span></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><br data-mce-bogus=\"1\"></p>",
+      "services": [
+        {
+          "label": "Até 5"
+        },
+        {
+          "label": "De 5 a 10"
+        },
+        {
+          "label": "De 10 a 20"
+        },
+        {
+          "label": "De 20 a 50"
+        },
+        {
+          "label": "De 50 a 100"
+        },
+        {
+          "label": "Acima de 100"
+        }
+      ],
+      "specialties": [
+        {
+          "label": "Médico"
+        },
+        {
+          "label": "Nutricionista"
+        },
+        {
+          "label": "Outro"
+        }
+      ],
+      "supplements": [
+        {
+          "label": "Whey Protein"
+        },
+        {
+          "label": "Nootrópicos"
+        },
+        {
+          "label": "Proteína Vegana"
+        },
+        {
+          "label": "Colágeno"
+        },
+        {
+          "label": "Barras de Proteínas"
+        },
+        {
+          "label": "Vitaminas"
+        },
+        {
+          "label": "Aminoácidos"
+        },
+        {
+          "label": "Minerais"
+        },
+        {
+          "label": "Foco e Energia"
+        },
+        {
+          "label": "Relaxamento"
+        },
+        {
+          "label": "Emagrecedores"
+        },
+        {
+          "label": "Family Care"
+        },
+        {
+          "label": "Women's Care"
+        }
+      ],
+      "__resolveType": "site/sections/Content/FormProfissionais.tsx"
+    },
+    {
+      "size": "medium",
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Banner Central de Atendimento"
+      }
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

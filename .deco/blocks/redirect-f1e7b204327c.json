@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/produtos/proteina-vegana",
+		"from": "/proteina-vegana-true-vegan-ervilha-418g/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

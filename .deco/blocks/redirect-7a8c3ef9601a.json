@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/true-whey-protein-hidrolisado-e-isolado-837g-chocolate-com-avela/p",
+		"from": "/true-whey-protein-hidrolisado_e_isolado-837g-cappuccino/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

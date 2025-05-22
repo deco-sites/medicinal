@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/produtos/vitaminas-e-minerais", "from": "/copo-xlean-700ml--2233-/p", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

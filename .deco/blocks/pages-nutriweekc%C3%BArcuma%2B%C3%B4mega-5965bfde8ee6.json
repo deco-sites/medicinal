@@ -1,0 +1,45 @@
+{
+  "name": "Nutri Week Cúrcuma + Ômega",
+  "path": "/nutri-week-curcuma-e-omega",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Carousel - 01"
+    },
+    {
+      "__resolveType": "Product Shelf - 02"
+    },
+    {
+      "title": "<p>Fundamentais para o&nbsp;<strong>bom&nbsp;funcionamento</strong> do organismo</p>",
+      "banner": {
+        "alt": "Brain Up Ready To Drink",
+        "src": "https://data.decoassets.com/true-source/e1032f5f-0100-4009-9591-9e5864fd03b0/1742235042720-a767ba19-7f77-42a3-823b-868b588e33dd"
+      },
+      "contentText": "<p>O Ômega 3 é um dos anti-inflamatórios naturais mais potentes, ideal para a saúde cerebral, prevenção de doenças degenerativas, além de melhorar a memória e sinapses nervosas. O True Ômega 3 tem selo de pureza IFOS, referência mundial em qualidade, e adição de EPA e DHA, é a escolha certa para quem precisa suplementar ômega 3 com confiança.</p><p>A cúrcuma é essencial na suplementação eficiente, mas nem toda cúrcuma oferece a qualidade necessária. A True Source traz uma inovação com cúrcuma padronizada em 95% de curcuminóides, garantindo máxima potência e todos os benefícios da porção biologicamente ativa desse suplemento poderoso.</p>",
+      "__resolveType": "site/sections/Content/TextAndBanner.tsx"
+    },
+    {
+      "__resolveType": "Product Shelf - 03"
+    },
+    {
+      "__resolveType": "Product Shelf - 04"
+    },
+    {
+      "__resolveType": "Product Shelf - 05"
+    },
+    {
+      "__resolveType": "Product Shelf - 01"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Mais Vendidos True Source: Magnésio, Ômega 3 e Mais",
+    "description": "Procurando suplementos para cuidar da saúde? Aqui você encontra. Acesse nosso site e veja creatina, Whey Protein, ômega 3 e outros!"
+  }
+}

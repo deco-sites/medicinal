@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/iron-plus-liquido-30-ml-true-source/p",
+		"from": "/multivitaminico-iron-liquido-30-ml-true-source/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Semana do Autocuidado",
+  "path": "/semana-autocuidado",
+  "sections": [
+    {
+      "title": " Mais vendidos",
+      "jsonLD": {
+        "sort": "release:desc",
+        "count": 16,
+        "fuzzy": "automatic",
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "184"
+          }
+        ]
+      },
+      "favicon": "https://data.decoassets.com/true-source/dce8d61f-2cbd-4385-a2f7-3f03d68cd98b/1742235041667-8c790d4d-e385-4314-960e-1fab218ff224",
+      "description": " ",
+      "__resolveType": "site/sections/Search/SeoPLPMiddleware.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Carousel - 01"
+    },
+    {
+      "seals": [
+        {
+          "color": "#ffffff",
+          "label": "Mais vendidos",
+          "bgColor": "#e9530e",
+          "matcherType": "cluster",
+          "matcherTypeId": 184
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside"
+      },
+      "titles": {
+        "titles": [
+          {
+            "title": "Semana do Auto Cuidado",
+            "matcher": "/semana_autocuidado"
+          }
+        ]
+      },
+      "sectionsSEO": {
+        "__resolveType": "Descrições do departamento"
+      },
+      "__resolveType": "site/sections/Product/SearchResult.tsx",
+      "page": {
+        "__resolveType": "vtex/loaders/product/wishlist.ts",
+        "count": 16,
+        "offset": 0
+      }
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

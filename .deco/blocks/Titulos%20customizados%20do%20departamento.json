@@ -1,0 +1,293 @@
+{
+  "titles": [
+    {
+      "title": "Todos os produtos",
+      "matcher": "/produtos"
+    },
+    {
+      "title": "Whey Protein",
+      "matcher": "/produtos/whey-protein"
+    },
+    {
+      "title": "Proteína Vegana",
+      "matcher": "/produtos/proteina-vegana"
+    },
+    {
+      "title": "Aminoácidos",
+      "matcher": "/produtos/aminoacidos"
+    },
+    {
+      "title": "Emagrecedores",
+      "matcher": "/produtos/emagrecedores"
+    },
+    {
+      "title": "Foco e energia",
+      "matcher": "/produtos/foco-e-energia"
+    },
+    {
+      "title": "Nootrópicos",
+      "matcher": "/produtos/nootropicos"
+    },
+    {
+      "title": "Colágeno",
+      "matcher": "/produtos/colageno"
+    },
+    {
+      "title": "Vitaminas e Minerais",
+      "matcher": "/produtos/vitaminas-e-minerais"
+    },
+    {
+      "title": "Barras de proteína",
+      "matcher": "/produtos/barras-de-proteina"
+    },
+    {
+      "title": "Family Care",
+      "matcher": "/produtos/linha-family-care"
+    },
+    {
+      "title": "Saúde Feminina",
+      "matcher": "/produtos/linha-saude-feminina"
+    },
+    {
+      "title": "Combos",
+      "matcher": "/produtos/combos"
+    },
+    {
+      "title": "Clothing",
+      "matcher": "/produtos/clothing"
+    },
+    {
+      "title": "Acessórios",
+      "matcher": "/produtos/acessorios"
+    },
+    {
+      "title": "Massa Muscular",
+      "matcher": "/por-objetivo/massa-muscular"
+    },
+    {
+      "title": "Emagrecimento",
+      "matcher": "/por-objetivo/emagrecimento"
+    },
+    {
+      "title": "Energia",
+      "matcher": "/por-objetivo/energia"
+    },
+    {
+      "title": "Foco e concentração",
+      "matcher": "/por-objetivo/foco-e-concentracao"
+    },
+    {
+      "title": "Imunidade",
+      "matcher": "/por-objetivo/imunidade"
+    },
+    {
+      "title": "Longevidade",
+      "matcher": "/por-objetivo/longevidade"
+    },
+    {
+      "title": "Beleza e pele",
+      "matcher": "/por-objetivo/beleza-e-pele"
+    },
+    {
+      "title": "Cuidados Familiares",
+      "matcher": "/por-objetivo/cuidados-familiares"
+    },
+    {
+      "title": "Cuidados da mulher",
+      "matcher": "/por-objetivo/cuidados-da-mulher"
+    },
+    {
+      "title": "Promoções",
+      "matcher": "/promocoes"
+    },
+    {
+      "title": "Lançamentos",
+      "matcher": "/lancamentos"
+    },
+    {
+      "title": "Mais Vendidos",
+      "matcher": "/mais-vendidos"
+    },
+    {
+      "title": "Produtos Selecionados",
+      "matcher": "/140"
+    },
+    {
+      "title": "Collagen Protein",
+      "matcher": "/188"
+    },
+    {
+      "title": "True Whey Crunch Pro",
+      "matcher": "/146"
+    },
+    {
+      "title": "Proteínas",
+      "matcher": "/244"
+    },
+    {
+      "title": "Vitaminas, Minerais e Imunidade",
+      "matcher": "/156"
+    },
+    {
+      "title": "Iron Plus e Zinc",
+      "matcher": "/245"
+    },
+    {
+      "title": "Gestação + 1ª Infância",
+      "matcher": "/246"
+    },
+    {
+      "title": "Adolescência",
+      "matcher": "/247"
+    },
+    {
+      "title": "Vida Adulta",
+      "matcher": "/248"
+    },
+    {
+      "title": "Melhor Idade",
+      "matcher": "/249"
+    },
+    {
+      "title": "Suplementos para melhorar o Foco e a Concentração",
+      "matcher": "/254"
+    },
+    {
+      "title": "True Whey",
+      "matcher": "/255"
+    },
+    {
+      "title": "Magnésio",
+      "matcher": "/256"
+    },
+    {
+      "title": "Creatina",
+      "matcher": "/257"
+    },
+    {
+      "title": "Cúrcuma + Ômega",
+      "matcher": "/258"
+    },
+    {
+      "title": "Brain Up",
+      "matcher": "/259"
+    },
+    {
+      "title": "Gel Intra-treino Sport Line com Cafeína",
+      "matcher": "/260"
+    },
+    {
+      "title": "Gel Intra-treino Sport Line sem Cafeína",
+      "matcher": "/261"
+    },
+    {
+      "matcher": "/264",
+      "title": "True Crunch Pro"
+    },
+    {
+      "matcher": "/262",
+      "title": "Gel Intra-treino"
+    },
+    {
+      "matcher": "/270",
+      "title": "Esquenta Black Friday"
+    },
+    {
+      "matcher": "/271",
+      "title": "Esquenta Black Friday"
+    },
+    {
+      "matcher": "/272",
+      "title": "Esquenta Black Friday"
+    },
+    {
+      "matcher": "/273",
+      "title": "Esquenta Black Friday"
+    },
+    {
+      "matcher": "/274",
+      "title": "Esquenta Black Friday"
+    },
+    {
+      "matcher": "/275",
+      "title": "True Pasta Protein"
+    },
+    {
+      "matcher": "/152",
+      "title": "Magnésio + Inositol"
+    },
+    {
+      "matcher": "/276",
+      "title": "Creatina"
+    },
+    {
+      "matcher": "/279",
+      "title": "Promoção"
+    },
+    {
+      "matcher": "/211",
+      "title": "Brain Up"
+    },
+    {
+      "matcher": "/139",
+      "title": "Proteínas"
+    },
+    {
+      "matcher": "/carnavaltrue/classic",
+      "title": "Escolha um produto grátis"
+    },
+    {
+      "matcher": "/carnavaltrue/plus",
+      "title": "Escolha um produto grátis"
+    },
+    {
+      "matcher": "/carnavaltrue/premium",
+      "title": "Escolha um produto grátis"
+    },
+    {
+      "matcher": "/carnavaltrue/exclusive",
+      "title": "Escolha um produto grátis"
+    },
+    {
+      "matcher": "/292",
+      "title": "Collagen Protein, Multi Woman e Vitamina C"
+    },
+    {
+      "matcher": "/294",
+      "title": "True Whey Zero Lactose e True Vegan"
+    },
+    {
+      "matcher": "/295",
+      "title": "Proteínas Sabor Chocolate"
+    },
+    {
+      "matcher": "/296",
+      "title": "Promo Weekend"
+    },
+    {
+      "matcher": "/297",
+      "title": "Proteínas"
+    },
+    {
+      "matcher": "/298",
+      "title": "Vitaminas e Minerais, True Vegan & Beef Protein"
+    },
+    {
+      "matcher": "/299",
+      "title": "Family Care + Proteínas"
+    },
+    {
+      "matcher": "/300",
+      "title": "Foco & Energia"
+    },
+    {
+      "matcher": "/301",
+      "title": "Vitaminas e Minerais + Nootrópicos"
+    },
+    {
+      "matcher": "/302",
+      "title": "Kits Especiais Mês das Mães"
+    }
+  ],
+  "__resolveType": "site/loaders/CustomPLPTitle.ts"
+}

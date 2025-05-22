@@ -1,0 +1,45 @@
+{
+  "name": "Nutri Week Magnésio + Inositol",
+  "path": "/nutri-week-magnesio-inositol",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Carousel - 01"
+    },
+    {
+      "__resolveType": "Product Shelf - 04"
+    },
+    {
+      "title": "<p>Componentes essenciais para o bom funcionamento do organismo</p>",
+      "banner": {
+        "alt": "Brain Up Ready To Drink",
+        "src": "https://data.decoassets.com/true-source/0c1f6e78-457c-45d8-a3ac-63627a30a633/1742235042765-2ef8c1e1-c00f-4f73-89fd-5c606d93a7ae"
+      },
+      "contentText": "<p>O magnésio, essencial para mais de 300 reações metabólicas, é crucial para a saúde óssea, muscular, cardiovascular, intestinal e do sistema nervoso central. Já o inositol, parte da família das vitaminas B, melhora a comunicação entre neurônios. Nosso suplemento possui a combinação de magnésio e inositol, que apoia ossos, dentes, função neuromuscular, metabolismo energético, equilíbrio de eletrólitos e divisão celular.</p>",
+      "__resolveType": "site/sections/Content/TextAndBanner.tsx"
+    },
+    {
+      "__resolveType": "Product Shelf - 05"
+    },
+    {
+      "__resolveType": "Product Shelf - 01"
+    },
+    {
+      "__resolveType": "Product Shelf - 02"
+    },
+    {
+      "__resolveType": "Product Shelf - 03"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Magnésio + Inositol Para Melhor Saúde Muscular e Óssea",
+    "description": "O magnésio + inositol da True Source auxilia no metabolismo energético e na saúde muscular e óssea. Acesse nosso site e garanta já!"
+  }
+}

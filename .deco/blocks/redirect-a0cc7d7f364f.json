@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/produtos/barras-de-proteina",
+		"from": "/produtos/barras-de-proteina/proteina",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

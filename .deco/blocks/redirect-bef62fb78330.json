@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/produtos/vitaminas-e-minerais",
+		"from": "/cha-diuretico-xlean-ice-tea/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

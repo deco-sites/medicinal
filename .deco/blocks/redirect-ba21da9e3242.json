@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/true-curcuma-60-capsulas-true-source/p",
+		"from": "/true-curcuma---60---tabletes---true---source/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

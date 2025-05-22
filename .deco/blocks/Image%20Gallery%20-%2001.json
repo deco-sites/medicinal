@@ -1,0 +1,35 @@
+{
+	"layout": {
+		"mobile": "Symmetrical",
+		"desktop": "Symmetrical",
+		"borderRadius": { "mobile": "sm", "desktop": "none" },
+		"headerAlignment": "center"
+	},
+	"banners": [
+		{
+			"alt": "Fashion",
+			"href": "/?utm_campaign=Desconto_Colaborador_Produtos&utm_source=Desconto_Colaborador_Produtos",
+			"srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/a19fabc3-2d71-4230-a796-8c97e733423d/Design-sem-nome-(3).png",
+			"srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/4abe02a1-a4a8-4da6-be35-1ea5f30768df/APLICAR-PROMOCAO.png"
+		},
+		{
+			"alt": "Fashion",
+			"href": "/?utm_campaign=Desconto_Colaborador_Produtos&utm_source=Desconto_Colaborador_Produtos",
+			"srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/1dda215c-39de-4536-b81f-9d1b68d658da/Design-sem-nome-(4).png",
+			"srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/0b2138d2-68b2-413a-b161-63aad8773e24/Design-sem-nome-(4).png"
+		},
+		{
+			"alt": "Fashion",
+			"href": "/?utm_campaign=Desconto_Colaborador_Produtos&utm_source=Desconto_Colaborador_Produtos",
+			"srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/1dda215c-39de-4536-b81f-9d1b68d658da/Design-sem-nome-(4).png",
+			"srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/0b2138d2-68b2-413a-b161-63aad8773e24/Design-sem-nome-(4).png"
+		},
+		{
+			"alt": "Fashion",
+			"href": "/?utm_campaign=Desconto_Colaborador_Produtos&utm_source=Desconto_Colaborador_Produtos",
+			"srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/1dda215c-39de-4536-b81f-9d1b68d658da/Design-sem-nome-(4).png",
+			"srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/0b2138d2-68b2-413a-b161-63aad8773e24/Design-sem-nome-(4).png"
+		}
+	],
+	"__resolveType": "site/sections/Images/ImageGallery.tsx"
+}

@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/proteina-vegana-true-vegan-chocolate-com-avela-34g/p",
+		"from": "/proteina-vegana-chocolate-true/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

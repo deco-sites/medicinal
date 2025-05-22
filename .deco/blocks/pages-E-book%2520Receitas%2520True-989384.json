@@ -1,0 +1,172 @@
+{
+  "name": "E-book Receitas True",
+  "path": "/ebook-receitas",
+  "sections": [
+    {
+      "canonical": "https://www.truesource.com.br/true-source",
+      "noIndexing": false,
+      "__resolveType": "website/sections/Seo/Seo.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Images/BannerInfo.tsx",
+        "banner": {
+          "desktopSrc": "https://data.decoassets.com/true-source/e69b36c5-1b4d-49c5-afe5-407451aa693d/01-copiar.jpg",
+          "alt": "cooking",
+          "desktopHeight": 600,
+          "mobileHeight": 500,
+          "mobileSrc": "https://data.decoassets.com/true-source/e69b36c5-1b4d-49c5-afe5-407451aa693d/01-copiar.jpg"
+        },
+        "textPosition": "left",
+        "content": {
+          "description": "Neste e-book, reunimos receitas deliciosas e equilibradas, todas criadas com os suplementos da True Source, para você transformar cada refeição em um momento de cuidado e bem-estar.",
+          "title": "receitas deliciosas, saudáveis e práticas ",
+          "tag": "e-book de receitas true",
+          "cta": {
+            "text": "Clique para visualizar",
+            "link": "https://truue.link/ebook-receitas-saudaveis"
+          }
+        },
+        "preload": false,
+        "rounded": "bottom"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/CategoryDescription/CategoryInfoCard.tsx",
+        "title": "<p>No <strong>E-book Receitas True,</strong> você terá acesso a</p>",
+        "description": "<ul><li>Receitas saudáveis e equilibradas;</li><li>Opções doces e salgadas;</li><li>Dicas para melhorar a sua alimentação;</li><li>Ingredientes que favorecem energia, bem-estar e performance;</li><li>Cupom exclusivo para ganhar 10%OFF + presente.</li></ul>",
+        "image": {
+          "desktop": "https://data.decoassets.com/true-source/2c512549-b8b3-48d4-ba23-0307541f9766/02.jpg",
+          "tablet": "https://data.decoassets.com/true-source/2c512549-b8b3-48d4-ba23-0307541f9766/02.jpg"
+        },
+        "type": "1",
+        "rounded": false,
+        "backgroundColor": "#ffffff",
+        "textAlign": "right"
+      }
+    },
+    {
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "size": "medium",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/Timeline.tsx",
+        "steps": [
+          {
+            "label": "<p>Faça seu cadastro e baixe o e-book gratuitamente.<br></p>"
+          },
+          {
+            "label": "<p>Escolha um dos suplementos que aparecem nas receitas.</p>"
+          },
+          {
+            "label": "<p>Faça sua compra e use o cupom recebido para ganhar um brinde especial!<br></p>"
+          }
+        ],
+        "title": "Como funciona a promoção"
+      }
+    },
+    {
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "size": "large",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Images/ImageGrid.tsx",
+        "mobileImages": [
+          {
+            "src": "https://data.decoassets.com/true-source/4daedadb-a31c-401e-969d-29f405b81712/receita03.jpg",
+            "width": 300,
+            "height": 250,
+            "alt": "pao de queijo"
+          },
+          {
+            "src": "https://data.decoassets.com/true-source/e6cf8250-fd28-404a-8a36-2e3bedad3490/receita02.jpg",
+            "width": 300,
+            "height": 250,
+            "alt": "frapucino"
+          },
+          {
+            "src": "https://data.decoassets.com/true-source/924f308b-3317-4ad8-8b71-32bae2a34021/receita01.jpg",
+            "width": 300,
+            "height": 250,
+            "alt": "salada de macarrao"
+          }
+        ],
+        "desktopImages": [
+          {
+            "src": "https://data.decoassets.com/true-source/4daedadb-a31c-401e-969d-29f405b81712/receita03.jpg",
+            "width": 300,
+            "height": 300,
+            "alt": "pao de queijo"
+          },
+          {
+            "src": "https://data.decoassets.com/true-source/e6cf8250-fd28-404a-8a36-2e3bedad3490/receita02.jpg",
+            "width": 300,
+            "height": 300,
+            "alt": "frapucino"
+          },
+          {
+            "src": "https://data.decoassets.com/true-source/924f308b-3317-4ad8-8b71-32bae2a34021/receita01.jpg",
+            "width": 300,
+            "height": 300,
+            "alt": "salada"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "size": "medium",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/Faq.tsx",
+        "titles": {
+          "upper": null,
+          "lower": "FICOU COM ALGUMA DÚVIDA?"
+        },
+        "questions": [
+          {
+            "question": "Como receber e utilizar o cupom?",
+            "answer": "<p>Faça seu cadastro e você receberá por email o link do e-Book e um cupom. Escolha um dos suplementos que aparecem nas receitas e faça sua compra e usando o cupom recebido para ganhar um brinde especial + 10% OFF!</p>"
+          },
+          {
+            "question": "Quais as regras da promoção?",
+            "answer": "<p><label class=\"todo-list__label\"><span class=\"todo-list__label__description\">Promoção não acumulativa com outras promoções. </span></label><label class=\"todo-list__label\"><span class=\"todo-list__label__description\">Válida enquanto durarem os estoques. </span></label><label class=\"todo-list__label\"><span class=\"todo-list__label__description\">Promoção poderá ser interrompida a qualquer momento sem aviso prévio. </span></label><label class=\"todo-list__label\"><span class=\"todo-list__label__description\">Frete Grátis de acordo com nossa política de promoções de frete grátis por região. </span></label><label class=\"todo-list__label\"><span class=\"todo-list__label__description\">O sabor dos produtos de brinde está sujeito à disponibilidade e pode sofrer alterações.</span></label></p>"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "size": "large",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/PopupPromoEbookLeeds.tsx"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

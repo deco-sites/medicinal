@@ -1,0 +1,254 @@
+{
+  "name": "Carnaval - Leve 3 Pague 2 | Classic",
+  "path": "/carnavaltrue/classic",
+  "sections": [
+    {
+      "title": " ",
+      "jsonLD": {
+        "sort": "",
+        "count": 24,
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "195"
+          }
+        ]
+      },
+      "favicon": "https://data.decoassets.com/true-source/069811e1-849d-4f79-a1ed-b2078fc5b4ba/1742235041223-8c790d4d-e385-4314-960e-1fab218ff224",
+      "description": " ",
+      "__resolveType": "site/sections/Search/SeoPLPMiddleware.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Images/Carousel.tsx",
+        "images": [
+          {
+            "start": "2025-02-11T03:00:00.000Z",
+            "mobile": {
+              "src": "https://data.decoassets.com/true-source/c90614b3-c9d3-40da-bf98-49b3fd993f36/01---MOBILE---CLASSIC.jpg",
+              "width": 358,
+              "height": 138
+            },
+            "desktop": {
+              "src": "https://data.decoassets.com/true-source/eb72de4c-6c74-4a4b-ac1a-9b96b7ead6b0/01---DESKTOP---CLASSIC.jpg",
+              "width": 1408,
+              "height": 280
+            },
+            "end": "2025-03-06T02:59:00.000Z",
+            "alt": "Categoria - Essencial 1"
+          }
+        ],
+        "preload": false,
+        "interval": 5
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Product/ProductShelf.tsx",
+        "title": "escolha dois produtos",
+        "layout": {
+          "headerfontSize": "Large",
+          "headerAlignment": "center"
+        },
+        "products": {
+          "props": {
+            "sort": "",
+            "count": 12,
+            "collection": "290",
+            "hideUnavailableItems": true
+          },
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+        },
+        "cardLayout": {
+          "hide": {
+            "cta": true,
+            "allPrices": true,
+            "productName": true,
+            "skuSelector": true,
+            "installments": true,
+            "productDescription": true
+          },
+          "basics": {
+            "ctaText": "View more",
+            "oldPriceSize": "Normal",
+            "contentAlignment": "Center"
+          },
+          "onMouseOver": {
+            "card": "None",
+            "image": "Change image"
+          },
+          "elementsPositions": {
+            "skuSelector": "Bottom",
+            "favoriteIcon": "Top right"
+          }
+        },
+        "description": "The best selection for you",
+        "removePaddingTop": false
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Images/Carousel.tsx",
+        "images": [
+          {
+            "start": "2025-02-11T03:00:00.000Z",
+            "mobile": {
+              "src": "https://data.decoassets.com/true-source/2378604f-b8ae-4da1-a931-86d2cae3325f/02---MOBILE---CLASSIC.jpg",
+              "width": 358,
+              "height": 138
+            },
+            "desktop": {
+              "src": "https://data.decoassets.com/true-source/b91762c3-e833-4acd-bbcd-97e71587f4e1/02---DESKTOP---CLASSIC.jpg",
+              "width": 1408,
+              "height": 280
+            },
+            "end": "2025-03-06T02:59:00.000Z",
+            "alt": "Categoria - Essencial 2"
+          }
+        ],
+        "preload": false,
+        "interval": 5
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+        "size": "small"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Product/SearchResult.tsx",
+      "page": {
+        "sort": "",
+        "count": 16,
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "291"
+          }
+        ],
+        "hideUnavailableItems": true
+      },
+      "seals": [
+        {
+          "color": "#ffffff",
+          "label": "Mais vendidos",
+          "bgColor": "#e9530e",
+          "matcherType": "cluster",
+          "matcherTypeId": 184
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside",
+        "pagination": "show-more"
+      },
+      "titles": {
+        "__resolveType": "Titulos customizados do departamento"
+      },
+      "sectionsSEO": {
+        "__resolveType": "Descrições do departamento"
+      },
+      "startingPage": 1,
+      "showOnlySubscription": false
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Category/CategoryGridCircle.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "title": "FAQ",
+        "layout": {
+          "variation": "Compact",
+          "headerAlignment": "center"
+        },
+        "contact": {
+          "link": {
+            "href": "Contact us",
+            "text": "Contact us"
+          },
+          "title": "Still have a question?",
+          "description": "<p class=\"ql-align-center\">Reach out now</p>"
+        },
+        "questions": [
+          {
+            "answer": "<p>Ao comprar&nbsp;<strong data-stringify-type=\"bold\">dois produtos selecionados de uma das seleções de produtos (Classic, Plus, Premium ou Exclusive)</strong>, você ganha um&nbsp;<strong data-stringify-type=\"bold\">terceiro item grátis</strong> da lista disponível. O desconto será aplicado automaticamente no checkout.</p>",
+            "question": "Como funciona a promoção?"
+          },
+          {
+            "answer": "<p>A promoção é válida para <strong>produtos selecionados</strong>. Você pode conferir a lista completa na página de cada seleção (Classic, Plus, Premium e Exclusive).</p>",
+            "question": "Quais produtos participam da promoção?"
+          },
+          {
+            "answer": "<p>Ao selecionar os produtos desejados, o item de&nbsp;<strong data-stringify-type=\"bold\">menor valor</strong>&nbsp;dentro da lista disponível ficará&nbsp;<strong data-stringify-type=\"bold\">gratuito no checkout</strong> de forma automática, sem necessidade de inserir cupom.</p>",
+            "question": "Como o desconto é aplicado?"
+          },
+          {
+            "answer": "<p>Não. O brinde deve ser escolhido entre os <strong>itens disponíveis nas listas específicas para brindes</strong>.</p><p>É importante destacar que essa lista é <strong>diferente</strong> da lista de produtos selecionados para a compra.</p>",
+            "question": "Posso escolher qualquer produto como brinde?"
+          },
+          {
+            "answer": "<p>Sim! A cada dois produtos pagos dentro de alguma das seleções de produtos (Classic, Plus, Premium e Exclusive), você pode ganhar um terceiro item grátis.</p>",
+            "question": "Posso participar mais de uma vez?"
+          },
+          {
+            "answer": "<p>Não. Esta promoção&nbsp;<strong data-stringify-type=\"bold\">não é cumulativa</strong> com outros descontos ou cupons.</p>",
+            "question": "A promoção é acumulativa com outras ofertas?"
+          },
+          {
+            "answer": "<p>A promoção estará disponível por <strong data-stringify-type=\"bold\">tempo limitado</strong> ou enquanto durarem os estoques.</p>",
+            "question": "A promoção é válida por quanto tempo?"
+          },
+          {
+            "answer": "<p>Sim! Você pode comprar quantos produtos quiser. No entanto, a cada dois itens elegíveis para compra de cada seleção (Classic, Plus, Premium ou Exclusive), será possível incluir apenas um item gratuito.</p><p>Caso queira receber mais brindes, você pode incluir em seu carrinho mais itens elegíveis para compra de alguma seleção de produtos ou efetuar um novo pedido que esteja de acordo com as condições desta promoção.</p><p>É importante lembrar que os itens disponíveis como brinde variam de acordo com cada categoria.</p>",
+            "question": "Posso comprar mais de dois produtos?"
+          },
+          {
+            "answer": "<p>Consulte nossa&nbsp;<a data-mce-href=\"https://www.truesource.com.br/politicas/frete-gratis\" href=\"https://www.truesource.com.br/politicas/frete-gratis\" data-mce-selected=\"inline-boundary\"><strong data-stringify-type=\"bold\">Política de Frete</strong></a> para mais detalhes sobre prazos e valores.</p>",
+            "question": "Como funciona o frete da promoção?"
+          },
+          {
+            "answer": "<p>Consulte nossa&nbsp;<a data-mce-href=\"https://www.truesource.com.br/politicas/devolucao\" href=\"https://www.truesource.com.br/politicas/devolucao\" data-mce-selected=\"inline-boundary\"><strong data-stringify-type=\"bold\">Política de Trocas e Devoluções</strong></a> para mais informações.</p>",
+            "question": "O que acontece se eu quiser trocar ou devolver um dos produtos?"
+          }
+        ],
+        "description": "Your Questions Answered",
+        "__resolveType": "site/sections/Content/Faq.tsx",
+        "titles": {
+          "upper": "FAQ - Promoção \"Leve 3, Pague 2\"",
+          "lower": null
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+        "size": "xlarge"
+      }
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

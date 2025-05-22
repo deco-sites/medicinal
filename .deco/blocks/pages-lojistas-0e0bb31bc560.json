@@ -1,0 +1,122 @@
+{
+  "name": "Lojistas",
+  "path": "/lojistas",
+  "sections": [
+    {
+      "canonical": "https://www.truesource.com.br/lojistas",
+      "noIndexing": false,
+      "__resolveType": "website/sections/Seo/Seo.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "banner": {
+        "alt": "Lojistas",
+        "mobileSrc": "https://data.decoassets.com/true-source/e360bbe7-6026-40ca-b296-8983639e4e33/1742235041582-5885fd0f-f95c-4f2a-885b-35d4187e9962",
+        "desktopSrc": "https://data.decoassets.com/true-source/a8276f9c-71e5-4330-b1d5-84e4d19b0b0a/1742235051003-c2e2c059-d60c-4367-95f3-fe056aecb624",
+        "mobileHeight": 530,
+        "desktopHeight": 665
+      },
+      "content": {
+        "cta": {
+          "link": "#form-lojistas",
+          "text": "Faça Parte"
+        },
+        "tag": "LOJISTAS",
+        "title": "FAÇA PARTE DA FAMÍLIA TRUE SOURCE",
+        "titleIsH1": true,
+        "description": "Bem-vindo(a) ao Programa de Parceria Lojista True Source, onde a qualidade encontra a oportunidade. Se você é um empreendedor apaixonado por oferecer produtos naturais de excelência, junte-se a nós nesta jornada de sucesso."
+      },
+      "preload": true,
+      "rounded": "bottom",
+      "textPosition": "left",
+      "__resolveType": "site/sections/Images/BannerInfo.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "size": "medium",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
+        "sections": [
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Content/RichText.tsx",
+              "text": "<p dir=\"ltr\">Nosso objetivo é garantir sua satisfação e confiança em cada compra realizada e sabemos que, ocasionalmente, pode surgir a necessidade de trocar ou devolver um produto.</p><p><strong><br></strong></p><p dir=\"ltr\">Este documento visa oferecer informações claras, objetivas e transparentes sobre os procedimentos que envolvem troca e devolução.&nbsp;</p><p><strong><br></strong></p><p dir=\"ltr\">Queremos assegurar que sua experiência de compra conosco seja sempre positiva, proporcionando um suporte eficiente, sempre que precisar!</p><p><strong><br></strong></p><p dir=\"ltr\">Todas as solicitações que envolvem troca e devolução devem ser realizadas por intermédio da central de Relacionamento da True Brands, através de um dos canais de contato abaixo:</p>"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/CentralAtendimento/CardNumberedSection.tsx",
+              "cards": [
+                {
+                  "text": "<p><strong id=\"docs-internal-guid-22766a0e-7fff-d5e6-93bb-6c18725a3d7e\">E-mail:</strong></p><p><strong id=\"docs-internal-guid-22766a0e-7fff-d5e6-93bb-6c18725a3d7e\"><span style=\"color: rgb(224, 62, 45);\" data-mce-style=\"color: rgb(224, 62, 45);\"><a href=\"mailto:relacionamento@truebrands.com.br\" data-mce-href=\"mailto:relacionamento@truebrands.com.br\" style=\"color: rgb(224, 62, 45);\" data-mce-style=\"color: rgb(224, 62, 45);\" data-mce-selected=\"inline-boundary\">﻿relacionamento@truebrands.com.br</a></span></strong></p>"
+                },
+                {
+                  "text": "<p><strong id=\"docs-internal-guid-b168ed18-7fff-fbcd-9e36-2c63fa023223\">WhatsApp:</strong></p><p>(27) 99225-8761&nbsp;</p>"
+                },
+                {
+                  "text": "<p><strong id=\"docs-internal-guid-1cdd494a-7fff-5f50-f543-2c8072cbb0ce\">Atendimento:</strong></p><p>Segunda a Quinta-feira - 8h às 18h</p><p>Sexta-feira - 8h às 17h</p>"
+                }
+              ]
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Content/RichText.tsx",
+              "text": "<p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Para iniciarmos, seguem algumas orientações sobre recebimento da mercadoria, que podem impactar diretamente no processo de troca e devolução caso não seja feita de forma correta:</p>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "size": "medium",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
+        "sections": [
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Content/RichText.tsx",
+              "text": "<p><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>ORIENTAÇÕES PARA RECEBIMENTO E CONFERÊNCIA DO PEDIDO NO ATO DA ENTREGA:</strong></span></p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p><p><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Conferir se as etiquetas de transporte correspondem ao número da nota fiscal referente à entrega;</p><p><br data-mce-bogus=\"1\"></p><p><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Conferir se a quantidade de volumes recebidos está de acordo com a quantidade informada na nota fiscal;</p><p><br data-mce-bogus=\"1\"></p><p><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Verificar se os volumes recebidos estão lacrados com a fita TRUE BRANDS ou SELO DE SEGURANÇA e avaliar a integridade física (amassados, com umidade e/ou rasgados e etc.) verificando a parte superior e inferior dos volumes. Se o volume não estiver dentro dos padrões, a loja pode se valer do direito de recusa do volume em questão, mas caso opte por receber o volume, é estritamente necessária a realização da ressalva.</p><p dir=\"ltr\"><strong><br></strong></p><p dir=\"ltr\"><span style=\"text-decoration: underline; color: rgb(224, 62, 45);\" data-mce-style=\"text-decoration: underline; color: rgb(224, 62, 45);\"><strong>Importante:</strong></span> Ressalvar qualquer tipo de ocorrência ou divergência no ato da entrega, pois é o principal item necessário para dar sequência a tratativa, caso haja produto avariado. Se possível, registrar fotos e imediatamente entrar em contato com o relacionamento explicando o ocorrido.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">A ressalva deve ser realizada no comprovante de entrega, com assinatura do colaborador da transportadora e documento do mesmo.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>VOLUME FALTANDO</strong></span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">É responsabilidade da loja conferir a etiqueta de destinatário e os volumes no ato da entrega. Em caso de identificação da falta de volume, a loja deverá realizar uma ressalva no canhoto da transportadora.</p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong><br></strong></span></p><p dir=\"ltr\">É importante salientar que a tratativa só poderá ser feita mediante a realização da ressalva.&nbsp;&nbsp;</p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong><br></strong></span></p><p dir=\"ltr\">A loja deverá informar imediatamente à central de relacionamento sobre o ocorrido.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">ITENS FALTANDO</span></strong></p><p dir=\"ltr\"><strong><br></strong></p><p dir=\"ltr\">Caso seja identificada a falta de itens no pedido entregue, a loja tem o prazo de até 48 horas para acionar o relacionamento com número da nota fiscal, CNPJ e a descrição do ocorrido para realização da tratativa.</p><p dir=\"ltr\"><strong><br></strong></p><p dir=\"ltr\">Sendo comprovado o envio dos itens, não se torna obrigatório a reposição dos produtos.</p><p dir=\"ltr\"><strong><br></strong></p><p dir=\"ltr\">Em casos onde há falta de itens provenientes de volumes avariados, é necessário que o cliente tenha realizado a ressalva e comunique no ato do atendimento, pois caso esse procedimento não tenha sido feito e seja comprovado o envio dos itens, não se torna obrigatório a reposição dos produtos.</p><p dir=\"ltr\"><strong id=\"docs-internal-guid-3d952e21-7fff-6634-df1d-d8ec841ae260\"><br><span style=\"text-decoration: underline; color: rgb(224, 62, 45);\" data-mce-style=\"text-decoration: underline; color: rgb(224, 62, 45);\">Obs:</span></strong> Para sua segurança a expedição dos produtos é realizada sob videomonitoramento.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong id=\"docs-internal-guid-000571fd-7fff-140c-ca21-0d3ee8e6ab4a\">PEDIDO TROCADO (ETIQUETA TROCADA)</strong></span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Orientamos que a loja sempre confira a etiqueta de identificação das caixas e a nota fiscal. Caso encontre divergências, a entrega deverá ser recusada diretamente para a transportadora. Em caso de não conferência e recebimento da mercadoria, a loja deverá comunicar em até 24 horas úteis a central de relacionamento para as devidas tratativas.</span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">PEDIDO/ PRODUTO INCORRETO</span></strong></p><p dir=\"ltr\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\"><strong><br></strong></span></p><p dir=\"ltr\">Caso seja identificado que os produtos recebidos estão em desacordo com a nota fiscal, a loja tem um prazo de até 48 horas para acionar o relacionamento com foto do produto recebido, número da nota fiscal, CNPJ e a descrição do ocorrido para realização da tratativa.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong id=\"docs-internal-guid-5687cdcb-7fff-2aaa-904f-f82e78992e02\">PEDIDO DUPLICADO</strong></span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Caso a loja identifique no ato da entrega que trata-se de um pedido duplicado, orientamos a recusa da mercadoria. Contudo, caso esta seja recebida, a loja deverá entrar em contato com o relacionamento em até 48 horas úteis, para que possamos realizar as devidas tratativas.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong id=\"docs-internal-guid-38a4c79c-7fff-b76f-9f80-ffeba330fb9f\">AVARIA EXTERNA DE PRODUTO</strong></span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Avarias externas tratam-se de avarias que podem ser percebidas mediante manipulação dos produtos, sem necessidade de abrir a embalagem dos mesmos. Sendo alguns exemplos, lacre rompido, derretimento, lote e validade ilegíveis, embalagem amassada, embalagem vazando, entre outras. Estas devem ser comunicadas ao relacionamento em até 48 horas úteis, a partir da data de entrega do pedido.</p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong><br></strong></span></p><p dir=\"ltr\">Se comprovada a avaria, será realizada a reposição ou crédito para o próximo pedido, mediante a emissão da nota fiscal de devolução.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong id=\"docs-internal-guid-249ab8ba-7fff-2818-d7cf-4bc959a940ea\">AVARIA INTERNA DE PRODUTO</strong></span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Avaria de insumo vindo de fábrica, como: cheiro, sabor, aspecto, textura, coloração, entre outros..</p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong><br></strong></span></p><p dir=\"ltr\">A loja tem o prazo de até 7 dias úteis para comunicar o relacionamento, a partir da data da compra do cliente final. É necessário imagens que comprovem a avaria relatada, além do lote e validade.</p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong><br></strong></span></p><p dir=\"ltr\">A solicitação será encaminhada ao time técnico para as devidas análises. Se comprovada a avaria, será realizada a reposição ou crédito para o próximo pedido, mediante a emissão da nota fiscal de devolução.</p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong><br></strong></span></p><p dir=\"ltr\">Caso não seja identificado nenhum desvio de qualidade, o processo de reposição ou crédito não será realizado, e a mercadoria será devolvida ao cliente.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong id=\"docs-internal-guid-a2be32e8-7fff-a5e1-16db-61664c21f2ba\">PRODUTOS VENCIDOS/ PRÓXIMOS DO VENCIMENTO</strong></span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Não serão realizadas trocas de produtos vencidos.</p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong><br></strong></span></p><p dir=\"ltr\">Acordos comerciais sobre a venda de produtos próximos ao vencimento, não terão direito a troca.&nbsp;</p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong><br></strong></span></p><p dir=\"ltr\">Produtos próximos do vencimento (validade inferior a 6 meses) não serão trocados, exceto em casos onde o envio dos mesmos tenham sido realizados nesta condição.<span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong><br></strong></span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"text-decoration: underline; color: rgb(224, 62, 45);\" data-mce-style=\"text-decoration: underline; color: rgb(224, 62, 45);\"><strong>Obs:</strong></span> Regra acima não se enquadra em situações onde, seja informado o vencimento no ato da compra, ou&nbsp;para itens que possuem a validade padrão inferior a 1 ano, casos dentro destas especificações, serão&nbsp;verificados pontualmente pelo relacionamento.</p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong><br></strong></span></p><p dir=\"ltr\">Casos onde sejam recebidos produtos próximos do vencimento (validade inferior a 6 meses), a loja deve comunicar o relacionamento em até 48 horas úteis, a partir da data de entrega do pedido.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"text-decoration: underline; color: rgb(224, 62, 45);\" data-mce-style=\"text-decoration: underline; color: rgb(224, 62, 45);\"><strong>Obs:</strong></span> Regra acima não se enquadra em situações onde, seja informado o vencimento no ato da compra, ou para itens que possuem a validade padrão inferior a 1 ano, casos dentro destas especificações, serão verificados pontualmente pelo relacionamento.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong id=\"docs-internal-guid-75c69d9f-7fff-5ccb-ed64-c561c13a57e0\">PRODUTOS BONIFICADOS</strong></span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Não realizamos trocas de produtos bonificados, exceto em casos que haja avaria externa ou interna do produto. Em casos que se enquadrem avaria, comunicar o relacionamento para as devidas tratativas.</span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong id=\"docs-internal-guid-072da6c5-7fff-e65e-d81e-e0c15eb38ed7\">TRATATIVA COM CONSUMIDOR FINAL</strong></span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">A empresa só realizará a troca de produtos para o consumidor final de revendedores parceiros, cujo motivo seja desvio do padrão de qualidade. Casos que não se enquadram neste motivo, o cliente será orientado a tratar diretamente com a loja parceira.</span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong id=\"docs-internal-guid-94abb765-7fff-5d16-3369-d228f9a2e80d\">PRORROGAÇÃO DE BOLETO</strong></span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Só serão acatadas as solicitações de prorrogação de boleto em casos de atraso de pedidos analisados internamente. Nesta situação, o cliente tem até 72 horas antes do vencimento para solicitar a prorrogação. Após este prazo, não será possível devido a impedimentos bancários. As solicitações devem ser realizadas através do contato: (27) 99252-6536 - Financeiro True Brands.</span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong id=\"docs-internal-guid-944a0372-7fff-e061-fe5f-efacc958b713\">RASTREAMENTO DE PEDIDO</strong></span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Todos os pedidos poderão ser acompanhados através da Nota fiscal de compra ou CNPJ da loja pelo site: <span style=\"text-decoration: underline;\" data-mce-style=\"text-decoration: underline;\"><span style=\"color: rgb(224, 62, 45); text-decoration: underline;\" data-mce-style=\"color: rgb(224, 62, 45); text-decoration: underline;\"><a data-mce-href=\"https://truebrands.acompanharentrega.com.br/\" href=\"https://truebrands.acompanharentrega.com.br/\" style=\"color: rgb(224, 62, 45); text-decoration: underline;\" data-mce-style=\"color: rgb(224, 62, 45); text-decoration: underline;\" data-mce-selected=\"inline-boundary\">truebrands.acompanharentrega.com.br﻿</a></span></span> Caso encontre dificuldades em rastrear, entre em contato com o canal de relacionamento.</span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong id=\"docs-internal-guid-35bf9fa2-7fff-d474-fff7-2c0122db3d4c\">CORREÇÃO DE ENDEREÇO</strong></span></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Em caso de correção de endereço, informar ao representante no ato do pedido e não após o mesmo ser gerado. Deste modo, você nos ajuda a evitar atrasos na entrega por divergências, além de custos extras que podem ser gerados.</p>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "size": "medium",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "site/sections/Content/FormLojistas.tsx",
+      "topText": "<h1 style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">Conecte-se Conosco<br>para Mais Informações</span></h1><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><br data-mce-bogus=\"1\"></p><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">Para obter mais informações sobre o Programa de Parceria Lojista </span><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">True Source, entre em contato conosco. Estamos ansiosos para </span><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">construir uma parceria de sucesso com você.</span></p>"
+    },
+    {
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "size": "medium",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    },
+    {
+      "__resolveType": "Insider - Content Page"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

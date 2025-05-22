@@ -1,0 +1,73 @@
+{
+  "name": "Vestuário",
+  "path": "/vestuario",
+  "sections": [
+    {
+      "title": " ",
+      "jsonLD": {
+        "sort": "release:desc",
+        "count": 16,
+        "fuzzy": "automatic",
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "category-2",
+            "value": "26"
+          }
+        ]
+      },
+      "favicon": "https://data.decoassets.com/true-source/afa066b8-9efc-46e5-8133-ccf12415700d/1742235041213-8c790d4d-e385-4314-960e-1fab218ff224",
+      "description": " ",
+      "__resolveType": "site/sections/Search/SeoPLPMiddleware.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "page": {
+        "sort": "release:desc",
+        "count": 16,
+        "fuzzy": "automatic",
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "category-2",
+            "value": "26"
+          }
+        ]
+      },
+      "seals": [
+        {
+          "color": "#ffffff",
+          "label": "Mais vendidos",
+          "bgColor": "#e9530e",
+          "matcherType": "cluster",
+          "matcherTypeId": 184
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside"
+      },
+      "titles": {
+        "titles": [
+          {
+            "title": "Vestuário",
+            "matcher": "/vestuario"
+          }
+        ]
+      },
+      "sectionsSEO": {
+        "sections": []
+      },
+      "__resolveType": "site/sections/Product/SearchResult.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

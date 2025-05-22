@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/produtos/proteina-vegana",
+		"from": "/proteina-vegana-true-vegan-vanilla-chai-418g---true-source/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Departamento - Assinaturas",
+  "path": "/produtos/assinaturas",
+  "default": {
+    "possiblePaths": []
+  },
+  "sections": [
+    {
+      "title": " ",
+      "jsonLD": {
+        "sort": "",
+        "count": 24,
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "195"
+          }
+        ]
+      },
+      "favicon": "https://data.decoassets.com/true-source/79f2f0e3-66ff-4f25-b392-f14dede36e0b/1742235041212-8c790d4d-e385-4314-960e-1fab218ff224",
+      "description": " ",
+      "__resolveType": "site/sections/Search/SeoPLPMiddleware.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "page": {
+        "sort": "",
+        "count": 24,
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "195"
+          }
+        ]
+      },
+      "seals": [
+        {
+          "color": "#ffffff",
+          "label": "Mais vendidos",
+          "bgColor": "#e9530e",
+          "matcherType": "cluster",
+          "matcherTypeId": 184
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside",
+        "pagination": "show-more"
+      },
+      "titles": {
+        "__resolveType": "Titulos customizados do departamento"
+      },
+      "sectionsSEO": {
+        "__resolveType": "Descrições do departamento"
+      },
+      "startingPage": 1,
+      "__resolveType": "site/sections/Product/SearchResult.tsx",
+      "showOnlySubscription": true
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

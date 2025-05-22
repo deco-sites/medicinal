@@ -1,0 +1,77 @@
+{
+  "name": "Product Page",
+  "path": "/:slug/p",
+  "default": {
+    "possiblePaths": []
+  },
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "jsonLD": {
+              "slug": {
+                "param": "slug",
+                "__resolveType": "website/functions/requestToParam.ts"
+              },
+              "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts"
+            },
+            "__resolveType": "commerce/sections/Seo/SeoPDPV2.tsx"
+          },
+          {
+            "__resolveType": "Header - 01"
+          },
+          {
+            "__resolveType": "Carousel - 01"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+              "size": "medium"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Product/ProductMainNew.tsx",
+              "page": {
+                "__resolveType": "PDP Loader"
+              }
+            }
+          },
+          {
+            "__resolveType": "Descrição"
+          },
+          {
+            "__resolveType": "TrustVox"
+          },
+          {
+            "__resolveType": "Footer - 04"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Insider/InsiderTracking.tsx",
+              "page": {
+                "pageType": "Product"
+              },
+              "user": {
+                "__resolveType": "vtex/loaders/user.ts"
+              },
+              "currentPage": {
+                "__resolveType": "PDP Loader",
+                "@type": "Home"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

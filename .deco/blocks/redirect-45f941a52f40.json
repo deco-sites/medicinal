@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/produtos/proteina-vegana", "from": "/proteina-vegana-chocolate-true", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

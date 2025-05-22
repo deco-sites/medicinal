@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/produtos/whey-protein", "from": "/produtos/isolado e hidrolisado", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

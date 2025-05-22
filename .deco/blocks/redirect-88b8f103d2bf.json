@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/produtos/emagrecedores", "from": "/produtos/emagrecedor---diuretico", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

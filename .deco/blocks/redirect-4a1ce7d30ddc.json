@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/produtos/colageno", "from": "/collagen-cranberry-420g-true-source", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Departamento",
+  "path": "/*",
+  "default": {
+    "possiblePaths": []
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Search/SeoPLPMiddleware.tsx",
+        "jsonLD": {
+          "__resolveType": "PLP Loader"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header - 01"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Carousel - 01"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Product/SearchResult.tsx",
+      "page": {
+        "__resolveType": "PLP Loader"
+      },
+      "seals": [
+        {
+          "color": "#ffffff",
+          "label": "Mais vendidos",
+          "bgColor": "#e9530e",
+          "matcherType": "cluster",
+          "matcherTypeId": 184
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside",
+        "pagination": "show-more"
+      },
+      "titles": {
+        "__resolveType": "Titulos customizados do departamento"
+      },
+      "sectionsSEO": {
+        "__resolveType": "Descrições do departamento"
+      },
+      "startingPage": 1
+    },
+    {
+      "__resolveType": "Footer - 04"
+    },
+    {
+      "__resolveType": "site/sections/Insider/InsiderTracking.tsx",
+      "page": {
+        "pageContent": {
+          "__resolveType": "PLP Loader"
+        },
+        "pageType": "Category"
+      },
+      "currentPage": {
+        "__resolveType": "PLP Loader"
+      }
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

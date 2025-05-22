@@ -1,0 +1,184 @@
+{
+  "name": "Black Friday",
+  "path": "/black-friday",
+  "sections": [
+    {
+      "canonical": "https://www.truesource.com.br/black-friday",
+      "noIndexing": false,
+      "__resolveType": "website/sections/Seo/Seo.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "banner": {
+        "alt": "Black Friday",
+        "mobileSrc": "https://data.decoassets.com/true-source/ca1e55b9-59d7-41ad-8eb7-36023b7ce63a/1742235041930-7dd39ef5-d94e-4d87-80aa-acf41cfbb8cf",
+        "desktopSrc": "https://data.decoassets.com/true-source/1bc82997-4ba7-4087-9efb-be274b5160c8/1742235050890-75dd1e90-1204-4e0d-a0c7-d0b1fcd32c1b",
+        "mobileHeight": 425,
+        "desktopHeight": 665
+      },
+      "preload": true,
+      "rounded": "bottom",
+      "__resolveType": "site/sections/Images/BannerInfo.tsx"
+    },
+    {
+      "cta": {
+        "link": "/produtos",
+        "label": "Quero conhecer os produtos"
+      },
+      "title": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\">Chega de comprar suplementos<br>ineficazes e sem gosto</p>",
+      "columns": "1",
+      "titleIsH1": true,
+      "description": "<p style=\"text-align: center;\" data-mce-style=\"text-align: center;\">Na True Source, você encontra os melhores produtos de suplementação para complementar a sua dieta e aumentar o seu desempenho na hora do treino.</p><p style=\"text-align: center;\" data-pm-slice=\"1 1 []\" data-mce-style=\"text-align: center;\">Aproveite a nossa Black Friday para repor o seu estoque de produtos fitness. <a href=\"https://www.truesource.com.br/produtos/proteina-vegana\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/proteina-vegana\">Compre proteína vegetal</a>, emagrecedores, energéticos, barras de proteínas, nootrópicos, whey protein em promoção e muito mais. Tudo isso com preço imperdível que você não verá mais este ano. Adquira antes que a promoção acabe!</p>",
+      "__resolveType": "site/sections/CategoryDescription/CategoryOnlyText.tsx"
+    },
+    {
+      "type": "full 2",
+      "image": {
+        "mobile": "https://data.decoassets.com/true-source/688cc31b-b609-41e8-9c41-ad5f7f8fa9fa/1742235063892-74c0e415-7275-4421-83ae-cb3c8508134f",
+        "desktop": "https://data.decoassets.com/true-source/5c549188-658b-443a-b385-cd3d0e40db5c/1742235069076-0860abe2-4abd-41cf-b87f-c13eac25ac27"
+      },
+      "title": "<p>SUPLEMENTOS DE ALTA EFICIÊNCIA COM <strong>DESCONTO</strong> NA <br>TRUE SOURCE</p>",
+      "rounded": true,
+      "textAlign": "left",
+      "description": "<p>Durante dois anos, nossos especialistas estudaram e descobriram a fórmula perfeita para manter o seu bem-estar e elevar o seu rendimento físico.<br>Criamos suplementos com nutrientes naturais vindos de ingredientes com origem internacional. O resultado disso são suplementos alimentares eficazes e saborosos — daqueles que você irá amar tomar. Nesta Black Friday, você terá acesso a esses produtos de alta qualidade por preços ainda mais baixos, com descontos nos produtos mais desejados. Saiba quais são:</p>",
+      "__resolveType": "site/sections/CategoryDescription/CategoryInfoCard.tsx"
+    },
+    {
+      "type": "2",
+      "image": {
+        "mobile": "https://data.decoassets.com/true-source/0188f87b-31ef-4899-8f92-0dd5fd0b0622/1742235072879-289f8f64-63c1-4761-be0b-f022a0b3aa58",
+        "desktop": "https://data.decoassets.com/true-source/5882baa6-e365-4442-877a-1336fe3255ff/1742235075618-52f6067e-d044-4335-92bf-c19674fcb258"
+      },
+      "title": "<p><strong>WHEY PROTEIN</strong>&nbsp;EM</p><p>PROMOÇÃO</p>",
+      "textAlign": "right",
+      "description": "<p>O Whey Protein não possui tanta popularidade à toa, ele é um suplemento extremamente eficaz para quem deseja emagrecer e/ou ganhar massa muscular.</p><p>Encontre os seguintes sabores em promoção:</p><ul><li><p>Coconut Ice Cream;</p></li><li><p>Vanilla Cream Honey;</p></li><li><p>Natural;</p></li><li><p>Chocolate com Avelã;</p></li><li><p>Crème Brûllè;</p></li><li><p>Strawberry Cheesecake;</p></li><li><p>Cacau.</p></li></ul><p>Agora, você pode <a href=\"https://www.truesource.com.br/produtos/whey-protein\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/whey-protein\">comprar os melhores Whey Protein</a> com preços baixos. Na True Source, você encontra versões saborosas deste produto — seja para tomar puro ou fazer as suas receitas saudáveis.</p>",
+      "__resolveType": "site/sections/CategoryDescription/CategoryInfoCard.tsx",
+      "backgroundColor": "#ffffff"
+    },
+    {
+      "type": "2",
+      "image": {
+        "desktop": "https://data.decoassets.com/true-source/7225e8be-81fc-41d4-bc5b-e07bd6321dd1/1742235079796-716abe66-b9fc-453a-89ed-975ff84337c5"
+      },
+      "title": "<p><strong>VITAMINAS E MINERAIS</strong></p><p>EM OFERTA</p>",
+      "rounded": true,
+      "textAlign": "left",
+      "description": "<p>Com a rotina agitada de trabalho, reuniões, viagens e outros diversos compromissos, é muito difícil manter a quantidade de <a href=\"https://www.truesource.com.br/produtos/vitaminas-e-minerais\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/vitaminas-e-minerais\">vitaminas e minerais</a> que o nosso organismo precisa.</p><p>Encontre cápsulas e tabletes de <strong>Vitamina E, Ômega 3, Vitamina D3, Maca Peruana, Vitamina C, Spirulina e mais opções</strong> em promoção. Disponibilizamos preço especial em compras com mais de uma unidade. Junte os amigos para comprar e economize na True Source!</p>",
+      "__resolveType": "site/sections/CategoryDescription/CategoryInfoCard.tsx",
+      "backgroundColor": "#f0f0ee"
+    },
+    {
+      "type": "2",
+      "image": {
+        "desktop": "https://data.decoassets.com/true-source/b47dfb9c-494c-4bb8-9e63-ee300500292f/1742235084299-04ac14fa-b045-4580-aa58-bf8563825677"
+      },
+      "title": "<p><strong>COMBOS</strong> DA TRUE</p><p>SOURCE COM PREÇOS</p><p>ESPECIAIS</p>",
+      "textAlign": "right",
+      "description": "<p>A True Source conseguiu unir algo que, alguns anos atrás, parecia impossível no universo da suplementação fitness. Reunimos sabor, eficiência e qualidade em produtos de alto custo-benefício.</p><p>Os nossos <a href=\"https://www.truesource.com.br/produtos/combos\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/combos\">combos de suplementação</a> especiais juntam diferentes produtos exclusivos True Source com preços especiais. Confira nossas opções:</p><ul><li><p>Combo para treino diário;</p></li><li><p>Combo para perda de peso;</p></li><li><p>Combo para vida saudável.</p></li></ul><p>A suplementação não precisa ser algo sem graça, com gosto ruim. Selecionamos opções de sabores como Coco, Maracujá, Chocolate, Ice Cream, Abacaxi, Cheesecake, Avelã e muitas outras delícias.</p>",
+      "__resolveType": "site/sections/CategoryDescription/CategoryInfoCard.tsx",
+      "backgroundColor": "#ffffff"
+    },
+    {
+      "type": "2",
+      "image": {
+        "desktop": "https://data.decoassets.com/true-source/99f36ec1-b99f-493b-a0d6-3816fe846bb6/1742235088067-afadfbd2-862e-4e2f-bc77-c4aff98bdf91"
+      },
+      "title": "<p><strong>MULTIVITAMÍNICOS</strong> DA</p><p>LINHA FAMILY CARE</p><p>COM&nbsp;DESCONTO</p>",
+      "rounded": true,
+      "textAlign": "left",
+      "description": "<p>Aumente a sua carga de vitaminas consumidas diariamente com a melhor linha de multivitamínicos do mercado, agora com preço especial.</p><p>Nossas opções disponibilizadas no site são extremamente confiáveis, feitas com matéria-prima exportada. <strong>Produtos de alta qualidade e eficiência que podem ser sentidos no seu bem-estar diário</strong>. Aproveite os descontos para <a href=\"https://www.truesource.com.br/produtos/linha-family-care\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/linha-family-care\">adquirir os multivitamínicos Family Care</a>, temos variações da formulação para crianças, homens e mulheres. São opções em cápsulas ou líquidas.</p>",
+      "__resolveType": "site/sections/CategoryDescription/CategoryInfoCard.tsx",
+      "backgroundColor": "#f0f0ee"
+    },
+    {
+      "type": "2",
+      "image": {
+        "desktop": "https://data.decoassets.com/true-source/2d015c42-9ba2-40a9-8144-fec485599c72/1742235091275-798d09af-2c90-48de-bc9d-c438bd8bba12"
+      },
+      "title": "<p><strong>ACESSÓRIOS PREMIUM</strong></p><p>PARA EXERCÍCIOS FÍSICOS</p>",
+      "textAlign": "right",
+      "description": "<p>Alguns itens são essenciais para a prática de atividades físicas, selecionamos opções de alta resistência para você. Aproveite o preço inédito e compre <a href=\"https://www.truesource.com.br/produtos\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos\">acessórios para atividade física</a>.</p><p>Saiba o que você encontra com valores especiais:</p><ul><li><p>Necessaire;</p></li><li><p>Coqueteleira (várias cores);</p></li><li><p>Bolsa de praia;</p></li><li><p>Moletom (vários tamanhos e cores).</p></li></ul><p>Nossas ofertas são especiais para experimentar uma nova experiência ao consumir produtos fitness que são saudáveis e saborosos.</p><h2>Os suplementos da True Source são bons mesmo?</h2><p>Quando falamos em suplementação para exercícios de alta intensidade, sempre devemos analisar os rótulos. São eles que vão demonstrar se o produto é limpo e benéfico à saúde.</p><p>Os suplementos disponíveis em nosso site são fabricados com matéria-prima importada e as proteínas são naturais, sem nenhum tipo de aditivo. São produtos livres de açúcar, corantes artificiais, glúten e com menos sódio e carboidratos.</p><p>Além disso, nossa fórmula especial também inclui enriquecimento com glutamina, BCAA e vitaminas B12 — opção extremamente saudável e, agora, pelo menor preço!</p><h2>Onde encontrar os melhores suplementos em promoção?</h2><p>A True Source reuniu todos os melhores ingredientes para elaborar produtos que são diferentes de tudo o que você já viu. Nossas suplementações são limpas, saudáveis e muito saborosas.</p><p>Você pode adquirir tudo isso por um preço especial. Não deixe para depois, a promoção é por tempo limitado. Compre agora os melhores suplementos pelo menor preço!</p>",
+      "__resolveType": "site/sections/CategoryDescription/CategoryInfoCard.tsx",
+      "backgroundColor": "#ffffff"
+    },
+    {
+      "title": "PRODUTOS MAIS VENDIDOS",
+      "products": {
+        "props": {
+          "sort": "price:desc",
+          "count": 10,
+          "collection": "209"
+        },
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+      },
+      "__resolveType": "site/sections/Product/ProductShelf.tsx"
+    },
+    {
+      "titles": {
+        "lower": "PERGUNTAS FREQUENTES",
+        "upper": null
+      },
+      "questions": [
+        {
+          "answer": "<p>A principal função do Quando falamos em suplementação para exercícios de alta intensidade, sempre devemos analisar os rótulos. São eles que vão demonstrar se o produto é limpo e benéfico à saúde.</p><p>Os suplementos disponíveis em nosso site são fabricados com matéria-prima importada e as proteínas são naturais, sem nenhum tipo de aditivo. São produtos livres de açúcar, corantes artificiais, glúten e com menos sódio e carboidratos.</p><p>Além disso, nossa fórmula especial também inclui enriquecimento com glutamina, BCAA e vitaminas B12 — opção extremamente saudável e, agora, pelo menor preço!</p>",
+          "question": "Os suplementos da True Source são bons mesmo?"
+        },
+        {
+          "answer": "<p>A True Source reuniu todos os melhores ingredientes para elaborar produtos que são diferentes de tudo o que você já viu. Nossas suplementações são limpas, saudáveis e muito saborosas.<br>Você pode adquirir tudo isso por um preço especial. Não deixe para depois, a promoção é por tempo limitado. Compre agora os melhores suplementos pelo menor preço!</p>",
+          "question": "Onde encontrar os melhores suplementos em promoção?"
+        }
+      ],
+      "__resolveType": "site/sections/Content/Faq.tsx"
+    },
+    {
+      "mobile": 32,
+      "desktop": 52,
+      "__resolveType": "site/sections/Miscellaneous/Space.tsx"
+    },
+    {
+      "title": "NAVEGUE NAS CATEGORIAS",
+      "categories": [
+        {
+          "url": "/produtos/colageno",
+          "name": "COLÁGENO",
+          "image": "https://data.decoassets.com/true-source/e2e80633-a8da-43c5-981d-ae087e496e23/1742235093465-37f77c76-8fe7-47ef-9ebc-87e89eba177b",
+          "description": "Concentrados, isolados eManter a beleza da sua pele e cabelos sempre radiantes hidrolisados"
+        },
+        {
+          "url": "/produtos/emagrecedores",
+          "name": "EMAGRECEDORES",
+          "image": "https://data.decoassets.com/true-source/5c011eec-d350-4cc9-93fb-c0be1147a711/1742235097073-68c6571f-9c35-4d7e-94b4-9691424428e5",
+          "description": "Chegar ao peso ideal e manter o perfil físico"
+        },
+        {
+          "url": "/produtos/whey-protein",
+          "name": "WHEY PROTEIN",
+          "image": "https://data.decoassets.com/true-source/ea4fba16-ef50-4bd8-8951-92d6d0fb522e/1742235102970-3bf37447-fc93-44cb-a533-6fe0344bbb6c",
+          "description": "Concentrados, isolados e hidrolisados"
+        },
+        {
+          "url": "/produtos/vitaminas-e-minerais",
+          "name": "VITAMINAS E MINERAIS",
+          "image": "https://data.decoassets.com/true-source/9d76fe07-c168-4c7d-90cc-d129bb8559e6/1742235105795-cb7eadc4-5191-47ac-8c63-c560534bc50d",
+          "description": "Saúde para a pele, unhas e cabelos"
+        },
+        {
+          "url": "/produtos/foco-e-energia",
+          "name": "FOCO E ENERGIA",
+          "image": "https://data.decoassets.com/true-source/d34df5ae-dd7f-4934-b8b0-a937de4f835c/1742235108608-84b3764a-0cee-4db9-8e94-5bf85def2a63",
+          "description": "Indisposição, fraqueza, cansaço físico e mental."
+        }
+      ],
+      "__resolveType": "site/sections/Category/CategoryCarousel.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    },
+    {
+      "__resolveType": "Insider - Content Page"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

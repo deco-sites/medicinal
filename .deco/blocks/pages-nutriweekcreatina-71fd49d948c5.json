@@ -1,0 +1,45 @@
+{
+  "name": "Nutri Week Creatina",
+  "path": "/nutri-week-creatina",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Carousel - 01"
+    },
+    {
+      "__resolveType": "Product Shelf - 03"
+    },
+    {
+      "title": "<p>Para quem quer o melhor</p>",
+      "banner": {
+        "alt": "Brain Up Ready To Drink",
+        "src": "https://data.decoassets.com/true-source/a54e567b-ad0f-49b7-9951-84248aa9695b/1742235042454-52eea646-0cad-45df-84aa-d004809d304c"
+      },
+      "contentText": "<p>O uso desse suplemento vastamente estudado, vai muito além de auxiliar no aumento da força, volume muscular e rendimento nos treinos.<br>A Creatina, não tem nenhum produto animal. Ela é produzida a partir de uma tecnologia exclusiva por meio de síntese química (proveniente da fermentação de leveduras e bactérias).</p>",
+      "__resolveType": "site/sections/Content/TextAndBanner.tsx"
+    },
+    {
+      "__resolveType": "Product Shelf - 04"
+    },
+    {
+      "__resolveType": "Product Shelf - 05"
+    },
+    {
+      "__resolveType": "Product Shelf - 01"
+    },
+    {
+      "__resolveType": "Product Shelf - 02"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Creatina: 100% Pure, Monohydrate Creapure e Mais",
+    "description": "Procurando creatina pura para te ajudar nos treinos ou na saúde geral? Aqui na True Source, você encontra. Acesse nosso site e veja nossas opções!"
+  }
+}

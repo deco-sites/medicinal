@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/true-whey-crunch-chocolate-c-coco-caixa-com-12-unidades/p",
+		"from": "/true-whey-crunch-creme-brulee-caixa/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

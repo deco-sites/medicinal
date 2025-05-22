@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/produtos/vitaminas-e-minerais", "from": "/kit-nutri/p", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

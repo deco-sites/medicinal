@@ -1,0 +1,287 @@
+{
+  "items": [
+    {
+      "url": "/todos-produtos",
+      "name": "TODOS OS PRODUTOS",
+      "@type": "SiteNavigationElement",
+      "image": [
+        {
+          "url": "https://s3-alpha-sig.figma.com/img/d48e/1eb2/8cd8552c8b379040e4465d770b676186?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hroX2qhAJSL4nfVsNjVHg9FlPXEOKzN1oBVkWX0C20sbsJCryYrhnq6c1d-BCC5-ATAAN6lAt2bKnqMctJXVfzXVFhwyYfTN2nsjUoXPHSXnm8yx2yde~AQzXY7oojLh3vkBz40fOvNFUZn1szEChH68qH7I7iVYCuu3Wshz9KDDL3Y5TYXn4i-XQTo0Cu6LzTPyLeSgFbPO~8kzGtNkXyWlTihbITcjUV1Sk97aCmH2iSw9ihg~nuDrG370Q22iWsln0eMkRjlImE07uBDKGdfmfqkplScmb6Eouzcl-cyMxua3krQeVo19fh2CJm5mnFKL~IEoVjEYFdJF3xFu8A__"
+        }
+      ],
+      "children": [
+        {
+          "url": "/VER-TODOS",
+          "name": "ver todos",
+          "image": [],
+          "children": [],
+          "identifier": "ver todos",
+          "additionalType": "ver todos"
+        },
+        {
+          "url": "/whey-protein",
+          "name": "Whey Protein",
+          "image": [],
+          "children": [],
+          "identifier": "Whey Protein",
+          "additionalType": "Whey Protein"
+        },
+        {
+          "url": "/Proteina-vegana",
+          "name": "Proteína Vegana",
+          "image": [],
+          "children": [],
+          "identifier": "Proteína Vegana",
+          "additionalType": "Proteína Vegana"
+        },
+        {
+          "url": "/aminoacidos",
+          "name": "Aminoácidos",
+          "image": [],
+          "children": [],
+          "identifier": "Aminoácidos",
+          "additionalType": "Aminoácidos"
+        },
+        {
+          "url": "/emagrecedores",
+          "name": "Emagrecedores",
+          "image": [],
+          "children": [],
+          "identifier": "Emagrecedores",
+          "additionalType": "Emagrecedores"
+        },
+        {
+          "url": "/foco-e-energia",
+          "name": "Foco e Energia",
+          "image": [],
+          "children": [],
+          "identifier": "Foco e Energia",
+          "additionalType": "Foco e Energia"
+        },
+        {
+          "url": "/nootropicos",
+          "name": "Nootrópicos",
+          "image": [],
+          "children": [],
+          "identifier": "Nootrópicos",
+          "additionalType": "Nootrópicos"
+        },
+        {
+          "url": "/Colageno",
+          "name": "Colágeno",
+          "image": [],
+          "children": [],
+          "identifier": "Colágeno",
+          "additionalType": "Colágeno"
+        },
+        {
+          "url": "/vitaminas-e-minerais",
+          "name": "Vitaminas e Minerais",
+          "image": [],
+          "children": [],
+          "identifier": "Vitaminas e Minerais",
+          "additionalType": "Vitaminas e Minerais"
+        },
+        {
+          "url": "/barras-de-proteina",
+          "name": "Barras de Proteína",
+          "image": [],
+          "children": [],
+          "identifier": "Barras de Proteína",
+          "additionalType": "Barras de Proteína"
+        },
+        {
+          "url": "/linha-family-care",
+          "name": "Linha Family Care",
+          "image": [],
+          "children": [],
+          "identifier": "Linha Family Care",
+          "additionalType": "Linha Family Care"
+        },
+        {
+          "url": "/linha-saude-feminina",
+          "name": "Linha Saúde Feminina",
+          "image": [],
+          "children": [],
+          "identifier": "Linha Saúde Feminina",
+          "additionalType": "Linha Saúde Feminina"
+        },
+        {
+          "url": "/combos",
+          "name": "Combos",
+          "image": [],
+          "children": [],
+          "identifier": "Combos",
+          "additionalType": "Combos"
+        },
+        {
+          "url": "/true-sports-clothing",
+          "name": "True Sports - Clothing",
+          "image": [],
+          "children": [],
+          "identifier": "True Sports - Clothing",
+          "additionalType": "True Sports - Clothing"
+        },
+        {
+          "url": "/acessorios",
+          "name": "Acessórios",
+          "image": [],
+          "children": [],
+          "identifier": "Acessórios",
+          "additionalType": "Acessórios"
+        }
+      ],
+      "identifier": "TODOS OS PRODUTOS",
+      "additionalType": "TODOS OS PRODUTOS"
+    },
+    {
+      "url": "/compre-por-objetivos",
+      "name": "compre por objetivo",
+      "@type": "SiteNavigationElement",
+      "image": [
+        {
+          "url": "https://s3-alpha-sig.figma.com/img/1303/114a/6676f4ad806d2c3cccfff5e5e779f8a7?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pvujth1zxYzciACHc7vmcnYTdMG-jE36iUrlNn-HZCqCbaclxipZ2LO6qgvC5rUCrGwEMVO3PYLxJF7SWx5V7NboolA~c6WCBjfFyxysNfHO5fboswucAOgucE58bdPOZ8ah0tHFggxq8O0BhEZuR0GjBw4LkL1o0NUurQX3HJ-3erKxR~O31Dy3i5X37BIzrd1JcV9H39gR0VmhOkudq0MmIl93iDjvF12SUrEj3v254lOp1y0BPNuiH5~L6zW6mLgbCj0ZVdjz9toiVG62I4wl~AJPC1zf4AsSjvNMNZ2Qb5U5FUAehZLXYpOei0NtZOoHGuy2zNjFUuuAs4xZGg__",
+          "@type": "ImageObject"
+        }
+      ],
+      "children": [
+        {
+          "url": "/massa-muscular",
+          "name": "Massa muscular",
+          "image": [],
+          "children": [],
+          "identifier": "Massa muscular",
+          "additionalType": "Massa muscular"
+        },
+        {
+          "url": "/emagrecimento",
+          "name": "Emagrecimento",
+          "image": [],
+          "children": [],
+          "identifier": "Emagrecimento",
+          "additionalType": "Emagrecimento"
+        },
+        {
+          "url": "/energia",
+          "name": "Energia",
+          "image": [],
+          "children": [],
+          "identifier": "Energia",
+          "additionalType": "Energia"
+        },
+        {
+          "url": "/foco-e-concentração",
+          "name": "Foco e Concentração",
+          "image": [],
+          "children": [],
+          "identifier": "Foco e Concentração",
+          "additionalType": "Foco e Concentração"
+        },
+        {
+          "url": "/imunidade",
+          "name": "Imunidade",
+          "image": [],
+          "children": [],
+          "identifier": "Imunidade",
+          "additionalType": "Imunidade"
+        },
+        {
+          "url": "/relaxamento",
+          "name": "Relaxamento",
+          "image": [],
+          "children": [],
+          "identifier": "Relaxamento",
+          "additionalType": "Relaxamento"
+        },
+        {
+          "url": "/longevidade",
+          "name": "Longevidade",
+          "image": [],
+          "children": [],
+          "identifier": "Longevidade",
+          "additionalType": "Longevidade"
+        },
+        {
+          "url": "/beleza-e-pele",
+          "name": "Beleza e Pele",
+          "image": [],
+          "children": [],
+          "identifier": "Beleza e Pele",
+          "additionalType": "Beleza e Pele"
+        },
+        {
+          "url": "/cuidados-familiares",
+          "name": "Cuidados familiares",
+          "image": [],
+          "children": [],
+          "identifier": "Cuidados familiares",
+          "additionalType": "Cuidados familiares"
+        },
+        {
+          "url": "/cuidados-da-mulher",
+          "name": "Cuidados da mulher",
+          "image": [],
+          "children": [],
+          "identifier": "Cuidados da mulher",
+          "additionalType": "Cuidados da mulher"
+        },
+        {
+          "url": "/combos",
+          "name": "Combos",
+          "image": [],
+          "children": [],
+          "identifier": "Combos",
+          "additionalType": "Combos"
+        },
+        {
+          "url": "/vestiario",
+          "name": "Vestiário",
+          "image": [],
+          "children": [],
+          "identifier": "Vestiário",
+          "additionalType": "Vestiário"
+        },
+        {
+          "url": "/acessorios",
+          "name": "Acessórios",
+          "image": [],
+          "children": [],
+          "identifier": "Acessórios",
+          "additionalType": "Acessórios"
+        }
+      ]
+    },
+    {
+      "url": "/mais-vendidos",
+      "name": "Mais Vendidos",
+      "@type": "SiteNavigationElement",
+      "image": [
+        {
+          "url": "https://data.decoassets.com/true-source/32fe617a-1d67-4756-b7da-5d0fd695d89e/1742235042714-5e9310c0-c725-4643-ade3-f92a505bd1d6",
+          "@type": "ImageObject"
+        }
+      ],
+      "children": []
+    },
+    {
+      "url": "/lancamentos",
+      "name": "Lançamentos",
+      "@type": "SiteNavigationElement",
+      "children": []
+    },
+    {
+      "url": "/promocoes",
+      "name": "promoções",
+      "image": [],
+      "children": []
+    },
+    {
+      "url": "/assinatura",
+      "name": "assinatura",
+      "image": [],
+      "children": [],
+      "identifier": "destaque"
+    }
+  ],
+  "__resolveType": "commerce/loaders/navbar.ts"
+}

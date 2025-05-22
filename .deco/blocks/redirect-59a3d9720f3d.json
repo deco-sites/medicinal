@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/por-objetivo/longevidade", "from": "/por-objetivo/vida-saudavel", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

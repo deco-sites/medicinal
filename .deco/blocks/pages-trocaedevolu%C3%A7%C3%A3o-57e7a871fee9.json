@@ -1,0 +1,130 @@
+{
+  "name": "Troca e Devolução",
+  "path": "/politicas/devolucao",
+  "sections": [
+    {
+      "canonical": "https://www.truesource.com.br/politicas/devolucao",
+      "noIndexing": false,
+      "__resolveType": "website/sections/Seo/Seo.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Banner Central de Atendimento"
+    },
+    {
+      "loader": {
+        "__resolveType": "Navegações Central de Atendimento"
+      },
+      "sections": [
+        {
+          "__resolveType": "site/sections/CentralAtendimento/CardsTitleSimple.tsx",
+          "contentTitleSimple": "TROCA E DEVOLUÇÃO CLIENTES"
+        },
+        {
+          "sections": [
+            {
+              "text": "<p dir=\"ltr\">A fim de reafirmar nosso compromisso com o respeito e a total satisfação dos clientes em suas compras no site oficial, possuímos uma Política de Troca e Devolução bem definida, baseada na legislação consumerista.</p><p style=\"font-size: 14px;\" data-mce-style=\"font-size: 14px;\"><strong><br></strong></p><p dir=\"ltr\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Disposições Gerais</strong></span></p><p style=\"font-size: 14px;\" data-mce-style=\"font-size: 14px;\"><strong><br></strong></p><p dir=\"ltr\">Indicamos sempre o uso responsável dos suplementos. Antes de iniciar o uso de qualquer suplemento, recomendamos que consulte um profissional de saúde para garantir que seja adequado às suas necessidades individuais.</p><p dir=\"ltr\">Siga sempre as dosagens recomendadas pelos fabricantes. O uso excessivo pode ser prejudicial à saúde.</p><p dir=\"ltr\">Atente-se à validade do produto após sua abertura, pois ela difere da validade final do produto lacrado, que está disponível no rótulo.</p><p dir=\"ltr\">Verifique a descrição completa das características do produto antes de efetuar a compra.</p><p dir=\"ltr\">A troca ou devolução de produtos adquiridos no site oficial da True Source é garantida quando o contato com nossa Central de Atendimento ocorrer dentro dos prazos descritos neste documento.</p><p dir=\"ltr\">Todas as ocorrências envolvendo nosso site oficial devem ser comunicadas à Central de Atendimento da True Source, informando o motivo da solicitação, juntamente com seus dados pessoais, número do pedido e nota fiscal de compra. Nossos canais de comunicação são:</p>",
+              "__resolveType": "site/sections/Content/RichText.tsx"
+            },
+            {
+              "cards": [
+                {
+                  "text": "<p><strong id=\"docs-internal-guid-be60dc60-7fff-5bc6-f75c-8a323003c3c7\">Telefone:<br></strong>(27) 3319-4635</p>"
+                },
+                {
+                  "text": "<p><strong id=\"docs-internal-guid-6bc2e823-7fff-5b8d-0194-9cc81ce65ebf\">WhatsApp:<br></strong>(27) 99914-1539</p>"
+                },
+                {
+                  "text": "<p><strong id=\"docs-internal-guid-04195b0b-7fff-1a85-f911-ea2b309a5f03\">E-mail:<br><a href=\"mailto:atendimento@truesource.com.br\" data-mce-href=\"mailto:atendimento@truesource.com.br\">﻿</a></strong><a href=\"mailto:atendimento@truesource.com.br\" data-mce-href=\"mailto:atendimento@truesource.com.br\" data-mce-selected=\"inline-boundary\">atendimento@truesource.com.br</a></p>"
+                }
+              ],
+              "sections": [
+                {
+                  "text": "Estiver com a embalagem aberta",
+                  "number": 1,
+                  "__resolveType": "site/sections/CentralAtendimento/CardNumbered.tsx"
+                },
+                {
+                  "text": "Rótulo de segurança rompido",
+                  "number": 2,
+                  "__resolveType": "site/sections/CentralAtendimento/CardNumbered.tsx"
+                },
+                {
+                  "text": "Produto em desacordo com o pedido",
+                  "number": 3,
+                  "__resolveType": "site/sections/CentralAtendimento/CardNumbered.tsx"
+                }
+              ],
+              "__resolveType": "site/sections/CentralAtendimento/CardNumberedSection.tsx"
+            }
+          ],
+          "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx"
+        },
+        {
+          "sections": [
+            {
+              "__resolveType": "site/sections/Content/RichText.tsx",
+              "text": "<p><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>1. Pedido incorreto, com itens faltantes e/ou com vícios</strong></span></p><p style=\"font-size: 14px;\" data-mce-style=\"font-size: 14px;\"><strong><br></strong></p><p dir=\"ltr\">Em caso de recebimento de produtos em desacordo com a ordem de compra e/ou com vícios, o consumidor deverá comunicar a central de atendimentos imediatamente. O consumidor deve relatar o ocorrido, fornecendo registros de imagens que comprovem a queixa, sem prejuízo do envio de outras informações solicitadas pela True Source. Nosso time de relacionamento analisará o caso e identificará a melhor forma de resolução. Caso o comunicado seja apresentado depois do prazo de 30 dias corridos, a True Source terá a faculdade de recusar a substituição ou reembolso.</p><p style=\"font-size: 14px;\" data-mce-style=\"font-size: 14px;\"><strong><br></strong></p><p dir=\"ltr\">Caso o consumidor verifique a avaria no momento da entrega, o consumidor pode realizar a recusa do recebimento e comunicar à central de atendimento o mais breve possível, para que possamos analisar o ocorrido.</p><p style=\"font-size: 14px;\" data-mce-style=\"font-size: 14px;\"><strong><br></strong></p><p dir=\"ltr\">Se a devolução do item avariado for necessária, é imprescindível aguardar o retorno da mercadoria ao nosso centro de distribuição para dar continuidade ao processo. Após o recebimento e inspeção do produto, nossa Central de Atendimento entrará em contato com o cliente para alinhar os próximos passos.</p><p style=\"font-size: 14px;\" data-mce-style=\"font-size: 14px;\"><strong><br></strong></p><p dir=\"ltr\">Em todo caso, a restituição do valor pago ou a substituição do produto só será liberada após o recebimento do produto em nosso centro de distribuição e aprovação do Controle de Qualidade da True Source. Se a inconformidade for confirmada, a True Source fará a reposição ou o estorno do valor. Caso não seja identificado nenhum desvio de qualidade, o processo de reposição ou estorno não será realizado, e a mercadoria será devolvida ao cliente.</p><p style=\"font-size: 14px;\" data-mce-style=\"font-size: 14px;\"><br data-mce-bogus=\"1\"></p>"
+            }
+          ],
+          "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx"
+        },
+        {
+          "sections": [
+            {
+              "text": "<p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>2. Direito de arrependimento de compras realizadas no site oficial da True Source</strong></span></p><p><br></p><p dir=\"ltr\">Em casos de desistência por motivos alheios a avarias ou inconformidades, o consumidor possui 7 dias corridos para exercer o direito de arrependimento e comunicar à central de atendimento, sendo o prazo contado a partir da data do recebimento do produto.</p><p><br></p><p dir=\"ltr\" role=\"presentation\"><strong>‎ ‎ ‎&nbsp;2.1. Desistência imediata após a compra com pedido faturado.</strong></p><p><br></p><p dir=\"ltr\">Em casos de desistência após o pagamento e faturamento do pedido, o consumidor deve entrar em contato com a central de atendimento o mais breve possível, para evitar que a expedição seja realizada, agilizando o processo de cancelamento e estorno. Caso a expedição já tenha ocorrido, o consumidor deverá observar o procedimento de desistência com o pedido em trânsito.</p><p><br></p><p dir=\"ltr\" role=\"presentation\"><strong>‎ ‎ ‎&nbsp;2.2. Desistência com o pedido em trânsito</strong></p><p><br></p><p dir=\"ltr\">O consumidor deve contatar nossos canais de atendimento para solicitar a suspensão do envio. Caso a remessa já tenha sido realizada, será necessário recusar o pedido no ato da entrega. Assim que a mercadoria retornar ao nosso centro de distribuição, nossa equipe entrará em contato com o cliente para definir a forma de ressarcimento do valor pago.</p><p><br data-mce-bogus=\"1\"></p>",
+              "__resolveType": "site/sections/Content/RichText.tsx"
+            }
+          ],
+          "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx"
+        },
+        {
+          "sections": [
+            {
+              "text": "<p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>3. Devolução de produtos revendidos por Lojas Parceiras</strong></span></p><p dir=\"ltr\" role=\"presentation\"><strong><br></strong></p><p dir=\"ltr\">Para produtos comprados em revendedores parceiros, a empresa apenas realizará a troca, não sendo possível o estorno do valor pago, caso o motivo seja desvio de qualidade. Nos casos que não se enquadrem nesse motivo, o cliente será orientado a tratar diretamente com a loja parceira, conforme a política de troca e devolução da mesma.</p>",
+              "__resolveType": "site/sections/Content/RichText.tsx"
+            }
+          ],
+          "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx"
+        },
+        {
+          "sections": [
+            {
+              "text": "<p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>4. Marketplaces</strong></span></p><p dir=\"ltr\" role=\"presentation\"><strong><br></strong></p><p dir=\"ltr\" role=\"presentation\"><strong>‎ ‎ ‎&nbsp;4.1. Produtos Vendidos e Entregues por True Source</strong></p><p dir=\"ltr\" role=\"presentation\"><strong><br></strong></p><p dir=\"ltr\">Para compras realizadas em marketplaces onde a True Source possui um espaço dedicado, como:</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span> Amazon</p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span> RD Saúde (Drogaria Raia e Drogasil)</p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span> Beleza na Web</p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span> Mercado Livre</p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span> Shopee</p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span> Americanas</p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span> Grupo DPSP (Drogarias Pacheco e São Paulo)</p><p dir=\"ltr\" role=\"presentation\"><strong><br></strong></p><p dir=\"ltr\">O consumidor deve realizar a solicitação de troca ou devolução diretamente na plataforma do respectivo marketplace. Caso o cliente tenha qualquer impedimento na tratativa, poderá entrar em contato com a central de atendimento da True Source para que seja intermediada a resolução do caso.</p><p dir=\"ltr\" role=\"presentation\"><strong><br></strong></p><p dir=\"ltr\" role=\"presentation\"><strong>‎ ‎ ‎ 4.2. Produtos Vendidos e entregues por Lojas Parceiras</strong><br></p><p dir=\"ltr\" role=\"presentation\"><strong><br data-mce-bogus=\"1\"></strong></p><p dir=\"ltr\">Para compras realizadas em marketplaces de lojistas parceiros da True Source, o consumidor deverá solicitar a troca ou devolução diretamente na plataforma do marketplace ou junto ao próprio lojista.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Se houver qualquer dificuldade no processo, o cliente poderá contatar a central de atendimento da True Source, que oferecerá suporte e passará as orientações necessárias, de acordo com cada solicitação. Isso, entretanto, não atrai a responsabilidade da True Source pela substituição ou reembolso, pois a True Source apenas atuará para auxiliar o atendimento do cliente.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Ressaltamos que a True Source apenas realizará a troca de produtos caso o motivo seja desvio de qualidade devidamente comprovado, observadas as regras previstas nos itens anteriores. Nos casos que não se enquadrem nesse motivo, o cliente será orientado a tratar diretamente com a loja parceira, conforme a política de troca e devolução da mesma.</p>",
+              "__resolveType": "site/sections/Content/RichText.tsx"
+            }
+          ],
+          "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx"
+        },
+        {
+          "sections": [
+            {
+              "text": "<p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>5. Procedimento e Condições de Reembolso ou Substituição</strong></span></p><p dir=\"ltr\" role=\"presentation\"><strong><br></strong></p><p dir=\"ltr\">A fim de facilitar o acesso à informação, comunicamos as condições gerais de reembolso ou substitição:</p><p dir=\"ltr\" role=\"presentation\"><strong><br></strong></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●<strong>‎ ‎ ‎&nbsp;</strong></span>A desistência de compra por arrependimento ou vício só é válida para pedidos realizados no site oficial da True Source (<a data-mce-href=\"https://www.truesource.com.br\" href=\"https://www.truesource.com.br\" data-mce-selected=\"inline-boundary\">www.truesource.com.br</a>). Produtos comprados em revendas não serão trocados pela loja online, sendo que o consumidor deverá dirigir-se ao local onde o produto foi adquirido para tratar do tema;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●<strong>‎ ‎ ‎&nbsp;</strong></span>Em caso de troca ou substituição, a equipe de atendimento informará o endereço do centro de distribuição para que o cliente faça a postagem do produto na agência dos Correios, e, assim que a postagem for realizada, o comprovante deve ser enviado para a central de atendimento.</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●<strong>‎ ‎ ‎&nbsp;</strong></span>O produto a ser devolvido deverá estar embalado, sem indícios de uso e com o lacre original, sob pena de recusa ao reembolso ou substituição.</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●<strong>‎ ‎ ‎&nbsp;</strong></span>O cliente poderá acompanhar a devolução através do rastreio dos Correios desde a postagem até a chegada em nosso Centro de Distribuição.</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●<strong>‎ ‎ ‎&nbsp;</strong></span>O produto estará sujeito à análise do Controle de Qualidade da True Source. A restituição do valor pago só será liberada após aprovação do Controle de Qualidade. Caso seja identificada qualquer divergência ou violação do produto, não será aceita a devolução, e o produto será devolvido ao cliente, sem o direito à restituição do valor pago.</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●<strong>‎ ‎ ‎&nbsp;</strong></span>Após o recebimento e inspeção do produto, se estiver em conformidade com os critérios de devolução, nossa Central de Atendimento entrará em contato com o cliente para alinhar o procedimento de ressarcimento. Vale destacar que a restituição do valor incluirá o frete pago e será efetuada pela mesma forma de pagamento utilizada na finalização do pedido.</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●<strong>‎ ‎ ‎&nbsp;</strong></span>Objetos recebidos pelo setor de trocas/devolução sem aviso prévio e autorização serão automaticamente devolvidos ao remetente nas mesmas condições.</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">● </span>Em toda hipótese, a True Source se reserva o direito de recusar pedidos de reembolso ou substituição realizados em desconformidade com a lei e/ou com a presente política de trocas. Além disso, o uso dos pedidos de reembolso ou substituição de má-fé importará na aplicação das sanções legais cabíveis.</p><p dir=\"ltr\" role=\"presentation\"><strong><br></strong></p><p dir=\"ltr\">Após a aprovação do estorno do valor, o método de devolução dependerá da forma de pagamento utilizada na compra.</p><p dir=\"ltr\" role=\"presentation\"><strong><br></strong></p><p dir=\"ltr\">Para compras com cartão de crédito, a True Source solicitará o estorno, e a administradora do cartão fará a restituição na fatura do mês seguinte, de uma só vez, independentemente do número de parcelas. O prazo de ressarcimento dependerá da administradora do cartão.</p><p dir=\"ltr\" role=\"presentation\"><strong><br></strong></p><p dir=\"ltr\">Para compras pagas por boleto bancário, a restituição será realizada por meio de depósito bancário, em até 5 dias úteis. A central de atendimento solicitará as seguintes informações: nome e CPF do titular da conta, banco, número da agência e da conta, e o tipo de conta (poupança, corrente etc.).</p><p dir=\"ltr\" role=\"presentation\"><strong><br></strong></p><p dir=\"ltr\">Para compras pagas via Pix, o reembolso será realizado na mesma modalidade, com prazo de até 4 dias úteis.</p>",
+              "__resolveType": "site/sections/Content/RichText.tsx"
+            }
+          ],
+          "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx"
+        },
+        {
+          "sections": [
+            {
+              "text": "<p dir=\"ltr\" role=\"presentation\"><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">6. Considerações Finais</span></strong></p><p dir=\"ltr\" role=\"presentation\"><strong><br></strong></p><p dir=\"ltr\">As disposições desta Política de Troca e Devolução podem ser atualizadas ou modificadas a qualquer momento. Por isso, sugerimos que o cliente verifique as condições sempre que acessar o portal. Em caso de dúvida, o consumidor poderá entrar em contato com nossa Central de Atendimento a qualquer momento.</p>",
+              "__resolveType": "site/sections/Content/RichText.tsx"
+            }
+          ],
+          "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx"
+        }
+      ],
+      "__resolveType": "site/sections/CentralAtendimento/NavigationPage.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    },
+    {
+      "__resolveType": "Insider - Content Page"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

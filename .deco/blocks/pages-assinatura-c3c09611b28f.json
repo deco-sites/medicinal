@@ -1,0 +1,469 @@
+{
+  "name": "Assinatura",
+  "path": "/assinatura",
+  "sections": [
+    {
+      "canonical": "https://www.truesource.com.br/assinatura",
+      "noIndexing": false,
+      "__resolveType": "website/sections/Seo/Seo.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "items": [
+        "Receba seus produtos preferidos de  maneira programada",
+        "Ganhe descontos exclusivos",
+        "Não prejudique sua performance por falta de suplementação"
+      ],
+      "video": {
+        "0": "h",
+        "1": "t",
+        "2": "t",
+        "3": "p",
+        "4": "s",
+        "5": ":",
+        "6": "/",
+        "7": "/",
+        "8": "o",
+        "9": "z",
+        "10": "k",
+        "11": "s",
+        "12": "g",
+        "13": "d",
+        "14": "m",
+        "15": "y",
+        "16": "r",
+        "17": "q",
+        "18": "c",
+        "19": "x",
+        "20": "c",
+        "21": "w",
+        "22": "h",
+        "23": "n",
+        "24": "b",
+        "25": "e",
+        "26": "p",
+        "27": "g",
+        "28": ".",
+        "29": "s",
+        "30": "u",
+        "31": "p",
+        "32": "a",
+        "33": "b",
+        "34": "a",
+        "35": "s",
+        "36": "e",
+        "37": ".",
+        "38": "c",
+        "39": "o",
+        "40": "/",
+        "41": "s",
+        "42": "t",
+        "43": "o",
+        "44": "r",
+        "45": "a",
+        "46": "g",
+        "47": "e",
+        "48": "/",
+        "49": "v",
+        "50": "1",
+        "51": "/",
+        "52": "o",
+        "53": "b",
+        "54": "j",
+        "55": "e",
+        "56": "c",
+        "57": "t",
+        "58": "/",
+        "59": "p",
+        "60": "u",
+        "61": "b",
+        "62": "l",
+        "63": "i",
+        "64": "c",
+        "65": "/",
+        "66": "a",
+        "67": "s",
+        "68": "s",
+        "69": "e",
+        "70": "t",
+        "71": "s",
+        "72": "/",
+        "73": "4",
+        "74": "2",
+        "75": "3",
+        "76": "2",
+        "77": "/",
+        "78": "f",
+        "79": "d",
+        "80": "6",
+        "81": "4",
+        "82": "d",
+        "83": "a",
+        "84": "4",
+        "85": "5",
+        "86": "-",
+        "87": "c",
+        "88": "4",
+        "89": "d",
+        "90": "6",
+        "91": "-",
+        "92": "4",
+        "93": "5",
+        "94": "9",
+        "95": "7",
+        "96": "-",
+        "97": "8",
+        "98": "3",
+        "99": "6",
+        "100": "3",
+        "101": "-",
+        "102": "5",
+        "103": "0",
+        "104": "3",
+        "105": "d",
+        "106": "0",
+        "107": "2",
+        "108": "4",
+        "109": "d",
+        "110": "c",
+        "111": "a",
+        "112": "3",
+        "113": "a",
+        "dark": true,
+        "source": "https://data.decoassets.com/true-source/8c3d1f17-09a2-4ed6-900b-efb272dfa27d/1742235043712-fd64da45-c4d6-4597-8363-503d024dca3a",
+        "mobileHeight": 650,
+        "desktopHeight": 728
+      },
+      "banner": {
+        "alt": "woman in sunset",
+        "mobileSrc": "https://data.decoassets.com/true-source/56868f66-4d74-45b0-ab38-07d9bd5fde64/1742235109294-55012ac3-0d9d-49c0-b959-fd42631fe05f",
+        "desktopSrc": "https://data.decoassets.com/true-source/3d2d45d2-de45-4c87-9547-96586123de61/1742235115335-55012ac3-0d9d-49c0-b959-fd42631fe05f",
+        "mobileHeight": 612,
+        "desktopHeight": 728
+      },
+      "content": {
+        "cta": {
+          "link": "/produtos/assinaturas",
+          "text": "Assine seus suplementos preferidos"
+        },
+        "tag": "Assinatura",
+        "title": "SEU OBJETIVO NÃO PODE ESPERAR",
+        "titleIsH1": true,
+        "description": "Manter-se saudável, seguindo uma alimentação equilibrada, depende de muitos fatores. \nEntre elas, a disponibilidade de seus suplementos na sua casa. Para que você não fique sem eles, criamos o Clube de Assinatura True Source."
+      },
+      "rounded": "bottom",
+      "__resolveType": "site/sections/Images/BannerInfoWithItems.tsx"
+    },
+    {
+      "size": "xlarge",
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "backgroundColor": "white"
+    },
+    {
+      "steps": [
+        {
+          "label": "<p>Você escolhe seus <strong>produtos preferidos </strong>para assinar;</p>"
+        },
+        {
+          "label": "<p>Define a <strong>frequência de recebimento</strong> – que pode ser a cada um mês, dois ou três meses;</p>"
+        },
+        {
+          "label": "<p>Garante um <strong>desconto exclusivo</strong> e frete grátis* em todas as entregas dos itens escolhidos.</p>"
+        }
+      ],
+      "title": "Como funciona",
+      "footer": "Caso você queira cancelar ou postergar alguma entrega futura, basta ajustar a sua programação no painel do assinante (área de login), sem multas e sem taxas.",
+      "__resolveType": "site/sections/Content/Timeline.tsx"
+    },
+    {
+      "mobileImages": [
+        {
+          "alt": "true whey",
+          "src": "https://data.decoassets.com/true-source/fa203775-1ce0-4f06-be41-f8f6ee6ab5c8/1742235123984-ddabb64d-4584-4ac9-a84a-6b544200fba5",
+          "width": 122,
+          "height": 163
+        },
+        {
+          "alt": "cellphone",
+          "src": "https://data.decoassets.com/true-source/0c7cdeee-4296-4447-ad12-518fa2d13664/1742235127332-14acb086-3ad6-445f-a11b-4ca418374333",
+          "width": 122,
+          "height": 163
+        },
+        {
+          "alt": "true whey",
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/4db59570-4141-464e-8d37-d9d5a0022160/1423cc37-fe3f-4811-8363-90d29d4fa804.jpg",
+          "width": 122,
+          "height": 163
+        }
+      ],
+      "__resolveType": "site/sections/Images/ImageGrid.tsx",
+      "desktopImages": [
+        {
+          "alt": "true whey",
+          "src": "https://data.decoassets.com/true-source/8f44e7d8-f152-4d14-9771-858909f08d3f/1742235131449-ddabb64d-4584-4ac9-a84a-6b544200fba5",
+          "width": 448,
+          "height": 357
+        },
+        {
+          "alt": "cellphone",
+          "src": "https://data.decoassets.com/true-source/586f5f08-38ba-4dc3-8553-e9a7b8aed27c/1742235135854-14acb086-3ad6-445f-a11b-4ca418374333",
+          "width": 448,
+          "height": 357
+        },
+        {
+          "alt": "woman with box",
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/525f80ca-710a-4ae0-b261-439b3e26e0ea/1423cc37-fe3f-4811-8363-90d29d4fa804.jpg",
+          "width": 448,
+          "height": 357
+        }
+      ]
+    },
+    {
+      "cta": {
+        "url": "/produtos/produtos/assinaturas",
+        "text": "Assine seus suplementos preferidos"
+      },
+      "cards": [
+        {
+          "icon": {
+            "src": "https://data.decoassets.com/true-source/458c19e8-377d-48e0-a72a-e0085e44b662/1742235139094-4a69c25f-d68e-46d0-a06e-40ec26f13205",
+            "width": 46,
+            "height": 37
+          },
+          "text": "Frete grátis",
+          "description": "*Para assinaturas acima de R$ 150 de uma mesma frequência.",
+          "hasGradientColor": true
+        },
+        {
+          "icon": {
+            "src": "https://data.decoassets.com/true-source/45ddf7d1-af65-4ab0-8946-afa4e0e906a3/1742235141149-601751f5-8bb7-4d1e-ab70-b02c19f21140",
+            "width": 46,
+            "height": 37
+          },
+          "text": "20% off no cartão",
+          "description": "Aplicados em cada produto, durante toda a assinatura.",
+          "hasGradientColor": true
+        },
+        {
+          "icon": {
+            "src": "https://data.decoassets.com/true-source/ccdb1f82-fa0d-481a-b933-fe8cffbce837/1742235144456-3a70ea96-84f1-4b09-856d-b172438e1088",
+            "width": 46,
+            "height": 37
+          },
+          "text": "FREQUÊNCIA PROGRAMADA",
+          "description": "Receba seus produtos favoritos com comodidade",
+          "hasGradientColor": true
+        }
+      ],
+      "title": "<p>Aproveite os </p><p><strong>benefícios exclusivos</strong></p>",
+      "description": "de ser assinante true source",
+      "__resolveType": "site/sections/Content/CardsWithCta.tsx"
+    },
+    {
+      "alt": "true source products",
+      "rounded": "bottom",
+      "mobileSrc": "https://data.decoassets.com/true-source/dbb19e2c-cad2-48b8-a432-e400d141daaf/PRECOS-ASSINATURA-MOBILE.png",
+      "desktopSrc": "https://data.decoassets.com/true-source/3df42cf1-1f01-4954-8bf3-bde216a644a4/PRECOS-ASSINATURA-DESKTOP.png",
+      "isContainer": true,
+      "__resolveType": "site/sections/Images/BannerImage.tsx",
+      "desktopHeight": 1050
+    },
+    {
+      "cta": {
+        "url": "/produtos/assinaturas",
+        "text": "Quero assinar"
+      },
+      "cards": [
+        {
+          "text": "ESCOLHA OS PRODUTOS DE SEU INTERESSE",
+          "image": {
+            "src": "https://data.decoassets.com/true-source/faa9c871-f994-416c-91ea-fe0f382ee2ad/1742235148293-18a5831a-1822-4cbc-bf5f-42139781f536",
+            "width": 315,
+            "height": 260
+          },
+          "description": "Navegue pelo site e escolha os produtos desejados individualmente"
+        },
+        {
+          "text": "CLIQUE EM ASSINE E ESCOLHA A FREQUÊNCIA QUE DESEJA RECEBER",
+          "image": {
+            "src": "https://data.decoassets.com/true-source/454fe8cd-5bbc-4a90-bb15-02fd7151c538/1742235150191-9fe8b77d-b063-4ee9-94a5-45b2edf6e9de",
+            "width": 315,
+            "height": 260
+          },
+          "description": "Basta clicar no botão Assine com Desconto para abrir as opções de frequência."
+        },
+        {
+          "text": "FINALIZE O SEU PEDIDO  E PRONTO!",
+          "image": {
+            "src": "https://data.decoassets.com/true-source/67edd44f-fe97-4f3b-9ace-e4316ae99d52/1742235152036-bc2e1382-83bf-4a87-8ce8-fa032ff706d5",
+            "width": 315,
+            "height": 260
+          },
+          "description": "Agora você receberá na sua casa seus produtos com a frequência desejada."
+        }
+      ],
+      "title": "<p>Veja <strong>como assinar</strong></p>",
+      "__resolveType": "site/sections/Content/CardsWithImageCta.tsx"
+    },
+    {
+      "banner": {
+        "alt": "two person running",
+        "mobileSrc": "https://data.decoassets.com/true-source/32388a80-5e3c-4bf7-8c46-08ad39f3f10f/1742235154042-b8a93681-3adf-4123-8543-9656118fed3f",
+        "desktopSrc": "https://data.decoassets.com/true-source/7a4911fd-5bcc-42a3-850b-8b0ab876d307/1742235156114-6ddbe76f-22c3-4a2d-ad70-1f4655e0c83f",
+        "mobileHeight": 737,
+        "desktopHeight": 1000
+      },
+      "content": {
+        "cta": {
+          "link": "/produtos/assinaturas",
+          "text": "Assine agora"
+        },
+        "tag": "VOCÊ SABIA QUE cerca de 70% dos pacientes de consultório nutricional desistem de executar o seu plano em menos de um mês de tratamento?",
+        "title": "Faça parte do seleto grupo de pessoas que decidem ter e manter um estilo de vida saudável.",
+        "description": "Garanta a regularidade de recebimento dos seus suplementos e facilite a aderência à rotina que te entrega bem-estar e saúde."
+      },
+      "__resolveType": "site/sections/Images/BannerInfoWithDivider.tsx"
+    },
+    {
+      "title": "VEJA O DEPOIMENTO DE PESSOAS QUE ESTÃO USANDO TRUE SOURCE hÁ MAIS DE 6 MESES",
+      "button": "ASSINE SEUS PRODUTOS PREFERIDOS",
+      "testimonials": [
+        {
+          "text": "Virei uma fã numero 1 do clube de assinatura da True! São muitas vantagens. Poder comprar os meus suplementos favoritos com super descontos e ainda receber no conforto de casa é incrível. Amo essa praticidade! Minha rotina é corrida e eu vivia esquecendo de comprar creatina quando acabava... Com a recorrência mensal eu não tenho mais esse problema. As caixinhas chegam na data programada e eu estou sempre bem abastecida.",
+          "authorIcon": "https://data.decoassets.com/true-source/8d5c583d-23de-44bc-ad7b-be1fb7fec498/1742235162700-832af8ed-3cdd-4559-bbbc-c4bac48a2c17",
+          "authorName": "Raissa Tessarolo",
+          "subscriptionTime": "3 meses"
+        },
+        {
+          "text": "Clube de assinatura é realmente um “game changer”! \nAmo criar essa fidelidade com a True e nada melhor que a praticidade de receber todo mês em casa!",
+          "authorIcon": "https://data.decoassets.com/true-source/369525f4-4e66-4ddc-8da8-a55c5128e801/1742235168803-74f1c0a3-9276-45be-9be2-a1be5d002689",
+          "authorName": "Maíra C’harkén",
+          "subscriptionTime": "2 meses"
+        },
+        {
+          "text": "A assinatura da True facilita muito minha vida. Toda minha família consome os produtos e todo mês eu precisava parar por alguns minutos e fazer o pedido no site. Percebi que era sempre o mesmo e aí recebi o convite para me tornar assinante. Além de tempo, eu passei a economizar dinheiro, porque assinante tem desconto. Para mim, não existe forma melhor de comprar suplementos. Recomendo.",
+          "authorIcon": "https://data.decoassets.com/true-source/0455bc19-b50a-485b-b970-3f5d407e7934/1742235170932-a91cd927-1a1c-4f01-a3eb-54cfaef7359c",
+          "authorName": "Ricardo Paiva",
+          "subscriptionTime": "6 meses"
+        }
+      ],
+      "__resolveType": "site/sections/Content/Testimonials.tsx"
+    },
+    {
+      "title": "PRINCIPAIS PRODUTOS ASSINADOS",
+      "products": {
+        "props": {
+          "sort": "price:desc",
+          "count": 12,
+          "collection": "195"
+        },
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+      },
+      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "showOnlySubscription": true
+    },
+    {
+      "titles": {
+        "lower": "Perguntas e respostas frequentes sobre a assinatura",
+        "upper": "FICOU COM ALGUMA DÚVIDA?"
+      },
+      "questions": [
+        {
+          "answer": "<p>É simples, prático e bem fácil. Confira o passo a passo:</p><ul><li>Escolha um ou mais produtos que você tem o hábito de consumir sempre;</li><li>Depois, defina a frequência que deseja recebê-los em casa: a cada 30 dias, a cada 2 meses ou a cada 3 meses;</li><li>Insira seus dados, como o endereço de entrega e o número do cartão de crédito, e está feito!</li></ul>",
+          "question": "Como funciona a assinatura True Source?"
+        },
+        {
+          "answer": "<ul><li>Seus produtos preferidos chegam sempre nos dias certos, com a <strong>frequência programada</strong> e a quantidade estabelecida no momento da assinatura;</li><li><strong>20% de desconto</strong> nos produtos assinados, válido para todos os itens disponíveis para assinatura e durante sua vigência (desconto não acumulativo com outras promoções)<strong>*</strong>.;</li><li><strong>Frete grátis</strong> válido para os produtos assinados, durante a vigência da assinatura e mediante valor de compra mínimo de assinatura com uma mesma frequência acima de R$ 150,00. Para produtos adquiridos com frequências de envio distintas é necessário que a soma de cada uma das frequências seja igual ou superior a R$ 150,00 para que o frete grátis seja incluído;</li><li>Acesso a <strong>promoções exclusivas</strong> e ao <strong>“Fale com a Nutri”</strong> para tirar dúvidas com nossos nutricionistas;</li><li><strong>Livre de burocracias:</strong> você pode pausar ou cancelar a sua assinatura True Source a <strong>qualquer momento</strong>, sempre que precisar.&nbsp;Além disso, pode<strong> editar sua assinatura, fazendo troca de produtos, sabores, etc;</strong></li><li><strong>Zero taxa de adesão:</strong> pague apenas pelos produtos que escolher assinar.</li></ul><p><br data-mce-bogus=\"1\"></p><p><em><strong>*</strong>Produtos podem sofrer alteração de valor sem aviso prévio. Sendo assim, o desconto de 20% garantido pela assinatura é <strong>sempre</strong> aplicado sobre o <strong>valor vigente</strong> dos produtos.</em></p>",
+          "question": "Quais são as vantagens?"
+        },
+        {
+          "answer": "<p>Navegue pelo site e acesse a página do produto que deseja assinar. Defina a quantidade do produto que deseja receber, clique no botão ASSINAR e escolha a frequência que deseja receber o produto.</p><p><strong>IMPORTANTE:</strong> você pode assinar qualquer produto sem valor mínimo para garantir a recorrência do pedido na sua casa. Porém, para garantir benefícios da assinatura True Source, o valor mínimo é de R$50,00 em produtos por frequência estabelecida. Lembrando que você pode assinar a quantidade de produtos que desejar.</p><p>Após a confirmação do pedido, será enviado um e-mail com todas as informações.</p>",
+          "question": "Como eu faço a minha assinatura True Source?"
+        },
+        {
+          "answer": "<p><span id=\"_mce_caret\" data-mce-bogus=\"1\" data-mce-type=\"format-caret\">Em uma mesma conta é possível ter diversas assinaturas, com produtos e frequências diferentes – de acordo com as suas necessidades. O passo a passo é o mesmo em todos os casos: escolha o produto, defina a quantidade, clique no botão ASSINAR e estabeleça a frequência que deseja receber (a cada 30 dias, a cada 2 meses ou a cada 3 meses).</span></p>",
+          "question": "Quero fazer mais de um plano. É possível?"
+        },
+        {
+          "answer": "<p>A resposta é sim! Caso você já tenha uma assinatura em vigência, basta efetuar um novo pedido de assinatura e alterar o endereço de envio.</p>",
+          "question": "Posso ter mais de uma assinatura True Source com envio para endereços diferentes?"
+        },
+        {
+          "answer": "<p>O cartão de crédito é a única forma de pagamento aceita no caso da assinatura True Source. E você pode alterar o cartão cadastrado sempre que precisar acessando \"Minha conta\" e clicando em \"Minhas assinaturas\".</p>",
+          "question": "Quais são as formas de pagamento?"
+        },
+        {
+          "answer": "<p>Não. Por se tratar de uma assinatura com recorrência, não é possível dividir o pagamento entre dois cartões. O sistema exige que apenas um cartão de crédito esteja registrado para garantir que as próximas cobranças recorrentes sejam feitas corretamente.</p>",
+          "question": "É possível pagar a assinatura com dois cartões diferentes?"
+        },
+        {
+          "answer": "<p>Não! As assinaturas True Source não têm datas ou períodos determinados para encerramento. Isso é definido por você. É possível cancelar ou pausar a assinatura sempre que precisar (dentro dos prazos estabelecidos). Basta acessar a sua conta no site da True Source.</p>",
+          "question": "Minha assinatura tem prazo de validade?"
+        },
+        {
+          "answer": "<p>Toda assinatura True Source pode ser pausada, porém essa pausa tem o mesmo prazo da frequência determinada na assinatura. Funciona assim: se a sua assinatura é a cada 30 dias, por exemplo, a pausa tem a durabilidade de 30 dias, sendo automaticamente restabelecida após o vencimento desse período. Isso é válido para todas as frequências de envio que disponibilizamos (<span id=\"_mce_caret\" data-mce-bogus=\"1\" data-mce-type=\"format-caret\"><s>﻿</s></span>a cada 30 dias, a cada 2 meses ou a cada 3 meses).</p>",
+          "question": "Posso pausar ou cancelar minha assinatura?"
+        },
+        {
+          "answer": "<p>Todas as compras de assinatura de uma única frequência, seja ela a cada 30 dias, a cada 2 meses ou a cada 3 meses, têm direito ao frete grátis desde que o valor seja igual ou superior a R$ 150,00. Caso a assinatura de uma determinada frequência tenha o valor inferior a R$ 150,00, automaticamente o frete será cobrado.</p>",
+          "question": "Todo plano de assinatura tem frete grátis?"
+        },
+        {
+          "answer": "<p>O valor da assinatura é lançado no seu cartão de crédito no momento que o pedido é processado. Depois, essa cobrança passa a ser feita automaticamente, conforme a(s) frequência(s) determinada(s). Ou seja, para as assinaturas a cada 30 dias, na data em que o pedido é gerado (a cada 30 dias) o valor é cobrado no cartão de crédito. E assim é feito para todas as frequências que disponibilizamos (a cada 30 dias, a cada 2 meses, a cada 3 meses).</p><p>É importante lembrar que nossos produtos podem sofrer alteração de valor sem aviso prévio e que o desconto de 20% garantido pela assinatura é sempre aplicado ao valor vigente dos mesmos. Logo, o valor da assinatura também pode sofrer alterações, acompanhando o site.</p>",
+          "question": "Como e quando é feita a cobrança?"
+        },
+        {
+          "answer": "<p>A possibilidade de parcelamento é oferecida no primeiro pedido de cada assinatura, com a opção de parcelas selecionada neste, mantida para as demais recorrências.</p><p><br data-mce-bogus=\"1\"></p><p>Portanto, ao optar por parcelar seu primeiro pedido parcelados em duas vezes, por exemplo, as recorrências seguintes também terão o pagamento efetuado em duas parcelas.</p>",
+          "question": "Existe a possibilidade de parcelar o pagamento?"
+        },
+        {
+          "answer": "<p>Todo o gerenciamento do nosso plano de assinatura é bem simples e feito por você da seguinte forma:</p><ul><li>Acesse o site True Source e clique em \"Minha conta\";</li><li>Escolha a opção \"Assinaturas\" e tenha acesso às informações de todos os produtos assinados;</li><li>Nesse espaço, você pode alterar o endereço de entrega, mudar o cartão de crédito e pausar ou cancelar a sua assinatura;</li><li>Qualquer alteração deve ser feita com, no mínimo, uma semana da próxima data de entrega do(s) produto(s) assinado(s).</li></ul>",
+          "question": "Como posso acessar os dados da minha assinatura?"
+        },
+        {
+          "answer": "<p>Se você precisar alterar as quantidades, excluir algum produto ou mudar a data de entrega de uma assinatura já criada, você pode fazer isso dentro de “Minha conta” no site a True Source ou também por meio do nossa Central de Atendimento.<br>Lembrando que, se alterar a data de entrega ou frequência da sua assinatura, ela só irá refletir na sua próxima cobrança.</p>",
+          "question": "Posso alterar a quantidade de produtos e a data de entrega da minha assinatura?"
+        },
+        {
+          "answer": "<p>Sim! Sempre que os produtos da sua assinatura estiverem a caminho nós vamos enviar um e-mail com todos os detalhes, incluindo um código para rastreio. E se quiser saber mais, é possível conferir as datas dos próximos envios no site da True Source, acessando \"Minha conta\".</p>",
+          "question": "Sou notificado(a) sobre o envio dos meus pedidos?"
+        },
+        {
+          "answer": "<p>Sim! Basta incluir os produtos no carrinho de compras sem clicar no botão \"ASSINAR\", isso deverá ser feito posteriormente, na hora da finalização do pedido. Neste caso, a compra inteira, incluindo produtos assinados e não assinados, deverá ser paga por meio do cartão de crédito.</p>",
+          "question": "Em uma mesma compra, posso incluir produtos para assinatura e outros sem assinatura?"
+        },
+        {
+          "answer": "<p>A disponibilidade dos produtos para a modalidade assinatura é condicionada à quantidade dos mesmos em estoque. Desta forma, eventualmente, alguns produtos que estão em baixa no nosso estoque podem não estar disponíveis para assinatura em alguns momentos.</p>",
+          "question": "Todos os produtos True Source estão disponíveis para assinatura?"
+        },
+        {
+          "answer": "<p>Não é possível fazer o uso de cupons junto da Assinatura. Os cupons não são acumulativos e possuem data de expiração de acordo com cada campanha.</p>",
+          "question": "Posso utilizar cupons na minha assinatura?"
+        },
+        {
+          "question": "Nutricionistas e outros profissionais da saúde podem aderir à assinatura True Source?",
+          "answer": "<p>Sim, podem! A assinatura dos nossos produtos também pode ser realizada normalmente por esses profissionais. Mas, destacamos o seguinte:</p><ul><li>O desconto de 20% oferecido nos produtos assinados não é acumulativo com outros descontos que você tem direito no nosso site;</li><li>E o frete grátis é válido para os produtos assinados, durante a vigência da assinatura e mediante valor de compra mínimo com uma mesma frequência igual ou superior a R$ 150,00.</li></ul>"
+        },
+        {
+          "question": "Consigo fazer minha assinatura pela área do cliente?",
+          "answer": "<p>Sim! Você pode fazer sua assinatura diretamente pela área do cliente. No entanto, ao assinar por lá, a cobrança e a ativação da sua assinatura ocorrerão apenas no dia seguinte à realização do pedido. Isso significa que seu cartão será cobrado no dia seguinte à assinatura.</p><p><strong><br data-mce-bogus=\"1\"></strong></p><p><strong>Importante:</strong> A realização da assinatura pela área do cliente não garante a disponibilidade do produto em estoque no momento da assinatura, apenas no momento da cobrança. Para evitar imprevistos, recomendamos assinar diretamente pela página do produto.</p>"
+        }
+      ],
+      "__resolveType": "site/sections/Content/Faq.tsx"
+    },
+    {
+      "size": "xlarge",
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    },
+    {
+      "__resolveType": "Insider - Content Page"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

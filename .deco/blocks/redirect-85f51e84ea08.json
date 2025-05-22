@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/produtos/whey-protein",
+		"from": "/combo-vida-saudavel-2-true-whey-strawberry-cheesecake/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

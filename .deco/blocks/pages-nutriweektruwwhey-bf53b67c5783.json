@@ -1,0 +1,45 @@
+{
+  "name": "Nutri Week Truw Whey",
+  "path": "/nutri-week-true-whey-protein",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Carousel - 01"
+    },
+    {
+      "__resolveType": "Product Shelf - 05"
+    },
+    {
+      "title": "<p>o melhor caminho para o melhor resultado</p>",
+      "banner": {
+        "alt": "Brain Up Ready To Drink",
+        "src": "https://data.decoassets.com/true-source/8da37447-f7eb-45ea-bea0-04152347e32f/1742235042332-0ed6a642-9766-4193-a165-5d9974fd9a0a"
+      },
+      "contentText": "<p>O Whey Protein é um dos produtos mais buscados por quem procura aumentar a síntese de massa muscular e melhorar o aporte nutricional durante os treinos.</p><p>Mas, além de otimizar resultados de treino para ganho de massa e emagrecimento, este suplemento é muito versátil e pode ser ingerido sozinho ou como ingrediente de diversas receitas.</p><p>Aqui na True Source, contamos com a linha completa True Whey, composta pela proteína em&nbsp;<strong>diversas variações, tamanhos e sabores&nbsp;</strong>para você encontrar a versão que mais se enquadra na sua dieta.</p>",
+      "__resolveType": "site/sections/Content/TextAndBanner.tsx"
+    },
+    {
+      "__resolveType": "Product Shelf - 01"
+    },
+    {
+      "__resolveType": "Product Shelf - 02"
+    },
+    {
+      "__resolveType": "Product Shelf - 03"
+    },
+    {
+      "__resolveType": "Product Shelf - 04"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "True Whey Protein: Chocolate, Coconut Ice Cream e Mais",
+    "description": "Procurando True Whey Protein? Aqui você encontra. Acesse nosso site e escolha entre sabores como chocolate com avelã e crème brûlée!"
+  }
+}

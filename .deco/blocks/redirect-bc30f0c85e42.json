@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/por-objetivo/energia", "from": "/true-energy-green-tea/p", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

@@ -1,0 +1,127 @@
+{
+  "name": "Central de atendimento",
+  "path": "/central-de-atendimento",
+  "sections": [
+    {
+      "canonical": "https://www.truesource.com.br/central-de-atendimento",
+      "noIndexing": false,
+      "__resolveType": "website/sections/Seo/Seo.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Banner Central de Atendimento"
+    },
+    {
+      "loader": {
+        "__resolveType": "Navegações Central de Atendimento"
+      },
+      "sections": [
+        {
+          "contentTitle": "FALE CONOSCO",
+          "__resolveType": "site/sections/CentralAtendimento/CardsTitle.tsx",
+          "contentSubtitle": "Tem alguma dúvida ou gostaria de enviar sugestões? Escolha um dos nossos canais de atendimento para que possamos lhe ajudar."
+        },
+        {
+          "__resolveType": "site/sections/CentralAtendimento/InfoCardSection.tsx",
+          "sections": [
+            {
+              "icon": {
+                "src": "https://data.decoassets.com/true-source/3998b1bb-f0a2-4421-8e4d-7e66c2ad3f00/1742235041223-216ea233-63bd-4aa8-8558-484443e07119",
+                "width": 48,
+                "height": 48
+              },
+              "title": "TELEFONE CONSUMIDOR",
+              "__resolveType": "site/sections/CentralAtendimento/CardPhone.tsx",
+              "numbers": [
+                {
+                  "href": "tel:2733194635",
+                  "icon": "https://data.decoassets.com/true-source/9f8df1f6-ec13-44ae-8f51-6c674bb16609/1742235046960-16dfcb0a-f305-470e-a779-90af8b455d16",
+                  "number": "(27) 3319-4635"
+                }
+              ]
+            },
+            {
+              "icon": {
+                "src": "https://data.decoassets.com/true-source/7887a05a-f192-4e2d-a42a-56eeb2df2552/1742235051942-216ea233-63bd-4aa8-8558-484443e07119",
+                "width": 48,
+                "height": 48
+              },
+              "title": "WHATSAPP CONSUMIDOR",
+              "__resolveType": "site/sections/CentralAtendimento/CardPhone.tsx",
+              "numbers": [
+                {
+                  "href": "https://api.whatsapp.com/send?phone=5527999141539&text=Ol%C3%A1%2C%20gostaria%20de%20ser%20atendido(a)!",
+                  "icon": "https://data.decoassets.com/true-source/da29531a-40d0-42b2-a366-bce88614b15f/1742235054419-16dfcb0a-f305-470e-a779-90af8b455d16",
+                  "number": "(27) 99914-1539"
+                }
+              ]
+            },
+            {
+              "icon": {
+                "src": "https://data.decoassets.com/true-source/cc5afe75-e3f8-4a3c-a4ce-ac97a881465f/1742235057730-f8eca530-62fc-47b0-b621-3b61a6c8415a",
+                "width": 48,
+                "height": 48
+              },
+              "title": "VENDAS POR WHATSAPP",
+              "__resolveType": "site/sections/CentralAtendimento/CardPhone.tsx",
+              "numbers": [
+                {
+                  "href": "https://api.whatsapp.com/send?phone=5527992555412&text=Ol%C3%A1%2C%20gostaria%20de%20ser%20atendido(a)!",
+                  "icon": "https://data.decoassets.com/true-source/1fceb9c4-8164-4153-8edf-44eb6f1eafee/1742235060955-16dfcb0a-f305-470e-a779-90af8b455d16",
+                  "number": "(27) 99255-5412"
+                }
+              ]
+            }
+          ],
+          "title": "ATENDIMENTO POR TELEFONE"
+        },
+        {
+          "__resolveType": "site/sections/CentralAtendimento/InfoCardSection.tsx",
+          "sections": [
+            {
+              "icon": "https://data.decoassets.com/true-source/a6b33838-6696-4178-a696-f9a366cea726/1742235063644-9211bdbc-0c4e-4da3-badd-d9f04c1a80b7",
+              "title": "EMAIL CONSUMIDOR",
+              "__resolveType": "site/sections/CentralAtendimento/CardEmail.tsx",
+              "img": "https://data.decoassets.com/true-source/c7832cb1-2630-48f9-a655-e49cbe6d8ec5/1742235068933-0a1c2b1c-20f7-4d71-9aef-3f2d272e2243",
+              "email": "atendimento@truesource.com.br"
+            },
+            {
+              "icon": "https://data.decoassets.com/true-source/9f6616eb-c019-49f4-96ad-da90a4cac33b/1742235071762-30de9d16-51e2-49cd-a0ff-44c4197bc35d",
+              "title": "EMAIL LOJISTA",
+              "__resolveType": "site/sections/CentralAtendimento/CardEmailLinked.tsx",
+              "img": "https://data.decoassets.com/true-source/9fdf0fe9-45f0-41a8-a22e-370fce4b54ce/1742235073981-c7cceb17-4621-495a-9b09-e7c1877212bb",
+              "link": "#",
+              "email": "RELACIONAMENTO@TRUEBRANDS.COM.BR",
+              "linkIcon": "https://data.decoassets.com/true-source/cf05ece1-7860-47ce-8e46-02397a7d06cb/1742235076350-956dddf8-bfed-4fe2-b5a8-7c56a62fa583",
+              "linkText": "Faça seu cadastro como lojista  True Source"
+            }
+          ],
+          "title": "ATENDIMENTO POR EMAIL"
+        },
+        {
+          "title": "PROFISSIONAIS DE SAÚDE",
+          "__resolveType": "site/sections/CentralAtendimento/BannerCTA.tsx",
+          "link": "/profissionais",
+          "button": "FAÇA SEU CADASTRO",
+          "srcMobile": "https://data.decoassets.com/true-source/9c8f695d-add2-491a-ba0d-ea8f24510682/1742239957817-b2e3e02a-0fe9-46ea-8ba0-bc753c7fe2d8",
+          "srcDesktop": "https://data.decoassets.com/true-source/9793f4b1-26a4-4ed0-a96f-644c1de02da9/1742235084354-056822b4-a6f7-46ae-bcb0-8a4755639473",
+          "description": "Explore o Programa True Source para Profissionais de Saúde! Descontos exclusivos, suporte especializado e uma parceria dedicada à promoção da saúde natural. Junte-se a nós na busca pela verdadeira fonte do bem-estar!"
+        }
+      ],
+      "__resolveType": "site/sections/CentralAtendimento/NavigationPage.tsx"
+    },
+    {
+      "size": "medium",
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    },
+    {
+      "__resolveType": "Insider - Content Page"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,0 +1,173 @@
+{
+  "name": "Carnaval - Categorias",
+  "path": "/carnavaltrue/categorias",
+  "sections": [
+    {
+      "canonical": "https://www.truesource.com.br/assinatura",
+      "noIndexing": false,
+      "__resolveType": "website/sections/Seo/Seo.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "images": [
+          {
+            "start": "2025-02-24T03:00:00.000Z",
+            "mobile": {
+              "width": 1187,
+              "height": 331,
+              "src": "https://data.decoassets.com/true-source/36bb897c-a6fb-4d35-ad28-b29ec72a83b4/MOBILE-PRODUTO.jpg"
+            },
+            "desktop": {
+              "width": 1408,
+              "height": 148,
+              "src": "https://data.decoassets.com/true-source/c1fb6ff2-e50d-466c-81bc-19041e739945/DESKTOP-PRODUTO_.jpg"
+            },
+            "end": "2025-03-06T02:59:00.000Z",
+            "alt": "Carnaval - Leve 3 Pague 2"
+          }
+        ],
+        "preload": false,
+        "interval": 5,
+        "__resolveType": "site/sections/Images/Carousel.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "size": "small",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "size": "medium",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Category/CategoryCarousel.tsx",
+        "title": "escolha uma seleção de produtos:",
+        "categories": [
+          {
+            "image": "https://data.decoassets.com/true-source/5e137656-ece8-4058-9856-06a4e51cf02e/CLASSIC.jpg",
+            "name": "Presente Classic",
+            "description": " ",
+            "url": "/carnavaltrue/classic"
+          },
+          {
+            "image": "https://data.decoassets.com/true-source/d9603b5a-8415-4200-a6e4-f50141e74efe/PLUS.jpg",
+            "name": "Presente Plus",
+            "description": " ",
+            "url": "/carnavaltrue/plus"
+          },
+          {
+            "image": "https://data.decoassets.com/true-source/2ef32daf-0ee0-4337-a75c-a7c68bce06e9/PREMIUM.jpg",
+            "name": "Presente Premium",
+            "description": " ",
+            "url": "/carnavaltrue/premium"
+          },
+          {
+            "image": "https://data.decoassets.com/true-source/85e9b515-39d9-45ff-9915-9e0dc193a85d/EXCLUSIVE.jpg",
+            "name": "Presente Exclusive",
+            "description": " ",
+            "url": "/carnavaltrue/exclusive"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "size": "large",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/Faq.tsx",
+        "title": "FAQ",
+        "layout": {
+          "variation": "Compact",
+          "headerAlignment": "center"
+        },
+        "contact": {
+          "link": {
+            "href": "Contact us",
+            "text": "Contact us"
+          },
+          "title": "Still have a question?",
+          "description": "<p class=\"ql-align-center\">Reach out now</p>"
+        },
+        "questions": [
+          {
+            "answer": "<p>Ao comprar&nbsp;<strong data-stringify-type=\"bold\">dois produtos selecionados de uma seleção de produtos (Classic,Plus, Premium ou Exclusive)</strong>, você ganha um&nbsp;<strong data-stringify-type=\"bold\">terceiro item grátis</strong> da lista disponível. O desconto será aplicado automaticamente no checkout.</p>",
+            "question": "Como funciona a promoção?"
+          },
+          {
+            "answer": "<p>A promoção é válida para&nbsp;<strong>produtos selecionados</strong>. Você pode conferir a lista completa na página de cada seleção (Classic, Plus, Premium e Exclusive).</p>",
+            "question": "Quais produtos participam da promoção?"
+          },
+          {
+            "answer": "<p>Ao selecionar os produtos desejados, o item de&nbsp;<strong data-stringify-type=\"bold\">menor valor</strong>&nbsp;dentro da lista disponível ficará&nbsp;<strong data-stringify-type=\"bold\">gratuito no checkout</strong> de forma automática, sem necessidade de inserir cupom.</p>",
+            "question": "Como o desconto é aplicado?"
+          },
+          {
+            "answer": "<p>Não. O brinde deve ser escolhido entre os&nbsp;<strong>itens disponíveis nas listas específicas para brindes</strong>.</p><p>É importante destacar que essa lista é&nbsp;<strong>diferente</strong> da lista de produtos selecionados para a compra.</p>",
+            "question": "Posso escolher qualquer produto como brinde?"
+          },
+          {
+            "answer": "<p>Sim! A cada dois produtos pagos dentro de alguma das seleções de produtos (Classic, Plus, Premium e Exclusive), você pode ganhar um terceiro item grátis.</p>",
+            "question": "Posso participar mais de uma vez?"
+          },
+          {
+            "answer": "<p>Não. Esta promoção&nbsp;<strong data-stringify-type=\"bold\">não é cumulativa</strong> com outros descontos ou cupons.</p>",
+            "question": "A promoção é acumulativa?"
+          },
+          {
+            "answer": "<p>A promoção estará disponível por&nbsp;<strong data-stringify-type=\"bold\">tempo limitado</strong> ou enquanto durarem os estoques.</p>",
+            "question": "A promoção é válida por quanto tempo?"
+          },
+          {
+            "answer": "<p>Sim! Você pode comprar quantos produtos quiser. No entanto, a cada dois itens elegíveis para compra de cada seleção (Classic, Plus, Premium ou Exclusive), será possível incluir apenas um item gratuito.</p><p>Caso queira receber mais brindes, você pode incluir em seu carrinho mais itens elegíveis para compra de alguma seleção de produtos ou efetuar um novo pedido que esteja de acordo com as condições desta promoção.</p><p>É importante lembrar que os itens disponíveis como brinde variam de acordo com cada seleção.</p>",
+            "question": "Posso comprar mais de dois produtos?"
+          },
+          {
+            "answer": "<p>Consulte nossa&nbsp;<a href=\"https://www.truesource.com.br/politicas/frete-gratis\" data-mce-href=\"https://www.truesource.com.br/politicas/frete-gratis\"><strong data-stringify-type=\"bold\">Política de Frete</strong></a> para mais detalhes sobre prazos e valores.</p>",
+            "question": "Como funciona o frete da promoção?"
+          },
+          {
+            "answer": "<p>Consulte nossa&nbsp;<a href=\"https://www.truesource.com.br/politicas/devolucao\" data-mce-href=\"https://www.truesource.com.br/politicas/devolucao\"><strong data-stringify-type=\"bold\">Política de Trocas e Devoluções</strong></a> para mais informações.</p>",
+            "question": "O que acontece se eu quiser trocar ou devolver um dos produtos?"
+          }
+        ],
+        "description": "Your Questions Answered",
+        "titles": {
+          "upper": "FAQ - Promoção \"Leve 3, Pague 2\""
+        }
+      }
+    },
+    {
+      "__resolveType": "site/sections/ProductDescription/ProductSpace.tsx",
+      "size": "large",
+      "backgroundColor": "white"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Miscellaneous/Space.tsx"
+      }
+    },
+    {
+      "__resolveType": "Insider - Content Page"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

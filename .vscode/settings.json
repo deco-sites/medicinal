@@ -1,0 +1,56 @@
+{
+	"deno.enable": true,
+	"deno.lint": true,
+	"deno.unstable": true,
+	"deno.codeLens.test": true,
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.defaultFormatter": "denoland.vscode-deno",
+	"[markdown]": {
+		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "denoland.vscode-deno"
+	},
+	"[xml]": {
+		"editor.defaultFormatter": "redhat.vscode-xml"
+	},
+	"[tailwindcss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"cSpell.words": [
+		"alertul",
+		"benefitdot",
+		"Breadcrumblist",
+		"buttom",
+		"Ccircle",
+		"clientdomain",
+		"Cpath",
+		"divs",
+		"gdpr",
+		"itemprop",
+		"mobilepdp",
+		"neoassist",
+		"neoasssist",
+		"openned",
+		"optin",
+		"pageid",
+		"PROPERTIE",
+		"purchaseday",
+		"safedata",
+		"seach",
+		"truebrands",
+		"webp",
+		"zapzap"
+	]
+}

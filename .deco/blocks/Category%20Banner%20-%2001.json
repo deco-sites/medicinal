@@ -1,0 +1,23 @@
+{
+	"banners": [
+		{
+			"image": {
+				"alt": "Aplicar Promoção",
+				"mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/97617862-27ec-4552-afe6-72c971b29437/Design-sem-nome-(2).png",
+				"desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/9a290429-c69a-43ba-9e9a-2f40112dbea6/APLICAR-PROMOCAO.png"
+			},
+			"matcher": "/",
+			"subtitle": "Aplicação Promoção"
+		},
+		{
+			"image": {
+				"alt": "Aplicar Promoção",
+				"mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/97617862-27ec-4552-afe6-72c971b29437/Design-sem-nome-(2).png",
+				"desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/9a290429-c69a-43ba-9e9a-2f40112dbea6/APLICAR-PROMOCAO.png"
+			},
+			"matcher": "/*",
+			"subtitle": "Aplicação Promoção"
+		}
+	],
+	"__resolveType": "site/sections/Category/CategoryBanner.tsx"
+}

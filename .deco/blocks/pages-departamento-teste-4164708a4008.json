@@ -1,0 +1,98 @@
+{
+  "name": "Departamento - Teste",
+  "path": "/departamento-teste",
+  "sections": [
+    {
+      "title": " Mais vendidos",
+      "jsonLD": {
+        "sort": "release:desc",
+        "count": 16,
+        "fuzzy": "automatic",
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "184"
+          }
+        ]
+      },
+      "favicon": "https://data.decoassets.com/true-source/5391d137-2c39-44da-833e-a239e027dae0/1742235041208-8c790d4d-e385-4314-960e-1fab218ff224",
+      "description": " ",
+      "__resolveType": "site/sections/Search/SeoPLPMiddleware.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Carousel - 01"
+    },
+    {
+      "page": {
+        "sort": "release:desc",
+        "count": 16,
+        "fuzzy": "automatic",
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "184"
+          }
+        ]
+      },
+      "seals": [
+        {
+          "color": "#ffffff",
+          "label": "Mais vendidos",
+          "bgColor": "#e9530e",
+          "matcherType": "cluster",
+          "matcherTypeId": 184
+        },
+        {
+          "color": "#ffffff",
+          "label": "Produto 3665",
+          "bgColor": "#000000",
+          "matcherType": "product",
+          "matcherTypeId": 3665
+        },
+        {
+          "color": "#ffffff",
+          "label": "CATEGORIA 28",
+          "bgColor": "#ff0000",
+          "matcherType": "category",
+          "matcherTypeId": 28
+        },
+        {
+          "size": "32x32",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/24279592-6afd-4173-a3ea-d4b4c228689d/favicon.svg",
+          "label": "Selo com imagem",
+          "bgColor": "#ffffff",
+          "matcherType": "category",
+          "matcherTypeId": 20
+        }
+      ],
+      "layout": {
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside"
+      },
+      "titles": {
+        "titles": [
+          {
+            "title": "Mais vendidos",
+            "matcher": "/mais-vendidos"
+          }
+        ]
+      },
+      "sectionsSEO": {
+        "__resolveType": "Descrições do departamento"
+      },
+      "__resolveType": "site/sections/Product/SearchResult.tsx"
+    },
+    {
+      "__resolveType": "Footer - 04"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

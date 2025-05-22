@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/produtos/emagrecedores",
+		"from": "/produtos/emagrecedor---diuretico/termogenico",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

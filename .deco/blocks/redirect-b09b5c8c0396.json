@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/por-objetivo/emagrecimento",
+		"from": "/por-objetivo/perda-de-peso?O=OrderByTopSaleDESC?PS=12&O=OrderByTopSaleDESC",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

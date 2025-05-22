@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/produtos/barras-de-proteina", "from": "/true-whey-crunch", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

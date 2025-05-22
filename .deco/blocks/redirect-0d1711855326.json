@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/produtos/foco-e-energia", "from": "/produtos/energeticos", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

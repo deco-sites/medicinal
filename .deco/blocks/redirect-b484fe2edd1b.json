@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/por-objetivo/massa-muscular", "from": "/por-objetivo/hipertrofia", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

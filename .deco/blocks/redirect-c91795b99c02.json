@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/true-magnesio-inositol-relief-3-0-maracuja--300g-true-source/p",
+		"from": "/true-magnesio-inositol-relief-3-0-limao-300g-true-source/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

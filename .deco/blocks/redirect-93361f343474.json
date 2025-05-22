@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/por-objetivo/emagrecimento", "from": "/por-objetivo/perda-de-peso", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

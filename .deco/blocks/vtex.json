@@ -1,0 +1,18 @@
+{
+	"appKey": {
+		"name": "VTEX_APP_KEY",
+		"encrypted": "24024abca36fc78bef7920f3fe958105f3cf114e2f91a7e2b595f337416cd399",
+		"__resolveType": "website/loaders/secret.ts"
+	},
+	"account": "tfcucl",
+	"appToken": {
+		"name": "VTEX_APP_TOKEN",
+		"encrypted": "8e851f983fa96bd358310e2b0ee32a273d302407936faeb06223ac9966f43673ee02e543f10300658a0ecd5d6ee07ea59e7af831e5b1e584ac1f5cb7420482a55d388545f569cf9e496648fd12e10f922d6032c264c7c1720c506f5dd56f552ebf9c400ee508d2373b921aa082866b8b363895da9e2959a33b3daf4e53b1020deeccbe5cec6f416e421a615d1df0268a",
+		"__resolveType": "website/loaders/secret.ts"
+	},
+	"platform": "vtex",
+	"publicUrl": "secure.truesource.com.br",
+	"salesChannel": "1",
+	"__resolveType": "decohub/apps/vtex.ts",
+	"defaultSegment": { "channelPrivacy": "public" }
+}

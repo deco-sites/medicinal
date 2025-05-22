@@ -1,0 +1,6 @@
+{
+	"title": "Central de Atendimento",
+	"srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/7d560722-d281-44de-8c01-f14bc29151b1/TTA-BANNER-MOBILE.jpg",
+	"srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/dc1ddd56-2443-4b86-871c-a90743362516/TTA-BANNER-DESKTOP.jpg",
+	"__resolveType": "site/sections/CentralAtendimento/BannerCabecalho.tsx"
+}

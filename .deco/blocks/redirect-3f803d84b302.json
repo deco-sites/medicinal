@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/produtos/whey-protein", "from": "/true-whey-crunch-creme-brulee/p", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

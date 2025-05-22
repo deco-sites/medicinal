@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/produtos/vitaminas-e-minerais", "from": "/vitamina-d3-2000ui-60caps/p", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

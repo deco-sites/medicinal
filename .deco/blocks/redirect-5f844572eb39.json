@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/produtos/whey-protein",
+		"from": "/truewheyproteinstrawberrycheesecake837gtruesource/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

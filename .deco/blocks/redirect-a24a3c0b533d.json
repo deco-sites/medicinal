@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/true-vegan-crunch-chocolate-caixa/p",
+		"from": "/true-vegan-crunch-chocolate-caixa",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

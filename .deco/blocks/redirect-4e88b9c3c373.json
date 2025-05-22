@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/true-vegan-crunch-chocolate-unidade/p",
+		"from": "/true-vegan-crunch-chocolate-unidade",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

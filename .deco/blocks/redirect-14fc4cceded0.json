@@ -1,0 +1,4 @@
+{
+	"redirect": { "to": "/vestuario", "from": "/camisa-algodao-true-sorce-/p", "type": "permanent" },
+	"__resolveType": "website/loaders/redirect.ts"
+}

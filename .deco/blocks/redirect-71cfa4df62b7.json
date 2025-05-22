@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/true-whey-protein-chocolate-com-avela-418g-true-source/p",
+		"from": "/true-whey-protein-hidrolisado-e-isolado-1lb-chocolate-com-avela-2151-/p",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}

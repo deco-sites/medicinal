@@ -1,0 +1,8 @@
+{
+	"redirect": {
+		"to": "/true-fire---60-capsulas---true-source/p",
+		"from": "/termogenico-true-fire---60-capsulas---true-source-",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
+}
