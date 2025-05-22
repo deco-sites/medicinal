@@ -1,105 +1,103 @@
 import { JSX } from 'preact'
 
 interface PropsAboutGrid {
-  title: () => JSX.Element;
-  isMobile?: boolean;
+	title: () => JSX.Element
+	isMobile?: boolean
 }
 
 export function AboutGrid({ isMobile, title }: PropsAboutGrid) {
-  return (
-    <div className="max-w-[1135px] mx-auto mb-12 lg:mb-16">
-      <h2 className="font-lemon-milk text-[18px] lg:text-[24px] leading-[104%] lg:leading-none text-center uppercase text-dark font-bold mb-11 lg:mb-16">
-        {title()}
-      </h2>
+	return (
+		<div className='max-w-[1135px] mx-auto mb-12 lg:mb-16'>
+			<h2 className=' text-[18px] lg:text-[24px] leading-[104%] lg:leading-none text-center uppercase text-dark font-bold mb-11 lg:mb-16'>
+				{title()}
+			</h2>
 
-      <ul className="grid grid-cols-1 lg:grid-cols-2 gap-y-3.5 lg:gap-y-9 lg:gap-x-7 px-5 lg:px-0 lg:mb-16">
-        <li class="flex items-center relative bg-[#FFC23F] rounded-[23px] overflow-hidden">
-          <img
-            className="object-cover w-full h-full mix-blend-multiply"
-            loading="eager"
-            src="https://assets.decocache.com/true-source/647e9c53-794c-43d5-ab13-1ae098036359/magnesio-e-inositol.png"
-            alt=""
-            style={{
-              height: `${isMobile ? "197px " : "280px"}`,
-              opacity: "82%",
-            }}
-          />
-          <div className="absolute px-12 w-full">
-            <h4 className="font-lemon-milk text-[16px] lg:text-[24px] leading-none font-bold uppercase text-dark mb-6">
-              magnésio e inositol
-            </h4>
-            <p className="text-[14px] lg:text-[18px] leading-[1.6] font-medium text-[#1e1e1e]">
-              Contribuem para a saúde dos ossos, músculos, coração, intestino e
-              sistema nervoso, melhorando a comunicação neuronal.
-            </p>
-          </div>
-        </li>
+			<ul className='grid grid-cols-1 lg:grid-cols-2 gap-y-3.5 lg:gap-y-9 lg:gap-x-7 px-5 lg:px-0 lg:mb-16'>
+				<li class='flex items-center relative bg-[#FFC23F] rounded-[23px] overflow-hidden'>
+					<img
+						className='object-cover w-full h-full mix-blend-multiply'
+						loading='eager'
+						src='https://assets.decocache.com/true-source/647e9c53-794c-43d5-ab13-1ae098036359/magnesio-e-inositol.png'
+						alt=''
+						style={{
+							height: `${isMobile ? '197px ' : '280px'}`,
+							opacity: '82%',
+						}}
+					/>
+					<div className='absolute px-12 w-full'>
+						<h4 className=' text-[16px] lg:text-[24px] leading-none font-bold uppercase text-dark mb-6'>
+							magnésio e inositol
+						</h4>
+						<p className='text-[14px] lg:text-[18px] leading-[1.6] font-medium text-[#1e1e1e]'>
+							Contribuem para a saúde dos ossos, músculos, coração, intestino e sistema nervoso,
+							melhorando a comunicação neuronal.
+						</p>
+					</div>
+				</li>
 
-        <li class="flex items-center relative bg-[#CB9BFF] rounded-[23px] overflow-hidden">
-          <img
-            className="object-cover w-full h-full mix-blend-multiply"
-            loading="eager"
-            src="https://assets.decocache.com/true-source/f8173311-9c3e-4bb1-a1cd-9442572cf92f/melatonina.png"
-            alt=""
-            style={{
-              height: `${isMobile ? "161px " : "280px"}`,
-              opacity: "61%",
-            }}
-          />
-          <div className="absolute px-12 w-full">
-            <h4 className="font-lemon-milk text-[16px] lg:text-[24px] leading-none font-bold uppercase text-dark mb-6">
-              melatonina
-            </h4>
-            <p className="text-[14px] lg:text-[18px] leading-[1.6] font-medium text-[#1e1e1e]">
-              Auxilia no relaxamento, ajudando você a adormecer e proporcionando
-              um sono reparador.
-            </p>
-          </div>
-        </li>
+				<li class='flex items-center relative bg-[#CB9BFF] rounded-[23px] overflow-hidden'>
+					<img
+						className='object-cover w-full h-full mix-blend-multiply'
+						loading='eager'
+						src='https://assets.decocache.com/true-source/f8173311-9c3e-4bb1-a1cd-9442572cf92f/melatonina.png'
+						alt=''
+						style={{
+							height: `${isMobile ? '161px ' : '280px'}`,
+							opacity: '61%',
+						}}
+					/>
+					<div className='absolute px-12 w-full'>
+						<h4 className=' text-[16px] lg:text-[24px] leading-none font-bold uppercase text-dark mb-6'>
+							melatonina
+						</h4>
+						<p className='text-[14px] lg:text-[18px] leading-[1.6] font-medium text-[#1e1e1e]'>
+							Auxilia no relaxamento, ajudando você a adormecer e proporcionando um sono reparador.
+						</p>
+					</div>
+				</li>
 
-        <li class="flex items-center relative bg-[#7CC0FF] rounded-[23px] overflow-hidden">
-          <img
-            className="object-cover w-full h-full mix-blend-multiply"
-            loading="eager"
-            src="https://assets.decocache.com/true-source/91c72f42-25f8-4cda-829c-dffbfbd7761c/taurina.png"
-            alt=""
-            style={{
-              height: `${isMobile ? "142px " : "202px"}`,
-              opacity: "81%",
-            }}
-          />
-          <div className="absolute px-12 w-full">
-            <h4 className="font-lemon-milk text-[16px] lg:text-[24px] leading-none font-bold uppercase text-dark mb-6">
-              taurina
-            </h4>
-            <p className="text-[14px] lg:text-[18px] leading-[1.6] font-medium text-[#1e1e1e]">
-              Atua como um agente inibitório do Sistema Nervoso Central,
-              promovendo relaxamento.
-            </p>
-          </div>
-        </li>
+				<li class='flex items-center relative bg-[#7CC0FF] rounded-[23px] overflow-hidden'>
+					<img
+						className='object-cover w-full h-full mix-blend-multiply'
+						loading='eager'
+						src='https://assets.decocache.com/true-source/91c72f42-25f8-4cda-829c-dffbfbd7761c/taurina.png'
+						alt=''
+						style={{
+							height: `${isMobile ? '142px ' : '202px'}`,
+							opacity: '81%',
+						}}
+					/>
+					<div className='absolute px-12 w-full'>
+						<h4 className=' text-[16px] lg:text-[24px] leading-none font-bold uppercase text-dark mb-6'>
+							taurina
+						</h4>
+						<p className='text-[14px] lg:text-[18px] leading-[1.6] font-medium text-[#1e1e1e]'>
+							Atua como um agente inibitório do Sistema Nervoso Central, promovendo relaxamento.
+						</p>
+					</div>
+				</li>
 
-        <li class="flex items-center relative bg-[#D1D1D1] rounded-[23px] overflow-hidden">
-          <img
-            className="object-cover w-full h-full mix-blend-multiply"
-            loading="eager"
-            src="https://assets.decocache.com/true-source/66daad04-57bc-4a8a-acfe-2d5deebe39ac/glicina.png"
-            alt=""
-            style={{ height: `${isMobile ? "142px " : "202px"}` }}
-          />
-          <div className="absolute px-12 w-full">
-            <h4 className="font-lemon-milk text-[16px] lg:text-[24px] leading-none font-bold uppercase text-dark mb-6">
-              glicina
-            </h4>
-            <p className="text-[14px] lg:text-[18px] leading-[1.6] font-medium text-[#1e1e1e]">
-              Beneficia a saúde gastrointestinal, especialmente a mucosa
-              intestinal.
-            </p>
-          </div>
-        </li>
-      </ul>
+				<li class='flex items-center relative bg-[#D1D1D1] rounded-[23px] overflow-hidden'>
+					<img
+						className='object-cover w-full h-full mix-blend-multiply'
+						loading='eager'
+						src='https://assets.decocache.com/true-source/66daad04-57bc-4a8a-acfe-2d5deebe39ac/glicina.png'
+						alt=''
+						style={{ height: `${isMobile ? '142px ' : '202px'}` }}
+					/>
+					<div className='absolute px-12 w-full'>
+						<h4 className=' text-[16px] lg:text-[24px] leading-none font-bold uppercase text-dark mb-6'>
+							glicina
+						</h4>
+						<p className='text-[14px] lg:text-[18px] leading-[1.6] font-medium text-[#1e1e1e]'>
+							Beneficia a saúde gastrointestinal, especialmente a mucosa intestinal.
+						</p>
+					</div>
+				</li>
+			</ul>
 
-      {/* <div className="hidden lg:block max-w-[800px] mx-auto">
+			{
+				/* <div className="hidden lg:block max-w-[800px] mx-auto">
         <div className="flex items-center gap-8 pb-[60px] border-b border-solid border-[#D2D2D2]">
           <div className="flex items-center justify-center w-[76px] h-[76px] rounded-lg bg-[#F0F0EE]">
             <svg
@@ -122,7 +120,8 @@ export function AboutGrid({ isMobile, title }: PropsAboutGrid) {
             artificiais, sem glúten e lactose, livre de açúcares e polióis.
           </p>
         </div>
-      </div> */}
-    </div>
-  );
+      </div> */
+			}
+		</div>
+	)
 }

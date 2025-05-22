@@ -1,144 +1,144 @@
 {
-  "name": "Política de Entrega",
-  "path": "/politicas/entrega",
-  "sections": [
-    {
-      "canonical": "https://www.truesource.com.br/politicas/entrega",
-      "noIndexing": false,
-      "__resolveType": "website/sections/Seo/Seo.tsx"
-    },
-    {
-      "__resolveType": "Header - 01"
-    },
-    {
-      "__resolveType": "Banner Central de Atendimento"
-    },
-    {
-      "loader": {
-        "__resolveType": "Navegações Central de Atendimento"
-      },
-      "sections": [
-        {
-          "__resolveType": "website/sections/Rendering/Lazy.tsx",
-          "section": {
-            "__resolveType": "site/sections/CentralAtendimento/CardsTitleSimple.tsx",
-            "contentTitleSimple": "POLÍTICA DE ENTREGA"
-          }
-        },
-        {
-          "__resolveType": "website/sections/Rendering/Lazy.tsx",
-          "section": {
-            "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
-            "sections": [
-              {
-                "__resolveType": "website/sections/Rendering/Lazy.tsx",
-                "section": {
-                  "__resolveType": "site/sections/Content/RichText.tsx",
-                  "text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">1. Horários de Entrega</span></strong><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">A True Source realiza suas entregas de segunda a sexta-feira, em parceria com serviços de entrega, das 8h às 18h.</p>"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "__resolveType": "website/sections/Rendering/Lazy.tsx",
-          "section": {
-            "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
-            "sections": [
-              {
-                "__resolveType": "website/sections/Rendering/Lazy.tsx",
-                "section": {
-                  "__resolveType": "site/sections/Content/RichText.tsx",
-                  "text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">2. Prazo de Entrega</span></strong></p><p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><br data-mce-bogus=\"1\"></span></strong></p><p dir=\"ltr\">O prazo de entrega dos pedidos varia conforme o endereço informado e o parceiro escolhido para realizar a entrega. Esse prazo começa a contar a partir da aprovação do pagamento.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><strong>2.1. Prazo de Entrega Expirado</strong></p><p dir=\"ltr\">Normalmente, a maioria dos pedidos é entregue dentro do prazo informado no ato da compra. No entanto, em alguns casos, os pedidos podem ser entregues após a data estimada por motivos alheios ao nosso controle, como:</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Endereço cadastrado incorretamente;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Informações incompletas, como número da rua ou apartamento;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Problemas no pagamento, como recusas ou falhas;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Condições meteorológicas adversas;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Inspeções de rotina pelas autoridades fiscais;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Problemas técnicos inesperados no processamento do pedido;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Intercorrências com os parceiros de entrega (ex.: greve dos Correios, extravio de mercadorias, entre outros).</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Caso o prazo de entrega seja ultrapassado, recomendamos que entre em contato com nossa central de atendimento para averiguar a situação.</p>"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "__resolveType": "website/sections/Rendering/Lazy.tsx",
-          "section": {
-            "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
-            "sections": [
-              {
-                "__resolveType": "website/sections/Rendering/Lazy.tsx",
-                "section": {
-                  "__resolveType": "site/sections/Content/RichText.tsx",
-                  "text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">3. Recebimento da Mercadoria</span></strong></p><p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><br data-mce-bogus=\"1\"></span></strong></p><p dir=\"ltr\">É indispensável que, no endereço indicado, haja uma pessoa maior de 18 anos, autorizada pelo comprador, com documento de identificação, para receber a mercadoria e assinar o protocolo. Realizamos até três tentativas de entrega. Se todas as tentativas falharem, o pedido retornará ao Centro de Distribuição da True Source.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><strong>3.1. Recebimento Não Reconhecido</strong></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Se o pedido constar como entregue, mas o cliente não reconhecer o recebimento, solicitamos que entre em contato com nossa central de atendimento assim que identificar a irregularidade, para que todas as análises necessárias sejam realizadas.</p>"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "__resolveType": "website/sections/Rendering/Lazy.tsx",
-          "section": {
-            "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
-            "sections": [
-              {
-                "__resolveType": "website/sections/Rendering/Lazy.tsx",
-                "section": {
-                  "__resolveType": "site/sections/Content/RichText.tsx",
-                  "text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">4. Modalidade de Entrega</span></strong></p><p><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Nossas entregas são realizadas por transportadoras especializadas e pelos Correios. A modalidade é escolhida pelo cliente no momento da realização do pedido.</p>"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "__resolveType": "website/sections/Rendering/Lazy.tsx",
-          "section": {
-            "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
-            "sections": [
-              {
-                "__resolveType": "website/sections/Rendering/Lazy.tsx",
-                "section": {
-                  "__resolveType": "site/sections/Content/RichText.tsx",
-                  "text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">5. Taxas de Entrega</span></strong></p><p><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Os valores de entrega são calculados com base no CEP de destino e na modalidade escolhida no momento da compra.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><strong>5.1. Cobrança Indevida de Frete</strong></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Se identificar uma cobrança em casos que deveriam ter frete grátis (<span style=\"text-decoration: underline; color: rgb(224, 62, 45);\" data-mce-style=\"text-decoration: underline; color: rgb(224, 62, 45);\"><a data-mce-href=\"https://www.truesource.com.br/politicas/frete-gratis\" href=\"https://www.truesource.com.br/politicas/frete-gratis\" style=\"color: rgb(224, 62, 45); text-decoration: underline;\" data-mce-style=\"color: rgb(224, 62, 45); text-decoration: underline;\" data-mce-selected=\"inline-boundary\">veja política de frete grátis</a></span>), sugerimos acionar nossa central de atendimento para verificação.</p>"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "__resolveType": "website/sections/Rendering/Lazy.tsx",
-          "section": {
-            "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
-            "sections": [
-              {
-                "__resolveType": "website/sections/Rendering/Lazy.tsx",
-                "section": {
-                  "__resolveType": "site/sections/Content/RichText.tsx",
-                  "text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">6. Endereço de Entrega</span></strong></p><p><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Recomendamos que o endereço de entrega seja informado de maneira clara e completa, para garantir que o envio ocorra corretamente. Verifique todos os dados antes de finalizar a compra.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><strong>6.1. Alteração de Endereço no Cadastro</strong></p><p dir=\"ltr\"><strong><br data-mce-bogus=\"1\"></strong></p><p dir=\"ltr\">Caso o pedido ainda não tenha sido finalizado, basta acessar sua conta, entrar no perfil, selecionar “endereços” e clicar em “editar” para fazer as alterações necessárias, que serão válidas para compras futuras.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><strong>6.2. Alteração de Endereço após a Finalização da Compra</strong></p><p dir=\"ltr\"><strong><br data-mce-bogus=\"1\"></strong></p><p dir=\"ltr\">Após a conclusão do pedido, não será possível alterar o endereço de entrega. Se o endereço informado estiver incorreto, entre em contato com o atendimento ao cliente para solicitar o cancelamento da compra e realizar um novo pedido.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Caso o pedido já esteja em rota de entrega e o endereço seja conhecido pelo cliente, solicite que o receptor recuse a entrega. Se o pedido foi enviado para um endereço inacessível, entre em contato com a central de atendimento para avaliação do caso.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Se a encomenda for entregue no endereço incorreto, não será possível reverter a situação.</p>"
-                }
-              }
-            ]
-          }
-        },
-        {
-          "__resolveType": "website/sections/Rendering/Lazy.tsx",
-          "section": {
-            "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
-            "sections": [
-              {
-                "__resolveType": "website/sections/Rendering/Lazy.tsx",
-                "section": {
-                  "__resolveType": "site/sections/Content/RichText.tsx",
-                  "text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">7. Acompanhamento da Entrega</span></strong></p><p><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">O cliente pode acompanhar o status da encomenda diretamente no site da True Source. Para isso, basta acessar \"Meu Perfil\", no canto superior direito da página, fazer o login e clicar em “Pedidos”, onde todas as informações estarão disponíveis. Se precisar de mais esclarecimentos, entre em contato com nossa central de atendimento.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Além disso, você receberá atualizações sobre o status da encomenda por e-mail e WhatsApp.</p>"
-                }
-              }
-            ]
-          }
-        }
-      ],
-      "__resolveType": "site/sections/CentralAtendimento/NavigationPage.tsx"
-    },
-    {
-      "__resolveType": "Footer - 04"
-    },
-    {
-      "__resolveType": "Insider - Content Page"
-    }
-  ],
-  "__resolveType": "website/pages/Page.tsx"
+	"name": "Política de Entrega",
+	"path": "/politicas/entrega",
+	"sections": [
+		{
+			"canonical": "https://www.truesource.com.br/politicas/entrega",
+			"noIndexing": false,
+			"__resolveType": "website/sections/Seo/Seo.tsx"
+		},
+		{
+			"__resolveType": "Header - 01"
+		},
+		{
+			"__resolveType": "Banner Central de Atendimento"
+		},
+		{
+			"loader": {
+				"__resolveType": "Navegações Central de Atendimento"
+			},
+			"sections": [
+				{
+					"__resolveType": "website/sections/Rendering/Lazy.tsx",
+					"section": {
+						"__resolveType": "site/sections/CentralAtendimento/CardsTitleSimple.tsx",
+						"contentTitleSimple": "POLÍTICA DE ENTREGA"
+					}
+				},
+				{
+					"__resolveType": "website/sections/Rendering/Lazy.tsx",
+					"section": {
+						"__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
+						"sections": [
+							{
+								"__resolveType": "website/sections/Rendering/Lazy.tsx",
+								"section": {
+									"__resolveType": "site/sections/Content/RichText.tsx",
+									"text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">1. Horários de Entrega</span></strong><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">A True Source realiza suas entregas de segunda a sexta-feira, em parceria com serviços de entrega, das 8h às 18h.</p>"
+								}
+							}
+						]
+					}
+				},
+				{
+					"__resolveType": "website/sections/Rendering/Lazy.tsx",
+					"section": {
+						"__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
+						"sections": [
+							{
+								"__resolveType": "website/sections/Rendering/Lazy.tsx",
+								"section": {
+									"__resolveType": "site/sections/Content/RichText.tsx",
+									"text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">2. Prazo de Entrega</span></strong></p><p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><br data-mce-bogus=\"1\"></span></strong></p><p dir=\"ltr\">O prazo de entrega dos pedidos varia conforme o endereço informado e o parceiro escolhido para realizar a entrega. Esse prazo começa a contar a partir da aprovação do pagamento.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><strong>2.1. Prazo de Entrega Expirado</strong></p><p dir=\"ltr\">Normalmente, a maioria dos pedidos é entregue dentro do prazo informado no ato da compra. No entanto, em alguns casos, os pedidos podem ser entregues após a data estimada por motivos alheios ao nosso controle, como:</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Endereço cadastrado incorretamente;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Informações incompletas, como número da rua ou apartamento;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Problemas no pagamento, como recusas ou falhas;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Condições meteorológicas adversas;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Inspeções de rotina pelas autoridades fiscais;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Problemas técnicos inesperados no processamento do pedido;</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><span style=\"font-size: 8pt;\" data-mce-style=\"font-size: 8pt;\">●</span><strong>‎ ‎ ‎&nbsp;</strong>Intercorrências com os parceiros de entrega (ex.: greve dos Correios, extravio de mercadorias, entre outros).</p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\" role=\"presentation\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Caso o prazo de entrega seja ultrapassado, recomendamos que entre em contato com nossa central de atendimento para averiguar a situação.</p>"
+								}
+							}
+						]
+					}
+				},
+				{
+					"__resolveType": "website/sections/Rendering/Lazy.tsx",
+					"section": {
+						"__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
+						"sections": [
+							{
+								"__resolveType": "website/sections/Rendering/Lazy.tsx",
+								"section": {
+									"__resolveType": "site/sections/Content/RichText.tsx",
+									"text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">3. Recebimento da Mercadoria</span></strong></p><p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><br data-mce-bogus=\"1\"></span></strong></p><p dir=\"ltr\">É indispensável que, no endereço indicado, haja uma pessoa maior de 18 anos, autorizada pelo comprador, com documento de identificação, para receber a mercadoria e assinar o protocolo. Realizamos até três tentativas de entrega. Se todas as tentativas falharem, o pedido retornará ao Centro de Distribuição da True Source.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><strong>3.1. Recebimento Não Reconhecido</strong></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Se o pedido constar como entregue, mas o cliente não reconhecer o recebimento, solicitamos que entre em contato com nossa central de atendimento assim que identificar a irregularidade, para que todas as análises necessárias sejam realizadas.</p>"
+								}
+							}
+						]
+					}
+				},
+				{
+					"__resolveType": "website/sections/Rendering/Lazy.tsx",
+					"section": {
+						"__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
+						"sections": [
+							{
+								"__resolveType": "website/sections/Rendering/Lazy.tsx",
+								"section": {
+									"__resolveType": "site/sections/Content/RichText.tsx",
+									"text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">4. Modalidade de Entrega</span></strong></p><p><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Nossas entregas são realizadas por transportadoras especializadas e pelos Correios. A modalidade é escolhida pelo cliente no momento da realização do pedido.</p>"
+								}
+							}
+						]
+					}
+				},
+				{
+					"__resolveType": "website/sections/Rendering/Lazy.tsx",
+					"section": {
+						"__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
+						"sections": [
+							{
+								"__resolveType": "website/sections/Rendering/Lazy.tsx",
+								"section": {
+									"__resolveType": "site/sections/Content/RichText.tsx",
+									"text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">5. Taxas de Entrega</span></strong></p><p><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Os valores de entrega são calculados com base no CEP de destino e na modalidade escolhida no momento da compra.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><strong>5.1. Cobrança Indevida de Frete</strong></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Se identificar uma cobrança em casos que deveriam ter frete grátis (<span style=\"text-decoration: underline; color: rgb(224, 62, 45);\" data-mce-style=\"text-decoration: underline; color: rgb(224, 62, 45);\"><a data-mce-href=\"https://www.truesource.com.br/politicas/frete-gratis\" href=\"https://www.truesource.com.br/politicas/frete-gratis\" style=\"color: rgb(224, 62, 45); text-decoration: underline;\" data-mce-style=\"color: rgb(224, 62, 45); text-decoration: underline;\" data-mce-selected=\"inline-boundary\">veja política de frete grátis</a></span>), sugerimos acionar nossa central de atendimento para verificação.</p>"
+								}
+							}
+						]
+					}
+				},
+				{
+					"__resolveType": "website/sections/Rendering/Lazy.tsx",
+					"section": {
+						"__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
+						"sections": [
+							{
+								"__resolveType": "website/sections/Rendering/Lazy.tsx",
+								"section": {
+									"__resolveType": "site/sections/Content/RichText.tsx",
+									"text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">6. Endereço de Entrega</span></strong></p><p><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Recomendamos que o endereço de entrega seja informado de maneira clara e completa, para garantir que o envio ocorra corretamente. Verifique todos os dados antes de finalizar a compra.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><strong>6.1. Alteração de Endereço no Cadastro</strong></p><p dir=\"ltr\"><strong><br data-mce-bogus=\"1\"></strong></p><p dir=\"ltr\">Caso o pedido ainda não tenha sido finalizado, basta acessar sua conta, entrar no perfil, selecionar “endereços” e clicar em “editar” para fazer as alterações necessárias, que serão válidas para compras futuras.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\"><strong>6.2. Alteração de Endereço após a Finalização da Compra</strong></p><p dir=\"ltr\"><strong><br data-mce-bogus=\"1\"></strong></p><p dir=\"ltr\">Após a conclusão do pedido, não será possível alterar o endereço de entrega. Se o endereço informado estiver incorreto, entre em contato com o atendimento ao cliente para solicitar o cancelamento da compra e realizar um novo pedido.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Caso o pedido já esteja em rota de entrega e o endereço seja conhecido pelo cliente, solicite que o receptor recuse a entrega. Se o pedido foi enviado para um endereço inacessível, entre em contato com a central de atendimento para avaliação do caso.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Se a encomenda for entregue no endereço incorreto, não será possível reverter a situação.</p>"
+								}
+							}
+						]
+					}
+				},
+				{
+					"__resolveType": "website/sections/Rendering/Lazy.tsx",
+					"section": {
+						"__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx",
+						"sections": [
+							{
+								"__resolveType": "website/sections/Rendering/Lazy.tsx",
+								"section": {
+									"__resolveType": "site/sections/Content/RichText.tsx",
+									"text": "<p><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">7. Acompanhamento da Entrega</span></strong></p><p><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">O cliente pode acompanhar o status da encomenda diretamente no site da True Source. Para isso, basta acessar \"Meu Perfil\", no canto superior direito da página, fazer o login e clicar em “Pedidos”, onde todas as informações estarão disponíveis. Se precisar de mais esclarecimentos, entre em contato com nossa central de atendimento.</p><p dir=\"ltr\"><br data-mce-bogus=\"1\"></p><p dir=\"ltr\">Além disso, você receberá atualizações sobre o status da encomenda por e-mail e WhatsApp.</p>"
+								}
+							}
+						]
+					}
+				}
+			],
+			"__resolveType": "site/sections/CentralAtendimento/NavigationPage.tsx"
+		},
+		{
+			"__resolveType": "Footer - 04"
+		},
+		{
+			"__resolveType": "Insider - Content Page"
+		}
+	],
+	"__resolveType": "website/pages/Page.tsx"
 }

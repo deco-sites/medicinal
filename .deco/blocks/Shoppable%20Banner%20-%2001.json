@@ -1,53 +1,53 @@
 {
-  "link": {
-    "href": "/feminino",
-    "text": "Explore collection",
-    "layout": {
-      "position": "justify-center"
-    }
-  },
-  "pins": [
-    {
-      "link": "/feminino",
-      "label": "Glasses",
-      "mobile": {
-        "x": 12,
-        "y": 59
-      },
-      "desktop": {
-        "x": 7,
-        "y": 60
-      }
-    },
-    {
-      "link": "/feminino",
-      "label": "Bag",
-      "mobile": {
-        "x": 30,
-        "y": 30
-      },
-      "desktop": {
-        "x": 30,
-        "y": 30
-      }
-    }
-  ],
-  "text": {
-    "layout": {
-      "position": "text-center"
-    },
-    "content": "Your description"
-  },
-  "image": {
-    "mobile": "https://data.decoassets.com/true-source/4a17f902-38e1-419d-9c9d-db5906f7c3c8/1742235043160-23be366c-fa07-4520-9338-387ce77acabb",
-    "altText": "a",
-    "desktop": "https://data.decoassets.com/true-source/7a982dd2-5934-4dc5-bf44-e687146b6b29/1742235114834-b79dcfc0-45b8-40c4-a3ba-310e66995529"
-  },
-  "title": {
-    "layout": {
-      "position": "justify-center"
-    },
-    "content": "Awesome collection "
-  },
-  "__resolveType": "site/sections/Images/ShoppableBanner.tsx"
+	"link": {
+		"href": "/feminino",
+		"text": "Explore collection",
+		"layout": {
+			"position": "justify-center"
+		}
+	},
+	"pins": [
+		{
+			"link": "/feminino",
+			"label": "Glasses",
+			"mobile": {
+				"x": 12,
+				"y": 59
+			},
+			"desktop": {
+				"x": 7,
+				"y": 60
+			}
+		},
+		{
+			"link": "/feminino",
+			"label": "Bag",
+			"mobile": {
+				"x": 30,
+				"y": 30
+			},
+			"desktop": {
+				"x": 30,
+				"y": 30
+			}
+		}
+	],
+	"text": {
+		"layout": {
+			"position": "text-center"
+		},
+		"content": "Your description"
+	},
+	"image": {
+		"mobile": "https://data.decoassets.com/true-source/4a17f902-38e1-419d-9c9d-db5906f7c3c8/1742235043160-23be366c-fa07-4520-9338-387ce77acabb",
+		"altText": "a",
+		"desktop": "https://data.decoassets.com/true-source/7a982dd2-5934-4dc5-bf44-e687146b6b29/1742235114834-b79dcfc0-45b8-40c4-a3ba-310e66995529"
+	},
+	"title": {
+		"layout": {
+			"position": "justify-center"
+		},
+		"content": "Awesome collection "
+	},
+	"__resolveType": "site/sections/Images/ShoppableBanner.tsx"
 }

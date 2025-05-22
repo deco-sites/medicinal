@@ -1,6 +1,6 @@
 {
-  "title": "CENTRAL DE ATENDIMENTO",
-  "srcMobile": "https://data.decoassets.com/true-source/103f5e7c-fdc3-4507-9eb0-54666a4a82ca/1742235041722-7754f59f-9308-446e-8857-aa0d494e5dc4",
-  "srcDesktop": "https://data.decoassets.com/true-source/dd448488-2139-4998-99fd-74ef83bec402/1742235049679-05826595-1f82-46c4-b29f-4afcc42c320a",
-  "__resolveType": "site/sections/CentralAtendimento/CabecalhoCentralAtendimento.tsx"
+	"title": "CENTRAL DE ATENDIMENTO",
+	"srcMobile": "https://data.decoassets.com/true-source/103f5e7c-fdc3-4507-9eb0-54666a4a82ca/1742235041722-7754f59f-9308-446e-8857-aa0d494e5dc4",
+	"srcDesktop": "https://data.decoassets.com/true-source/dd448488-2139-4998-99fd-74ef83bec402/1742235049679-05826595-1f82-46c4-b29f-4afcc42c320a",
+	"__resolveType": "site/sections/CentralAtendimento/CabecalhoCentralAtendimento.tsx"
 }

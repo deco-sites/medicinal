@@ -44,11 +44,11 @@ function CardsWithCta({ title, cta, cards, description }: Props) {
 			{title && (
 				<RenderHTML
 					html={title}
-					class='text-dark font-bold text-2xl md:text-[40px] uppercase font-lemon-milk md:leading-[42px] [&_strong]:text-red text-center'
+					class='text-dark font-bold text-2xl md:text-[40px] uppercase  md:leading-[42px] [&_strong]:text-red text-center'
 				/>
 			)}
 			{description && (
-				<h2 class='font-lemon-milk text-dark font-bold text-center text-[18px] leading-[24px] mt-6'>
+				<h2 class=' text-dark font-bold text-center text-[18px] leading-[24px] mt-6'>
 					{description}
 				</h2>
 			)}
@@ -68,7 +68,7 @@ function CardsWithCta({ title, cta, cards, description }: Props) {
 									alt='icon'
 								/>
 								<h3
-									class={`uppercase font-bold font-lemon-milk mt-[27px] text-center ${
+									class={`uppercase font-bold  mt-[27px] text-center ${
 										card.hasGradientColor &&
 										'fontWithGradient text-[14px] md:text-[18px]'
 									}`}
@@ -104,7 +104,7 @@ function CardsWithCta({ title, cta, cards, description }: Props) {
 			{cta && (
 				<a
 					href={cta.url}
-					class='flex items-center gap-[10px] uppercase font-lemon-milk font-bold text-[13px] leading-[17px] text-ice py-[15px] px-6 rounded-full 
+					class='flex items-center gap-[10px] uppercase  font-bold text-[13px] leading-[17px] text-ice py-[15px] px-6 rounded-full 
           bg-gradient-to-r from-[#E4003F] from-35% to-[#e8530e] to-90% max-w-fit group hover:bg-white border 
           border-transparent hover:border-red hover:fontWithGradient cursor-pointer max-h-[40px] mt-6 md:mt-10'
 				>

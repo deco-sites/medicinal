@@ -15,11 +15,11 @@ export async function getDepartmentCategories(url: string) {
 		return match && match[1]
 	}
 
-	function getCategory(url: string) {
-		const { pathname } = new URL(url)
-		const match = pathname.match(/^\/[^/]+\/([^/]+)/)
-		return match && match[1]
-	}
+	// function getCategory(url: string) {
+	// 	const { pathname } = new URL(url)
+	// 	const match = pathname.match(/^\/[^/]+\/([^/]+)/)
+	// 	return match && match[1]
+	// }
 
 	const departmentName = getDepartment(url)
 	if (!departmentName) return []

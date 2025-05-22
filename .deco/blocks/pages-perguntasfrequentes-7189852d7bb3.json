@@ -1,135 +1,135 @@
 {
-  "name": "Perguntas Frequentes",
-  "path": "/perguntas-frequentes",
-  "sections": [
-    {
-      "canonical": "https://www.truesource.com.br/perguntas-frequentes",
-      "__resolveType": "website/sections/Seo/Seo.tsx"
-    },
-    {
-      "__resolveType": "Header - 01"
-    },
-    {
-      "__resolveType": "Banner Central de Atendimento"
-    },
-    {
-      "loader": {
-        "__resolveType": "Navegações Central de Atendimento"
-      },
-      "sections": [
-        {
-          "__resolveType": "site/sections/CentralAtendimento/CardsTitleSimple.tsx",
-          "contentTitleSimple": "PERGUNTAS FREQUENTES"
-        },
-        {
-          "tags": [],
-          "layout": {
-            "variation": "Full",
-            "headerAlignment": "center"
-          },
-          "questions": [
-            {
-              "tag": "",
-              "answer": "<p>A principal função do&nbsp;<a href=\"https://www.truesource.com.br/produtos/whey-protein\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/whey-protein\">Whey Protein</a>&nbsp;é a de complementar as necessidades diárias de proteínas do nosso organismo, suprindo o que não é obtido pela alimentação. Além disso, auxilia no processo de aumento de massa muscular (<a href=\"https://www.truesource.com.br/por-objetivo/massa-muscular\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/por-objetivo/massa-muscular\">hipertrofia</a>) e reparação dos músculos.</p><p>Outras funções podem ser atribuídas à suplementação com True Whey Protein, como&nbsp;<strong class=\"bold\">redução de gordura corporal e auxílio na redução de doenças cardiovasculares</strong>.</p><p>A sua composição ainda estimula uma série de mecanismos e sistemas do metabolismo. Mas, lembre: esses benefícios atribuídos ao consumo do Whey Protein são analisados quando se há uma rotina de hábitos saudáveis, com uma boa alimentação e a prática de exercícios físicos.</p>",
-              "question": "Para que serve o True Whey Protein?"
-            },
-            {
-              "tag": "",
-              "answer": "<p>Ao aquecer o Whey Protein, ocorre um processo chamado desnaturação. Com isso, a alteração da molécula proteica pode alterar o arranjo dos seus&nbsp;<a href=\"https://www.truesource.com.br/produtos/aminoacidos\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/aminoacidos\">aminoácidos&nbsp;</a>e até o rompimento da cadeia molecular.</p><p>Quanto maior a temperatura e o tempo que o Whey Protein for exposto a ela, maior será a desnaturação. No entanto, a própria digestão provoca a desnaturação da proteína para que ela seja absorvida pelo organismo. Não há, portanto, perda de proteína significativa.</p><p>Aquecer o Whey leva à formação de substância oxidantes, o que&nbsp;<strong>enfraquece o poder antioxidante do suplemento</strong>.</p><p>A dica é: se você pretende usar o Whey Protein em receitas aquecidas, tente expô-lo o menor tempo possível às altas temperaturas e aumente o consumo de antioxidantes, presentes em frutas vermelhas, chá verde e castanhas – um nutricionista é o melhor profissional para tais indicações!</p>",
-              "question": "Aquecer o True Whey Protein perde suas propriedades?"
-            },
-            {
-              "tag": "",
-              "answer": "<p>O suplemento alimentar jamais poderá substituir uma refeição completa ao longo do dia. Uma dieta com Whey Protein efetiva e saudável é quando o produto&nbsp;<strong>complementa a sua alimentação e não substitui uma alimentação do dia</strong>.</p><p>Dessa maneira, você garante a quantidade de proteínas que seu corpo precisará depois de exercícios físicos mais intensos.</p>",
-              "question": "Whey Protein substitui a refeição?"
-            },
-            {
-              "tag": "",
-              "answer": "<p>O Whey Protein é um forte aliado na diminuição do apetite. As proteínas do leite estimulam a liberação de um hormônio que dá sensação de saciedade.</p><p>Além disso, o&nbsp;<a href=\"https://www.truesource.com.br/produtos/whey-protein\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/whey-protein\">Whey Protein</a>&nbsp;também exige uma digestão mais lenta, o que impede que se sinta fome após sua ingestão. Porém, a&nbsp;<strong>alimentação regrada precisa estar aliada aos benefícios do suplemento</strong> para que o objetivo do emagrecimento seja conquistado e mantido.</p>",
-              "question": "Whey protein reduz o apetite?"
-            },
-            {
-              "tag": "",
-              "answer": "<p>Sim, o&nbsp;<a href=\"https://www.truesource.com.br/produtos/proteina-vegana?PS=12&amp;O=OrderByPriceASC\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/proteina-vegana?PS=12&amp;O=OrderByPriceASC\">True Vegan</a>&nbsp;contempla 23g de proteína orgânica e de fonte vegetal (arroz e ervilha). O perfil de aminoácidos é completo e planejado para proporcionar hipertrofia (aumento e desenvolvimento) da massa muscular.</p><p>O ideal é tomar&nbsp;<strong>1 dose diluída em 250ml de água&nbsp;</strong>logo após o seu treino de musculação e de corrida.</p>",
-              "question": "O True Vegan pode ser usado para ganho de massa muscular?"
-            },
-            {
-              "tag": "",
-              "answer": "<p>O Whey Protein não engorda e nem emagrece, mas pode ser utilizado como parte da estratégia para alcançar ambos objetivos.</p><p>No entanto, assim como qualquer outro alimento,&nbsp;<strong>se ingerido em excesso, pode acarretar em ganho de peso</strong>. Recomendamos sempre um auxílio do médico ou nutricionista para que ele indique a melhor forma de consumo.</p>",
-              "question": "O Whey Protein engorda?"
-            },
-            {
-              "tag": "",
-              "answer": "<p>Sim, o True Whey neutro possui apenas proteína isolada e hidrolisada, peptídeos de colágeno Verisol e TCM (triglicerídeos de cadeia média).</p>",
-              "question": "Existe Whey Protein que não seja adoçado?"
-            },
-            {
-              "tag": "",
-              "answer": "<p>Não. As <a data-mce-href=\"https://www.truesource.com.br/produtos/whey-protein\" href=\"https://www.truesource.com.br/produtos/whey-protein\" data-mce-selected=\"inline-boundary\">opções do True Whey Protein</a> disponíveis em nosso site são gluten free. Ou seja, além de não possuírem adoçantes, aromatizantes e corantes artificiais, o suplemento é livre glúten.﻿</p>",
-              "question": "O True Whey Protein contém glúten?"
-            },
-            {
-              "tag": "",
-              "answer": "<p>O produto não tem soja nem derivados em sua formulação. De acordo com a legislação, toda empresa do setor alimentício deve colocar em seus rótulos o alerta sobre a&nbsp;<strong>possibilidade de conter traços de soja</strong>, uma vez que, num mesmo maquinário ou num próximo, ocorra a produção de produto com soja.</p><p>Assim, reiteramos que o Whey Protein da True Source não contém soja em sua formulação.</p>",
-              "question": "Whey Protein da True Source possui soja ou derivados do grão?"
-            },
-            {
-              "tag": "",
-              "answer": "<p>São 2,5 miligramas por dose de True Whey Protein. A presença do colágeno Verisol na composição do nosso suplemento alimentar potencializa os benefícios do produto.</p>",
-              "question": "Quantos gramas de colágeno Verisol tem em cada dose de True Whey Protein?"
-            },
-            {
-              "tag": "",
-              "answer": "<p><span id=\"_mce_caret\" data-mce-bogus=\"1\" data-mce-type=\"format-caret\">No blend do True Multi Woman, a coenzima Q10 é um elemento de extrema importância a nível celular. Ela serve de energia para as células que precisam de um grande aporte&nbsp;<a href=\"https://www.truesource.com.br/produtos/foco-e-energia\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/foco-e-energia\">energético&nbsp;</a>nos sistemas cognitivo, cardiovascular e muscular.﻿</span></p>",
-              "question": "True Multi Woman: qual a função da coezima Q10?"
-            },
-            {
-              "tag": "",
-              "answer": "<p>Não, muito pelo contrário. Ela ajuda no equilíbrio intestinal, melhorando a absorção de nutrientes consequentemente.</p>",
-              "question": "Slim Shape: quitosana pode atrapalhar a absorção de outros nutrientes?"
-            },
-            {
-              "tag": "",
-              "answer": "<p>O MCT quebra o jejum, porém não quebra a cetose nutricional – o estado que a pessoa entra quando não utiliza energia através da glicose, mas sim dos corpos cetônicos (provenientes da quebra das gorduras) devido à baixa ingestão alimentar (jejum).</p><p>Muitas pessoas fazem o jejum com essa finalidade, a de aumentar a queima da gordura e deixar a insulina mais baixa, já que não está entrando glicose na corrente sanguínea.</p><p>Se você deseja quebrar o jejum com a suplementação de MCT, você ainda vai&nbsp;<strong>obter energia por meio das gorduras e não da glicose</strong>, mantendo a insulina mais baixa e potencializando o&nbsp;<a href=\"https://www.truesource.com.br/produtos/emagrecedores\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/emagrecedores\">emagrecimento</a>.</p><p>Qualquer alimento contendo calorias, mesmo que em menor quantidade, quebra o jejum. A questão é se ele cessa a cetose nutricional.</p><p>Caso você quiser usar o TCM especificamente nas janelas de jejum, o neutro é o mais indicado.</p>",
-              "question": "O True MCT Oil Powder quebra o jejum?"
-            },
-            {
-              "tag": "",
-              "answer": "<p>Por enquanto, não. Ainda estamos expandindo nossa operação no Brasil para, em seguida, pensarmos em ir para fora do país. Mas, esperamos alcançar o mercado internacional em breve!</p><p>Agora que as suas principais dúvidas sobre os suplementos da True Source foram respondidas,&nbsp;<strong>continue navegando pela nossa loja online!</strong>&nbsp;Conheça&nbsp;<a href=\"https://www.truesource.com.br/produtos?PS=12&amp;O=OrderByPriceASC\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos?PS=12&amp;O=OrderByPriceASC\">todos os nossos produtos</a>&nbsp;e aproveite nossas&nbsp;<a href=\"https://www.truesource.com.br/promocoes?fq=H:175&amp;O=OrderByPriceASC\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/promocoes?fq=H:175&amp;O=OrderByPriceASC\">promoções&nbsp;</a>para cuidar do seu corpo como ele merece!</p>",
-              "question": "Os produtos True Source são vendidos fora do Brasil?"
-            },
-            {
-              "answer": "<p>As 3 versões são compostas por 350g de magnésio na forma de bisglicinato (mais bioativa), e 2000mg de inositol. O magnésio Relief possui apenas estes dois componentes. A versão 2.0, além do magnésio e inositol, é composto também por 100mg de triptofano (que é o precursor da serotonina, hormônio do bem-estar). Já o magnésio com inositol relief 3.0, além do magnésio e inositol, possui 210mcg de melatonina, 200mg de taurina e 1000mg de glicina.</p>",
-              "question": "Qual a diferença entre as 3 versões do Magnésio + Inositol?"
-            },
-            {
-              "answer": "<p>O nosso ômega-3 é um dos únicos do mercado que não possui retrogosto, ou seja, não tem gosto de peixe. Nossa cápsula é composta por óleo de peixe e vitamina E, melhorando ainda mais a qualidade do produto, e o mesmo também tem o certificado IFOS que garante a qualidade e segurança do ômega 3.</p>",
-              "question": "O Ômega-3 tem retrogosto de peixe?"
-            },
-            {
-              "answer": "<p>O nosso <a data-mce-href=\"https://www.truesource.com.br/multivitaminico-dha-liquido-30-ml-true-source/p\" href=\"https://www.truesource.com.br/multivitaminico-dha-liquido-30-ml-true-source/p\" data-mce-selected=\"inline-boundary\">DHA Líquido</a> é indicado para maiores de 19 anos, mas pode ser administrado para demais faixas etárias mediante prescrição do médico ou nutricionista que acompanha a criança.</p>",
-              "question": "Qual a indicação de uso por faixa etária do DHA Líquido?"
-            },
-            {
-              "answer": "<p>O Collagen Protein além de ter uma quantidade de proteína equivalente ao Whey, o mesmo também é hipoalergênico. E como o suplemento é low fodmap, é o mais indicado para quem desconfortos gastrointestinais. Além disso, possui os 2,5g de Verisol, trazendo benefícios para a pele, unha e cabelos. Quanto à manutenção e ganho de massa muscular, o efeito é o mesmo do Whey Protein.</p>",
-              "question": "O Collagen Protein é semelhante ao Whey Protein?"
-            },
-            {
-              "answer": "<p>Não possui. A legislação, de acordo com exigência da ANVISA, determina que nenhum suplemento pode conter piperina em sua fórmula.</p>",
-              "question": "A True Curcuma possui piperina?"
-            }
-          ],
-          "__resolveType": "site/sections/CentralAtendimento/Faq.tsx"
-        }
-      ],
-      "__resolveType": "site/sections/CentralAtendimento/NavigationPage.tsx"
-    },
-    {
-      "__resolveType": "Footer - 04"
-    },
-    {
-      "__resolveType": "Insider - Content Page"
-    }
-  ],
-  "__resolveType": "website/pages/Page.tsx"
+	"name": "Perguntas Frequentes",
+	"path": "/perguntas-frequentes",
+	"sections": [
+		{
+			"canonical": "https://www.truesource.com.br/perguntas-frequentes",
+			"__resolveType": "website/sections/Seo/Seo.tsx"
+		},
+		{
+			"__resolveType": "Header - 01"
+		},
+		{
+			"__resolveType": "Banner Central de Atendimento"
+		},
+		{
+			"loader": {
+				"__resolveType": "Navegações Central de Atendimento"
+			},
+			"sections": [
+				{
+					"__resolveType": "site/sections/CentralAtendimento/CardsTitleSimple.tsx",
+					"contentTitleSimple": "PERGUNTAS FREQUENTES"
+				},
+				{
+					"tags": [],
+					"layout": {
+						"variation": "Full",
+						"headerAlignment": "center"
+					},
+					"questions": [
+						{
+							"tag": "",
+							"answer": "<p>A principal função do&nbsp;<a href=\"https://www.truesource.com.br/produtos/whey-protein\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/whey-protein\">Whey Protein</a>&nbsp;é a de complementar as necessidades diárias de proteínas do nosso organismo, suprindo o que não é obtido pela alimentação. Além disso, auxilia no processo de aumento de massa muscular (<a href=\"https://www.truesource.com.br/por-objetivo/massa-muscular\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/por-objetivo/massa-muscular\">hipertrofia</a>) e reparação dos músculos.</p><p>Outras funções podem ser atribuídas à suplementação com True Whey Protein, como&nbsp;<strong class=\"bold\">redução de gordura corporal e auxílio na redução de doenças cardiovasculares</strong>.</p><p>A sua composição ainda estimula uma série de mecanismos e sistemas do metabolismo. Mas, lembre: esses benefícios atribuídos ao consumo do Whey Protein são analisados quando se há uma rotina de hábitos saudáveis, com uma boa alimentação e a prática de exercícios físicos.</p>",
+							"question": "Para que serve o True Whey Protein?"
+						},
+						{
+							"tag": "",
+							"answer": "<p>Ao aquecer o Whey Protein, ocorre um processo chamado desnaturação. Com isso, a alteração da molécula proteica pode alterar o arranjo dos seus&nbsp;<a href=\"https://www.truesource.com.br/produtos/aminoacidos\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/aminoacidos\">aminoácidos&nbsp;</a>e até o rompimento da cadeia molecular.</p><p>Quanto maior a temperatura e o tempo que o Whey Protein for exposto a ela, maior será a desnaturação. No entanto, a própria digestão provoca a desnaturação da proteína para que ela seja absorvida pelo organismo. Não há, portanto, perda de proteína significativa.</p><p>Aquecer o Whey leva à formação de substância oxidantes, o que&nbsp;<strong>enfraquece o poder antioxidante do suplemento</strong>.</p><p>A dica é: se você pretende usar o Whey Protein em receitas aquecidas, tente expô-lo o menor tempo possível às altas temperaturas e aumente o consumo de antioxidantes, presentes em frutas vermelhas, chá verde e castanhas – um nutricionista é o melhor profissional para tais indicações!</p>",
+							"question": "Aquecer o True Whey Protein perde suas propriedades?"
+						},
+						{
+							"tag": "",
+							"answer": "<p>O suplemento alimentar jamais poderá substituir uma refeição completa ao longo do dia. Uma dieta com Whey Protein efetiva e saudável é quando o produto&nbsp;<strong>complementa a sua alimentação e não substitui uma alimentação do dia</strong>.</p><p>Dessa maneira, você garante a quantidade de proteínas que seu corpo precisará depois de exercícios físicos mais intensos.</p>",
+							"question": "Whey Protein substitui a refeição?"
+						},
+						{
+							"tag": "",
+							"answer": "<p>O Whey Protein é um forte aliado na diminuição do apetite. As proteínas do leite estimulam a liberação de um hormônio que dá sensação de saciedade.</p><p>Além disso, o&nbsp;<a href=\"https://www.truesource.com.br/produtos/whey-protein\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/whey-protein\">Whey Protein</a>&nbsp;também exige uma digestão mais lenta, o que impede que se sinta fome após sua ingestão. Porém, a&nbsp;<strong>alimentação regrada precisa estar aliada aos benefícios do suplemento</strong> para que o objetivo do emagrecimento seja conquistado e mantido.</p>",
+							"question": "Whey protein reduz o apetite?"
+						},
+						{
+							"tag": "",
+							"answer": "<p>Sim, o&nbsp;<a href=\"https://www.truesource.com.br/produtos/proteina-vegana?PS=12&amp;O=OrderByPriceASC\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/proteina-vegana?PS=12&amp;O=OrderByPriceASC\">True Vegan</a>&nbsp;contempla 23g de proteína orgânica e de fonte vegetal (arroz e ervilha). O perfil de aminoácidos é completo e planejado para proporcionar hipertrofia (aumento e desenvolvimento) da massa muscular.</p><p>O ideal é tomar&nbsp;<strong>1 dose diluída em 250ml de água&nbsp;</strong>logo após o seu treino de musculação e de corrida.</p>",
+							"question": "O True Vegan pode ser usado para ganho de massa muscular?"
+						},
+						{
+							"tag": "",
+							"answer": "<p>O Whey Protein não engorda e nem emagrece, mas pode ser utilizado como parte da estratégia para alcançar ambos objetivos.</p><p>No entanto, assim como qualquer outro alimento,&nbsp;<strong>se ingerido em excesso, pode acarretar em ganho de peso</strong>. Recomendamos sempre um auxílio do médico ou nutricionista para que ele indique a melhor forma de consumo.</p>",
+							"question": "O Whey Protein engorda?"
+						},
+						{
+							"tag": "",
+							"answer": "<p>Sim, o True Whey neutro possui apenas proteína isolada e hidrolisada, peptídeos de colágeno Verisol e TCM (triglicerídeos de cadeia média).</p>",
+							"question": "Existe Whey Protein que não seja adoçado?"
+						},
+						{
+							"tag": "",
+							"answer": "<p>Não. As <a data-mce-href=\"https://www.truesource.com.br/produtos/whey-protein\" href=\"https://www.truesource.com.br/produtos/whey-protein\" data-mce-selected=\"inline-boundary\">opções do True Whey Protein</a> disponíveis em nosso site são gluten free. Ou seja, além de não possuírem adoçantes, aromatizantes e corantes artificiais, o suplemento é livre glúten.﻿</p>",
+							"question": "O True Whey Protein contém glúten?"
+						},
+						{
+							"tag": "",
+							"answer": "<p>O produto não tem soja nem derivados em sua formulação. De acordo com a legislação, toda empresa do setor alimentício deve colocar em seus rótulos o alerta sobre a&nbsp;<strong>possibilidade de conter traços de soja</strong>, uma vez que, num mesmo maquinário ou num próximo, ocorra a produção de produto com soja.</p><p>Assim, reiteramos que o Whey Protein da True Source não contém soja em sua formulação.</p>",
+							"question": "Whey Protein da True Source possui soja ou derivados do grão?"
+						},
+						{
+							"tag": "",
+							"answer": "<p>São 2,5 miligramas por dose de True Whey Protein. A presença do colágeno Verisol na composição do nosso suplemento alimentar potencializa os benefícios do produto.</p>",
+							"question": "Quantos gramas de colágeno Verisol tem em cada dose de True Whey Protein?"
+						},
+						{
+							"tag": "",
+							"answer": "<p><span id=\"_mce_caret\" data-mce-bogus=\"1\" data-mce-type=\"format-caret\">No blend do True Multi Woman, a coenzima Q10 é um elemento de extrema importância a nível celular. Ela serve de energia para as células que precisam de um grande aporte&nbsp;<a href=\"https://www.truesource.com.br/produtos/foco-e-energia\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/foco-e-energia\">energético&nbsp;</a>nos sistemas cognitivo, cardiovascular e muscular.﻿</span></p>",
+							"question": "True Multi Woman: qual a função da coezima Q10?"
+						},
+						{
+							"tag": "",
+							"answer": "<p>Não, muito pelo contrário. Ela ajuda no equilíbrio intestinal, melhorando a absorção de nutrientes consequentemente.</p>",
+							"question": "Slim Shape: quitosana pode atrapalhar a absorção de outros nutrientes?"
+						},
+						{
+							"tag": "",
+							"answer": "<p>O MCT quebra o jejum, porém não quebra a cetose nutricional – o estado que a pessoa entra quando não utiliza energia através da glicose, mas sim dos corpos cetônicos (provenientes da quebra das gorduras) devido à baixa ingestão alimentar (jejum).</p><p>Muitas pessoas fazem o jejum com essa finalidade, a de aumentar a queima da gordura e deixar a insulina mais baixa, já que não está entrando glicose na corrente sanguínea.</p><p>Se você deseja quebrar o jejum com a suplementação de MCT, você ainda vai&nbsp;<strong>obter energia por meio das gorduras e não da glicose</strong>, mantendo a insulina mais baixa e potencializando o&nbsp;<a href=\"https://www.truesource.com.br/produtos/emagrecedores\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos/emagrecedores\">emagrecimento</a>.</p><p>Qualquer alimento contendo calorias, mesmo que em menor quantidade, quebra o jejum. A questão é se ele cessa a cetose nutricional.</p><p>Caso você quiser usar o TCM especificamente nas janelas de jejum, o neutro é o mais indicado.</p>",
+							"question": "O True MCT Oil Powder quebra o jejum?"
+						},
+						{
+							"tag": "",
+							"answer": "<p>Por enquanto, não. Ainda estamos expandindo nossa operação no Brasil para, em seguida, pensarmos em ir para fora do país. Mas, esperamos alcançar o mercado internacional em breve!</p><p>Agora que as suas principais dúvidas sobre os suplementos da True Source foram respondidas,&nbsp;<strong>continue navegando pela nossa loja online!</strong>&nbsp;Conheça&nbsp;<a href=\"https://www.truesource.com.br/produtos?PS=12&amp;O=OrderByPriceASC\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/produtos?PS=12&amp;O=OrderByPriceASC\">todos os nossos produtos</a>&nbsp;e aproveite nossas&nbsp;<a href=\"https://www.truesource.com.br/promocoes?fq=H:175&amp;O=OrderByPriceASC\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.truesource.com.br/promocoes?fq=H:175&amp;O=OrderByPriceASC\">promoções&nbsp;</a>para cuidar do seu corpo como ele merece!</p>",
+							"question": "Os produtos True Source são vendidos fora do Brasil?"
+						},
+						{
+							"answer": "<p>As 3 versões são compostas por 350g de magnésio na forma de bisglicinato (mais bioativa), e 2000mg de inositol. O magnésio Relief possui apenas estes dois componentes. A versão 2.0, além do magnésio e inositol, é composto também por 100mg de triptofano (que é o precursor da serotonina, hormônio do bem-estar). Já o magnésio com inositol relief 3.0, além do magnésio e inositol, possui 210mcg de melatonina, 200mg de taurina e 1000mg de glicina.</p>",
+							"question": "Qual a diferença entre as 3 versões do Magnésio + Inositol?"
+						},
+						{
+							"answer": "<p>O nosso ômega-3 é um dos únicos do mercado que não possui retrogosto, ou seja, não tem gosto de peixe. Nossa cápsula é composta por óleo de peixe e vitamina E, melhorando ainda mais a qualidade do produto, e o mesmo também tem o certificado IFOS que garante a qualidade e segurança do ômega 3.</p>",
+							"question": "O Ômega-3 tem retrogosto de peixe?"
+						},
+						{
+							"answer": "<p>O nosso <a data-mce-href=\"https://www.truesource.com.br/multivitaminico-dha-liquido-30-ml-true-source/p\" href=\"https://www.truesource.com.br/multivitaminico-dha-liquido-30-ml-true-source/p\" data-mce-selected=\"inline-boundary\">DHA Líquido</a> é indicado para maiores de 19 anos, mas pode ser administrado para demais faixas etárias mediante prescrição do médico ou nutricionista que acompanha a criança.</p>",
+							"question": "Qual a indicação de uso por faixa etária do DHA Líquido?"
+						},
+						{
+							"answer": "<p>O Collagen Protein além de ter uma quantidade de proteína equivalente ao Whey, o mesmo também é hipoalergênico. E como o suplemento é low fodmap, é o mais indicado para quem desconfortos gastrointestinais. Além disso, possui os 2,5g de Verisol, trazendo benefícios para a pele, unha e cabelos. Quanto à manutenção e ganho de massa muscular, o efeito é o mesmo do Whey Protein.</p>",
+							"question": "O Collagen Protein é semelhante ao Whey Protein?"
+						},
+						{
+							"answer": "<p>Não possui. A legislação, de acordo com exigência da ANVISA, determina que nenhum suplemento pode conter piperina em sua fórmula.</p>",
+							"question": "A True Curcuma possui piperina?"
+						}
+					],
+					"__resolveType": "site/sections/CentralAtendimento/Faq.tsx"
+				}
+			],
+			"__resolveType": "site/sections/CentralAtendimento/NavigationPage.tsx"
+		},
+		{
+			"__resolveType": "Footer - 04"
+		},
+		{
+			"__resolveType": "Insider - Content Page"
+		}
+	],
+	"__resolveType": "website/pages/Page.tsx"
 }

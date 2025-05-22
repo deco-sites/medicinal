@@ -2,12 +2,10 @@ import type { Props as SearchbarProps } from 'site/components/search/Searchbar.t
 import { MenuButton } from 'site/islands/Header/Buttons.tsx'
 import CartButtonVTEX from 'site/islands/Header/Cart/vtex.tsx'
 import Searchbar from 'site/islands/Header/Searchbar.tsx'
-import { usePlatform } from 'site/sdk/usePlatform.tsx'
 import Image from 'apps/website/components/Image.tsx'
 import NavItem, { type INavItem } from './NavItem.tsx'
 import type { Buttons, Logo } from 'site/components/header/Header.tsx'
 import MyAccount from 'site/islands/Header/MyAccount.tsx'
-import { useUser } from 'apps/vtex/hooks/useUser.ts'
 import Icon from 'site/components/ui/Icon.tsx'
 import type { Help } from 'site/components/header/Menu.tsx'
 
@@ -25,54 +23,42 @@ export interface Props {
 	helpItems: Help
 }
 
-function Navbar(
-	{
-		items,
-		searchbar,
-		logo,
-		buttons,
-		isMobile,
-		helpItems,
-	}: Props,
-) {
-	const shortcutItems = items?.filter((item) => item.isShortcut)
-
+function Navbar({
+	items,
+	searchbar,
+	logo,
+	buttons,
+	isMobile,
+	helpItems,
+}: Props) {
 	return (
 		<>
 			{isMobile
 				? (
 					<>
-						<div class="group-data-[micro-header='true']/header:gap-0 flex flex-col gap-[18px] lg:hidden bg-white group-data-[micro-header='true']/header:shadow-md py-4 group-data-[micro-header='true']/header:rounded-b-[20px] w-full">
-							<div class="group-data-[micro-header='true']/header:h-[30px] flex justify-between items-center group-data-[micro-header='true']/header:pl-2.5 px-4">
+						<div class='flex flex-col gap-[18px] lg:hidden bg-white py-4 w-full'>
+							<div class='flex justify-between items-center px-4'>
 								{logo && (
-									<a
-										href='/'
-										aria-label='True Source'
-										class='block'
-									>
+									<a href='/' aria-label='True Source' class='block'>
 										<Image
 											src={logo.src}
 											alt={logo.alt}
 											width={logo.width ?? 103}
 											height={logo.height ?? 36}
-											class="min-w-[100px] group-data-[micro-header='true']/header:max-w-[86px] group-data-[micro-header='true']/header:min-w-[86px] group-data-[micro-header='true']/header:max-h-[30px]"
 										/>
 									</a>
 								)}
 
-								<div class="group-data-[micro-header='true']/header:block hidden w-full max-w-full mr-2.5 ml-[7px]">
+								<div class='hidden w-full max-w-full mr-2.5 ml-[7px]'>
 									<Searchbar searchbar={searchbar} />
 								</div>
 
-								<div class="group-data-[micro-header='true']/header:gap-4 flex justify-between items-center gap-[24px]">
-									<div class="group-data-[micro-header='true']/header:hidden">
+								<div class='flex justify-between items-center gap-[24px]'>
+									<div>
 										<MyAccount />
 									</div>
 
-									<a
-										href={helpItems.url}
-										class="group-data-[micro-header='true']/header:hidden"
-									>
+									<a href={helpItems.url}>
 										<Icon id='Help' size={22} />
 									</a>
 
@@ -81,11 +67,11 @@ function Navbar(
 								</div>
 							</div>
 
-							<div class="group-data-[micro-header='true']/header:hidden mx-auto px-4 w-full max-w-full">
+							<div class='mx-auto px-4 w-full max-w-full'>
 								<Searchbar searchbar={searchbar} />
 							</div>
 
-							<div class="flex justify-between items-center gap-4 group-data-[micro-header='true']/header:hidden w-full overflow-x-scroll no-scrollbar">
+							<div class='flex justify-between items-center gap-4 w-full overflow-x-scroll no-scrollbar'>
 								{items?.[0].children?.map((item, index) => (
 									<NavItem item={index === 0 ? items[0] : item} />
 								))}
@@ -95,27 +81,20 @@ function Navbar(
 				)
 				: (
 					<>
-						<div class="relative bg-white group-data-[micro-header='true']/header:shadow-md px-2 xl:px-0 group-data-[micro-header='true']/header:rounded-b-[20px] w-full">
-							<div class="group-data-[micro-header='true']/header:py-2 md:flex items-center gap-8 hidden mx-auto pt-[24.5px] w-full container px-4">
+						<div class='relative bg-white px-2 xl:px-0 w-full'>
+							<div class='md:flex items-center gap-8 hidden mx-auto pt-[24.5px] w-full container px-4'>
 								<div class='flex-none'>
 									<a href='/' aria-label='Store logo' class='block'>
 										<Image
 											src={logo?.src ?? ''}
 											alt={logo?.alt ?? ''}
-											width={140}
-											height={49}
-											class="group-data-[micro-header='true']/header:h-[34px] group-data-[micro-header='true']/header:w-[98px] w-[200px] lg:w-[140px] lg:h-[49px]"
+											width={logo?.width ?? 140}
+											height={logo?.height ?? 49}
 										/>
 									</a>
 								</div>
 
-								<div class="group-data-[micro-header='true']/header:flex hidden">
-									<ul class='flex gap-2 xl:gap-[32px] w-full'>
-										{shortcutItems?.map((item) => <NavItem item={item} />)}
-									</ul>
-								</div>
-
-								<div class="group-data-[micro-header='true']/header:h-10 w-full max-w-full h-12">
+								<div class='w-full max-w-full h-12'>
 									<Searchbar searchbar={searchbar} />
 								</div>
 
@@ -148,7 +127,8 @@ function Navbar(
 												</svg>
 											</button>
 											<p class='text-xs hidden min-[1280px]:block'>
-												Precisa de<br /> <b>ajuda?</b>
+												Precisa de
+												<br /> <b>ajuda?</b>
 											</p>
 										</a>
 									)}
@@ -161,14 +141,9 @@ function Navbar(
 								</div>
 							</div>
 
-							<div class="md:block hidden group-data-[micro-header='true']/header:hidden mt-[18.5px] pb-3 bg-white">
+							<div class='md:block hidden mt-[18.5px] pb-3 bg-white'>
 								<ul class='flex justify-between items-center mx-auto px-4 w-full container'>
-									{items?.map((item) => (
-										<>
-											<NavItem item={item} />
-											<li class='last:hidden list-none benefitdot' />
-										</>
-									))}
+									{items?.map((item) => <NavItem item={item} />)}
 								</ul>
 							</div>
 						</div>

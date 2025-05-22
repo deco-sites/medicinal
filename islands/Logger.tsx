@@ -6,7 +6,7 @@ interface LoggerProps {
 
 export default function Logger({ data }: LoggerProps) {
 	useEffect(() => {
-		window.console.log(data)
+		globalThis.window.console.log(data)
 	}, [])
 
 	return null

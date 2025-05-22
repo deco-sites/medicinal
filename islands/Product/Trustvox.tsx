@@ -11,27 +11,23 @@ export interface Props {
 const productStarsId = 'trustvox-script-stars'
 const productRatingsId = 'trustvox-script-ratings'
 
-
-export function loader (props: Props, req: Request, ctx: AppContext) {
+export function loader(props: Props, _req: Request, _ctx: AppContext) {
 	return {
-		...props
+		...props,
 	}
 }
 
-export default function Trustvox({
-	storeId,
-	page
-}: ReturnType<typeof loader>) {
+export default function Trustvox({ storeId, page }: ReturnType<typeof loader>) {
 	if (!IS_BROWSER || !page?.product) return null
 
 	const {
-        image,
-        inProductGroupWithID,
-        isVariantOf: {
-            // @ts-expect-error - name exists
-            name: productName,
-        },
-    } = page.product
+		image,
+		inProductGroupWithID,
+		isVariantOf: {
+			// @ts-expect-error - name exists
+			name: productName,
+		},
+	} = page.product
 
 	useEffect(() => {
 		// @ts-ignore _trustvox exists

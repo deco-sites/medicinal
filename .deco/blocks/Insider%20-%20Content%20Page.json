@@ -1,6 +1,6 @@
 {
-  "__resolveType": "site/sections/Insider/InsiderTracking.tsx",
-  "currentPage": {
-    "@type": "Content"
-  }
+	"__resolveType": "site/sections/Insider/InsiderTracking.tsx",
+	"currentPage": {
+		"@type": "Content"
+	}
 }

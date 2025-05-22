@@ -62,7 +62,6 @@ export const SendEventOnView = <E extends AnalyticsEvent>(
 	/>
 )
 
-
 export const SendEventOnLoad = <E extends ExtendAnalyticsEvent>({ event }: { event: E }) => (
 	<script
 		type='module'

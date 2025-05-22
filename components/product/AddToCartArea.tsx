@@ -9,8 +9,6 @@ import { mapProductToAnalyticsItem } from 'apps/commerce/utils/productToAnalytic
 import { useState } from 'preact/hooks'
 import SellingPrice from 'site/islands/Product/SellingPrice.tsx'
 import { IS_BROWSER } from '$fresh/runtime.ts'
-import { Cashback } from 'site/components/ui/CustomIcons.tsx'
-import { formatPrice } from 'site/sdk/format.ts'
 
 export interface Props {
 	product: Product
@@ -56,31 +54,24 @@ export default function AddToCartArea({
 
 	const isGift = price / 100 <= 0.01
 
-	const {
-		additionalProperty,
-		productID,
-		offers,
-	} = product
+	const { additionalProperty, productID, offers } = product
 
 	const {
 		offers: {
 			// @ts-ignore offers exists
 			offers: [
 				{
-					inventoryLevel: {
-						value: inventoryLevelValue,
-					},
+					inventoryLevel: { value: inventoryLevelValue },
 				},
 			],
 		},
 	} = product
 
-	const activeSubscription = additionalProperty?.find((p) => p.name === 'activeSubscriptions')?.value
+	const activeSubscription = additionalProperty?.find(
+		(p) => p.name === 'activeSubscriptions',
+	)?.value
 
-	const {
-		seller = '1',
-		availability,
-	} = useOffer(offers) || {}
+	const { seller = '1', availability } = useOffer(offers) || {}
 
 	const breadcrumb = {
 		...breadcrumbList,
@@ -184,18 +175,6 @@ export default function AddToCartArea({
 										listPrice={listPrice}
 									/>
 								)}
-								{
-									/* <div class='flex items-center justify-between pb-2 pt-4'>
-									<p class='text-xs sm:text-sm'>
-										Compre e receba até <br />
-										<strong>
-											{formatPrice(Number.parseFloat((price * .05).toFixed(2)))}
-										</strong>{' '}
-										de volta!
-									</p>
-									<Cashback />
-								</div> */
-								}
 							</div>
 						</>
 					)

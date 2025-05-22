@@ -2,7 +2,6 @@ import Icon from 'site/components/ui/Icon.tsx'
 import { sendEvent } from 'site/sdk/analytics.tsx'
 import { useUI } from 'site/sdk/useUI.ts'
 import type { AnalyticsItem } from 'apps/commerce/types.ts'
-import Loading from 'site/components/ui/Loading.tsx'
 import Button from 'site/components/ui/Button.tsx'
 
 interface Props {
@@ -14,15 +13,15 @@ interface Props {
 	size?: 'sm' | 'md' | 'lg'
 }
 
-function CartButton(
-	{ loading, currency, total, items, type = 'header', size = 'lg' }: Props,
-) {
-	const {
-		displayCart,
-		displayMenu,
-		displaySearchPopup,
-		displaySearchDrawer,
-	} = useUI()
+function CartButton({
+	loading,
+	currency,
+	total,
+	items,
+	type = 'header',
+	size = 'lg',
+}: Props) {
+	const { displayCart, displayMenu, displaySearchPopup, displaySearchDrawer } = useUI()
 	const totalItems = items.length
 
 	const onClick = () => {
@@ -65,10 +64,10 @@ function CartButton(
 					? (
 						<div class='flex justify-between items-center w-full'>
 							<p>Carrinho de Compras</p>
-							<Icon id='ShoppingCart' size={iconSize} class='text-red' />
+							<Icon id='ShoppingCart' size={iconSize} class='text-blue' />
 						</div>
 					)
-					: <Icon id='ShoppingCart' size={iconSize} class='text-red' />}
+					: <Icon id='ShoppingCart' size={iconSize} class='text-blue' />}
 			</Button>
 		</div>
 	)

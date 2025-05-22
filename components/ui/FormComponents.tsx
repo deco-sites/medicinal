@@ -10,7 +10,7 @@ const Input = {
 			{children}
 		</div>
 	),
-	Input: ({ children, ...props }: JSX.IntrinsicElements['input']) => (
+	Input: ({ ...props }: JSX.IntrinsicElements['input']) => (
 		<input
 			placeholder=' '
 			{...props}
@@ -38,7 +38,7 @@ const TextArea = {
 			{children}
 		</div>
 	),
-	Input: ({ children, ...props }: JSX.IntrinsicElements['textarea']) => (
+	Input: ({ ...props }: JSX.IntrinsicElements['textarea']) => (
 		<textarea
 			placeholder=' '
 			{...props}
@@ -61,7 +61,7 @@ const TextArea = {
 }
 
 const File = {
-	Container: ({ children, name, ...props }: JSX.IntrinsicElements['label']) => (
+	Container: ({ children, ...props }: JSX.IntrinsicElements['label']) => (
 		<label
 			class={clx(
 				'font-medium p-4 text-gray text-sm bg-white border border-Stroke rounded-md shadow cursor-pointer transition-all flex items-center h-12 truncate',
@@ -71,13 +71,7 @@ const File = {
 			{children}
 		</label>
 	),
-	Input: (props: JSX.IntrinsicElements['input']) => (
-		<input
-			{...props}
-			type='file'
-			class='hidden'
-		/>
-	),
+	Input: (props: JSX.IntrinsicElements['input']) => <input {...props} type='file' class='hidden' />,
 }
 
 const Radio = {
@@ -92,7 +86,11 @@ const Radio = {
 			{children}
 		</label>
 	),
-	Input: ({ name, required, value }: {
+	Input: ({
+		name,
+		required,
+		value,
+	}: {
 		name: string
 		value: string
 		required?: boolean
@@ -124,9 +122,11 @@ const Checkbox = {
 			{children}
 		</label>
 	),
-	Input: (
-		{ name, value, ...props }: Omit<JSX.IntrinsicElements['input'], 'class'>,
-	) => (
+	Input: ({
+		name,
+		value,
+		...props
+	}: Omit<JSX.IntrinsicElements['input'], 'class'>) => (
 		<>
 			<input
 				type='checkbox'
@@ -181,11 +181,7 @@ function Select({
 						{value}
 					</span>
 					<span class='ml-auto border-l border-Stroke group-has-[select:valid]:border-green h-full w-12 flex items-center justify-center transition-transform peer-checked:group-[]/select:rotate-180'>
-						<Icon
-							id='ChevronDown'
-							width={16}
-							height={16}
-						/>
+						<Icon id='ChevronDown' width={16} height={16} />
 					</span>
 				</div>
 			</Trigger>
@@ -200,7 +196,11 @@ function Select({
 				}}
 			>
 				<option value=''>{placeholder}</option>
-				{items.map((i) => <option value={i} selected={i === value}>{i}</option>)}
+				{items.map((i) => (
+					<option value={i} selected={i === value}>
+						{i}
+					</option>
+				))}
 			</select>
 
 			<ContentWrapper class='absolute top-full left-0 z-10 bg-white w-full rounded-bl-md rounded-br-md shadow-lg text-gray text-sm border border-Stroke'>
@@ -208,7 +208,7 @@ function Select({
 					{items.map((i) => (
 						<button
 							type='button'
-							onClick={(e) => {
+							onClick={() => {
 								hiddenSelect.current!.value = i
 								hiddenSelect.current!.dispatchEvent(
 									new Event('change', { bubbles: true }),

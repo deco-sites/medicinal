@@ -34,13 +34,11 @@ export default function InfoCard({
 		const alignment = textAlign === 'left' ? cardTextLeft : textAlign === 'right' ? cardTextRight : cardTextLeft
 
 		return (
-			<div
-				class={`flex ${alignment} items-stretch bg-ice`}
-			>
+			<div class={`flex ${alignment} items-stretch bg-ice`}>
 				<div class='w-full md:w-1/2 flex items-center justify-center'>
 					<div class='w-full md:w-3/4 py-16 lg:py-0 px-8 md:px-0'>
 						<h2
-							class='text-2xl lg:text-4xl uppercase mb-3 font-bold font-lemon-milk'
+							class='text-2xl lg:text-4xl uppercase mb-3 font-bold '
 							style={{ color }}
 						>
 							{title}
@@ -88,7 +86,7 @@ export default function InfoCard({
 			>
 				<div>
 					<h2
-						class='text-2xl lg:text-4xl uppercase mb-3 font-bold font-lemon-milk'
+						class='text-2xl lg:text-4xl uppercase mb-3 font-bold '
 						style={{ color }}
 					>
 						{title}
@@ -159,16 +157,14 @@ export default function InfoCard({
 				>
 					{title && (
 						<h2
-							class={`text-2xl lg:text-4xl uppercase font-bold font-lemon-milk mb-8 ${textAlignment}`}
+							class={`text-2xl lg:text-4xl uppercase font-bold  mb-8 ${textAlignment}`}
 						>
 							{title}
 						</h2>
 					)}
 					<div
 						class={`${
-							!title
-								? 'text-1xl sm:text-2xl font-lemon-milk font-bold'
-								: 'text-base leading-6 sm:leading-5'
+							!title ? 'text-1xl sm:text-2xl  font-bold' : 'text-base leading-6 sm:leading-5'
 						}  ${textAlignment}`}
 					>
 						<p dangerouslySetInnerHTML={{ __html: description }} />

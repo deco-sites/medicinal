@@ -42,11 +42,11 @@ function CardsWithImageCta({ title, cta, cards, description }: Props) {
 			{title && (
 				<RenderHTML
 					html={title}
-					class='text-dark font-bold text-2xl md:text-[40px] uppercase font-lemon-milk md:leading-[42px] [&_strong]:text-red text-center'
+					class='text-dark font-bold text-2xl md:text-[40px] uppercase  md:leading-[42px] [&_strong]:text-red text-center'
 				/>
 			)}
 			{description && (
-				<h2 class='font-lemon-milk text-dark font-bold text-center text-[18px] leading-[24px] mt-6'>
+				<h2 class=' text-dark font-bold text-center text-[18px] leading-[24px] mt-6'>
 					{description}
 				</h2>
 			)}
@@ -61,10 +61,10 @@ function CardsWithImageCta({ title, cta, cards, description }: Props) {
 						>
 							<div class='w-[315px] h-full flex flex-col justify-between bg-ice rounded-[20px] p-6'>
 								<div class='flex flex-col gap-6 justify-start items-start'>
-									<span class='text-light-gray rounded-full text-[18px] font-bold font-lemon-milk h-10 w-10 flex items-center justify-center bg-white'>
+									<span class='text-light-gray rounded-full text-[18px] font-bold  h-10 w-10 flex items-center justify-center bg-white'>
 										0{index + 1}
 									</span>
-									<h2 class='uppercase font-bold font-lemon-milk fontWithGradient text-[14px] md:text-[18px]'>
+									<h2 class='uppercase font-bold  fontWithGradient text-[14px] md:text-[18px]'>
 										{card.text}
 									</h2>
 									{card.description && (
@@ -103,7 +103,7 @@ function CardsWithImageCta({ title, cta, cards, description }: Props) {
 			{cta && (
 				<a
 					href={cta.url}
-					class='flex items-center gap-[10px] uppercase font-lemon-milk font-bold text-[13px] leading-[17px] text-ice py-[15px] px-6 rounded-full 
+					class='flex items-center gap-[10px] uppercase  font-bold text-[13px] leading-[17px] text-ice py-[15px] px-6 rounded-full 
           bg-gradient-to-r from-[#E4003F] from-35% to-[#e8530e] to-90% max-w-fit group hover:bg-white border 
           border-transparent hover:border-red hover:fontWithGradient cursor-pointer max-h-[40px] mt-6 md:mt-10'
 				>

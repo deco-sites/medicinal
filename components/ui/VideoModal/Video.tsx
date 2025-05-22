@@ -1,4 +1,3 @@
-import Image from 'apps/website/components/Image.tsx'
 import Icon from 'site/components/ui/Icon.tsx'
 import Button from 'site/components/ui/VideoModal/Button.tsx'
 import Modal from 'site/components/ui/VideoModal/Modal.tsx'

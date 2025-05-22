@@ -14,7 +14,7 @@ const Input = {
 			{children}
 		</div>
 	),
-	Input: ({ children, ...props }: JSX.IntrinsicElements['input']) => (
+	Input: ({ ...props }: JSX.IntrinsicElements['input']) => (
 		<input
 			placeholder=' '
 			{...props}
@@ -49,7 +49,9 @@ function Notify({ productID }: Props) {
 
 			const name = (e.currentTarget.elements.namedItem('name') as RadioNodeList)
 				?.value
-			const email = (e.currentTarget.elements.namedItem('email') as RadioNodeList)?.value
+			const email = (
+				e.currentTarget.elements.namedItem('email') as RadioNodeList
+			)?.value
 
 			await invoke.vtex.actions.notifyme({ skuId: productID, name, email })
 			state.value = 'success'
@@ -63,7 +65,7 @@ function Notify({ productID }: Props) {
 		<form
 			class='form-control justify-start gap-2'
 			onSubmit={handleSubmit}
-			onFocus={() => state.value = null}
+			onFocus={() => (state.value = null)}
 		>
 			<span class='font-lemon text-dark text-[14px] md:text-base leading-[17px] uppercase font-bold'>
 				Este produto está indisponivel no momento
@@ -73,11 +75,7 @@ function Notify({ productID }: Props) {
 			</span>
 
 			<Input.Container>
-				<Input.Input
-					type='name'
-					name='name'
-					required
-				/>
+				<Input.Input type='name' name='name' required />
 				<Input.Label>Nome *</Input.Label>
 			</Input.Container>
 			<Input.Container>

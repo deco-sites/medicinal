@@ -138,7 +138,7 @@ function CartItem(
 			name: 'assinatura_minicart',
 			params: {
 				period: SUBSCRIPTION_PLAN,
-			}
+			},
 		})
 	}
 
@@ -243,7 +243,11 @@ function CartItem(
 
 					<div class='flex gap-1 justify-between items-center w-full'>
 						{selected.value === 'none' && item.quantity < 3 && !isGift && (
-							<span class={`text-gray text-[10px] leading-3 max-w-[68px] ${item.id === '3810' ? 'hidden' : ''}`}>
+							<span
+								class={`text-gray text-[10px] leading-3 max-w-[68px] ${
+									item.id === '3810' ? 'hidden' : ''
+								}`}
+							>
 								3% OFF para 3 ou mais un.
 							</span>
 						)}
@@ -252,22 +256,21 @@ function CartItem(
 								class={clx(
 									'text-xs text-dark',
 									listPrice > price && 'line-through',
-                  listPrice > price && item.id === '3810' && 'hidden'
+									listPrice > price && item.id === '3810' && 'hidden',
 								)}
 							>
-                {item.id === '3810' ? 
-                  formatPrice(0.01 * item.quantity, currency, locale):
-                  formatPrice(listPrice * item.quantity, currency, locale)
-                }
+								{item.id === '3810'
+									? formatPrice(0.01 * item.quantity, currency, locale)
+									: formatPrice(listPrice * item.quantity, currency, locale)}
 							</span>
 							{listPrice > price &&
 								(
 									<span class='text-xs text-green font-bold'>
-										{isGift ? 'Grátis' :
-                      item.id === '3810' ?
-                      formatPrice(0.01 * item.quantity, currency, locale) :
-                      formatPrice(price * item.quantity, currency, locale)
-                    }
+										{isGift
+											? 'Grátis'
+											: item.id === '3810'
+											? formatPrice(0.01 * item.quantity, currency, locale)
+											: formatPrice(price * item.quantity, currency, locale)}
 									</span>
 								)}
 						</div>

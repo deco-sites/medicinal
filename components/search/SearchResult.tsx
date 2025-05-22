@@ -46,7 +46,7 @@ function NotFound() {
 
 				<a
 					href='/produtos'
-					class='flex items-center gap-2 py-3 px-6 text-sm font-bold font-lemon text-white bg-gradient-to-r from-red to-orange rounded-full'
+					class='flex items-center gap-2 py-3 px-6 text-sm font-bold font-lemon text-white bg-blue rounded-full'
 				>
 					VER TODOS OS PRODUTOS
 					<Icon id='ArrowRight' width={16} height={16} class='text-white' />
@@ -56,18 +56,16 @@ function NotFound() {
 	)
 }
 
-function SearchResult(
-	{
-		page,
-		startingPage = 0,
-		sectionsSEO,
-		url,
-		isMobile,
-		title: _title,
-		showOnlySubscription,
-		seals = [],
-	}: ReturnType<typeof loader>,
-) {
+function SearchResult({
+	page,
+	startingPage = 0,
+	sectionsSEO,
+	url,
+	isMobile,
+	title: _title,
+	showOnlySubscription,
+	seals = [],
+}: ReturnType<typeof loader>) {
 	if (!page) {
 		return <NotFound />
 	}
@@ -82,8 +80,10 @@ function SearchResult(
 
 	const URLi = new URL(url)
 
-	let title = _title ?? URLi.searchParams.get('q') ??
-		URLi.pathname.split('/').pop() ?? ''
+	let title = _title ??
+		URLi.searchParams.get('q') ??
+		URLi.pathname.split('/').pop() ??
+		''
 
 	const isSearchPage = breadcrumb.itemListElement.length === 0
 
@@ -110,7 +110,7 @@ function SearchResult(
 
 					<a
 						href='/produtos'
-						class='flex items-center gap-2 py-3 px-6 text-sm font-bold font-lemon text-white bg-gradient-to-r from-red to-orange rounded-full'
+						class='flex items-center gap-2 py-3 px-6 text-sm font-bold font-lemon text-white bg-blue rounded-full'
 					>
 						VER TODOS OS PRODUTOS
 						<Icon id='ArrowRight' width={16} height={16} class='text-white' />
@@ -176,7 +176,7 @@ function SearchResult(
 						item_list_id: breadcrumb.itemListElement?.at(-1)?.item,
 						items: page.products?.map((product, index) =>
 							mapProductToAnalyticsItem({
-								...(useOffer(product.offers)),
+								...useOffer(product.offers),
 								index: offset + index,
 								product,
 								breadcrumbList: page.breadcrumb,
@@ -190,13 +190,12 @@ function SearchResult(
 }
 
 export function loader(props: Props, req: Request, ctx: AppContext) {
-	const sectionsSEO = props.sectionsSEO.sections?.find(
-		(section) => new URLPattern({ pathname: section.matcher }).test(req.url),
-	)?.sections ?? []
+	const sectionsSEO =
+		props.sectionsSEO.sections?.find((section) => new URLPattern({ pathname: section.matcher }).test(req.url))
+			?.sections ?? []
 
-	const title = props.titles.titles?.find(
-		(section) => new URLPattern({ pathname: section.matcher }).test(req.url),
-	)?.title
+	const title = props.titles.titles?.find((section) => new URLPattern({ pathname: section.matcher }).test(req.url))
+		?.title
 
 	return {
 		...props,

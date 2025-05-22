@@ -53,10 +53,15 @@ const splitProperties = (properties: PropertyValue[]) => {
 	})
 }
 
-const filterProperties = (properties: ExtendedPropertyValue[], selectedProperty: ExtendedPropertyValue) => {
+const filterProperties = (
+	properties: ExtendedPropertyValue[],
+	selectedProperty: ExtendedPropertyValue,
+) => {
 	return properties?.filter((item) => {
 		const [part1, part2] = item.fullValue.split(' - ')
-		if (part1 === selectedProperty?.value || part2 === selectedProperty?.value) return true
+		if (part1 === selectedProperty?.value || part2 === selectedProperty?.value) {
+			return true
+		}
 		return false
 	})
 }
@@ -66,37 +71,53 @@ const DICTIONARY_TYPES = ['Sabor', 'Tamanho', 'Versão', 'Cor']
 function ProductSimilars({ product }: Props) {
 	if (!IS_BROWSER) return null
 
-	const [possibilities, setPossibilities] = useState<PossibilitiesProps | null>(null)
+	const [possibilities, setPossibilities] = useState<PossibilitiesProps | null>(
+		null,
+	)
 
 	useEffect(() => {
 		const getData = async () => {
-			const relatedProducts = await invoke.vtex.loaders.legacy
-				.relatedProductsLoader({ crossSelling: 'similars', id: product.inProductGroupWithID })
+			const relatedProducts = await invoke.vtex.loaders.legacy.relatedProductsLoader({
+				crossSelling: 'similars',
+				id: product.inProductGroupWithID,
+			})
 			if (!relatedProducts?.length) return null
 
 			console.log({ productsGrade: [product, ...relatedProducts] })
 
-			const properties = [product, ...relatedProducts].map((productRelated) => {
-				const url = productRelated.url
-				const additionalProperty = productRelated.isVariantOf?.additionalProperty
-				if (!url || !additionalProperty?.length) return []
+			const properties = [product, ...relatedProducts]
+				.map((productRelated) => {
+					const url = productRelated.url
+					const additionalProperty = productRelated.isVariantOf?.additionalProperty
+					if (!url || !additionalProperty?.length) return []
 
-				const split = splitProperties(additionalProperty)
-				const fullValue = `${split?.map((property) => property.value).join(' - ')}`
+					const split = splitProperties(additionalProperty)
+					const fullValue = `${
+						split
+							?.map((property) => property.value)
+							.join(' - ')
+					}`
 
-				return additionalProperty.reduce((acc, property) => {
-					if (!property.name) return acc
-					if (!DICTIONARY_TYPES.includes(property.name)) return acc
+					return additionalProperty
+						.reduce((acc, property) => {
+							if (!property.name) return acc
+							if (!DICTIONARY_TYPES.includes(property.name)) return acc
 
-					return [...acc, {
-						...property,
-						url,
-						selected: productRelated.sku === product.sku,
-						inventory: productRelated.offers?.offers?.[0]?.inventoryLevel?.value ?? 0,
-						fullValue,
-					}]
-				}, [] as ExtendedPropertyValue[]).flat()
-			}).flat()
+							return [
+								...acc,
+								{
+									...property,
+									url,
+									selected: productRelated.sku === product.sku,
+									inventory: productRelated.offers?.offers?.[0]?.inventoryLevel?.value ??
+										0,
+									fullValue,
+								},
+							]
+						}, [] as ExtendedPropertyValue[])
+						.flat()
+				})
+				.flat()
 
 			if (!properties?.length) return null
 
@@ -110,7 +131,9 @@ function ProductSimilars({ product }: Props) {
 
 			if (!propertyGroups) return null
 
-			function getFilteredOptions(propertyGroups: Record<string, ExtendedPropertyValue[]>) {
+			function getFilteredOptions(
+				propertyGroups: Record<string, ExtendedPropertyValue[]>,
+			) {
 				let propertyFlavor = propertyGroups.Sabor
 				const propertySize = propertyGroups.Tamanho
 				const propertyVersion = propertyGroups.Versão
@@ -126,63 +149,78 @@ function ProductSimilars({ product }: Props) {
 				const selectedTypeOpposition = propertyFlavor?.length ? propertySize : propertyFlavor
 
 				const seenValues = new Set()
-				const selectedPrimary = selectedType?.filter((item) => {
-					if (!!item.value && !seenValues.has(item.value)) {
-						seenValues.add(item.value)
-						return true
-					}
-					return false
-				})?.sort((a, b) => {
-					if (!a.value || !b.value) return 0
-					if (a.value < b.value) return -1
-					if (a.value > b.value) return 1
-					return 0
-				})
+				const selectedPrimary = selectedType
+					?.filter((item) => {
+						if (!!item.value && !seenValues.has(item.value)) {
+							seenValues.add(item.value)
+							return true
+						}
+						return false
+					})
+					?.sort((a, b) => {
+						if (!a.value || !b.value) return 0
+						if (a.value < b.value) return -1
+						if (a.value > b.value) return 1
+						return 0
+					})
 
 				if (!selectedProperty) return {}
 
 				const seenValuesTamanho = new Set()
-				const Tamanho = filterProperties(selectedTypeOpposition, selectedProperty)?.filter((item) => {
-					if (!!item.value && !seenValuesTamanho.has(item.value)) {
-						seenValuesTamanho.add(item.value)
-						return true
-					}
-					return false
-				})?.sort((a, b) => {
-					const valueA = Number.parseInt(a.value ? a.value.replace(/[^0-9]/gi, '') : '')
-					const valueB = Number.parseInt(b.value ? b.value.replace(/[^0-9]/gi, '') : '')
-					if (valueA < valueB) return -1
-					if (valueA > valueB) return 1
-					return 0
-				})
+				const Tamanho = filterProperties(
+					selectedTypeOpposition,
+					selectedProperty,
+				)
+					?.filter((item) => {
+						if (!!item.value && !seenValuesTamanho.has(item.value)) {
+							seenValuesTamanho.add(item.value)
+							return true
+						}
+						return false
+					})
+					?.sort((a, b) => {
+						const valueA = Number.parseInt(
+							a.value ? a.value.replace(/[^0-9]/gi, '') : '',
+						)
+						const valueB = Number.parseInt(
+							b.value ? b.value.replace(/[^0-9]/gi, '') : '',
+						)
+						if (valueA < valueB) return -1
+						if (valueA > valueB) return 1
+						return 0
+					})
 
 				const seenValuesCor = new Set()
-				const Cor = filterProperties(propertyColor, selectedProperty)?.filter((item) => {
-					if (!!item.value && !seenValuesCor.has(item.value)) {
-						seenValuesCor.add(item.value)
-						return true
-					}
-					return false
-				})?.sort((a, b) => {
-					if (!a.value || !b.value) return 0
-					if (a.value < b.value) return -1
-					if (a.value > b.value) return 1
-					return 0
-				})
+				const Cor = filterProperties(propertyColor, selectedProperty)
+					?.filter((item) => {
+						if (!!item.value && !seenValuesCor.has(item.value)) {
+							seenValuesCor.add(item.value)
+							return true
+						}
+						return false
+					})
+					?.sort((a, b) => {
+						if (!a.value || !b.value) return 0
+						if (a.value < b.value) return -1
+						if (a.value > b.value) return 1
+						return 0
+					})
 
 				const seenValuesVersão = new Set()
-				const Versão = filterProperties(propertyVersion, selectedProperty)?.filter((item) => {
-					if (!!item.value && !seenValuesVersão.has(item.value)) {
-						seenValuesVersão.add(item.value)
-						return true
-					}
-					return false
-				})?.sort((a, b) => {
-					if (!a.value || !b.value) return 0
-					if (a.value < b.value) return -1
-					if (a.value > b.value) return 1
-					return 0
-				})
+				const Versão = filterProperties(propertyVersion, selectedProperty)
+					?.filter((item) => {
+						if (!!item.value && !seenValuesVersão.has(item.value)) {
+							seenValuesVersão.add(item.value)
+							return true
+						}
+						return false
+					})
+					?.sort((a, b) => {
+						if (!a.value || !b.value) return 0
+						if (a.value < b.value) return -1
+						if (a.value > b.value) return 1
+						return 0
+					})
 
 				if (propertyFlavor?.length) {
 					return {
@@ -217,7 +255,7 @@ function ProductSimilars({ product }: Props) {
 
 				return (
 					<div key={`similar-${possibility[0]}-${index}`}>
-						<span class='block font-lemon-milk text-[13px] font-bold uppercase mb-2'>
+						<span class='block  text-[13px] font-bold uppercase mb-2'>
 							{possibility[0]}
 						</span>
 
@@ -253,7 +291,10 @@ function ProductSimilars({ product }: Props) {
 												: 'bg-ice border-light-gray text-dark'
 										} border-2 rounded-full flex-none`}
 									>
-										<a class='flex items-center gap-2 py-2 px-3 text-sm font-bold' href={item.url}>
+										<a
+											class='flex items-center gap-2 py-2 px-3 text-sm font-bold'
+											href={item.url}
+										>
 											{item.selected && <CheckIcon />}
 											{item.value}
 										</a>

@@ -33,14 +33,11 @@ export default function InfoCard1WithBackground({
 	const alignment = textAlign === 'left' ? cardTextLeft : cardTextRight
 
 	return (
-		<div
-			class={`flex ${alignment} items-stretch`}
-			style={{ backgroundColor }}
-		>
+		<div class={`flex ${alignment} items-stretch`} style={{ backgroundColor }}>
 			<div class='w-full md:w-1/2 flex items-center justify-center'>
 				<div class='w-full md:w-3/4 py-16 lg:py-0 px-8 md:px-0'>
 					<h2
-						class='text-2xl lg:text-4xl uppercase mb-3 font-bold font-lemon-milk'
+						class='text-2xl lg:text-4xl uppercase mb-3 font-bold '
 						style={{ color }}
 					>
 						{title}

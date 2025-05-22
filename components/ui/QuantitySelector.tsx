@@ -10,9 +10,12 @@ interface Props {
 
 const QUANTITY_MAX_VALUE = 100
 
-function QuantitySelector(
-	{ onChange, quantity, disabled, loading, type = 'cart' }: Props,
-) {
+function QuantitySelector({
+	onChange,
+	quantity,
+	disabled,
+	type = 'cart',
+}: Props) {
 	const min = 1
 
 	const decrement = () => onChange?.(Math.max(0, quantity - 1))

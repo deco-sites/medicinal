@@ -1,8 +1,8 @@
 {
-  "redirect": {
-    "from": "/por-objetivo/acessorios",
-    "to": "/produtos",
-    "type": "permanent"
-  },
-  "__resolveType": "website/loaders/redirect.ts"
+	"redirect": {
+		"from": "/por-objetivo/acessorios",
+		"to": "/produtos",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
 }

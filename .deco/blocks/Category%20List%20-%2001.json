@@ -1,52 +1,52 @@
 {
-  "list": [
-    {
-      "href": "/masculino",
-      "image": "https://data.decoassets.com/true-source/d78227ed-4038-4d7d-8874-ca94412ceccc/1742235042442-5a8edfec-400f-421f-b436-4ce23d2b13e7",
-      "label": "Dresses",
-      "description": "Amazing"
-    },
-    {
-      "href": "/feminino",
-      "image": "https://data.decoassets.com/true-source/e884de4f-79d2-4429-8ee1-e3358d02f043/1742235082001-7363da7a-8530-4e19-8b76-6f92c4da3f1e",
-      "label": "Bags",
-      "description": "Bags"
-    },
-    {
-      "href": "/",
-      "image": "https://data.decoassets.com/true-source/86c3df08-f840-4ec1-a4e1-a3ccda375423/1742235091401-33755494-9104-410e-9e48-256aef7fc113",
-      "label": "Shoes",
-      "description": "New deals"
-    },
-    {
-      "href": "/",
-      "image": "https://data.decoassets.com/true-source/5119d77b-d118-42c0-adb7-b28f98cee79e/1742235107450-2d507523-6f5a-4bb5-98d5-d9c944b35845",
-      "label": "Jackets",
-      "description": "New colors"
-    },
-    {
-      "href": "/",
-      "image": "https://data.decoassets.com/true-source/24ede89f-70fe-46b0-8a8e-3532d500b26a/1742235118593-907b5510-d4a0-4d75-b2bf-c0c9e9b0ba68",
-      "label": "Jeans",
-      "description": "Amazing"
-    },
-    {
-      "href": "/",
-      "image": "https://data.decoassets.com/true-source/28bd5ec6-0089-4655-b92f-9d6b07c3d8b4/1742235130259-40eb7c93-59a7-4963-9917-32508c56e4cc",
-      "label": "Shorts",
-      "description": "Summer"
-    }
-  ],
-  "header": {
-    "title": "Categories",
-    "description": "Take a look at our categories"
-  },
-  "layout": {
-    "categoryCard": {
-      "textPosition": "top",
-      "textAlignment": "center"
-    },
-    "headerAlignment": "center"
-  },
-  "__resolveType": "site/sections/Category/CategoryList.tsx"
+	"list": [
+		{
+			"href": "/masculino",
+			"image": "https://data.decoassets.com/true-source/d78227ed-4038-4d7d-8874-ca94412ceccc/1742235042442-5a8edfec-400f-421f-b436-4ce23d2b13e7",
+			"label": "Dresses",
+			"description": "Amazing"
+		},
+		{
+			"href": "/feminino",
+			"image": "https://data.decoassets.com/true-source/e884de4f-79d2-4429-8ee1-e3358d02f043/1742235082001-7363da7a-8530-4e19-8b76-6f92c4da3f1e",
+			"label": "Bags",
+			"description": "Bags"
+		},
+		{
+			"href": "/",
+			"image": "https://data.decoassets.com/true-source/86c3df08-f840-4ec1-a4e1-a3ccda375423/1742235091401-33755494-9104-410e-9e48-256aef7fc113",
+			"label": "Shoes",
+			"description": "New deals"
+		},
+		{
+			"href": "/",
+			"image": "https://data.decoassets.com/true-source/5119d77b-d118-42c0-adb7-b28f98cee79e/1742235107450-2d507523-6f5a-4bb5-98d5-d9c944b35845",
+			"label": "Jackets",
+			"description": "New colors"
+		},
+		{
+			"href": "/",
+			"image": "https://data.decoassets.com/true-source/24ede89f-70fe-46b0-8a8e-3532d500b26a/1742235118593-907b5510-d4a0-4d75-b2bf-c0c9e9b0ba68",
+			"label": "Jeans",
+			"description": "Amazing"
+		},
+		{
+			"href": "/",
+			"image": "https://data.decoassets.com/true-source/28bd5ec6-0089-4655-b92f-9d6b07c3d8b4/1742235130259-40eb7c93-59a7-4963-9917-32508c56e4cc",
+			"label": "Shorts",
+			"description": "Summer"
+		}
+	],
+	"header": {
+		"title": "Categories",
+		"description": "Take a look at our categories"
+	},
+	"layout": {
+		"categoryCard": {
+			"textPosition": "top",
+			"textAlignment": "center"
+		},
+		"headerAlignment": "center"
+	},
+	"__resolveType": "site/sections/Category/CategoryList.tsx"
 }

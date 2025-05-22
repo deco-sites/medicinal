@@ -1,8 +1,8 @@
 {
-  "redirect": {
-    "from": "/produtos/barras-de-proteina",
-    "to": "/produtos/true-foods",
-    "type": "permanent"
-  },
-  "__resolveType": "website/loaders/redirect.ts"
+	"redirect": {
+		"from": "/produtos/barras-de-proteina",
+		"to": "/produtos/true-foods",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
 }

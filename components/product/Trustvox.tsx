@@ -12,11 +12,10 @@ export interface Props {
 const productStarsId = 'trustvox-script-stars'
 const productRatingsId = 'trustvox-script-ratings'
 
-
-export function loader (props: Props, req: Request, ctx: AppContext) {
+export function loader(props: Props, _req: Request, _ctx: AppContext) {
 	console.log(props)
 	return {
-		...props
+		...props,
 	}
 }
 

@@ -24,7 +24,7 @@ interface Installment {
 const installmentToString = (
 	installment: Installment,
 	sellingPrice: number,
-  productId?: string
+	productId?: string,
 ) => {
 	const billingDuration = installment.installments.length
 	const billingIncrement = installment.installments[billingDuration - 1].value
@@ -32,7 +32,7 @@ const installmentToString = (
 
 	const withTaxes = sellingPrice < price
 
-  const priceFormat = productId === '3810' ? 0.01 : billingIncrement / 100
+	const priceFormat = productId === '3810' ? 0.01 : billingIncrement / 100
 
 	return `<strong>${billingDuration}x</strong> de <strong>${formatPrice(priceFormat, 'BRL')}</strong> ${
 		withTaxes ? 'com juros' : 'sem juros'
@@ -69,11 +69,11 @@ export default function SellingPriceNew({
 				return prev + curr.value
 			}, 0)
 			// console.log("response", response);
-      if (productId === '3810') {
-        setPrice(0.01)
-      } else {
-        setPrice(total / 100)
-      }
+			if (productId === '3810') {
+				setPrice(0.01)
+			} else {
+				setPrice(total / 100)
+			}
 
 			// @ts-ignore Type InstallmentOptions is not assignable to type Installment
 			const installmentOptions: Installment[] = response.paymentData.installmentOptions

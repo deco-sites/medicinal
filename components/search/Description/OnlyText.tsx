@@ -76,7 +76,7 @@ export default function OnlyText({
 				/>
 				<div
 					class={`custom-category-text !leading-6 sm:!leading-7 ${
-						!title ? 'text-1xl sm:text-2xl font-lemon-milk font-bold' : 'text-sm lg:text-base'
+						!title ? 'text-1xl sm:text-2xl  font-bold' : 'text-sm lg:text-base'
 					} ${
 						columns === '1'
 							? 'text-center w-full max-w-[620px]'
@@ -89,7 +89,7 @@ export default function OnlyText({
 				{cta && (
 					<a
 						href={cta.link}
-						class='flex items-center gap-2 py-3 px-6 text-sm font-bold font-lemon text-white bg-gradient-to-r from-red to-orange rounded-full'
+						class='flex items-center gap-2 py-3 px-6 text-sm font-bold font-lemon text-white bg-blue rounded-full'
 					>
 						{cta.label}
 						<Icon id='ArrowRight' width={16} height={16} class='text-white' />

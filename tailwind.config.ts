@@ -23,6 +23,7 @@ export default {
 			gold: '#916F4A',
 			orange: '#E9530E',
 			red: '#e4003f',
+			blue: '#0F62AC',
 			transparent: 'transparent',
 			Stroke: '#EDEDED',
 		},
@@ -37,8 +38,7 @@ export default {
 				},
 			},
 			fontFamily: {
-				lemon: ['Lemon Milk'],
-				inter: ['Inter'],
+				roboto: ['Roboto, sans-serif'],
 			},
 		},
 	},

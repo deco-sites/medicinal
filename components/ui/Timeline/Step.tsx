@@ -36,12 +36,12 @@ export default function Step({ label, index }: Props) {
 					}}
 					class='p-1 md:p-2 bg-ice rounded-full size-[32px] md:size-[59px] shrink-0 z-0'
 				>
-					<div class='size-full bg-gradient-to-r from-red to-orange flex justify-center items-center text-white rounded-full'>
+					<div class='size-full bg-blue flex justify-center items-center text-white rounded-full'>
 						<Icon id='Check' strokeWidth={2} class='size-3 md:size-6' />
 					</div>
 				</div>
 				<div class='flex flex-col gap-6 md:items-center'>
-					<h3 class='text-transparent bg-gradient-to-r from-red to-orange bg-clip-text uppercase font-bold font-lemon text-sm leading-[18px] md:text-lg md:leading-6'>
+					<h3 class='text-transparent bg-blue bg-clip-text uppercase font-bold font-lemon text-sm leading-[18px] md:text-lg md:leading-6'>
 						{index.toString().padStart(2, '0')}.
 					</h3>
 					<div

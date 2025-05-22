@@ -4,7 +4,7 @@ import useBuyProduct from 'site/sdk/useBuyProduct.ts'
 import { useUI } from 'site/sdk/useUI.ts'
 import Icon from 'site/components/ui/Icon.tsx'
 import Loading from 'site/components/ui/Loading.tsx'
-import type { AddToCartParams, AnalyticsItem } from 'apps/commerce/types.ts'
+import type { AnalyticsItem } from 'apps/commerce/types.ts'
 
 type Props = {
 	productID: string
@@ -18,18 +18,16 @@ type Props = {
 	eventItems: AnalyticsItem
 }
 
-export default function (
-	{
-		productID,
-		seller,
-		listPrice,
-		price,
-		canBuyWithSubscription,
-		isAvailable,
-		isMobile,
-		eventItems,
-	}: Props,
-) {
+export default function ({
+	productID,
+	seller,
+	listPrice,
+	price,
+	canBuyWithSubscription,
+	isAvailable,
+	isMobile,
+	eventItems,
+}: Props) {
 	const { displayCart, currentSubscription } = useUI()
 	const { cart } = useCart()
 
@@ -73,26 +71,18 @@ export default function (
 		>
 			{buyProduct.loading.value ? <Loading /> : (
 				<>
-					{isInCart
-						? (
+					{isInCart ? <Icon id='CheckCircle' width={16} height={16} class='text-white' /> : (
+						!!isAvailable &&
+						// Show in desktop if product have subscription
+						!canBuyWithSubscription && (
 							<Icon
-								id='CheckCircle'
+								id='ShoppingCart'
 								width={16}
 								height={16}
-								class='text-white'
+								class='text-green group-hover/card:text-white delay-75'
 							/>
 						)
-						: !!isAvailable &&
-							// Show in desktop if product have subscription
-							(!canBuyWithSubscription) &&
-							(
-								<Icon
-									id='ShoppingCart'
-									width={16}
-									height={16}
-									class='text-green group-hover/card:text-white delay-75'
-								/>
-							)}
+					)}
 
 					{!isAvailable
 						? 'Em breve'

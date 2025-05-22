@@ -1,59 +1,59 @@
 {
-  "navigations": [
-    {
-      "url": "/central-de-atendimento",
-      "icon": "https://data.decoassets.com/true-source/544401d9-f3d9-42cb-883a-9a034f6e15b6/1742235041412-03c67f65-d73e-40cf-aeca-7d832d2d0f60",
-      "label": "Fale Conosco",
-      "activeIcon": "https://data.decoassets.com/true-source/85496bed-affb-4f6b-98de-5ca5d973e8ce/1742235049497-174610fd-a9cc-45e3-8aae-15231417cd73"
-    },
-    {
-      "url": "/perguntas-frequentes",
-      "icon": "https://data.decoassets.com/true-source/71e4a7e8-9614-413f-bfa4-9bb901055578/1742235052169-071988b9-f388-427c-9607-70833370c9fc",
-      "label": "Perguntas Frequentes",
-      "activeIcon": "https://data.decoassets.com/true-source/8a8f0045-4b54-490d-8f51-26ff2c9471ff/1742235055258-685121e1-d2f5-4f20-8f71-5f0ecea7ff15"
-    },
-    {
-      "url": "/politicas/privacidade",
-      "icon": "https://data.decoassets.com/true-source/1cff2a69-f462-4b28-bd49-c1dc0f4751fc/1742235059009-7793a262-198f-43e5-aa08-9265c2a40be7",
-      "label": "Política de Privacidade",
-      "activeIcon": "https://data.decoassets.com/true-source/1217b8e9-00d9-433f-8771-8f7bcd6dd643/1742235062800-ad11d4e2-d99d-4bc3-a5c5-721e33819243"
-    },
-    {
-      "url": "/politicas/devolucao",
-      "icon": "https://data.decoassets.com/true-source/5612f818-8902-43e6-a607-7b878ff1b6fb/1742235067452-9c3ee8d3-fc7a-49e7-a69c-9fabcd7cc52f",
-      "label": "Troca e Devolução",
-      "activeIcon": "https://data.decoassets.com/true-source/8dffc6a2-f940-4218-885e-5188703a32d3/1742235071593-5d6af8ea-118e-495a-8d3f-3b2e11668e15"
-    },
-    {
-      "url": "/politicas/uso",
-      "icon": "https://data.decoassets.com/true-source/fa321177-05fb-485a-8ed7-fdd9094c78cc/1742235074133-0a23020f-ebd2-4b1e-934d-7f0edbbd2253",
-      "label": "Política de Uso",
-      "activeIcon": "https://data.decoassets.com/true-source/9c5d1599-7cae-4fcc-81b8-98c1ba38daf5/1742235076573-4db177d4-895c-448b-a21a-d01b6ddb7885"
-    },
-    {
-      "url": "/politicas/entrega",
-      "icon": "https://data.decoassets.com/true-source/2d05a06e-2583-4373-8122-780534b40fcd/1742235079796-d29a8fff-f587-4a3e-b5cb-634628b23806",
-      "label": "Política de Entrega",
-      "activeIcon": "https://data.decoassets.com/true-source/37aa6f46-b74e-4742-93d8-87e3bf6e1245/1742235084148-f7a4a80b-c3c2-4daa-bc5a-538032901b50"
-    },
-    {
-      "url": "/politicas/frete-gratis",
-      "icon": "https://data.decoassets.com/true-source/2c5bdcd0-46b0-4851-8f7d-f234387b422b/1742235087724-65af40f6-8835-4b01-a55c-ebfab402686a",
-      "label": "Política de Frete Grátis",
-      "activeIcon": "https://data.decoassets.com/true-source/ddd5713a-0ca9-476f-b7c2-baa7d4c25959/1742235091035-e64eecec-927d-42ca-b3a5-076360f6d44f"
-    },
-    {
-      "url": "/politicas/pagamento",
-      "icon": "https://data.decoassets.com/true-source/b5036287-5802-4961-9ac1-4cabd00ba334/1742235093515-d152dba7-df35-4f7a-aacc-743f8c28805b",
-      "label": "Política de Pagamento",
-      "activeIcon": "https://data.decoassets.com/true-source/619c19f3-7e94-4e33-a001-70bb73c43764/1742235096858-561fcb32-1780-4c21-a121-969e53fde164"
-    },
-    {
-      "url": "/politicas/promocoes",
-      "icon": "https://data.decoassets.com/true-source/115abfd7-88ac-4bd5-93af-39cec3c4084d/1742235101283-8962a919-5ba1-4c72-ab51-fa939dcb30b7",
-      "label": "Políticas Promocionais",
-      "activeIcon": "https://data.decoassets.com/true-source/9c066b7f-d640-49a1-a583-f82d1397c34b/1742235105318-2cd43668-1ce4-4124-90fb-7692b3042f4a"
-    }
-  ],
-  "__resolveType": "site/loaders/centralNavigation.ts"
+	"navigations": [
+		{
+			"url": "/central-de-atendimento",
+			"icon": "https://data.decoassets.com/true-source/544401d9-f3d9-42cb-883a-9a034f6e15b6/1742235041412-03c67f65-d73e-40cf-aeca-7d832d2d0f60",
+			"label": "Fale Conosco",
+			"activeIcon": "https://data.decoassets.com/true-source/85496bed-affb-4f6b-98de-5ca5d973e8ce/1742235049497-174610fd-a9cc-45e3-8aae-15231417cd73"
+		},
+		{
+			"url": "/perguntas-frequentes",
+			"icon": "https://data.decoassets.com/true-source/71e4a7e8-9614-413f-bfa4-9bb901055578/1742235052169-071988b9-f388-427c-9607-70833370c9fc",
+			"label": "Perguntas Frequentes",
+			"activeIcon": "https://data.decoassets.com/true-source/8a8f0045-4b54-490d-8f51-26ff2c9471ff/1742235055258-685121e1-d2f5-4f20-8f71-5f0ecea7ff15"
+		},
+		{
+			"url": "/politicas/privacidade",
+			"icon": "https://data.decoassets.com/true-source/1cff2a69-f462-4b28-bd49-c1dc0f4751fc/1742235059009-7793a262-198f-43e5-aa08-9265c2a40be7",
+			"label": "Política de Privacidade",
+			"activeIcon": "https://data.decoassets.com/true-source/1217b8e9-00d9-433f-8771-8f7bcd6dd643/1742235062800-ad11d4e2-d99d-4bc3-a5c5-721e33819243"
+		},
+		{
+			"url": "/politicas/devolucao",
+			"icon": "https://data.decoassets.com/true-source/5612f818-8902-43e6-a607-7b878ff1b6fb/1742235067452-9c3ee8d3-fc7a-49e7-a69c-9fabcd7cc52f",
+			"label": "Troca e Devolução",
+			"activeIcon": "https://data.decoassets.com/true-source/8dffc6a2-f940-4218-885e-5188703a32d3/1742235071593-5d6af8ea-118e-495a-8d3f-3b2e11668e15"
+		},
+		{
+			"url": "/politicas/uso",
+			"icon": "https://data.decoassets.com/true-source/fa321177-05fb-485a-8ed7-fdd9094c78cc/1742235074133-0a23020f-ebd2-4b1e-934d-7f0edbbd2253",
+			"label": "Política de Uso",
+			"activeIcon": "https://data.decoassets.com/true-source/9c5d1599-7cae-4fcc-81b8-98c1ba38daf5/1742235076573-4db177d4-895c-448b-a21a-d01b6ddb7885"
+		},
+		{
+			"url": "/politicas/entrega",
+			"icon": "https://data.decoassets.com/true-source/2d05a06e-2583-4373-8122-780534b40fcd/1742235079796-d29a8fff-f587-4a3e-b5cb-634628b23806",
+			"label": "Política de Entrega",
+			"activeIcon": "https://data.decoassets.com/true-source/37aa6f46-b74e-4742-93d8-87e3bf6e1245/1742235084148-f7a4a80b-c3c2-4daa-bc5a-538032901b50"
+		},
+		{
+			"url": "/politicas/frete-gratis",
+			"icon": "https://data.decoassets.com/true-source/2c5bdcd0-46b0-4851-8f7d-f234387b422b/1742235087724-65af40f6-8835-4b01-a55c-ebfab402686a",
+			"label": "Política de Frete Grátis",
+			"activeIcon": "https://data.decoassets.com/true-source/ddd5713a-0ca9-476f-b7c2-baa7d4c25959/1742235091035-e64eecec-927d-42ca-b3a5-076360f6d44f"
+		},
+		{
+			"url": "/politicas/pagamento",
+			"icon": "https://data.decoassets.com/true-source/b5036287-5802-4961-9ac1-4cabd00ba334/1742235093515-d152dba7-df35-4f7a-aacc-743f8c28805b",
+			"label": "Política de Pagamento",
+			"activeIcon": "https://data.decoassets.com/true-source/619c19f3-7e94-4e33-a001-70bb73c43764/1742235096858-561fcb32-1780-4c21-a121-969e53fde164"
+		},
+		{
+			"url": "/politicas/promocoes",
+			"icon": "https://data.decoassets.com/true-source/115abfd7-88ac-4bd5-93af-39cec3c4084d/1742235101283-8962a919-5ba1-4c72-ab51-fa939dcb30b7",
+			"label": "Políticas Promocionais",
+			"activeIcon": "https://data.decoassets.com/true-source/9c066b7f-d640-49a1-a583-f82d1397c34b/1742235105318-2cd43668-1ce4-4124-90fb-7692b3042f4a"
+		}
+	],
+	"__resolveType": "site/loaders/centralNavigation.ts"
 }

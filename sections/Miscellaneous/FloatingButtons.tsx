@@ -183,7 +183,7 @@ export default function FloatingButtons({ zapzap, hiddenWhatsApp }: Props) {
 
 			<floatingMobileModal.Toggle
 				id='floating-mobile-modal-toggle'
-				class='md:hidden w-12 h-12 rounded-full bg-gradient-to-r from-red to-orange fixed bottom-3 right-5 group flex justify-center items-center z-10 [body[data-mobilepdp]_&]:bottom-[90px]'
+				class='md:hidden w-12 h-12 rounded-full bg-blue fixed bottom-3 right-5 group flex justify-center items-center z-10 [body[data-mobilepdp]_&]:bottom-[90px]'
 			>
 				<Icon
 					id='FloatingChat'
@@ -217,9 +217,7 @@ export default function FloatingButtons({ zapzap, hiddenWhatsApp }: Props) {
 					const phoneInput = document.querySelector<HTMLInputElement>(
 						'input#wpp-client-phone',
 					)
-					const form = document.querySelector<HTMLFormElement>(
-						'form#zapzapForm',
-					)
+					const form = document.querySelector<HTMLFormElement>('form#zapzapForm')
 
 					if (!phoneInput) throw new Error('Phone input not found')
 					if (!form) throw new Error('Form not found')

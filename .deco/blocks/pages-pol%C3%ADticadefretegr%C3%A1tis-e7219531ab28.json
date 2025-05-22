@@ -1,88 +1,88 @@
 {
-  "name": "Política de Frete Grátis",
-  "path": "/politicas/frete-gratis",
-  "sections": [
-    {
-      "canonical": "https://www.truesource.com.br/politicas/frete-gratis",
-      "noIndexing": false,
-      "__resolveType": "website/sections/Seo/Seo.tsx"
-    },
-    {
-      "__resolveType": "Header - 01"
-    },
-    {
-      "__resolveType": "Banner Central de Atendimento"
-    },
-    {
-      "loader": {
-        "__resolveType": "Navegações Central de Atendimento"
-      },
-      "sections": [
-        {
-          "__resolveType": "site/sections/CentralAtendimento/CardsTitleSimple.tsx",
-          "contentTitleSimple": "POLÍTICA DE FRETE GRÁTIS"
-        },
-        {
-          "sections": [
-            {
-              "text": "<p>Ganhe frete grátis de acordo com o valor da compra e sua região:</p>",
-              "__resolveType": "site/sections/Content/RichText.tsx"
-            },
-            {
-              "cards": [
-                {
-                  "text": "<p><strong>Espírito Santo: </strong> </p><p>acima de R$ 200,00</p>"
-                },
-                {
-                  "text": "<p><strong>Sudeste:  </strong></p><p>acima de R$ 250,00</p>"
-                },
-                {
-                  "text": "<p><strong>Sul e Nordeste:  </strong></p><p>acima de R$ 350,00</p>"
-                },
-                {
-                  "text": "<p><strong>Centro-Oeste e Norte:</strong></p><p>acima de R$ 400,00</p>"
-                }
-              ],
-              "sections": [
-                {
-                  "text": "Espírito Santo:  acima de R$ 200,00",
-                  "number": 1,
-                  "__resolveType": "site/sections/CentralAtendimento/CardNumbered.tsx"
-                },
-                {
-                  "text": "Sudeste:  acima de R$ 250,00",
-                  "number": 1,
-                  "__resolveType": "site/sections/CentralAtendimento/CardNumbered.tsx"
-                },
-                {
-                  "text": "Sul e Nordeste:  acima de R$ 350,00",
-                  "number": 1,
-                  "__resolveType": "site/sections/CentralAtendimento/CardNumbered.tsx"
-                },
-                {
-                  "text": "Centro-Oeste e Norte: acima de R$ 400,00",
-                  "number": 1,
-                  "__resolveType": "site/sections/CentralAtendimento/CardNumbered.tsx"
-                }
-              ],
-              "__resolveType": "site/sections/CentralAtendimento/CardNumberedSection.tsx"
-            },
-            {
-              "text": "<p>Para calcular o valor do frete, selecione os produtos que você deseja comprar e clique em finalizar compra. Em seguida, informe seu CEP em \"Meu Carrinho\". Os custos e prazo de entrega serão calculados automaticamente. Selecione a opção preferida e finalize sua compra. Você ainda terá a opção de modificar seu pedido antes de concluir a transação.<br><br>O prazo de entrega começa a contar após a aprovação do pagamento. Quando seu pagamento for aprovado, você receberá uma confirmação por e-mail.<br><br>Em caso de promoções ou utilização de cupons, o valor do frete será calculado considerando o valor total da compra após a aplicação dos descontos.</p>",
-              "__resolveType": "site/sections/Content/RichText.tsx"
-            }
-          ],
-          "__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx"
-        }
-      ],
-      "__resolveType": "site/sections/CentralAtendimento/NavigationPage.tsx"
-    },
-    {
-      "__resolveType": "Footer - 04"
-    },
-    {
-      "__resolveType": "Insider - Content Page"
-    }
-  ],
-  "__resolveType": "website/pages/Page.tsx"
+	"name": "Política de Frete Grátis",
+	"path": "/politicas/frete-gratis",
+	"sections": [
+		{
+			"canonical": "https://www.truesource.com.br/politicas/frete-gratis",
+			"noIndexing": false,
+			"__resolveType": "website/sections/Seo/Seo.tsx"
+		},
+		{
+			"__resolveType": "Header - 01"
+		},
+		{
+			"__resolveType": "Banner Central de Atendimento"
+		},
+		{
+			"loader": {
+				"__resolveType": "Navegações Central de Atendimento"
+			},
+			"sections": [
+				{
+					"__resolveType": "site/sections/CentralAtendimento/CardsTitleSimple.tsx",
+					"contentTitleSimple": "POLÍTICA DE FRETE GRÁTIS"
+				},
+				{
+					"sections": [
+						{
+							"text": "<p>Ganhe frete grátis de acordo com o valor da compra e sua região:</p>",
+							"__resolveType": "site/sections/Content/RichText.tsx"
+						},
+						{
+							"cards": [
+								{
+									"text": "<p><strong>Espírito Santo: </strong> </p><p>acima de R$ 200,00</p>"
+								},
+								{
+									"text": "<p><strong>Sudeste:  </strong></p><p>acima de R$ 250,00</p>"
+								},
+								{
+									"text": "<p><strong>Sul e Nordeste:  </strong></p><p>acima de R$ 350,00</p>"
+								},
+								{
+									"text": "<p><strong>Centro-Oeste e Norte:</strong></p><p>acima de R$ 400,00</p>"
+								}
+							],
+							"sections": [
+								{
+									"text": "Espírito Santo:  acima de R$ 200,00",
+									"number": 1,
+									"__resolveType": "site/sections/CentralAtendimento/CardNumbered.tsx"
+								},
+								{
+									"text": "Sudeste:  acima de R$ 250,00",
+									"number": 1,
+									"__resolveType": "site/sections/CentralAtendimento/CardNumbered.tsx"
+								},
+								{
+									"text": "Sul e Nordeste:  acima de R$ 350,00",
+									"number": 1,
+									"__resolveType": "site/sections/CentralAtendimento/CardNumbered.tsx"
+								},
+								{
+									"text": "Centro-Oeste e Norte: acima de R$ 400,00",
+									"number": 1,
+									"__resolveType": "site/sections/CentralAtendimento/CardNumbered.tsx"
+								}
+							],
+							"__resolveType": "site/sections/CentralAtendimento/CardNumberedSection.tsx"
+						},
+						{
+							"text": "<p>Para calcular o valor do frete, selecione os produtos que você deseja comprar e clique em finalizar compra. Em seguida, informe seu CEP em \"Meu Carrinho\". Os custos e prazo de entrega serão calculados automaticamente. Selecione a opção preferida e finalize sua compra. Você ainda terá a opção de modificar seu pedido antes de concluir a transação.<br><br>O prazo de entrega começa a contar após a aprovação do pagamento. Quando seu pagamento for aprovado, você receberá uma confirmação por e-mail.<br><br>Em caso de promoções ou utilização de cupons, o valor do frete será calculado considerando o valor total da compra após a aplicação dos descontos.</p>",
+							"__resolveType": "site/sections/Content/RichText.tsx"
+						}
+					],
+					"__resolveType": "site/sections/CentralAtendimento/EmptySection.tsx"
+				}
+			],
+			"__resolveType": "site/sections/CentralAtendimento/NavigationPage.tsx"
+		},
+		{
+			"__resolveType": "Footer - 04"
+		},
+		{
+			"__resolveType": "Insider - Content Page"
+		}
+	],
+	"__resolveType": "website/pages/Page.tsx"
 }

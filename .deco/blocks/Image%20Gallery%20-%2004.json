@@ -1,32 +1,32 @@
 {
-  "title": "etset",
-  "layout": {
-    "desktop": "Symmetrical",
-    "headerAlignment": "left"
-  },
-  "banners": [
-    {
-      "alt": "Fashion",
-      "href": "/",
-      "srcMobile": "https://data.decoassets.com/true-source/2d2f0c0f-04db-4a6e-b857-e06584da20e5/1742235042761-29dbf8d4-90c3-43f7-9b6b-4c6bda5e7835",
-      "srcDesktop": "https://data.decoassets.com/true-source/08f050e9-8984-4de0-8ca0-85e508a01b7b/1742235079795-f7b0094f-b8f6-4806-bd43-4f4482958960"
-    },
-    {
-      "alt": "Fashion",
-      "href": "/",
-      "srcMobile": "https://data.decoassets.com/true-source/e26b947e-0dad-49fc-8aaf-8d27c4b002a0/1742235096669-3210eea1-5437-4f19-8327-8b8fa4edfc45"
-    },
-    {
-      "alt": "Fashion",
-      "href": "/",
-      "srcMobile": "https://data.decoassets.com/true-source/282e7f29-1bb7-4860-bc50-515552d4b49c/1742239958092-1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"
-    },
-    {
-      "alt": "Fashion",
-      "href": "/",
-      "srcMobile": "https://data.decoassets.com/true-source/1ef5a3f9-51ac-4ffc-a449-9c3e4b145041/1742235104758-a8d36df6-4b96-4421-bb6c-de0fe1478e06"
-    }
-  ],
-  "description": "Discover the collections of the season",
-  "__resolveType": "site/sections/Images/ImageGallery.tsx"
+	"title": "etset",
+	"layout": {
+		"desktop": "Symmetrical",
+		"headerAlignment": "left"
+	},
+	"banners": [
+		{
+			"alt": "Fashion",
+			"href": "/",
+			"srcMobile": "https://data.decoassets.com/true-source/2d2f0c0f-04db-4a6e-b857-e06584da20e5/1742235042761-29dbf8d4-90c3-43f7-9b6b-4c6bda5e7835",
+			"srcDesktop": "https://data.decoassets.com/true-source/08f050e9-8984-4de0-8ca0-85e508a01b7b/1742235079795-f7b0094f-b8f6-4806-bd43-4f4482958960"
+		},
+		{
+			"alt": "Fashion",
+			"href": "/",
+			"srcMobile": "https://data.decoassets.com/true-source/e26b947e-0dad-49fc-8aaf-8d27c4b002a0/1742235096669-3210eea1-5437-4f19-8327-8b8fa4edfc45"
+		},
+		{
+			"alt": "Fashion",
+			"href": "/",
+			"srcMobile": "https://data.decoassets.com/true-source/282e7f29-1bb7-4860-bc50-515552d4b49c/1742239958092-1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"
+		},
+		{
+			"alt": "Fashion",
+			"href": "/",
+			"srcMobile": "https://data.decoassets.com/true-source/1ef5a3f9-51ac-4ffc-a449-9c3e4b145041/1742235104758-a8d36df6-4b96-4421-bb6c-de0fe1478e06"
+		}
+	],
+	"description": "Discover the collections of the season",
+	"__resolveType": "site/sections/Images/ImageGallery.tsx"
 }

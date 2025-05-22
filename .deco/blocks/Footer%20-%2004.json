@@ -1,309 +1,309 @@
 {
-  "seo": "<p>Nascemos da união de um time de especialistas de peso que formularam produtos altamente eficientes e saborosos. Depois de 2 anos de pesquisas e estudos do mercado nacional e internacional, nossos médicos, nutricionistas e chefs de cozinha chegaram à fórmula perfeita.</p>",
-  "logo": "https://data.decoassets.com/true-source/77b8c668-a3c5-4918-abcf-5928161a2e73/1742235041413-6eab31b5-ab6e-4722-a032-ebcd20883efa",
-  "layout": {
-    "hide": {
-      "logo": false,
-      "mobileApps": false,
-      "newsletter": false,
-      "socialLinks": false,
-      "regionOptions": false
-    },
-    "variation": "Variation 4",
-    "backgroundColor": "Base 100"
-  },
-  "social": [
-    {
-      "link": "https://www.instagram.com/truesourcenutrition/",
-      "label": "Instagram"
-    },
-    {
-      "link": "https://www.youtube.com/channel/UC5SApjxQ3zeYCwZA-pvQc2w",
-      "label": "Youtube"
-    },
-    {
-      "link": "https://www.tiktok.com/@truesourcenutrition",
-      "label": "Tiktok"
-    }
-  ],
-  "seoText": "<p>Nascemos da união de um time de especialistas de peso que formularam produtos altamente eficientes e saborosos. Depois de 2 anos de pesquisas e estudos do mercado nacional e internacional, nossos médicos, nutricionistas e chefs de cozinha chegaram à fórmula perfeita.</p>",
-  "payments": {
-    "items": [
-      {
-        "label": "Visa"
-      },
-      {
-        "label": "Mastercard"
-      },
-      {
-        "label": "Dinners"
-      },
-      {
-        "label": "Boleto"
-      },
-      {
-        "label": "Pix"
-      }
-    ],
-    "title": "PAGUE EM ATÉ 6X SEM JUROS NO CARTÃO OU À VISTA COM DESCONTO"
-  },
-  "sections": [
-    {
-      "items": [
-        {
-          "href": "/produtos/whey-protein",
-          "label": "Whey Protein"
-        },
-        {
-          "href": "/produtos/proteina-vegana",
-          "label": "Proteína Vegana"
-        },
-        {
-          "href": "/produtos/beef-protein",
-          "label": "Beef Protein"
-        },
-        {
-          "href": "/produtos/aminoacidos",
-          "label": "Aminoácidos"
-        },
-        {
-          "href": "/produtos/emagrecedores",
-          "label": "Emagrecedores"
-        },
-        {
-          "href": "/produtos/foco-e-energia",
-          "label": "Foco e Energia"
-        },
-        {
-          "href": "/produtos/nootropicos",
-          "label": "Nootrópicos"
-        },
-        {
-          "href": "/produtos/colageno",
-          "label": "Colágeno"
-        },
-        {
-          "href": "/produtos/vitaminas-e-minerais",
-          "label": "Vitaminas e Minerais"
-        },
-        {
-          "href": "/produtos/true-foods",
-          "label": "True Foods"
-        },
-        {
-          "href": "/produtos/linha-family-care",
-          "label": "Linha Family Care"
-        },
-        {
-          "href": "/produtos/linha-saude-feminina",
-          "label": "Linha Saúde Feminina"
-        },
-        {
-          "href": "/produtos/linha-saude-masculina",
-          "label": "Linha Saúde Masculina"
-        },
-        {
-          "href": "/produtos/sport-line",
-          "label": "Sport Line"
-        },
-        {
-          "href": "/produtos/combos",
-          "label": "Combos"
-        },
-        {
-          "label": "True Sports Clothing",
-          "href": "/produtos/true-sports---clothing"
-        }
-      ],
-      "label": "PRODUTOS",
-      "extraLinks": []
-    },
-    {
-      "items": [
-        {
-          "href": "/por-objetivo/massa-muscular",
-          "label": "Massa Muscular"
-        },
-        {
-          "href": "/por-objetivo/emagrecimento",
-          "label": "Emagrecimento"
-        },
-        {
-          "href": "/por-objetivo/energia",
-          "label": "Energia"
-        },
-        {
-          "href": "/por-objetivo/foco-e-concentracao",
-          "label": "Foco e Concentração"
-        },
-        {
-          "href": "/por-objetivo/imunidade",
-          "label": "Imunidade"
-        },
-        {
-          "href": "/por-objetivo/longevidade",
-          "label": "Longevidade"
-        },
-        {
-          "href": "/por-objetivo/beleza-e-pele",
-          "label": "Beleza e Pele"
-        },
-        {
-          "href": "/por-objetivo/cuidados-familiares",
-          "label": "Cuidados Familiares"
-        },
-        {
-          "href": "/por-objetivo/cuidados-da-mulher",
-          "label": "Cuidados da Mulher"
-        },
-        {
-          "href": "/por-objetivo/cuidados-do-homem",
-          "label": "Cuidados do Homem"
-        },
-        {
-          "href": "/produtos/combos",
-          "label": "Combos"
-        },
-        {
-          "href": "/vestuario",
-          "label": "Vestuário"
-        }
-      ],
-      "label": "OBJETIVOS",
-      "extraLinks": []
-    },
-    {
-      "items": [
-        {
-          "href": "/central-de-atendimento",
-          "label": "Fale Conosco"
-        },
-        {
-          "href": "/account#/orders",
-          "label": "Acompanhe seu Pedido"
-        },
-        {
-          "href": "https://www.truesource.com.br/politicas/frete-gratis",
-          "label": "Política de Frete Grátis"
-        },
-        {
-          "href": "https://www.truesource.com.br/politicas/pagamento",
-          "label": "Políticas de Pagamento"
-        },
-        {
-          "href": "/politicas/devolucao",
-          "label": "Política de Troca e Devolução"
-        },
-        {
-          "href": "https://www.truesource.com.br/politicas/promocoes",
-          "label": "Políticas Promocionais"
-        },
-        {
-          "label": "Perguntas Frequentes",
-          "href": "/perguntas-frequentes"
-        }
-      ],
-      "label": "SUPORTE",
-      "extraLinks": []
-    }
-  ],
-  "extraLinks": [
-    {
-      "href": "/sobre",
-      "label": "A TRUE SOURCE"
-    },
-    {
-      "href": "/BLOG",
-      "label": "BLOG"
-    },
-    {
-      "href": "/PROFISSIONAIS",
-      "label": "PROFISSIONAIS"
-    },
-    {
-      "href": "/LOJISTAS",
-      "label": "LOJISTAS"
-    },
-    {
-      "href": "/MARKETING",
-      "label": "MARKETING"
-    },
-    {
-      "href": "/CASHBACK",
-      "label": "CASHBACK"
-    },
-    {
-      "href": "/ASSINATURA",
-      "label": "ASSINATURA"
-    },
-    {
-      "href": "/BLACK FRIDAY",
-      "label": "BLACK FRIDAY"
-    }
-  ],
-  "mobileApps": {
-    "apple": "http://www.google.com",
-    "android": "http://www.google.com"
-  },
-  "newsletter": {
-    "form": {
-      "helpText": "<p>Ao se inscrever, você está aceitando nossa <a href=\"/\" class=\"link\">Política de Privacidade</a>.</p>",
-      "buttonText": "assinar",
-      "placeholder": "seu@email.com"
-    },
-    "title": "RECEBA AS NOSSAS ÚLTIMAS NOVIDADES"
-  },
-  "backToTheTop": {
-    "text": "Voltar ao topo"
-  },
-  "__resolveType": "site/sections/Footer/Footer.tsx",
-  "copyrightText": "© TRUE BRANDS DISTRIBUIDORA DE PRODUTOS SAUDAVEIS LTDA - 36.681.274/0002-11 True Source 2024 - Todos os direitos reservados.",
-  "regionOptions": {
-    "currency": [
-      {
-        "href": "/",
-        "label": "Brasil BRL"
-      },
-      {
-        "href": "/",
-        "label": "United Stated USD"
-      }
-    ],
-    "language": [
-      {
-        "href": "/",
-        "label": "PT"
-      },
-      {
-        "href": "/",
-        "label": "EN"
-      }
-    ]
-  },
-  "institutionalItems": [
-    {
-      "href": "/true-source",
-      "label": "A TRUE SOURCE"
-    },
-    {
-      "href": "http://blog.truesource.com.br",
-      "label": "BLOG"
-    },
-    {
-      "href": "/lojistas",
-      "label": "LOJISTAS"
-    },
-    {
-      "href": "/assinatura",
-      "label": "ASSINATURA"
-    },
-    {
-      "href": "/true-source-points",
-      "label": "TRUE POINTS"
-    }
-  ],
-  "imageAppStore": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/5d1a9e0d-12e4-4b7e-8c55-a1c8a35a46f9/App-(1).jpg",
-  "imageGooglePlay": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/155c248d-921b-4062-baff-a207ce8903b9/Google.png",
-  "imageURL": "https://apps.apple.com/br/app/true-source/id1627773172",
-  "imageGooglePlayQR": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/486b8763-a5ae-46e5-b8b2-6c9dae1d9ff9/Vector.png"
+	"seo": "<p>Nascemos da união de um time de especialistas de peso que formularam produtos altamente eficientes e saborosos. Depois de 2 anos de pesquisas e estudos do mercado nacional e internacional, nossos médicos, nutricionistas e chefs de cozinha chegaram à fórmula perfeita.</p>",
+	"logo": "https://data.decoassets.com/true-source/77b8c668-a3c5-4918-abcf-5928161a2e73/1742235041413-6eab31b5-ab6e-4722-a032-ebcd20883efa",
+	"layout": {
+		"hide": {
+			"logo": false,
+			"mobileApps": false,
+			"newsletter": false,
+			"socialLinks": false,
+			"regionOptions": false
+		},
+		"variation": "Variation 4",
+		"backgroundColor": "Base 100"
+	},
+	"social": [
+		{
+			"link": "https://www.instagram.com/truesourcenutrition/",
+			"label": "Instagram"
+		},
+		{
+			"link": "https://www.youtube.com/channel/UC5SApjxQ3zeYCwZA-pvQc2w",
+			"label": "Youtube"
+		},
+		{
+			"link": "https://www.tiktok.com/@truesourcenutrition",
+			"label": "Tiktok"
+		}
+	],
+	"seoText": "<p>Nascemos da união de um time de especialistas de peso que formularam produtos altamente eficientes e saborosos. Depois de 2 anos de pesquisas e estudos do mercado nacional e internacional, nossos médicos, nutricionistas e chefs de cozinha chegaram à fórmula perfeita.</p>",
+	"payments": {
+		"items": [
+			{
+				"label": "Visa"
+			},
+			{
+				"label": "Mastercard"
+			},
+			{
+				"label": "Dinners"
+			},
+			{
+				"label": "Boleto"
+			},
+			{
+				"label": "Pix"
+			}
+		],
+		"title": "PAGUE EM ATÉ 6X SEM JUROS NO CARTÃO OU À VISTA COM DESCONTO"
+	},
+	"sections": [
+		{
+			"items": [
+				{
+					"href": "/produtos/whey-protein",
+					"label": "Whey Protein"
+				},
+				{
+					"href": "/produtos/proteina-vegana",
+					"label": "Proteína Vegana"
+				},
+				{
+					"href": "/produtos/beef-protein",
+					"label": "Beef Protein"
+				},
+				{
+					"href": "/produtos/aminoacidos",
+					"label": "Aminoácidos"
+				},
+				{
+					"href": "/produtos/emagrecedores",
+					"label": "Emagrecedores"
+				},
+				{
+					"href": "/produtos/foco-e-energia",
+					"label": "Foco e Energia"
+				},
+				{
+					"href": "/produtos/nootropicos",
+					"label": "Nootrópicos"
+				},
+				{
+					"href": "/produtos/colageno",
+					"label": "Colágeno"
+				},
+				{
+					"href": "/produtos/vitaminas-e-minerais",
+					"label": "Vitaminas e Minerais"
+				},
+				{
+					"href": "/produtos/true-foods",
+					"label": "True Foods"
+				},
+				{
+					"href": "/produtos/linha-family-care",
+					"label": "Linha Family Care"
+				},
+				{
+					"href": "/produtos/linha-saude-feminina",
+					"label": "Linha Saúde Feminina"
+				},
+				{
+					"href": "/produtos/linha-saude-masculina",
+					"label": "Linha Saúde Masculina"
+				},
+				{
+					"href": "/produtos/sport-line",
+					"label": "Sport Line"
+				},
+				{
+					"href": "/produtos/combos",
+					"label": "Combos"
+				},
+				{
+					"label": "True Sports Clothing",
+					"href": "/produtos/true-sports---clothing"
+				}
+			],
+			"label": "PRODUTOS",
+			"extraLinks": []
+		},
+		{
+			"items": [
+				{
+					"href": "/por-objetivo/massa-muscular",
+					"label": "Massa Muscular"
+				},
+				{
+					"href": "/por-objetivo/emagrecimento",
+					"label": "Emagrecimento"
+				},
+				{
+					"href": "/por-objetivo/energia",
+					"label": "Energia"
+				},
+				{
+					"href": "/por-objetivo/foco-e-concentracao",
+					"label": "Foco e Concentração"
+				},
+				{
+					"href": "/por-objetivo/imunidade",
+					"label": "Imunidade"
+				},
+				{
+					"href": "/por-objetivo/longevidade",
+					"label": "Longevidade"
+				},
+				{
+					"href": "/por-objetivo/beleza-e-pele",
+					"label": "Beleza e Pele"
+				},
+				{
+					"href": "/por-objetivo/cuidados-familiares",
+					"label": "Cuidados Familiares"
+				},
+				{
+					"href": "/por-objetivo/cuidados-da-mulher",
+					"label": "Cuidados da Mulher"
+				},
+				{
+					"href": "/por-objetivo/cuidados-do-homem",
+					"label": "Cuidados do Homem"
+				},
+				{
+					"href": "/produtos/combos",
+					"label": "Combos"
+				},
+				{
+					"href": "/vestuario",
+					"label": "Vestuário"
+				}
+			],
+			"label": "OBJETIVOS",
+			"extraLinks": []
+		},
+		{
+			"items": [
+				{
+					"href": "/central-de-atendimento",
+					"label": "Fale Conosco"
+				},
+				{
+					"href": "/account#/orders",
+					"label": "Acompanhe seu Pedido"
+				},
+				{
+					"href": "https://www.truesource.com.br/politicas/frete-gratis",
+					"label": "Política de Frete Grátis"
+				},
+				{
+					"href": "https://www.truesource.com.br/politicas/pagamento",
+					"label": "Políticas de Pagamento"
+				},
+				{
+					"href": "/politicas/devolucao",
+					"label": "Política de Troca e Devolução"
+				},
+				{
+					"href": "https://www.truesource.com.br/politicas/promocoes",
+					"label": "Políticas Promocionais"
+				},
+				{
+					"label": "Perguntas Frequentes",
+					"href": "/perguntas-frequentes"
+				}
+			],
+			"label": "SUPORTE",
+			"extraLinks": []
+		}
+	],
+	"extraLinks": [
+		{
+			"href": "/sobre",
+			"label": "A TRUE SOURCE"
+		},
+		{
+			"href": "/BLOG",
+			"label": "BLOG"
+		},
+		{
+			"href": "/PROFISSIONAIS",
+			"label": "PROFISSIONAIS"
+		},
+		{
+			"href": "/LOJISTAS",
+			"label": "LOJISTAS"
+		},
+		{
+			"href": "/MARKETING",
+			"label": "MARKETING"
+		},
+		{
+			"href": "/CASHBACK",
+			"label": "CASHBACK"
+		},
+		{
+			"href": "/ASSINATURA",
+			"label": "ASSINATURA"
+		},
+		{
+			"href": "/BLACK FRIDAY",
+			"label": "BLACK FRIDAY"
+		}
+	],
+	"mobileApps": {
+		"apple": "http://www.google.com",
+		"android": "http://www.google.com"
+	},
+	"newsletter": {
+		"form": {
+			"helpText": "<p>Ao se inscrever, você está aceitando nossa <a href=\"/\" class=\"link\">Política de Privacidade</a>.</p>",
+			"buttonText": "assinar",
+			"placeholder": "seu@email.com"
+		},
+		"title": "RECEBA AS NOSSAS ÚLTIMAS NOVIDADES"
+	},
+	"backToTheTop": {
+		"text": "Voltar ao topo"
+	},
+	"__resolveType": "site/sections/Footer/Footer.tsx",
+	"copyrightText": "© TRUE BRANDS DISTRIBUIDORA DE PRODUTOS SAUDAVEIS LTDA - 36.681.274/0002-11 True Source 2024 - Todos os direitos reservados.",
+	"regionOptions": {
+		"currency": [
+			{
+				"href": "/",
+				"label": "Brasil BRL"
+			},
+			{
+				"href": "/",
+				"label": "United Stated USD"
+			}
+		],
+		"language": [
+			{
+				"href": "/",
+				"label": "PT"
+			},
+			{
+				"href": "/",
+				"label": "EN"
+			}
+		]
+	},
+	"institutionalItems": [
+		{
+			"href": "/true-source",
+			"label": "A TRUE SOURCE"
+		},
+		{
+			"href": "http://blog.truesource.com.br",
+			"label": "BLOG"
+		},
+		{
+			"href": "/lojistas",
+			"label": "LOJISTAS"
+		},
+		{
+			"href": "/assinatura",
+			"label": "ASSINATURA"
+		},
+		{
+			"href": "/true-source-points",
+			"label": "TRUE POINTS"
+		}
+	],
+	"imageAppStore": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/5d1a9e0d-12e4-4b7e-8c55-a1c8a35a46f9/App-(1).jpg",
+	"imageGooglePlay": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/155c248d-921b-4062-baff-a207ce8903b9/Google.png",
+	"imageURL": "https://apps.apple.com/br/app/true-source/id1627773172",
+	"imageGooglePlayQR": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/486b8763-a5ae-46e5-b8b2-6c9dae1d9ff9/Vector.png"
 }

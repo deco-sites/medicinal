@@ -1,87 +1,87 @@
 {
-  "images": [
-    {
-      "start": "2025-05-21T03:00:00.000Z",
-      "mobile": {
-        "width": 1187,
-        "height": 331,
-        "src": "https://assets.decocache.com/true-source/7fe08824-c3b1-4701-bae3-003ce6854af0/MOBILE-PRODUTO.jpg"
-      },
-      "desktop": {
-        "width": 1408,
-        "height": 148,
-        "src": "https://assets.decocache.com/true-source/5e165aaf-dde8-492a-80d6-d900bc12e3c1/DESKTOP-PRODUTO.jpg"
-      },
-      "end": "2025-06-01T02:59:00.000Z",
-      "alt": "Ação Sachês Magnésio",
-      "href": "https://www.truesource.com.br/kit-4-saches-magnesio/p"
-    },
-    {
-      "desktop": {
-        "width": 1408,
-        "height": 148,
-        "src": "https://assets.decocache.com/true-source/39513c28-7c8b-4d43-a747-d878b14ef41c/DESKTOP-PRODUTO.jpg"
-      },
-      "mobile": {
-        "width": 1187,
-        "height": 331,
-        "src": "https://assets.decocache.com/true-source/5a5ba2bc-bcbd-43b0-9f33-1822c1c0edbe/MOBILE-PRODUTO.jpg"
-      },
-      "alt": "Mês das Mães - Mom Day",
-      "start": "2025-05-14T03:00:00.000Z",
-      "end": "2025-05-15T02:59:00.000Z",
-      "href": "http://www.truesource.com.br/produtos"
-    },
-    {
-      "desktop": {
-        "width": 1408,
-        "height": 148,
-        "src": "https://assets.decocache.com/true-source/d49108e1-6d6c-436e-b96a-aef6385d7a56/DESKTOP-PRODUTO.jpg"
-      },
-      "mobile": {
-        "width": 1187,
-        "height": 331,
-        "src": "https://assets.decocache.com/true-source/489812d8-b8c6-46c3-a53e-eec388a875f9/MOBILE-PRODUTO.jpg"
-      },
-      "alt": "Mês das Mães - Promo de FDS 2",
-      "href": "https://www.truesource.com.br/302?map=productClusterIds",
-      "start": "2025-05-16T03:00:00.000Z",
-      "end": "2025-05-19T02:59:00.000Z"
-    },
-    {
-      "desktop": {
-        "width": 1408,
-        "height": 148,
-        "src": "https://assets.decocache.com/true-source/73027838-8ce8-4c93-8a97-7ad14fc550b3/DESKTOP-PRODUTO.jpg"
-      },
-      "mobile": {
-        "width": 1187,
-        "height": 331,
-        "src": "https://assets.decocache.com/true-source/917e20ce-76d6-4bfb-9a66-161fc580e7f7/MOBILE-PRODUTO.jpg"
-      },
-      "alt": "Mês das Mães",
-      "href": "http://www.truesource.com.br/produtos",
-      "start": "2025-05-15T03:00:00.000Z",
-      "end": "2025-05-30T02:59:00.000Z"
-    },
-    {
-      "desktop": {
-        "width": 1408,
-        "height": 148,
-        "src": "https://assets.decocache.com/true-source/083ac8ea-bc69-4e89-9e01-3fcc2c3fddda/DESKTOP-PRODUTO.jpg"
-      },
-      "mobile": {
-        "width": 1187,
-        "height": 331,
-        "src": "https://assets.decocache.com/true-source/caf0385a-52a9-4e6a-b667-7a8a74243670/MOBILE-PRODUTO.jpg"
-      },
-      "alt": "Mês da Mulher",
-      "href": "https://www.truesource.com.br/produtos",
-      "start": "2025-03-26T03:00:00.000Z",
-      "end": "2025-04-01T02:59:00.000Z"
-    }
-  ],
-  "preload": false,
-  "interval": 5,
-  "__resolveType": "site/sections/Images/Carousel.tsx"
+	"images": [
+		{
+			"start": "2025-05-21T03:00:00.000Z",
+			"mobile": {
+				"width": 1187,
+				"height": 331,
+				"src": "https://assets.decocache.com/true-source/7fe08824-c3b1-4701-bae3-003ce6854af0/MOBILE-PRODUTO.jpg"
+			},
+			"desktop": {
+				"width": 1408,
+				"height": 148,
+				"src": "https://assets.decocache.com/true-source/5e165aaf-dde8-492a-80d6-d900bc12e3c1/DESKTOP-PRODUTO.jpg"
+			},
+			"end": "2025-06-01T02:59:00.000Z",
+			"alt": "Ação Sachês Magnésio",
+			"href": "https://www.truesource.com.br/kit-4-saches-magnesio/p"
+		},
+		{
+			"desktop": {
+				"width": 1408,
+				"height": 148,
+				"src": "https://assets.decocache.com/true-source/39513c28-7c8b-4d43-a747-d878b14ef41c/DESKTOP-PRODUTO.jpg"
+			},
+			"mobile": {
+				"width": 1187,
+				"height": 331,
+				"src": "https://assets.decocache.com/true-source/5a5ba2bc-bcbd-43b0-9f33-1822c1c0edbe/MOBILE-PRODUTO.jpg"
+			},
+			"alt": "Mês das Mães - Mom Day",
+			"start": "2025-05-14T03:00:00.000Z",
+			"end": "2025-05-15T02:59:00.000Z",
+			"href": "http://www.truesource.com.br/produtos"
+		},
+		{
+			"desktop": {
+				"width": 1408,
+				"height": 148,
+				"src": "https://assets.decocache.com/true-source/d49108e1-6d6c-436e-b96a-aef6385d7a56/DESKTOP-PRODUTO.jpg"
+			},
+			"mobile": {
+				"width": 1187,
+				"height": 331,
+				"src": "https://assets.decocache.com/true-source/489812d8-b8c6-46c3-a53e-eec388a875f9/MOBILE-PRODUTO.jpg"
+			},
+			"alt": "Mês das Mães - Promo de FDS 2",
+			"href": "https://www.truesource.com.br/302?map=productClusterIds",
+			"start": "2025-05-16T03:00:00.000Z",
+			"end": "2025-05-19T02:59:00.000Z"
+		},
+		{
+			"desktop": {
+				"width": 1408,
+				"height": 148,
+				"src": "https://assets.decocache.com/true-source/73027838-8ce8-4c93-8a97-7ad14fc550b3/DESKTOP-PRODUTO.jpg"
+			},
+			"mobile": {
+				"width": 1187,
+				"height": 331,
+				"src": "https://assets.decocache.com/true-source/917e20ce-76d6-4bfb-9a66-161fc580e7f7/MOBILE-PRODUTO.jpg"
+			},
+			"alt": "Mês das Mães",
+			"href": "http://www.truesource.com.br/produtos",
+			"start": "2025-05-15T03:00:00.000Z",
+			"end": "2025-05-30T02:59:00.000Z"
+		},
+		{
+			"desktop": {
+				"width": 1408,
+				"height": 148,
+				"src": "https://assets.decocache.com/true-source/083ac8ea-bc69-4e89-9e01-3fcc2c3fddda/DESKTOP-PRODUTO.jpg"
+			},
+			"mobile": {
+				"width": 1187,
+				"height": 331,
+				"src": "https://assets.decocache.com/true-source/caf0385a-52a9-4e6a-b667-7a8a74243670/MOBILE-PRODUTO.jpg"
+			},
+			"alt": "Mês da Mulher",
+			"href": "https://www.truesource.com.br/produtos",
+			"start": "2025-03-26T03:00:00.000Z",
+			"end": "2025-04-01T02:59:00.000Z"
+		}
+	],
+	"preload": false,
+	"interval": 5,
+	"__resolveType": "site/sections/Images/Carousel.tsx"
 }

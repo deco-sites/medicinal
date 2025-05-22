@@ -1,347 +1,348 @@
 {
-  "cart": {
-    "freeShippingObjectiveQuantity": 600
-  },
-  "logo": {
-    "alt": "logo medicinal",
-    "src": "https://assets.decocache.com/medicinal/22d621aa-da4b-43dc-a1b9-e5f66d825cfd/logo-medicinal-(1)-1.svg",
-    "width": 205,
-    "height": 40
-  },
-  "alerts": [
-    {
-      "link": "/produtos",
-      "text": "Até 6x sem juros no cartão",
-      "icons": {
-        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/836a7de4-55f3-4b51-82ac-11cb4609cfc9/icon_ate-6x-sem-juros-no-cartao.svg",
-        "width": 16,
-        "height": 16
-      }
-    },
-    {
-      "text": "Frete Grátis. Consulte condições",
-      "link": "/politicas/frete-gratis",
-      "icons": {
-        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/b3ccf9df-a3a1-496b-b48f-b490217f3725/frete-gratis--ponto--Veja-as-regras-abaixo.svg",
-        "width": 16,
-        "height": 16
-      }
-    },
-    {
-      "text": "Assine agora e ganhe brindes exclusivos!",
-      "link": "/assinatura",
-      "icons": {
-        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/bfd4b611-1f87-4a07-8087-7c15655e0ef0/assine-agora.svg",
-        "width": 16,
-        "height": 16
-      }
-    }
-  ],
-  "buttons": {
-    "isSticky": true
-  },
-  "socials": [
-    {
-      "url": "https://www.instagram.com/truesourcenutrition/",
-      "icon": "https://data.decoassets.com/true-source/79d3f5f8-859f-4520-8168-a5d474282e12/1742235047128-3af4c99a-5f34-4ad2-9e1d-7cf367659dcc",
-      "name": "Instagram"
-    },
-    {
-      "url": "https://www.youtube.com/channel/UC5SApjxQ3zeYCwZA-pvQc2w",
-      "icon": "https://data.decoassets.com/true-source/7d5e314c-3c20-4eb7-8084-2aaeb3a6a5d3/1742235052336-303ba6c8-2f8f-4855-8635-cbaf304002bf",
-      "name": "Youtube"
-    },
-    {
-      "url": "https://www.facebook.com/truesourcenutrition",
-      "icon": "https://data.decoassets.com/true-source/b74760e0-ad21-4bac-a470-6ed1ac0649e9/1742235055075-9e648aa3-0cf8-4b7e-8c2f-fd16d9dafef8",
-      "name": "Facebook"
-    }
-  ],
-  "navItems": [
-    {
-      "url": "/produtos",
-      "name": "Todos os produtos",
-      "image": {
-        "alt": "whey protein and power bars",
-        "src": "https://assets.decocache.com/true-source/14e8ec77-102a-4d04-a76c-3628c8cb0955/image.jpg"
-      },
-      "children": [
-        {
-          "url": "/produtos",
-          "name": "Ver todos",
-          "isBold": true
-        },
-        {
-          "url": "/produtos/whey-protein",
-          "name": "Whey Protein"
-        },
-        {
-          "url": "/produtos/proteina-vegana",
-          "name": "Proteína Vegana"
-        },
-        {
-          "url": "/produtos/beef-protein",
-          "name": "Beef Protein"
-        },
-        {
-          "url": "/produtos/aminoacidos",
-          "name": "Aminoácidos"
-        },
-        {
-          "url": "/produtos/emagrecedores",
-          "name": "Emagrecedores"
-        },
-        {
-          "url": "/produtos/foco-e-energia",
-          "name": "Foco e Energia"
-        },
-        {
-          "url": "/produtos/nootropicos",
-          "name": "Nootrópicos"
-        },
-        {
-          "url": "/produtos/colageno",
-          "name": "Colágeno"
-        },
-        {
-          "url": "/produtos/vitaminas-e-minerais",
-          "name": "Vitaminas e Minerais"
-        },
-        {
-          "url": "https://www.truesource.com.br/produtos/true-foods",
-          "name": "True Foods"
-        },
-        {
-          "url": "/produtos/linha-family-care",
-          "name": "Linha Family Care"
-        },
-        {
-          "url": "/produtos/linha-saude-feminina",
-          "name": "Linha Saúde Feminina"
-        },
-        {
-          "url": "/produtos/linha-saude-masculina",
-          "name": "Linha Saúde Masculina"
-        },
-        {
-          "url": "https://www.truesource.com.br/produtos/sport-line",
-          "name": "Sport Line"
-        },
-        {
-          "url": "/produtos/true-sports---clothing",
-          "name": "True Sports Clothing"
-        },
-        {
-          "url": "/produtos/combos",
-          "name": "Combos"
-        }
-      ],
-      "isShortcut": true
-    },
-    {
-      "url": "/produtos",
-      "name": "Compre por objetivo",
-      "image": {
-        "alt": "two person running",
-        "src": "https://data.decoassets.com/true-source/e981448f-39fe-435d-9168-1069ecfb2795/1742235063801-079f0011-25db-4add-8d53-f8e489946c77"
-      },
-      "children": [
-        {
-          "url": "/por-objetivo/massa-muscular",
-          "name": "Massa Muscular"
-        },
-        {
-          "url": "/por-objetivo/emagrecimento",
-          "name": "Emagrecimento"
-        },
-        {
-          "url": "/por-objetivo/energia",
-          "name": "Energia"
-        },
-        {
-          "url": "/por-objetivo/foco-e-concentracao",
-          "name": "Foco e Concentração"
-        },
-        {
-          "url": "/por-objetivo/imunidade",
-          "name": "Imunidade"
-        },
-        {
-          "url": "/por-objetivo/longevidade",
-          "name": "Longevidade"
-        },
-        {
-          "url": "/por-objetivo/beleza-e-pele",
-          "name": "Beleza e Pele"
-        },
-        {
-          "url": "/por-objetivo/cuidados-familiares",
-          "name": "Cuidados Familiares"
-        },
-        {
-          "url": "/por-objetivo/cuidados-da-mulher",
-          "name": "Cuidados da Mulher"
-        },
-        {
-          "url": "/por-objetivo/cuidados-do-homem",
-          "name": "Cuidados do Homem"
-        },
-        {
-          "url": "/produtos/combos",
-          "name": "Combos"
-        },
-        {
-          "url": "/por-objetivo/vestuario",
-          "name": "Vestuário"
-        }
-      ],
-      "isShortcut": true
-    },
-    {
-      "url": "/mais-vendidos",
-      "name": "Mais vendidos",
-      "children": []
-    },
-    {
-      "url": "/lancamentos",
-      "name": "Lançamentos",
-      "children": []
-    },
-    {
-      "url": "/promocoes",
-      "name": "Promoções",
-      "children": []
-    },
-    {
-      "url": "/assinatura",
-      "name": "Assinatura",
-      "children": [],
-      "isShortcut": true,
-      "ishighlighted": true
-    }
-  ],
-  "products": [],
-  "helpItems": {
-    "url": "/central-de-atendimento",
-    "title": "Ajuda e suporte",
-    "children": [
-      {
-        "url": "/central-de-atendimento",
-        "title": "Central de atendimento"
-      }
-    ]
-  },
-  "searchbar": {
-    "name": "q",
-    "action": "/s",
-    "loader": {
-      "data": {
-        "count": 4,
-        "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts"
-      },
-      "__resolveType": "resolved"
-    },
-    "isMobile": true,
-    "placeholder": "O que você procura?",
-    "mobilePlaceholder": "O que você procura?"
-  },
-  "suggestions": {
-    "products": [],
-    "searches": []
-  },
-  "logoPosition": "center",
-  "__resolveType": "site/sections/Header/Header.tsx",
-  "isSecondVariant": true,
-  "MenuInstitucional": [
-    {
-      "url": "/sobre",
-      "name": "A TRUE SOURCE",
-      "image": [],
-      "children": [],
-      "identifier": "A TRUE SOURCE",
-      "additionalType": "A TRUE SOURCE"
-    },
-    {
-      "url": "/Profissionais",
-      "name": "Profissionais",
-      "image": [],
-      "children": [],
-      "identifier": "Profissionais",
-      "additionalType": "Profissionais"
-    },
-    {
-      "url": "/Lojistas",
-      "name": "Lojistas",
-      "image": [],
-      "children": [],
-      "identifier": "Lojistas",
-      "additionalType": "Lojistas"
-    },
-    {
-      "url": "/Marketing",
-      "name": "Marketing",
-      "image": [],
-      "children": [],
-      "identifier": "Marketing",
-      "additionalType": "Marketing"
-    },
-    {
-      "url": "/Cashback",
-      "name": "Cashback",
-      "image": [],
-      "children": [],
-      "identifier": "Cashback",
-      "additionalType": "Cashback"
-    }
-  ],
-  "menuInstitucional": [
-    {
-      "url": "MenuInstitutional",
-      "link": "/sobre",
-      "name": "MenuInstitutional",
-      "text": "/sobre",
-      "identifier": "MenuInstitutional",
-      "additionalType": "MenuInstitutional"
-    }
-  ],
-  "freeShippingTarget": 119.9,
-  "institutionalItems": [
-    {
-      "url": "/true-source",
-      "name": "A true source"
-    },
-    {
-      "url": "/profissionais",
-      "name": "Profissionais"
-    },
-    {
-      "url": "/lojistas",
-      "name": "Lojistas"
-    },
-    {
-      "url": "/institucional/cashback",
-      "name": "Cashback"
-    },
-    {
-      "url": "https://blog.truesource.com.br/",
-      "name": "Blog"
-    }
-  ],
-  "menuInstitucionalItems": [
-    {
-      "link": "/algumacoisa",
-      "text": "menuInstitucionalItems"
-    }
-  ],
-  "menuInstitucionalitems": [
-    {
-      "link": "menuInstitucionalItem",
-      "text": "menuInstitucionalItem"
-    },
-    {
-      "link": "menu 1",
-      "text": "Menu1 "
-    }
-  ],
-  "theme": "light"
+	"cart": {
+		"freeShippingObjectiveQuantity": 600
+	},
+	"logo": {
+		"alt": "logo medicinal",
+		"src": "https://assets.decocache.com/medicinal/22d621aa-da4b-43dc-a1b9-e5f66d825cfd/logo-medicinal-(1)-1.svg",
+		"width": 205,
+		"height": 40
+	},
+	"alerts": [
+		{
+			"link": "/produtos",
+			"text": "Até 6x sem juros no cartão",
+			"icons": {
+				"icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/836a7de4-55f3-4b51-82ac-11cb4609cfc9/icon_ate-6x-sem-juros-no-cartao.svg",
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"text": "Frete Grátis. Consulte condições",
+			"link": "/politicas/frete-gratis",
+			"icons": {
+				"icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/b3ccf9df-a3a1-496b-b48f-b490217f3725/frete-gratis--ponto--Veja-as-regras-abaixo.svg",
+				"width": 16,
+				"height": 16
+			}
+		},
+		{
+			"text": "Assine agora e ganhe brindes exclusivos!",
+			"link": "/assinatura",
+			"icons": {
+				"icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/bfd4b611-1f87-4a07-8087-7c15655e0ef0/assine-agora.svg",
+				"width": 16,
+				"height": 16
+			}
+		}
+	],
+	"buttons": {
+		"isSticky": true
+	},
+	"socials": [
+		{
+			"url": "https://www.instagram.com/truesourcenutrition/",
+			"icon": "https://data.decoassets.com/true-source/79d3f5f8-859f-4520-8168-a5d474282e12/1742235047128-3af4c99a-5f34-4ad2-9e1d-7cf367659dcc",
+			"name": "Instagram"
+		},
+		{
+			"url": "https://www.youtube.com/channel/UC5SApjxQ3zeYCwZA-pvQc2w",
+			"icon": "https://data.decoassets.com/true-source/7d5e314c-3c20-4eb7-8084-2aaeb3a6a5d3/1742235052336-303ba6c8-2f8f-4855-8635-cbaf304002bf",
+			"name": "Youtube"
+		},
+		{
+			"url": "https://www.facebook.com/truesourcenutrition",
+			"icon": "https://data.decoassets.com/true-source/b74760e0-ad21-4bac-a470-6ed1ac0649e9/1742235055075-9e648aa3-0cf8-4b7e-8c2f-fd16d9dafef8",
+			"name": "Facebook"
+		}
+	],
+	"navItems": [
+		{
+			"url": "/produtos",
+			"name": "Todos os produtos",
+			"image": {
+				"alt": "whey protein and power bars",
+				"src": "https://assets.decocache.com/true-source/14e8ec77-102a-4d04-a76c-3628c8cb0955/image.jpg"
+			},
+			"children": [
+				{
+					"url": "/produtos",
+					"name": "Ver todos",
+					"isBold": true
+				},
+				{
+					"url": "/produtos/whey-protein",
+					"name": "Whey Protein"
+				},
+				{
+					"url": "/produtos/proteina-vegana",
+					"name": "Proteína Vegana"
+				},
+				{
+					"url": "/produtos/beef-protein",
+					"name": "Beef Protein"
+				},
+				{
+					"url": "/produtos/aminoacidos",
+					"name": "Aminoácidos"
+				},
+				{
+					"url": "/produtos/emagrecedores",
+					"name": "Emagrecedores"
+				},
+				{
+					"url": "/produtos/foco-e-energia",
+					"name": "Foco e Energia"
+				},
+				{
+					"url": "/produtos/nootropicos",
+					"name": "Nootrópicos"
+				},
+				{
+					"url": "/produtos/colageno",
+					"name": "Colágeno"
+				},
+				{
+					"url": "/produtos/vitaminas-e-minerais",
+					"name": "Vitaminas e Minerais"
+				},
+				{
+					"url": "https://www.truesource.com.br/produtos/true-foods",
+					"name": "True Foods"
+				},
+				{
+					"url": "/produtos/linha-family-care",
+					"name": "Linha Family Care"
+				},
+				{
+					"url": "/produtos/linha-saude-feminina",
+					"name": "Linha Saúde Feminina"
+				},
+				{
+					"url": "/produtos/linha-saude-masculina",
+					"name": "Linha Saúde Masculina"
+				},
+				{
+					"url": "https://www.truesource.com.br/produtos/sport-line",
+					"name": "Sport Line"
+				},
+				{
+					"url": "/produtos/true-sports---clothing",
+					"name": "True Sports Clothing"
+				},
+				{
+					"url": "/produtos/combos",
+					"name": "Combos"
+				}
+			],
+			"isShortcut": true,
+			"ishighlighted": true
+		},
+		{
+			"url": "/produtos",
+			"name": "Compre por objetivo",
+			"image": {
+				"alt": "two person running",
+				"src": "https://data.decoassets.com/true-source/e981448f-39fe-435d-9168-1069ecfb2795/1742235063801-079f0011-25db-4add-8d53-f8e489946c77"
+			},
+			"children": [
+				{
+					"url": "/por-objetivo/massa-muscular",
+					"name": "Massa Muscular"
+				},
+				{
+					"url": "/por-objetivo/emagrecimento",
+					"name": "Emagrecimento"
+				},
+				{
+					"url": "/por-objetivo/energia",
+					"name": "Energia"
+				},
+				{
+					"url": "/por-objetivo/foco-e-concentracao",
+					"name": "Foco e Concentração"
+				},
+				{
+					"url": "/por-objetivo/imunidade",
+					"name": "Imunidade"
+				},
+				{
+					"url": "/por-objetivo/longevidade",
+					"name": "Longevidade"
+				},
+				{
+					"url": "/por-objetivo/beleza-e-pele",
+					"name": "Beleza e Pele"
+				},
+				{
+					"url": "/por-objetivo/cuidados-familiares",
+					"name": "Cuidados Familiares"
+				},
+				{
+					"url": "/por-objetivo/cuidados-da-mulher",
+					"name": "Cuidados da Mulher"
+				},
+				{
+					"url": "/por-objetivo/cuidados-do-homem",
+					"name": "Cuidados do Homem"
+				},
+				{
+					"url": "/produtos/combos",
+					"name": "Combos"
+				},
+				{
+					"url": "/por-objetivo/vestuario",
+					"name": "Vestuário"
+				}
+			],
+			"isShortcut": true
+		},
+		{
+			"url": "/mais-vendidos",
+			"name": "Mais vendidos",
+			"children": []
+		},
+		{
+			"url": "/lancamentos",
+			"name": "Lançamentos",
+			"children": []
+		},
+		{
+			"url": "/promocoes",
+			"name": "Promoções",
+			"children": []
+		},
+		{
+			"url": "/assinatura",
+			"name": "Assinatura",
+			"children": [],
+			"isShortcut": true,
+			"ishighlighted": false
+		}
+	],
+	"products": [],
+	"helpItems": {
+		"url": "/central-de-atendimento",
+		"title": "Ajuda e suporte",
+		"children": [
+			{
+				"url": "/central-de-atendimento",
+				"title": "Central de atendimento"
+			}
+		]
+	},
+	"searchbar": {
+		"name": "q",
+		"action": "/s",
+		"loader": {
+			"data": {
+				"count": 4,
+				"__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts"
+			},
+			"__resolveType": "resolved"
+		},
+		"isMobile": true,
+		"placeholder": "O que você procura?",
+		"mobilePlaceholder": "O que você procura?"
+	},
+	"suggestions": {
+		"products": [],
+		"searches": []
+	},
+	"logoPosition": "center",
+	"__resolveType": "site/sections/Header/Header.tsx",
+	"isSecondVariant": true,
+	"MenuInstitucional": [
+		{
+			"url": "/sobre",
+			"name": "A TRUE SOURCE",
+			"image": [],
+			"children": [],
+			"identifier": "A TRUE SOURCE",
+			"additionalType": "A TRUE SOURCE"
+		},
+		{
+			"url": "/Profissionais",
+			"name": "Profissionais",
+			"image": [],
+			"children": [],
+			"identifier": "Profissionais",
+			"additionalType": "Profissionais"
+		},
+		{
+			"url": "/Lojistas",
+			"name": "Lojistas",
+			"image": [],
+			"children": [],
+			"identifier": "Lojistas",
+			"additionalType": "Lojistas"
+		},
+		{
+			"url": "/Marketing",
+			"name": "Marketing",
+			"image": [],
+			"children": [],
+			"identifier": "Marketing",
+			"additionalType": "Marketing"
+		},
+		{
+			"url": "/Cashback",
+			"name": "Cashback",
+			"image": [],
+			"children": [],
+			"identifier": "Cashback",
+			"additionalType": "Cashback"
+		}
+	],
+	"menuInstitucional": [
+		{
+			"url": "MenuInstitutional",
+			"link": "/sobre",
+			"name": "MenuInstitutional",
+			"text": "/sobre",
+			"identifier": "MenuInstitutional",
+			"additionalType": "MenuInstitutional"
+		}
+	],
+	"freeShippingTarget": 119.9,
+	"institutionalItems": [
+		{
+			"url": "/true-source",
+			"name": "A true source"
+		},
+		{
+			"url": "/profissionais",
+			"name": "Profissionais"
+		},
+		{
+			"url": "/lojistas",
+			"name": "Lojistas"
+		},
+		{
+			"url": "/institucional/cashback",
+			"name": "Cashback"
+		},
+		{
+			"url": "https://blog.truesource.com.br/",
+			"name": "Blog"
+		}
+	],
+	"menuInstitucionalItems": [
+		{
+			"link": "/algumacoisa",
+			"text": "menuInstitucionalItems"
+		}
+	],
+	"menuInstitucionalitems": [
+		{
+			"link": "menuInstitucionalItem",
+			"text": "menuInstitucionalItem"
+		},
+		{
+			"link": "menu 1",
+			"text": "Menu1 "
+		}
+	],
+	"theme": "light"
 }

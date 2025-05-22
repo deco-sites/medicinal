@@ -5,15 +5,11 @@ import AddToCartArea from 'site/islands/AddToCartArea.tsx'
 import ProductSimilars from 'site/islands/Product/ProductSimilars.tsx'
 import ShippingSimulation from 'site/islands/ShippingSimulation.tsx'
 import WishlistButtonVtex from '../../islands/WishlistButton/vtex.tsx'
-import { useUser } from 'apps/vtex/hooks/useUser.ts'
-import Logger from 'site/islands/Logger.tsx'
 
 import { useId } from 'site/sdk/useId.ts'
 import { useOffer } from 'site/sdk/useOffer.ts'
-import { SendEventOnView } from 'site/components/Analytics.tsx'
-import { BreadcrumbList, type ProductDetailsPage } from 'apps/commerce/types.ts'
+import { type ProductDetailsPage } from 'apps/commerce/types.ts'
 import { mapProductToAnalyticsItem } from 'apps/commerce/utils/productToAnalyticsItem.ts'
-import { useCart } from 'apps/vtex/hooks/useCart.ts'
 import { SendEventOnViewIsland } from 'site/islands/Product/SendEventOnViewIsland.tsx'
 
 interface Props {
@@ -41,16 +37,13 @@ function ProductData({
 			{/* Code and name */}
 			<div class='flex items-center gap-4 justify-between'>
 				<h1>
-					<span class='font-semibold text-base sm:text-2xl uppercase font-lemon-milk'>
+					<span class='font-semibold text-base sm:text-2xl uppercase '>
 						{name}
 					</span>
 				</h1>
 				{!isMobile && (
 					<>
-						<ProductStars
-							storeId='113397'
-							productId={productGroupID}
-						/>
+						<ProductStars storeId='113397' productId={productGroupID} />
 
 						<WishlistButtonVtex
 							variant='full'
@@ -69,10 +62,7 @@ function ProductData({
 
 				{isMobile && (
 					<>
-						<ProductStars
-							storeId='113397'
-							productId={productGroupID}
-						/>
+						<ProductStars storeId='113397' productId={productGroupID} />
 
 						<WishlistButtonVtex
 							variant='full'
@@ -91,15 +81,12 @@ function ProductData({
 
 function ProductInfo({ page, isMobile }: Props) {
 	const id = useId()
-	const { user } = useUser()
 
 	if (page === null) {
 		throw new Error('Missing Product Details Page Info')
 	}
 
 	const { breadcrumbList, product } = page
-
-	// console.log({ user });
 
 	const {
 		productID,
@@ -108,25 +95,15 @@ function ProductInfo({ page, isMobile }: Props) {
 			name: brandName,
 		},
 		offers,
-		name = '',
-		gtin,
 		isVariantOf,
-		additionalProperty = [],
 	} = product
-	const description = product.description || isVariantOf?.description
 	if (!isVariantOf) return null
 	const {
 		name: productName = '',
 		additionalProperty: currentVariantProperties = [],
 	} = isVariantOf
 	if (!offers) return null
-	const {
-		price = 0,
-		listPrice,
-		seller = '1',
-		installments,
-		availability,
-	} = useOffer(offers) || {}
+	const { price = 0, listPrice, seller = '1' } = useOffer(offers) || {}
 	const productGroupID = isVariantOf?.productGroupID ?? ''
 	const breadcrumb = {
 		...breadcrumbList,
@@ -141,19 +118,11 @@ function ProductInfo({ page, isMobile }: Props) {
 		listPrice,
 	})
 
-	const isUserLoggedIn = Boolean(user.value?.email)
-
-	const testet = user.value
-
 	return (
 		<div
 			class='flex flex-col min-[1000px]:flex-row gap-6 md:gap-8 mb-14'
 			id={id}
 		>
-			{
-				/* <Logger data={{ user }} />
-			<Logger data={{ testet }} /> */
-			}
 			<div class='flex-none order-2 sm:order-1 max-[1000px]:w-full max-[1280px]:w-[500px] w-[664px] mx-auto'>
 				<GallerySlider page={page} />
 			</div>
@@ -172,9 +141,7 @@ function ProductInfo({ page, isMobile }: Props) {
 			<div class='flex flex-col gap-y-4 order-3'>
 				{!isMobile && (
 					<div class='flex flex-col gap-y-4'>
-						<Breadcrumb
-							itemListElement={breadcrumb.itemListElement}
-						/>
+						<Breadcrumb itemListElement={breadcrumb.itemListElement} />
 						<ProductData
 							name={productName}
 							brandName={brandName}
@@ -185,10 +152,7 @@ function ProductInfo({ page, isMobile }: Props) {
 					</div>
 				)}
 				{/* Sku Selector */}
-				<ProductSimilars
-					product={product}
-					current={currentVariantProperties}
-				/>
+				<ProductSimilars product={product} current={currentVariantProperties} />
 				{/* Add to Cart and Favorites button | Prices */}
 				<AddToCartArea
 					product={product}

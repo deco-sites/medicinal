@@ -25,9 +25,12 @@ export default function TextSEO(
 					{copyrightText}
 				</p>
 				<span className='flex items-center gap-2 h-auto'>
-          <a href="https://www.wavecommerce.com.br/?utm_source=rodape&utm_medium=site+truesource" target="_blank">
-					  <Icon id='wave' width='128' height='23' />
-          </a>
+					<a
+						href='https://www.wavecommerce.com.br/?utm_source=rodape&utm_medium=site+truesource'
+						target='_blank'
+					>
+						<Icon id='wave' width='128' height='23' />
+					</a>
 					<VtexSeal />
 				</span>
 			</div>

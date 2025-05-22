@@ -38,12 +38,16 @@ export default function ProductBrainUpSell() {
 							<span className='text-xs text-dark'>
 								R$ 39,90
 							</span>
-							{/* <span className='text-xs text-dark line-through'>
+							{
+								/* <span className='text-xs text-dark line-through'>
 								R$ 32,70
-							</span> */}
-							{/* <span className='text-xs text-green font-bold'>
+							</span> */
+							}
+							{
+								/* <span className='text-xs text-green font-bold'>
 								R$ 31,06
-							</span> */}
+							</span> */
+							}
 						</div>
 					</div>
 					<button

@@ -2,8 +2,6 @@ import { formatPrice } from 'site/sdk/format.ts'
 import { useUI } from 'site/sdk/useUI.ts'
 import { IconAsterisk } from '../ui/CustomIcons.tsx'
 import { AddToCartParams } from 'apps/commerce/types.ts'
-import { sendEvent } from 'site/sdk/analytics.tsx'
-import { useCart } from 'apps/vtex/hooks/useCart.ts'
 
 export interface Props {
 	productID: string
@@ -26,18 +24,16 @@ export default function SubscriptionButtonVTEX({
 	quantity,
 	price,
 	listPrice,
-	eventParams,
 }: Props) {
 	const { currentSubscription } = useUI()
-	const { cart } = useCart()
 
-	const discount = listPrice * 0.20
+	const discount = listPrice * 0.2
 
 	return (
 		<button
-		id='subscription-button'
+			id='subscription-button'
 			type='button'
-			class='flex items-center justify-center gap-4 bg-dark-green text-white font-bold text-xs sm:text-[13px] h-12 px-4 rounded-md font-lemon-milk'
+			class='flex items-center justify-center gap-4 bg-dark-green text-white font-bold text-xs sm:text-[13px] h-12 px-4 rounded-md '
 			onClick={() => {
 				currentSubscription.value = {
 					productID,
@@ -45,13 +41,6 @@ export default function SubscriptionButtonVTEX({
 					quantity,
 					listPrice,
 					price,
-				}
-
-				const user_data = {
-					email_address: cart?.value?.clientProfileData?.email ??
-						undefined,
-					phone_number: cart?.value?.clientProfileData?.phone ??
-						undefined,
 				}
 			}}
 		>

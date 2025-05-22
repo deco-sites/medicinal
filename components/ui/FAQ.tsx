@@ -97,7 +97,7 @@ export default function FAQ({ titles, questions }: Props) {
 					<h2 class='text-sm leading-[18px] md:text-lg md:leading-6 font-bold font-lemon mb-8 text-center'>
 						{titles.upper
 							? (
-								<span class='bg-gradient-to-r from-red to-orange text-transparent bg-clip-text'>
+								<span class='bg-blue text-transparent bg-clip-text'>
 									{titles.upper}
 								</span>
 							)

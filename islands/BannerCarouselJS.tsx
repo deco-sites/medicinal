@@ -6,7 +6,7 @@ const throttle = <R, A extends unknown[]>(
 ): (...args: A) => R | undefined => {
 	let wait = false
 
-	return ((...args: A) => {
+	return (...args: A) => {
 		if (wait) return
 
 		const val = fn(...args)
@@ -18,7 +18,7 @@ const throttle = <R, A extends unknown[]>(
 		}, delay)
 
 		return val
-	})
+	}
 }
 
 interface Props {
@@ -95,21 +95,8 @@ function generateDots(
 	container.removeChild(template)
 }
 
-function setup(
-	{
-		rootId,
-		interval = 0,
-	}: Props,
-) {
-	const {
-		root,
-		carousel,
-		prev,
-		next,
-		items,
-		dotContainer,
-		dotTemplate,
-	} = getElements(rootId)
+function setup({ rootId, interval = 0 }: Props) {
+	const { root, carousel, prev, next, items, dotContainer, dotTemplate } = getElements(rootId)
 	let page = 0
 	const pages = items.length
 
@@ -135,11 +122,7 @@ function setup(
 	let timeout = interval > 0 && setInterval(handleNextClick, interval)
 
 	if (dotContainer && dotTemplate) {
-		generateDots(
-			dotContainer,
-			dotTemplate,
-			items.length,
-		)
+		generateDots(dotContainer, dotTemplate, items.length)
 	}
 
 	const dots = root.querySelectorAll<HTMLLIElement>(`[${ATTRIBUTES.DOT}]`)
@@ -181,36 +164,36 @@ function setup(
 		next.addEventListener('click', nextClick)
 	}
 
-	let startX = 0
-	let lastX = 0
-	let isDown = false
+	//   let startX = 0;
+	//   let lastX = 0;
+	//   let isDown = false;
 
-	function handleStart(e: TouchEvent) {
-		const touch = e.touches[0]
-		startX = touch.clientX
-		lastX = touch.clientX
-		isDown = true
-	}
+	// function handleStart(e: TouchEvent) {
+	// 	const touch = e.touches[0]
+	// 	startX = touch.clientX
+	// 	lastX = touch.clientX
+	// 	isDown = true
+	// }
 
-	function handleMove(e: TouchEvent) {
-		if (!isDown) return
+	// function handleMove(e: TouchEvent) {
+	// 	if (!isDown) return
 
-		const touch = e.touches[0]
-		lastX = touch.clientX
-	}
+	// 	const touch = e.touches[0]
+	// 	lastX = touch.clientX
+	// }
 
-	function handleEnd() {
-		if (!isDown) return
+	// function handleEnd() {
+	// 	if (!isDown) return
 
-		isDown = false
-		const diffX = startX - lastX
+	// 	isDown = false
+	// 	const diffX = startX - lastX
 
-		if (diffX < 0) {
-			handlePrevClick()
-		} else {
-			handleNextClick()
-		}
-	}
+	// 	if (diffX < 0) {
+	// 		handlePrevClick()
+	// 	} else {
+	// 		handleNextClick()
+	// 	}
+	// }
 
 	// carousel.addEventListener('touchmove', handleMove)
 	// carousel.addEventListener('touchstart', handleStart)

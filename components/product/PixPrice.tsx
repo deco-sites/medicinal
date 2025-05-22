@@ -1,4 +1,3 @@
-import { useCart } from 'apps/vtex/hooks/useCart.ts'
 import { useEffect, useState } from 'preact/hooks'
 import { formatPrice } from 'site/sdk/format.ts'
 
@@ -12,19 +11,14 @@ export type Props = {
 const PIX_DISCOUNT = 0.03
 const KIT_DISCOUNT = 0.03
 
-export default function PixPrice({
-	sellingPrice,
-	productId,
-	listPrice,
-	quantity,
-}: Props) {
+export default function PixPrice({ sellingPrice, quantity }: Props) {
 	const [price, setPrice] = useState<number | null>(null)
 
 	useEffect(() => {
-		let pixTotal = (sellingPrice - (sellingPrice * PIX_DISCOUNT)) * quantity
+		let pixTotal = (sellingPrice - sellingPrice * PIX_DISCOUNT) * quantity
 		if (quantity >= 3) {
 			const aux = pixTotal
-			pixTotal = aux - (aux * KIT_DISCOUNT)
+			pixTotal = aux - aux * KIT_DISCOUNT
 		}
 		setPrice(pixTotal)
 	}, [quantity])
@@ -32,7 +26,7 @@ export default function PixPrice({
 	return (
 		<>
 			{price !== null && (
-				<span class='font-bold text-base sm:text-2xl font-lemon-milk'>
+				<span class='font-bold text-base sm:text-2xl '>
 					{formatPrice(price, 'BRL')}
 				</span>
 			)}

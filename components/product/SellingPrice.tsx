@@ -1,7 +1,6 @@
 import { useCart } from 'apps/vtex/hooks/useCart.ts'
 import { formatPrice } from 'site/sdk/format.ts'
 import { useEffect, useState } from 'preact/hooks'
-import type { UnitPriceSpecification } from 'apps/commerce/types.ts'
 
 export type Props = {
 	sellingPrice: number
@@ -30,9 +29,12 @@ const installmentToString = (
 
 	const withTaxes = sellingPrice < price
 
-	return `<strong>${billingDuration}x</strong> de <strong>${formatPrice(billingIncrement / 100, 'BRL')}</strong> ${
-		withTaxes ? 'com juros' : 'sem juros'
-	}`
+	return `<strong>${billingDuration}x</strong> de <strong>${
+		formatPrice(
+			billingIncrement / 100,
+			'BRL',
+		)
+	}</strong> ${withTaxes ? 'com juros' : 'sem juros'}`
 }
 
 export default function SellingPrice({
@@ -50,11 +52,13 @@ export default function SellingPrice({
 		const getData = async () => {
 			const id = Number.parseInt(productId)
 			const response = await simulate({
-				items: [{
-					id,
-					quantity,
-					seller: '1',
-				}],
+				items: [
+					{
+						id,
+						quantity,
+						seller: '1',
+					},
+				],
 				postalCode: '89218220',
 				country: 'BRA',
 				RnbBehavior: 0,
@@ -69,37 +73,37 @@ export default function SellingPrice({
 			// @ts-ignore Type InstallmentOptions is not assignable to type Installment
 			const installmentOptions: Installment[] = response.paymentData.installmentOptions
 
-			const installments = installmentOptions.reduce((
-				prev: null | Installment,
-				curr: Installment,
-			) => {
-				if (curr.paymentGroupName !== 'creditCardPaymentGroup') {
-					return prev
-				}
+			const installments = installmentOptions.reduce(
+				(prev: null | Installment, curr: Installment) => {
+					if (curr.paymentGroupName !== 'creditCardPaymentGroup') {
+						return prev
+					}
 
-				if (!prev) {
-					return curr
-				}
-
-				if (prev.value < total) return curr
-				if (curr.value < total) return prev
-
-				if (prev.value > curr.value) {
-					return curr
-				}
-
-				if (prev.price < curr.price) {
-					return prev
-				}
-
-				if (prev.installments.length && curr.installments.length) {
-					if (prev.installments.length < curr.installments.length) {
+					if (!prev) {
 						return curr
 					}
-				}
 
-				return prev
-			}, null)
+					if (prev.value < total) return curr
+					if (curr.value < total) return prev
+
+					if (prev.value > curr.value) {
+						return curr
+					}
+
+					if (prev.price < curr.price) {
+						return prev
+					}
+
+					if (prev.installments.length && curr.installments.length) {
+						if (prev.installments.length < curr.installments.length) {
+							return curr
+						}
+					}
+
+					return prev
+				},
+				null,
+			)
 			// @ts-ignore installments is checked
 			const installmentString = installmentToString(installments, total)
 			// @ts-ignore installments is checked

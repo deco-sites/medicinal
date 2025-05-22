@@ -1,5 +1,4 @@
-import Icon, { AvailableIcons } from 'site/components/ui/Icon.tsx'
-import ExtraLinks from 'site/components/footer/ExtraLinks.tsx'
+import Icon from 'site/components/ui/Icon.tsx'
 import Collapsable from 'site/components/ui/Collapsable.tsx'
 
 export type Item = {
@@ -12,12 +11,13 @@ export type Section = {
 	items: Item[]
 }
 
-export default function FooterItems(
-	{ sections, institutionalItems }: {
-		sections: Section[]
-		institutionalItems: Item[]
-	},
-) {
+export default function FooterItems({
+	sections,
+	institutionalItems,
+}: {
+	sections: Section[]
+	institutionalItems: Item[]
+}) {
 	return (
 		<>
 			{sections.length > 0 && (
@@ -27,12 +27,10 @@ export default function FooterItems(
 						className={'hidden lg:flex flex-row gap-6 lg:gap-10 lg:justify-between w-full lg:px-[72px]'}
 					>
 						{sections.map((section, index) => (
-							<li
-								className={index === 3 ? 'font-bold font-lemon-milk text-[13px]' : ''}
-							>
+							<li className={index === 3 ? 'font-bold  text-[13px]' : ''}>
 								<div className='flex flex-col'>
 									{section.label && (
-										<span className='font-bold text-[13px] pb-[32px] font-lemon-milk'>
+										<span className='font-bold text-[13px] pb-[32px] '>
 											{section.label}
 										</span>
 									)}
@@ -88,8 +86,8 @@ export default function FooterItems(
 								<li>
 									<a
 										href={item.href}
-										className='block hover:underline text-[13px] font-bold font-lemon-milk text-dark'
-                    target={item.label === 'BLOG' ? '_blank' : ''}
+										className='block hover:underline text-[13px] font-bold  text-dark'
+										target={item.label === 'BLOG' ? '_blank' : ''}
 									>
 										{item.label}
 									</a>
@@ -102,34 +100,33 @@ export default function FooterItems(
 					<ul className='flex flex-col lg:hidden '>
 						<li>
 							<div className='flex flex-col'>
-								<span className='font-bold text-[13px] pb-[32px] font-lemon-milk'>
+								<span className='font-bold text-[13px] pb-[32px] '>
 									{sections[0].label}
 								</span>
 								<div className='flex gap-[32px]'>
 									{/* Renderizando primeira coluna */}
 									<ul className={'flex flex-col gap-5 text-sm'}>
-										{sections[0].items.slice(
-											0,
-											Math.ceil(sections[0].items.length / 2),
-										).map((item) => (
-											<li>
-												<a href={item.href} className='block text-dark'>
-													{item.label}
-												</a>
-											</li>
-										))}
+										{sections[0].items
+											.slice(0, Math.ceil(sections[0].items.length / 2))
+											.map((item) => (
+												<li>
+													<a href={item.href} className='block text-dark'>
+														{item.label}
+													</a>
+												</li>
+											))}
 									</ul>
 									{/* Renderizando segunda coluna */}
 									<ul className={'flex flex-col gap-5 text-sm'}>
-										{sections[0].items.slice(
-											Math.ceil(sections[0].items.length / 2),
-										).map((item) => (
-											<li>
-												<a href={item.href} className='block text-dark'>
-													{item.label}
-												</a>
-											</li>
-										))}
+										{sections[0].items
+											.slice(Math.ceil(sections[0].items.length / 2))
+											.map((item) => (
+												<li>
+													<a href={item.href} className='block text-dark'>
+														{item.label}
+													</a>
+												</li>
+											))}
 									</ul>
 								</div>
 							</div>
@@ -138,10 +135,8 @@ export default function FooterItems(
 						<Collapsable
 							class='w-full border-b border-light-gray'
 							title={
-								<div class='px-0 pb-[30px] pt-8 font-bold font-lemon-milk text-[13px] rounded-none flex items-center justify-between text-dark'>
-									<span>
-										{sections[1].label}
-									</span>
+								<div class='px-0 pb-[30px] pt-8 font-bold  text-[13px] rounded-none flex items-center justify-between text-dark'>
+									<span>{sections[1].label}</span>
 									<Icon
 										id='ChevronDown'
 										size={16}
@@ -164,10 +159,8 @@ export default function FooterItems(
 						<Collapsable
 							class='w-full border-b border-light-gray '
 							title={
-								<div class='px-0 pb-[30px] pt-8 font-bold font-lemon-milk text-[13px] rounded-none flex items-center justify-between text-dark'>
-									<span>
-										{sections[2].label}
-									</span>
+								<div class='px-0 pb-[30px] pt-8 font-bold  text-[13px] rounded-none flex items-center justify-between text-dark'>
+									<span>{sections[2].label}</span>
 									<Icon
 										id='ChevronDown'
 										size={16}
@@ -195,7 +188,7 @@ export default function FooterItems(
 											<li>
 												<a
 													href={item.href}
-													className='block text-sm font-bold font-lemon-milk text-dark'
+													className='block text-sm font-bold  text-dark'
 												>
 													{item.label}
 												</a>

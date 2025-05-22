@@ -21,9 +21,7 @@ export interface Props {
 
 type State = 'loading' | 'success' | 'error' | 'idle'
 
-function Newsletter(
-	{ content }: Props,
-) {
+function Newsletter({ content }: Props) {
 	const state = useSignal<State>('idle')
 
 	const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
@@ -60,15 +58,12 @@ function Newsletter(
 				{content?.title && (
 					<p
 						style={'line-height:normal;'}
-						class='text-lg w-full max-w-[206px] font-bold font-lemon-milk'
+						class='text-lg w-full max-w-[206px] font-bold '
 					>
 						{content?.title}
 					</p>
 				)}
-				<form
-					class='form-control w-full'
-					onSubmit={handleSubmit}
-				>
+				<form class='form-control w-full' onSubmit={handleSubmit}>
 					<div class='relative w-full bg-white rounded-full max-w-[326px] md:max-w-[480px] border border-light-gray-200'>
 						<input
 							name='email'
@@ -77,7 +72,7 @@ function Newsletter(
 						/>
 						<button
 							type='submit'
-							class='rounded-full font-bold uppercase px-6 py-3 bg-brand text-white text-[13px] h-12 font-lemon-milk flex items-center gap-[10px] absolute top-0 right-0'
+							class='rounded-full font-bold uppercase px-6 py-3 bg-brand text-white text-[13px] h-12  flex items-center gap-[10px] absolute top-0 right-0'
 							disabled={state.value === 'loading'}
 						>
 							{state.value === 'loading' ? <label class='loading loading-spinner'></label> : (

@@ -28,7 +28,7 @@ interface Testimonial {
 	 */
 	subscriptionTime: string
 
-  subscriptionTimeCustom?: boolean
+	subscriptionTimeCustom?: boolean
 }
 
 interface Props {
@@ -50,15 +50,18 @@ export function loader(props: Props, _req: Request, ctx: AppContext) {
 	return { ...props, isMobile: ctx.device === 'mobile' }
 }
 
-export default function Testimonials(
-	{ title, testimonials, button, isMobile }: ReturnType<typeof loader>,
-) {
+export default function Testimonials({
+	title,
+	testimonials,
+	button,
+	isMobile,
+}: ReturnType<typeof loader>) {
 	const id = useId()
 
 	return (
 		<div
 			id={id}
-			class='bg-gradient-to-r from-red to-orange py-12 md:py-32 text-white relative rounded-b-[35px]'
+			class='bg-blue py-12 md:py-32 text-white relative rounded-b-[35px]'
 		>
 			<div class='mx-auto w-[83px] h-px bg-current' />
 			<h2 class='font-lemon text-sm leading-[18px] md:text-lg md:leading-[24px] font-bold uppercase text-center w-[282px] md:w-[498px] mt-8 mx-auto'>
@@ -75,25 +78,23 @@ export default function Testimonials(
 							{testimonial.text}
 						</p>
 						<div class='flex items-center gap-6'>
-              {testimonial.authorIcon && (
-                <Image
-                  src={testimonial.authorIcon}
-                  alt={testimonial.authorName}
-                  width={58}
-                  height={58}
-                  class='size-[58px] rounded-full shrink-0'
-                />
-              )}
+							{testimonial.authorIcon && (
+								<Image
+									src={testimonial.authorIcon}
+									alt={testimonial.authorName}
+									width={58}
+									height={58}
+									class='size-[58px] rounded-full shrink-0'
+								/>
+							)}
 							<div>
 								<p class='text-sm leading-[18px] md:text-base md:leading-5 font-lemon font-bold'>
 									{testimonial.authorName}
 								</p>
 								<p class='text-sm leading-4 mt-3'>
-                  {testimonial?.subscriptionTimeCustom ? (
-                    <>{testimonial.subscriptionTime}</>
-                  ): (
-                    <>Assinante há {testimonial.subscriptionTime}</>
-                  )}
+									{testimonial?.subscriptionTimeCustom
+										? <>{testimonial.subscriptionTime}</>
+										: <>Assinante há {testimonial.subscriptionTime}</>}
 								</p>
 							</div>
 						</div>
@@ -137,21 +138,21 @@ export default function Testimonials(
 					/>
 				))}
 			</ul>
-      {button && (
-        <a
-          class='flex justify-center items-center gap-2 px-6 py-3 border-2 border-white rounded-full w-fit mt-8 md:mt-12 mx-auto font-lemon font-bold text-[13px] leading-[18px]'
-          href='/assinaturas'
-        >
-          {button}{' '}
-          <Icon
-            id='BannerArrowRight'
-            strokeLinecap='round'
-            strokeLinejoin='round'
-            size={16}
-            strokeWidth={3}
-          />
-        </a>
-      )}
+			{button && (
+				<a
+					class='flex justify-center items-center gap-2 px-6 py-3 border-2 border-white rounded-full w-fit mt-8 md:mt-12 mx-auto font-lemon font-bold text-[13px] leading-[18px]'
+					href='/assinaturas'
+				>
+					{button}{' '}
+					<Icon
+						id='BannerArrowRight'
+						strokeLinecap='round'
+						strokeLinejoin='round'
+						size={16}
+						strokeWidth={3}
+					/>
+				</a>
+			)}
 			<script defer src={scriptAsDataURI(script, { rootId: id, isMobile })} />
 		</div>
 	)
@@ -169,7 +170,7 @@ function script({ rootId, isMobile }: ScriptProps) {
 	): (...args: A) => R | undefined => {
 		let wait = false
 
-		return ((...args: A) => {
+		return (...args: A) => {
 			if (wait) return
 
 			const val = fn(...args)
@@ -181,7 +182,7 @@ function script({ rootId, isMobile }: ScriptProps) {
 			}, delay)
 
 			return val
-		})
+		}
 	}
 
 	const ATTRIBUTES = {
@@ -227,13 +228,7 @@ function script({ rootId, isMobile }: ScriptProps) {
 		}
 	}
 
-	const {
-		carousel,
-		prev,
-		next,
-		items,
-		dots,
-	} = getElements(rootId)
+	const { carousel, prev, next, items, dots } = getElements(rootId)
 	let index = 0
 
 	if (isMobile) {
@@ -269,9 +264,7 @@ function script({ rootId, isMobile }: ScriptProps) {
 			}
 		}
 
-		const carouselMargin = parseInt(
-			getComputedStyle(carousel).getPropertyValue('margin-left'),
-		) || 0
+		const carouselMargin = parseInt(getComputedStyle(carousel).getPropertyValue('margin-left')) || 0
 		const carouselWidth = carousel.offsetWidth
 		const slideWidth = slide.offsetWidth
 		const centerPos = (carouselWidth - slideWidth) / 2

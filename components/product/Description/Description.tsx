@@ -1,10 +1,12 @@
-import { renderSection } from 'apps/website/pages/Page.tsx';
-import { type Section } from "@deco/deco/blocks";
+import { renderSection } from 'apps/website/pages/Page.tsx'
+import { type Section } from '@deco/deco/blocks'
 interface Props {
-    sections: Section[];
+	sections: Section[]
 }
 export default function ({ sections }: Props) {
-    return (<div>
+	return (
+		<div>
 			{sections.map(renderSection)}
-		</div>);
+		</div>
+	)
 }

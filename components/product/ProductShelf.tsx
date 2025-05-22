@@ -85,7 +85,7 @@ function ProductShelf({
 	)
 }
 
-export function loader(props: Props, req: Request, ctx: AppContext) {
+export function loader(props: Props, _req: Request, ctx: AppContext) {
 	return {
 		...props,
 		isMobile: ctx.device !== 'desktop',

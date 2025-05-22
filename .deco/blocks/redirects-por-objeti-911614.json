@@ -1,8 +1,8 @@
 {
-  "redirect": {
-    "from": "/por-objetivo/vida-saudavel?PS=12&O=OrderByPriceASC",
-    "to": "/por-objetivo/longevidade",
-    "type": "permanent"
-  },
-  "__resolveType": "website/loaders/redirect.ts"
+	"redirect": {
+		"from": "/por-objetivo/vida-saudavel?PS=12&O=OrderByPriceASC",
+		"to": "/por-objetivo/longevidade",
+		"type": "permanent"
+	},
+	"__resolveType": "website/loaders/redirect.ts"
 }

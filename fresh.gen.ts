@@ -11,10 +11,6 @@ import * as $BannerCarouselJS from './islands/BannerCarouselJS.tsx'
 import * as $BenefitsJS from './islands/BenefitsJS.tsx'
 import * as $CTAFixoCustom from './islands/CTAFixoCustom.tsx'
 import * as $CartItem from './islands/CartItem.tsx'
-import * as $CouponPopup from './islands/CouponPopup.tsx'
-import * as $FormLojistas from './islands/FormLojistas.tsx'
-import * as $FormProfissionais from './islands/FormProfissionais.tsx'
-import * as $FormPromoLeeds from './islands/FormPromoLeeds.tsx'
 import * as $Header_Buttons from './islands/Header/Buttons.tsx'
 import * as $Header_Cart_Cart from './islands/Header/Cart/Cart.tsx'
 import * as $Header_Cart_common from './islands/Header/Cart/common.tsx'
@@ -30,7 +26,6 @@ import * as $OrderTracking from './islands/OrderTracking.tsx'
 import * as $OutOfStock from './islands/OutOfStock.tsx'
 import * as $PixPrice from './islands/PixPrice.tsx'
 import * as $PixPriceNew from './islands/PixPriceNew.tsx'
-import * as $PopupPromoEbookLeeds from './islands/PopupPromoEbookLeeds.tsx'
 import * as $PriceRange from './islands/PriceRange.tsx'
 import * as $Product_Benefits from './islands/Product/Benefits.tsx'
 import * as $Product_ImageSliderJS from './islands/Product/ImageSliderJS.tsx'
@@ -51,7 +46,6 @@ import * as $Sort from './islands/Sort.tsx'
 import * as $Stories from './islands/Stories.tsx'
 import * as $Subscription from './islands/Subscription.tsx'
 import * as $SubscriptionModal from './islands/SubscriptionModal.tsx'
-import * as $SubscriptionPopup from './islands/SubscriptionPopup.tsx'
 import * as $VideoModal_Button from './islands/VideoModal/Button.tsx'
 import * as $VideoModal_Modal from './islands/VideoModal/Modal.tsx'
 import * as $WishlistButton_vtex from './islands/WishlistButton/vtex.tsx'
@@ -70,10 +64,6 @@ const manifest = {
 		'./islands/BenefitsJS.tsx': $BenefitsJS,
 		'./islands/CTAFixoCustom.tsx': $CTAFixoCustom,
 		'./islands/CartItem.tsx': $CartItem,
-		'./islands/CouponPopup.tsx': $CouponPopup,
-		'./islands/FormLojistas.tsx': $FormLojistas,
-		'./islands/FormProfissionais.tsx': $FormProfissionais,
-		'./islands/FormPromoLeeds.tsx': $FormPromoLeeds,
 		'./islands/Header/Buttons.tsx': $Header_Buttons,
 		'./islands/Header/Cart/Cart.tsx': $Header_Cart_Cart,
 		'./islands/Header/Cart/common.tsx': $Header_Cart_common,
@@ -89,7 +79,6 @@ const manifest = {
 		'./islands/OutOfStock.tsx': $OutOfStock,
 		'./islands/PixPrice.tsx': $PixPrice,
 		'./islands/PixPriceNew.tsx': $PixPriceNew,
-		'./islands/PopupPromoEbookLeeds.tsx': $PopupPromoEbookLeeds,
 		'./islands/PriceRange.tsx': $PriceRange,
 		'./islands/Product/Benefits.tsx': $Product_Benefits,
 		'./islands/Product/ImageSliderJS.tsx': $Product_ImageSliderJS,
@@ -110,7 +99,6 @@ const manifest = {
 		'./islands/Stories.tsx': $Stories,
 		'./islands/Subscription.tsx': $Subscription,
 		'./islands/SubscriptionModal.tsx': $SubscriptionModal,
-		'./islands/SubscriptionPopup.tsx': $SubscriptionPopup,
 		'./islands/VideoModal/Button.tsx': $VideoModal_Button,
 		'./islands/VideoModal/Modal.tsx': $VideoModal_Modal,
 		'./islands/WishlistButton/vtex.tsx': $WishlistButton_vtex,

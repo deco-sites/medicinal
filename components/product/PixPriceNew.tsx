@@ -15,18 +15,16 @@ const KIT_DISCOUNT = 0.03
 
 export default function PixPriceNew({
 	sellingPrice,
-	productId,
-	listPrice,
 	quantity,
 	subscription = 'none',
 }: Props) {
 	const [price, setPrice] = useState<number | null>(null)
 
 	useEffect(() => {
-		let pixTotal = (sellingPrice - (sellingPrice * PIX_DISCOUNT)) * quantity
+		let pixTotal = (sellingPrice - sellingPrice * PIX_DISCOUNT) * quantity
 		if (quantity >= 3) {
 			const aux = pixTotal
-			pixTotal = aux - (aux * KIT_DISCOUNT)
+			pixTotal = aux - aux * KIT_DISCOUNT
 		}
 		setPrice(pixTotal)
 	}, [quantity])
@@ -35,7 +33,7 @@ export default function PixPriceNew({
 		<>
 			{price !== null && (
 				<span
-					class={`font-lemon-milk leading-none ${
+					class={` leading-none ${
 						subscription == 'none' ? 'text-3xl text-dark font-bold' : 'text-sm text-[#A6A6A5] font-semibold'
 					}`}
 				>

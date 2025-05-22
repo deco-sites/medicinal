@@ -33,11 +33,13 @@ interface Button {
 	target?: boolean
 }
 
-export default function TextAndBanner(
-	{ contentText, banner, cta, title }: Props,
-) {
-	const { link = '#', target = false, label } = cta ??
-		{}
+export default function TextAndBanner({
+	contentText,
+	banner,
+	cta,
+	title,
+}: Props) {
+	const { link = '#', target = false, label } = cta ?? {}
 
 	const id = useId()
 
@@ -49,7 +51,7 @@ export default function TextAndBanner(
 				{title && (
 					<h1
 						dangerouslySetInnerHTML={{ __html: title }}
-						class={'text-dark font-bold mb-6 text-base lg:text-lg uppercase font-lemon-milk'}
+						class={'text-dark font-bold mb-6 text-base lg:text-lg uppercase '}
 					/>
 				)}
 
@@ -66,7 +68,7 @@ export default function TextAndBanner(
 							id={id}
 							href={link}
 							target={target ? '_blank' : '_self'}
-							class={'flex items-center gap-[10px] uppercase font-lemon-milk font-bold text-[13px] leading-[17px] text-ice py-[15px] px-6 rounded-full  bg-gradient-to-r from-[#E4003F] from-35% to-[#e8530e] to-90% max-w-fit group hover:bg-white border  border-transparent hover:border-red hover:fontWithGradient cursor-pointer max-h-[40px] duration-150'}
+							class={'flex items-center gap-[10px] uppercase  font-bold text-[13px] leading-[17px] text-ice py-[15px] px-6 rounded-full  bg-gradient-to-r from-[#E4003F] from-35% to-[#e8530e] to-90% max-w-fit group hover:bg-white border  border-transparent hover:border-red hover:fontWithGradient cursor-pointer max-h-[40px] duration-150'}
 						>
 							<span>{label}</span>
 							<Icon
@@ -80,19 +82,14 @@ export default function TextAndBanner(
 							id={id}
 							event={{
 								name: 'click_banner_home_footer',
-							} as any}
+							} as unknown}
 						/>
 					</div>
 				)}
 			</div>
 
 			<div class={'flex-shrink-0'}>
-				<Image
-					src={banner.src}
-					alt={banner.src}
-					width={644}
-					height={371}
-				/>
+				<Image src={banner.src} alt={banner.src} width={644} height={371} />
 			</div>
 		</div>
 	)

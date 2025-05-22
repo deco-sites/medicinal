@@ -4,7 +4,6 @@ import type { Props as SearchbarProps } from 'site/components/search/Searchbar.t
 import Drawer from 'site/components/ui/Drawer.tsx'
 import Icon from 'site/components/ui/Icon.tsx'
 import { useUI } from 'site/sdk/useUI.ts'
-import { useUser } from 'apps/vtex/hooks/useUser.ts'
 import type { ComponentChildren } from 'preact'
 import { lazy, Suspense } from 'preact/compat'
 
@@ -31,10 +30,9 @@ interface HeaderProps {
 }
 
 const HeaderLogin = (props: HeaderProps) => {
-	const { user } = useUser()
-	const { closeFunction: { onClose } } = props
-	// Validar
-	const isUserLoggedIn = Boolean(user.value?.email)
+	const {
+		closeFunction: { onClose },
+	} = props
 
 	return (
 		<div class='flex justify-end items-center px-4 py-6'>
@@ -75,7 +73,9 @@ const HeaderLogin = (props: HeaderProps) => {
 }
 
 const SearchHeader = (props: HeaderProps) => {
-	const { closeFunction: { onClose } } = props
+	const {
+		closeFunction: { onClose },
+	} = props
 
 	return (
 		<div class='flex justify-end items-center px-4'>
@@ -104,19 +104,19 @@ const SearchHeader = (props: HeaderProps) => {
 	)
 }
 
-const MinicartHeader = (props: HeaderProps) => {
-	const { closeFunction: { onClose } } = props
-
+const MinicartHeader = () => {
 	return <></>
 }
 
-const Aside = (
-	{ title, onClose, children }: {
-		title: string
-		onClose?: () => void
-		children: ComponentChildren
-	},
-) => (
+const Aside = ({
+	title,
+	onClose,
+	children,
+}: {
+	title: string
+	onClose?: () => void
+	children: ComponentChildren
+}) => (
 	<div class='grid grid-rows-[auto_1fr] bg-white rounded-l-[20px] w-full max-w-[308px] md:max-w-[390px] h-full'>
 		{title === MENU_TITLE && onClose && <HeaderLogin closeFunction={{ onClose }} />}
 		{title === SEARCH_TITLE && onClose && <SearchHeader closeFunction={{ onClose }} />}

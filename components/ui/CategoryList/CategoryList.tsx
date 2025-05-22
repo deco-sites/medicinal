@@ -4,7 +4,7 @@ import { scriptAsDataURI } from 'apps/utils/dataURI.ts'
 import desktopScript from 'site/components/ui/CategoryList/DesktopScript.ts'
 import mobileScript from 'site/components/ui/CategoryList/MobileScript.ts'
 import type { AppContext } from 'site/apps/site.ts'
-import { SendEventOnClick, SendEventOnView } from 'site/components/Analytics.tsx'
+import { SendEventOnClick } from 'site/components/Analytics.tsx'
 
 interface Category {
 	/**
@@ -57,9 +57,11 @@ export function loader(props: Props, _req: Request, ctx: AppContext) {
 	}
 }
 
-export default function CategoryList(
-	{ title, categories, isMobile }: ReturnType<typeof loader> = DEFAULT,
-) {
+export default function CategoryList({
+	title,
+	categories,
+	isMobile,
+}: ReturnType<typeof loader> = DEFAULT) {
 	const id = useId()
 
 	return (
@@ -105,7 +107,7 @@ export default function CategoryList(
 							key={category.href}
 							class='carousel-item first:pl-4 last:pr-4 lg:first:pl-0 lg:last:pr-0 min-[769px]:[--items:var(--items-md)] min-[1100px]:[--items:var(--items-lg)] xl:[--items:var(--items-xl)] w-[calc((100%/var(--items,3))-var(--gap,8px)+(var(--gap,8px)/var(--items,3)))] h-[73px] md:h-[88px] transition-all duration-300 group/item shrink-0'
 						>
-							<div class='flex justify-center items-center bg-light-gray-200 hover:bg-gradient-to-r from-red to-orange rounded-full w-full'>
+							<div class='flex justify-center items-center bg-light-gray-200 hover:bg-blue rounded-full w-full'>
 								<a
 									class='group-hover/item:bg-white float-left flex justify-center items-center bg-ice px-3 md:px-6 rounded-full w-[calc(100%_-_4px)] h-[calc(100%_-_4px)] transition-all duration-300 cursor-pointer'
 									href={category.href}
@@ -121,7 +123,7 @@ export default function CategoryList(
 									params: {
 										position: index,
 									},
-								} as any}
+								} as unknown}
 							/>
 						</li>
 					))}

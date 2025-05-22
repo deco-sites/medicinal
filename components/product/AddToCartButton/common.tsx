@@ -28,10 +28,8 @@ export const useAddToCart = ({ eventParams, onAddItem }: Props) => {
 			await onAddItem()
 
 			const user_data = {
-				email_address: cart?.value?.clientProfileData?.email ??
-					undefined,
-				phone_number: cart?.value?.clientProfileData?.phone ??
-					undefined,
+				email_address: cart?.value?.clientProfileData?.email ?? undefined,
+				phone_number: cart?.value?.clientProfileData?.phone ?? undefined,
 			}
 
 			sendEvent({
@@ -57,7 +55,7 @@ export default function AddToCartButton(props: Props) {
 		<Button
 			{...btnProps}
 			loading={loading.value}
-			class={`btn-cta-add-to-cart-product-page flex items-center justify-center gap-4 bg-green hover:bg-green rounded-md text-xs sm:text-[13px] font-bold uppercase font-lemon-milk text-white border-0 ${
+			class={`btn-cta-add-to-cart-product-page flex items-center justify-center gap-4 bg-green hover:bg-green rounded-md text-xs sm:text-[13px] font-bold uppercase  text-white border-0 ${
 				buttonSize === 'full' && 'w-full'
 			} h-12`}
 		>

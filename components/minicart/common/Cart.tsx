@@ -7,7 +7,6 @@ import type { OrderFormItem } from 'apps/vtex/utils/types.ts'
 import Icon from 'site/components/ui/Icon.tsx'
 import CartItem, { type Props as ItemProps } from './CartItem.tsx'
 import type { Props as CouponProps } from './Coupon.tsx'
-import FreeShippingProgressBar from './FreeShippingProgressBar.tsx'
 import { useCart } from 'apps/vtex/hooks/useCart.ts'
 import ProductBrainUpSell from 'site/components/minicart/common/ProductBrainUpSell.tsx'
 
@@ -32,18 +31,18 @@ interface Props {
 function Cart({
 	fullProducts,
 	items,
-	total,
+	_total,
 	subtotal,
 	locale,
 	coupon,
 	loading,
 	currency,
 	discounts,
-	freeShippingTarget,
+	_freeShippingTarget,
 	checkoutHref,
 	itemToAnalyticsItem,
 	onUpdateQuantity,
-	onAddCoupon,
+	_onAddCoupon,
 }: Props) {
 	const { displayCart } = useUI()
 	const { cart } = useCart()
@@ -57,7 +56,7 @@ function Cart({
 
 	return (
 		<>
-			<div class='flex justify-between items-center border-Stroke px-6 py-4 border-b font-lemon-milk'>
+			<div class='flex justify-between items-center border-Stroke px-6 py-4 border-b '>
 				<div class='flex items-center gap-2 font-medium text-black text-lg uppercase'>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
@@ -95,11 +94,11 @@ function Cart({
 				{isEmtpy
 					? (
 						<div class='flex flex-col justify-center items-center gap-8 w-full h-full text-center outline'>
-							<span class='max-w-[210px] font-bold font-lemon-milk text-sm uppercase'>
+							<span class='max-w-[210px] font-bold  text-sm uppercase'>
 								Seu carrinho ainda está vazio. Aceita algumas sugestões?
 							</span>
 							<Button
-								class='bg-green hover:bg-green border-none rounded-[6px] w-full max-w-[219px] h-[40px] font-lemon-milk text-white text-xs uppercase'
+								class='bg-green hover:bg-green border-none rounded-[6px] w-full max-w-[219px] h-[40px]  text-white text-xs uppercase'
 								onClick={() => {
 									displayCart.value = false
 								}}
@@ -140,15 +139,15 @@ function Cart({
 				  target={freeShippingTarget}
 				/> */
 								}
-                <ProductBrainUpSell />
-                
+								<ProductBrainUpSell />
+
 								<Button
 									id={addItemsID}
 									class='border-dark mt-0 border rounded-md w-full h-[40px] md:h-[50px] font-bold font-lemon text-dark text-xs md:text-[13px] uppercase md:leading-[17px]'
 									href='/promocoes'
 									onClick={onClose}
 								>
-                  ADICIONAR OUTROS ITENS
+									ADICIONAR OUTROS ITENS
 								</Button>
 								<a href={checkoutHref} class='flex justify-center mt-2 w-full'>
 									<Button
@@ -158,12 +157,8 @@ function Cart({
 										disabled={loading || isEmtpy}
 										onClick={() => {
 											const user_data = {
-												email_address: cart?.value
-													?.clientProfileData
-													?.email ?? undefined,
-												phone_number: cart?.value
-													?.clientProfileData
-													?.phone ?? undefined,
+												email_address: cart?.value?.clientProfileData?.email ?? undefined,
+												phone_number: cart?.value?.clientProfileData?.phone ?? undefined,
 											}
 
 											sendEvent({
@@ -173,24 +168,14 @@ function Cart({
 													currency,
 													value: subtotal + discounts,
 													items: items
-														.map((_, index) =>
-															itemToAnalyticsItem(
-																index,
-															)
-														)
-														.filter((
-															x,
-														): x is AnalyticsItem => Boolean(x)),
+														.map((_, index) => itemToAnalyticsItem(index))
+														.filter((x): x is AnalyticsItem => Boolean(x)),
 													user_data,
 												},
 											})
 										}}
 									>
-										FINALIZAR COMPRA - {formatPrice(
-											subtotal + discounts,
-											currency,
-											locale,
-										)}
+										FINALIZAR COMPRA - {formatPrice(subtotal + discounts, currency, locale)}
 									</Button>
 								</a>
 							</footer>

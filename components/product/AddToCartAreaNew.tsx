@@ -16,7 +16,6 @@ import { formatPrice } from 'site/sdk/format.ts'
 import Loading from 'site/components/ui/Loading.tsx'
 import { useCart } from 'apps/vtex/hooks/useCart.ts'
 import { sendEvent } from 'site/sdk/analytics.tsx'
-import { SendEventOnClick } from 'site/components/Analytics.tsx'
 import { useUI } from 'site/sdk/useUI.ts'
 import { sendSubscriptionChecker } from 'site/sdk/subscriptionChecker.ts'
 
@@ -68,33 +67,28 @@ export default function AddToCartAreaNew({
 	const loading = useSignal(false)
 	const selected = useSignal<SubscriptionOptions>('none')
 
-	const {
-		additionalProperty,
-		productID,
-		offers,
-	} = product
+	const { additionalProperty, productID, offers } = product
 
 	const {
 		offers: {
 			// @ts-ignore offers exists
 			offers: [
 				{
-					inventoryLevel: {
-						value: inventoryLevelValue,
-					},
+					inventoryLevel: { value: inventoryLevelValue },
 				},
 			],
 		},
 	} = product
 
-	const activeSubscription = additionalProperty?.find((p) => p.name === 'activeSubscriptions')?.value
+	const activeSubscription = additionalProperty?.find(
+		(p) => p.name === 'activeSubscriptions',
+	)?.value
 
-	const {
-		seller = '1',
-		availability,
-	} = useOffer(offers) || {}
+	const { seller = '1', availability } = useOffer(offers) || {}
 
-	const [discountSubscriptions, setDiscountSubscriptions] = useState((listPrice * quantity) * 0.2)
+	const [discountSubscriptions, setDiscountSubscriptions] = useState(
+		listPrice * quantity * 0.2,
+	)
 	const [aboutSubscription, setAboutSubscription] = useState(false)
 
 	const breadcrumb = {
@@ -123,18 +117,18 @@ export default function AddToCartAreaNew({
 
 	async function optionProductRegular() {
 		await addItems({
-			orderItems: [{
-				id: productID,
-				seller: seller,
-				quantity,
-			}],
+			orderItems: [
+				{
+					id: productID,
+					seller: seller,
+					quantity,
+				},
+			],
 		})
 
 		const user_data = {
-			email_address: cart?.value?.clientProfileData?.email ??
-				undefined,
-			phone_number: cart?.value?.clientProfileData?.phone ??
-				undefined,
+			email_address: cart?.value?.clientProfileData?.email ?? undefined,
+			phone_number: cart?.value?.clientProfileData?.phone ?? undefined,
 		}
 
 		const eventParams = { items: [eventItem] }
@@ -158,11 +152,13 @@ export default function AddToCartAreaNew({
 			'vtex.subscription.key.purchaseday': `${currentDay}`,
 		}
 
-		const orderItems = [{
-			id: productID,
-			seller,
-			quantity: 1,
-		}]
+		const orderItems = [
+			{
+				id: productID,
+				seller,
+				quantity: 1,
+			},
+		]
 
 		for (let i = 0; i < quantity; i++) {
 			await addItems({ orderItems })
@@ -272,7 +268,9 @@ export default function AddToCartAreaNew({
 										/>
 									</div>
 									{activeSubscription && (
-										<span className={`flex flex-col gap-2 text-green font-regular`}>
+										<span
+											className={`flex flex-col gap-2 text-green font-regular`}
+										>
 											<span
 												className={`normal-case leading-none font-bold ${
 													selected.value != 'none' ? 'text-sm' : 'text-xs'
@@ -282,13 +280,16 @@ export default function AddToCartAreaNew({
 											</span>
 											<span className='leading-none'>
 												<span
-													className={`font-lemon-milk leading-none ${
+													className={` leading-none ${
 														selected.value != 'none'
 															? 'text-3xl font-bold'
 															: 'text-sm font-semibold'
 													}`}
 												>
-													{formatPrice((listPrice * quantity) - discountSubscriptions, 'BRL')}
+													{formatPrice(
+														listPrice * quantity - discountSubscriptions,
+														'BRL',
+													)}
 												</span>
 												<span
 													className={`leading-none ${
@@ -306,14 +307,18 @@ export default function AddToCartAreaNew({
 									<QuantitySelector
 										type='pdp'
 										quantity={quantity}
-                    disabled={productID === '3810'}
+										disabled={productID === '3810'}
 										onChange={(quantity) => {
-											if ((quantity < 1) || (quantity > 9 || quantity > inventoryLevelValue)) {
+											if (
+												quantity < 1 ||
+												quantity > 9 ||
+												quantity > inventoryLevelValue
+											) {
 												return
 											}
 
 											setQuantity(quantity)
-											setDiscountSubscriptions((listPrice * quantity) * 0.2)
+											setDiscountSubscriptions(listPrice * quantity * 0.2)
 										}}
 									/>
 									<span
@@ -326,23 +331,16 @@ export default function AddToCartAreaNew({
 												<CheckIcon />
 											</span>
 										)}
-                    {productID === '3810' ? 
-                      (
-                        <span>
-                          válido apenas 1 unidade por CPF.
-                        </span>
-                      ) :
-                      (
-                        <>
-                          <span class='hidden sm:inline'>
-                            <strong>3% OFF</strong> para <strong>3 ou mais</strong> unidades
-                          </span>
-                          <span class='inline sm:hidden text-xs'>
-                            <strong>3% OFF</strong> para <strong>3 ou mais</strong> un.
-                          </span>
-                        </>
-                      )
-                    }
+										{productID === '3810' ? <span>válido apenas 1 unidade por CPF.</span> : (
+											<>
+												<span class='hidden sm:inline'>
+													<strong>3% OFF</strong> para <strong>3 ou mais</strong> unidades
+												</span>
+												<span class='inline sm:hidden text-xs'>
+													<strong>3% OFF</strong> para <strong>3 ou mais</strong> un.
+												</span>
+											</>
+										)}
 									</span>
 								</div>
 
@@ -386,14 +384,12 @@ export default function AddToCartAreaNew({
 									</div>
 								</div>
 
-								{(activeSubscription && selected.value != 'none') && (
+								{activeSubscription && selected.value != 'none' && (
 									<TimelineCalc selected={selected.value} />
 								)}
 
-								{(
-									activeSubscription && selected.value != 'none' ||
-									activeSubscription && aboutSubscription
-								) && (
+								{((activeSubscription && selected.value != 'none') ||
+									(activeSubscription && aboutSubscription)) && (
 									<div>
 										<h4 className='text-sm font-bold text-dark leading-none mb-3'>
 											Benefícios da Assinatura
@@ -452,7 +448,7 @@ export default function AddToCartAreaNew({
 										<a
 											className='text-xs leading-none	 underline font-bold py-4'
 											href='/assinatura'
-											onClick={(event) => {
+											onClick={() => {
 												sendEvent({
 													name: 'view_subscription_details',
 													params: {},
@@ -464,9 +460,11 @@ export default function AddToCartAreaNew({
 									</div>
 								)}
 
-								{(!aboutSubscription && selected.value == 'none') && (
+								{!aboutSubscription && selected.value == 'none' && (
 									<button
-										className={`flex text-xs leading-none	font-bold text-[#44682E] underline ${productID === '3810' ? 'hidden' : ''}`}
+										className={`flex text-xs leading-none	font-bold text-[#44682E] underline ${
+											productID === '3810' ? 'hidden' : ''
+										}`}
 										onClick={() => {
 											setAboutSubscription(true)
 										}}
@@ -480,7 +478,7 @@ export default function AddToCartAreaNew({
 								disabled={!selected.value}
 								className={`btn-cta-add-to-cart-product-page ${
 									selected.value != 'none' ? 'type-subscription' : ''
-								} disabled:bg-light-gray flex items-center justify-center gap-6 w-full bg-green rounded-md text-white font-bold border-0 h-14 shrink-0 text-[13px] font-lemon-milk uppercase`}
+								} disabled:bg-light-gray flex items-center justify-center gap-6 w-full bg-green rounded-md text-white font-bold border-0 h-14 shrink-0 text-[13px]  uppercase`}
 								onClick={AddToCartButton}
 							>
 								{loading.value ? <Loading /> : (
@@ -507,7 +505,7 @@ export default function AddToCartAreaNew({
 					disabled={!selected.value}
 					className={`btn-cta-add-to-cart-product-page ${
 						selected.value != 'none' ? 'type-subscription' : ''
-					} disabled:bg-light-gray flex items-center justify-center gap-6 w-full bg-green rounded-md text-white font-bold border-0 h-14 shrink-0 text-[13px] font-lemon-milk uppercase`}
+					} disabled:bg-light-gray flex items-center justify-center gap-6 w-full bg-green rounded-md text-white font-bold border-0 h-14 shrink-0 text-[13px]  uppercase`}
 					onClick={AddToCartButton}
 				>
 					{loading.value ? <Loading /> : (
@@ -548,9 +546,7 @@ function renderTextRadioSubscription(frequency: string) {
   `
 }
 
-function TimelineCalc({
-	selected,
-}: TimelineCalcProps) {
+function TimelineCalc({ selected }: TimelineCalcProps) {
 	if (!selected) return null
 
 	const today = new Date()
@@ -585,8 +581,7 @@ function TimelineCalc({
 								{shippingDay}º ENVIO
 								<span class='text-dark font-bold'>
 									{day <= 9 ? `0${day}` : day}/
-									{month <= 9 ? `0${month}` : month}/
-									{year}
+									{month <= 9 ? `0${month}` : month}/{year}
 								</span>
 							</div>
 						)
@@ -618,8 +613,7 @@ function TimelineCalc({
 						<div class='flex flex-col font-bold text-xs sm:text-sm text-red'>
 							{shippingDay}º ENVIO
 							<span class='text-dark font-bold'>
-								{day <= 9 ? `0${day}` : day}/
-								{month <= 9 ? `0${month}` : month}/
+								{day <= 9 ? `0${day}` : day}/{month <= 9 ? `0${month}` : month}/
 								{year}
 							</span>
 						</div>

@@ -16,10 +16,8 @@ function handleLoadCss(styles: string) {
 }
 
 function handleSetScope() {
-	// @ts-expect-error vtexId is a global variable
-	window.vtexid.setScope('5d9f2d19-f9b8-4999-bbcd-0271c714b462')
-	// @ts-expect-error vtexId is a global variable
-	window.vtexid.setScopeName('tfcucl')
+	// window.vtexid.setScope('5d9f2d19-f9b8-4999-bbcd-0271c714b462')
+	// window.vtexid.setScopeName('tfcucl')
 }
 
 export function loadVtexIdScripts(callBack: () => void) {

@@ -1,65 +1,65 @@
 {
-  "name": "Search",
-  "path": "/s",
-  "sections": [
-    {
-      "noIndexing": true,
-      "__resolveType": "website/sections/Seo/Seo.tsx"
-    },
-    {
-      "__resolveType": "Header - 01"
-    },
-    {
-      "page": {
-        "sort": "orders:desc",
-        "count": 16,
-        "fuzzy": "automatic",
-        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-        "selectedFacets": []
-      },
-      "seals": [
-        {
-          "color": "#ffffff",
-          "label": "Mais vendidos",
-          "bgColor": "#e9530e",
-          "matcherType": "cluster",
-          "matcherTypeId": 184
-        }
-      ],
-      "layout": {
-        "columns": {
-          "mobile": 2,
-          "desktop": 4
-        },
-        "variant": "aside"
-      },
-      "titles": {
-        "__resolveType": "Titulos customizados do departamento"
-      },
-      "sectionsSEO": {
-        "__resolveType": "Descrições do departamento"
-      },
-      "__resolveType": "site/sections/Product/SearchResult.tsx"
-    },
-    {
-      "__resolveType": "Footer - 04"
-    },
-    {
-      "__resolveType": "site/sections/Insider/InsiderTracking.tsx",
-      "page": {
-        "pageType": "Search",
-        "pageContent": {
-          "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-          "sort": "orders:desc",
-          "count": 16,
-          "fuzzy": "automatic",
-          "selectedFacets": []
-        }
-      },
-      "currentPage": {
-        "__resolveType": "PLP Loader"
-      }
-    }
-  ],
-  "__resolveType": "website/pages/Page.tsx"
+	"name": "Search",
+	"path": "/s",
+	"sections": [
+		{
+			"noIndexing": true,
+			"__resolveType": "website/sections/Seo/Seo.tsx"
+		},
+		{
+			"__resolveType": "Header - 01"
+		},
+		{
+			"page": {
+				"sort": "orders:desc",
+				"count": 16,
+				"fuzzy": "automatic",
+				"__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+				"selectedFacets": []
+			},
+			"seals": [
+				{
+					"color": "#ffffff",
+					"label": "Mais vendidos",
+					"bgColor": "#e9530e",
+					"matcherType": "cluster",
+					"matcherTypeId": 184
+				}
+			],
+			"layout": {
+				"columns": {
+					"mobile": 2,
+					"desktop": 4
+				},
+				"variant": "aside"
+			},
+			"titles": {
+				"__resolveType": "Titulos customizados do departamento"
+			},
+			"sectionsSEO": {
+				"__resolveType": "Descrições do departamento"
+			},
+			"__resolveType": "site/sections/Product/SearchResult.tsx"
+		},
+		{
+			"__resolveType": "Footer - 04"
+		},
+		{
+			"__resolveType": "site/sections/Insider/InsiderTracking.tsx",
+			"page": {
+				"pageType": "Search",
+				"pageContent": {
+					"__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+					"sort": "orders:desc",
+					"count": 16,
+					"fuzzy": "automatic",
+					"selectedFacets": []
+				}
+			},
+			"currentPage": {
+				"__resolveType": "PLP Loader"
+			}
+		}
+	],
+	"__resolveType": "website/pages/Page.tsx"
 }

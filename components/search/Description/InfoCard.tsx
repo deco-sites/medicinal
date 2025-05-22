@@ -91,31 +91,27 @@ export default function InfoCardHorizontal({
 						/>
 					</Picture>
 					<div
-						class={'w-full lg:w-2/5 relative z-1' + (
-							type === 'full' ? ' p-12' : ' py-[56px] px-[48px] md:py-[79px] md:px-[125px]'
-						)}
+						class={'w-full lg:w-2/5 relative z-1' +
+							(type === 'full' ? ' p-12' : ' py-[56px] px-[48px] md:py-[79px] md:px-[125px]')}
 						style={{ color }}
 					>
 						{title && (
 							<h2
-								class={'custom-category-title text-left' + (
-									type === 'full 2'
+								class={'custom-category-title text-left' +
+									(type === 'full 2'
 										? ' text-[16px] leading-5 md:text-[24px] md:leading-[32px] md:mb-6'
 										: type === 'full'
 										? ' max-lg:mb-6'
-										: ''
-								)}
+										: '')}
 								dangerouslySetInnerHTML={{ __html: title }}
 							/>
 						)}
 						<div
 							class={'custom-category-text' +
 								(!title
-									? ' text-1xl sm:text-2xl font-lemon-milk font-bold !leading-6 sm:!leading-7'
+									? ' text-1xl sm:text-2xl  font-bold !leading-6 sm:!leading-7'
 									: ' text-sm lg:text-base !leading-6 sm:!leading-7') +
-								(
-									type === 'full 2' ? ' md:w-[398px]' : ''
-								)}
+								(type === 'full 2' ? ' md:w-[398px]' : '')}
 						>
 							<p dangerouslySetInnerHTML={{ __html: description }} />
 						</div>
@@ -140,9 +136,10 @@ export default function InfoCardHorizontal({
 					<div class='w-full md:w-3/4'>
 						{title && (
 							<h2
-								class={'custom-category-title' + (type === '2'
-									? ' text-[16px] !leading-[21px] md:text-[24px] md:!leading-[32px]'
-									: ' mb-8')}
+								class={'custom-category-title' +
+									(type === '2'
+										? ' text-[16px] !leading-[21px] md:text-[24px] md:!leading-[32px]'
+										: ' mb-8')}
 								style={{ color }}
 								dangerouslySetInnerHTML={{ __html: title }}
 							/>

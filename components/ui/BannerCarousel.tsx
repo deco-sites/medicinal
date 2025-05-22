@@ -73,15 +73,16 @@ export interface Props {
 	interval?: number
 }
 
-function BannerItem(
-	{ image, lcp, id }: { image: Banner; lcp?: boolean; id: string },
-) {
-	const {
-		alt,
-		mobile,
-		desktop,
-		href,
-	} = image
+function BannerItem({
+	image,
+	lcp,
+	id,
+}: {
+	image: Banner
+	lcp?: boolean
+	id: string
+}) {
+	const { alt, mobile, desktop, href } = image
 
 	const Wrapper = href ? 'a' : 'div'
 	const props = href ? { href } : {}
@@ -202,17 +203,14 @@ function BannerCarousel({
 
 	return (
 		<div class='mx-auto max-w-[1440px]'>
-			<div
-				id={id}
-				class='flex w-full px-4 relative'
-			>
+			<div id={id} class='flex w-full px-4 relative'>
 				<ul data-slider class='w-full grid grid-cols-1 grid-rows-1'>
 					{imagesFiltred.map((image, index) => {
 						const params = { promotion_name: image.alt }
 						const eventClick = {
 							name: 'click_banner_home',
 							params: { position: index },
-						} as any
+						} as unknown
 
 						return (
 							<li
@@ -231,10 +229,7 @@ function BannerCarousel({
 									event={{ name: 'select_promotion', params }}
 								/>
 
-								<SendEventOnClick
-									id={`${id}::${index}`}
-									event={eventClick}
-								/>
+								<SendEventOnClick id={`${id}::${index}`} event={eventClick} />
 
 								<SendEventOnView
 									id={`${id}::${index}`}
@@ -281,10 +276,7 @@ function BannerCarousel({
 						</button>
 					</div>
 				</div>
-				<BannerCarouselJS
-					rootId={id}
-					interval={interval && interval * 1e3}
-				/>
+				<BannerCarouselJS rootId={id} interval={interval && interval * 1e3} />
 			</div>
 		</div>
 	)

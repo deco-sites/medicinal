@@ -4,10 +4,12 @@ import Sort from 'site/components/search/Sort.tsx'
 import Breadcrumb from 'site/components/ui/Breadcrumb.tsx'
 import Icon from 'site/components/ui/Icon.tsx'
 import useModal from 'site/components/ui/useModal.tsx'
-import useSwiped from 'site/sdk/useSwiped.tsx'
 
 export type Props =
-	& Pick<ProductListingPage, 'filters' | 'breadcrumb' | 'sortOptions'>
+	& Pick<
+		ProductListingPage,
+		'filters' | 'breadcrumb' | 'sortOptions'
+	>
 	& {
 		url: string
 		title: string
@@ -15,17 +17,15 @@ export type Props =
 		isMobile: boolean
 	}
 
-function SearchControls(
-	{
-		filters,
-		breadcrumb,
-		sortOptions,
-		url,
-		title,
-		isMobile,
-		productsCount,
-	}: Props,
-) {
+function SearchControls({
+	filters,
+	breadcrumb,
+	sortOptions,
+	url,
+	title,
+	isMobile,
+	productsCount,
+}: Props) {
 	const sortModal = useModal()
 	const filterModal = useModal()
 

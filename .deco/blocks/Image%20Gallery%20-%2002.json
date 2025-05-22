@@ -1,31 +1,31 @@
 {
-  "title": "New collections",
-  "layout": {
-    "desktop": "Asymmetric",
-    "headerAlignment": "left"
-  },
-  "banners": [
-    {
-      "alt": "Fashion",
-      "href": "/",
-      "srcMobile": "https://data.decoassets.com/true-source/16b611ea-fb0a-4542-a3de-c1068628bfdf/1742235041722-5703060b-d1f6-4dc2-898a-ccefeefd2eab"
-    },
-    {
-      "alt": "Fashion",
-      "href": "/",
-      "srcMobile": "https://data.decoassets.com/true-source/df670f18-19d3-4cfe-b384-b2d83749462e/1742235049693-3210eea1-5437-4f19-8327-8b8fa4edfc45"
-    },
-    {
-      "alt": "Fashion",
-      "href": "/",
-      "srcMobile": "https://data.decoassets.com/true-source/94bb5914-2b41-4a83-89d0-8f3184d91852/1742235090972-1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"
-    },
-    {
-      "alt": "Fashion",
-      "href": "/",
-      "srcMobile": "https://data.decoassets.com/true-source/beae9f94-43d9-4009-b222-36a49a382fc5/1742235118513-a8d36df6-4b96-4421-bb6c-de0fe1478e06"
-    }
-  ],
-  "description": "Discover the collections of the season",
-  "__resolveType": "site/sections/Images/ImageGallery.tsx"
+	"title": "New collections",
+	"layout": {
+		"desktop": "Asymmetric",
+		"headerAlignment": "left"
+	},
+	"banners": [
+		{
+			"alt": "Fashion",
+			"href": "/",
+			"srcMobile": "https://data.decoassets.com/true-source/16b611ea-fb0a-4542-a3de-c1068628bfdf/1742235041722-5703060b-d1f6-4dc2-898a-ccefeefd2eab"
+		},
+		{
+			"alt": "Fashion",
+			"href": "/",
+			"srcMobile": "https://data.decoassets.com/true-source/df670f18-19d3-4cfe-b384-b2d83749462e/1742235049693-3210eea1-5437-4f19-8327-8b8fa4edfc45"
+		},
+		{
+			"alt": "Fashion",
+			"href": "/",
+			"srcMobile": "https://data.decoassets.com/true-source/94bb5914-2b41-4a83-89d0-8f3184d91852/1742235090972-1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"
+		},
+		{
+			"alt": "Fashion",
+			"href": "/",
+			"srcMobile": "https://data.decoassets.com/true-source/beae9f94-43d9-4009-b222-36a49a382fc5/1742235118513-a8d36df6-4b96-4421-bb6c-de0fe1478e06"
+		}
+	],
+	"description": "Discover the collections of the season",
+	"__resolveType": "site/sections/Images/ImageGallery.tsx"
 }

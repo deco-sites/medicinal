@@ -38,19 +38,23 @@ export default function NutritionalTable({
 		title1: 'Valores Diários',
 		title2: '%VD',
 	},
-	tableBody = [{
-		title: 'Colágeno Verisol®',
-		value: '2,5g',
-		vD: '2,5',
-	}, {
-		title: 'Proteína',
-		value: '22g',
-		vD: '22',
-	}, {
-		title: 'Carboidratos',
-		value: '5g',
-		vD: '5',
-	}],
+	tableBody = [
+		{
+			title: 'Colágeno Verisol®',
+			value: '2,5g',
+			vD: '2,5',
+		},
+		{
+			title: 'Proteína',
+			value: '22g',
+			vD: '22',
+		},
+		{
+			title: 'Carboidratos',
+			value: '5g',
+			vD: '5',
+		},
+	],
 	ingredients =
 		'Colágeno hidrolisado, peptídeos bioativos de colágeno hidrolisado com peso molecular médio de 2kDa (Verisol®), goma acácia, cacau alcalino lecitinado em pó, edulcorantes naturais stévia e taumatina.',
 	description =
@@ -71,7 +75,7 @@ export default function NutritionalTable({
 				{showIngredients && (
 					<div class='w-full lg:w-1/2 flex items-center justify-center'>
 						<div class='w-full lg:w-3/4 text-white'>
-							<h2 class='text-2xl lg:text-4xl uppercase mb-3 font-bold font-lemon-milk'>
+							<h2 class='text-2xl lg:text-4xl uppercase mb-3 font-bold '>
 								INGREDIENTES
 							</h2>
 							<p
@@ -84,22 +88,16 @@ export default function NutritionalTable({
 				{showTable && (
 					<div class='w-full lg:w-1/2 flex flex-col items-center justify-center border-none lg:border-solid border-l border-[#f0f0ee33]'>
 						<div class='w-full lg:w-3/4 border border-[#f0f0ee33] p-6 rounded-3xl'>
-							<h3 class='text-lg text-white uppercase mb-2 font-bold font-lemon-milk'>
+							<h3 class='text-lg text-white uppercase mb-2 font-bold '>
 								Tabela Nutricional
 							</h3>
 							<table class='table-auto text-white text-xs lg:text-sm w-full'>
 								<thead>
 									<tr>
-										<th
-											colSpan={3}
-											class='text-left pt-2'
-										>
+										<th colSpan={3} class='text-left pt-2'>
 											{tableHeader.title1}
 										</th>
-										<th
-											colSpan={1}
-											class='text-left pt-2'
-										>
+										<th colSpan={1} class='text-left pt-2'>
 											{tableHeader.title2}
 										</th>
 									</tr>
@@ -117,7 +115,11 @@ export default function NutritionalTable({
 															</td>
 														</>
 													)
-													: <td colSpan={2} class='py-2'>{item.title}</td>}
+													: (
+														<td colSpan={2} class='py-2'>
+															{item.title}
+														</td>
+													)}
 												<td class='py-2'>{item.value}</td>
 												<td class='py-2'>{item.vD}</td>
 											</tr>

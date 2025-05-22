@@ -1,6 +1,5 @@
 import type { Product } from 'apps/commerce/types.ts'
 import Image from 'apps/website/components/Image.tsx'
-import { PixShelf } from 'site/components/product/PixShelf.tsx'
 import ProductCardBuy from 'site/components/product/ProductCardBuy.tsx'
 import ProductStarCard from 'site/components/product/ProductStarCard.tsx'
 import { SealConfig } from 'site/loaders/seals.tsx'
@@ -9,29 +8,23 @@ import { formatPrice } from 'site/sdk/format.ts'
 import { relative } from 'site/sdk/url.ts'
 import { useOffer } from 'site/sdk/useOffer.ts'
 import WishlistButtonVtex from '../../islands/WishlistButton/vtex.tsx'
-import Icon from 'site/components/ui/Icon.tsx'
 import { mapProductToAnalyticsItem } from 'apps/commerce/utils/productToAnalyticsItem.ts'
 
-type Props =
-	& {
-		/** Preload card image */
-		preload?: boolean
-		isMobile: boolean
-		price: number
-		listPrice: number
-		seller: string
-		isAvailable: boolean
-		productGroupID?: string
-		canBuyWithSubscription?: boolean
-		priceCurrency?: string
-		image: string
-		alt: string
-		seals: SealConfig[]
-	}
-	& Pick<
-		Product,
-		'url' | 'productID' | 'name' | 'brand' | "category"
-	>
+type Props = {
+	/** Preload card image */
+	preload?: boolean
+	isMobile: boolean
+	price: number
+	listPrice: number
+	seller: string
+	isAvailable: boolean
+	productGroupID?: string
+	canBuyWithSubscription?: boolean
+	priceCurrency?: string
+	image: string
+	alt: string
+	seals: SealConfig[]
+} & Pick<Product, 'url' | 'productID' | 'name' | 'brand' | 'category'>
 
 const WIDTH = 350
 const HEIGHT = 350
@@ -53,7 +46,7 @@ export default function ProductCard({
 	canBuyWithSubscription,
 	seals,
 	brand,
-	category
+	category,
 }: Props) {
 	const id = `product-card-${productID}`
 
@@ -61,25 +54,21 @@ export default function ProductCard({
 		((listPrice - price) / listPrice) * 100,
 	)
 
-	const subscriptionDiscount = listPrice * 0.20
+	const subscriptionDiscount = listPrice * 0.2
 
 	const eventItem = mapProductToAnalyticsItem({
 		product: {
 			productID,
 			name,
 			brand,
-			category
+			category,
 		} as Product,
 		price,
 		listPrice,
 	})
 
 	return (
-		<div
-			id={id}
-			data-deco='view-product'
-			class='w-full lg:max-w-[260px]'
-		>
+		<div id={id} data-deco='view-product' class='w-full lg:max-w-[260px]'>
 			<figure class='relative overflow-hidden aspect-[13/15] flex justify-center items-center rounded-[20px]'>
 				{/* Wishlist button */}
 				<div class='absolute top-4 right-4 z-[9] flex items-center'>
@@ -99,28 +88,31 @@ export default function ProductCard({
 						)
 						: (
 							<>
-								{!!seals?.length && seals.map((seal) => {
-									const sizes = seal?.size?.split('x')
+								{!!seals?.length &&
+									seals.map((seal) => {
+										const sizes = seal?.size?.split('x')
 
-									return (
-										<div
-											class={c(
-												'flex items-center text-xs font-bold px-2 py-2 rounded-full whitespace-nowrap',
-												!seal.image && 'px-3 py-1.5 max-w-fit',
-											)}
-											style={{
-												backgroundColor: seal?.bgColor ?? 'transparent',
-												color: seal?.color ?? '#3c3c3b',
-												backgroundRepeat: 'no-repeat',
-												backgroundSize: 'contain',
-												width: seal.image && sizes?.[0] && `${sizes[0]}px`,
-												height: seal.image && sizes?.[1] && `${sizes[1]}px`,
-											}}
-										>
-											{seal?.image ? <img src={seal.image} alt='' /> : seal?.label}
-										</div>
-									)
-								})}
+										return (
+											<div
+												class={c(
+													'flex items-center text-xs font-bold px-2 py-2 rounded-full whitespace-nowrap',
+													!seal.image && 'px-3 py-1.5 max-w-fit',
+												)}
+												style={{
+													backgroundColor: seal?.bgColor ?? 'transparent',
+													color: seal?.color ?? '#3c3c3b',
+													backgroundRepeat: 'no-repeat',
+													backgroundSize: 'contain',
+													width: seal.image && sizes?.[0] && `${sizes[0]}px`,
+													height: seal.image && sizes?.[1] && `${sizes[1]}px`,
+												}}
+											>
+												{seal?.image ? <img src={seal.image} alt='' /> : (
+													seal?.label
+												)}
+											</div>
+										)
+									})}
 
 								{/* Discount % */}
 								{listPrice && price && discountPercentage > 0 && (
@@ -152,9 +144,9 @@ export default function ProductCard({
 					<div class='absolute bg-ice w-full h-full top-0 left-0 z-0' />
 				</a>
 
-        <div className='custom-text-price-sale hidden absolute bottom-0 w-full flex justify-center py-2 text-xs leading-none font-bold text-white bg-gradient-to-r from-[#f137a6] to-[#ff4632]'>
-          ECONOMIZE {formatPrice(listPrice - price, priceCurrency)}
-        </div>
+				<div className='custom-text-price-sale hidden absolute bottom-0 w-full flex justify-center py-2 text-xs leading-none font-bold text-white bg-gradient-to-r from-[#f137a6] to-[#ff4632]'>
+					ECONOMIZE {formatPrice(listPrice - price, priceCurrency)}
+				</div>
 			</figure>
 			{/* Prices & Name */}
 			<div class='flex-auto flex flex-col gap-2 lg:px-4 lg:gap-4 mt-4'>
@@ -187,7 +179,6 @@ export default function ProductCard({
 										{formatPrice(price, 'BRL')}
 									</span>
 								)}
-								{/* {price && <PixShelf sellingPrice={price} quantity={1} />} */}
 							</div>
 						)}
 
@@ -214,23 +205,24 @@ export default function ProductCard({
 	)
 }
 
-export function productToProductCardProps(
-	{ product, isMobile, showOnlySubscription, seals }: {
-		product: Product
-		isMobile: boolean
-		showOnlySubscription?: boolean
-		seals: SealConfig[]
-	},
-) {
+export function productToProductCardProps({
+	product,
+	isMobile,
+	showOnlySubscription,
+	seals,
+}: {
+	product: Product
+	isMobile: boolean
+	showOnlySubscription?: boolean
+	seals: SealConfig[]
+}) {
+	const { productID, name, image, offers, isVariantOf, additionalProperty } = product
 	const {
-		productID,
-		name,
-		image,
-		offers,
-		isVariantOf,
-		additionalProperty,
-	} = product
-	const { price = 0, listPrice = 0, seller = '1', availability } = useOffer(offers) || {}
+		price = 0,
+		listPrice = 0,
+		seller = '1',
+		availability,
+	} = useOffer(offers) || {}
 
 	const productGroupID = isVariantOf?.productGroupID
 
@@ -239,9 +231,13 @@ export function productToProductCardProps(
 		const matcherTypeId = seal.matcherTypeId?.toString()
 		if (!matcherType || !matcherTypeId) return [...acc]
 
-		if (matcherType === 'product' && matcherTypeId === productID) return [...acc, seal]
+		if (matcherType === 'product' && matcherTypeId === productID) {
+			return [...acc, seal]
+		}
 
-		const filter = additionalProperty?.some((add) => matcherType === add.name && matcherTypeId === add.propertyID)
+		const filter = additionalProperty?.some(
+			(add) => matcherType === add.name && matcherTypeId === add.propertyID,
+		)
 		if (filter) return [...acc, seal]
 		return [...acc]
 	}, [] as SealConfig[])
@@ -274,6 +270,6 @@ export function productToProductCardProps(
 		priceCurrency: offers?.priceCurrency,
 		seals: filteredSeals,
 		brands: product.brand,
-		category:product.category
+		category: product.category,
 	}
 }

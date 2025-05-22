@@ -1,60 +1,60 @@
 {
-  "name": "Política de Pagamento",
-  "path": "/politicas/pagamento",
-  "sections": [
-    {
-      "canonical": "https://www.truesource.com.br/politicas/pagamento",
-      "noIndexing": false,
-      "__resolveType": "website/sections/Seo/Seo.tsx"
-    },
-    {
-      "__resolveType": "Header - 01"
-    },
-    {
-      "__resolveType": "Banner Central de Atendimento"
-    },
-    {
-      "loader": {
-        "__resolveType": "Navegações Central de Atendimento"
-      },
-      "sections": [
-        {
-          "__resolveType": "site/sections/CentralAtendimento/CardsTitleSimple.tsx",
-          "contentTitleSimple": "POLÍTICA DE PAGAMENTO"
-        },
-        {
-          "srcIcon": "https://data.decoassets.com/true-source/d42911d1-9f20-4ec3-914f-290fe929556f/1742235041794-5e2fe4dd-b2b5-49a5-99e6-d6f008e3dbae",
-          "iconWidth": 40,
-          "iconHeight": 40,
-          "__resolveType": "site/sections/CentralAtendimento/InfoCard.tsx",
-          "titleInfoCard": "CARTÃO DE CRÉDITO",
-          "descriptionInfoCard": "Até 6x sem juros no cartão. Acima de 6x com juros de 1.5% a.m. Bandeiras cartão: Visa, Aura, American Express, Hipercard, Diners, JCB, Mastercard, Elo"
-        },
-        {
-          "srcIcon": "https://data.decoassets.com/true-source/8cc0d522-a58a-43fc-aa30-03e8020e5cd3/1742235046919-c78df953-28ee-4b2f-a7b7-ebf7583ebd17",
-          "iconWidth": 40,
-          "iconHeight": 40,
-          "__resolveType": "site/sections/CentralAtendimento/InfoCard.tsx",
-          "titleInfoCard": "pix",
-          "descriptionInfoCard": "Aperte em Finalizar compra para gerar o código QR. Confira os dados e realize o pagamento pelo app do seu banco. O pix é considerado uma promoção, portanto não acumula com outras promoções do site ou utilização de cupons."
-        },
-        {
-          "srcIcon": "https://data.decoassets.com/true-source/da92fbac-d0e1-425d-88de-97501ffe7bef/1742235052463-1be45b7e-2a49-416e-a6c1-15886041812c",
-          "iconWidth": 40,
-          "iconHeight": 40,
-          "__resolveType": "site/sections/CentralAtendimento/InfoCard.tsx",
-          "titleInfoCard": "PICPAY",
-          "descriptionInfoCard": "Pague com PicPay, direto do seu celular. Ao finalizar a compra, um código será exibido. Para pagar, basta escanear o código com seu PicPay."
-        }
-      ],
-      "__resolveType": "site/sections/CentralAtendimento/NavigationPage.tsx"
-    },
-    {
-      "__resolveType": "Footer - 04"
-    },
-    {
-      "__resolveType": "Insider - Content Page"
-    }
-  ],
-  "__resolveType": "website/pages/Page.tsx"
+	"name": "Política de Pagamento",
+	"path": "/politicas/pagamento",
+	"sections": [
+		{
+			"canonical": "https://www.truesource.com.br/politicas/pagamento",
+			"noIndexing": false,
+			"__resolveType": "website/sections/Seo/Seo.tsx"
+		},
+		{
+			"__resolveType": "Header - 01"
+		},
+		{
+			"__resolveType": "Banner Central de Atendimento"
+		},
+		{
+			"loader": {
+				"__resolveType": "Navegações Central de Atendimento"
+			},
+			"sections": [
+				{
+					"__resolveType": "site/sections/CentralAtendimento/CardsTitleSimple.tsx",
+					"contentTitleSimple": "POLÍTICA DE PAGAMENTO"
+				},
+				{
+					"srcIcon": "https://data.decoassets.com/true-source/d42911d1-9f20-4ec3-914f-290fe929556f/1742235041794-5e2fe4dd-b2b5-49a5-99e6-d6f008e3dbae",
+					"iconWidth": 40,
+					"iconHeight": 40,
+					"__resolveType": "site/sections/CentralAtendimento/InfoCard.tsx",
+					"titleInfoCard": "CARTÃO DE CRÉDITO",
+					"descriptionInfoCard": "Até 6x sem juros no cartão. Acima de 6x com juros de 1.5% a.m. Bandeiras cartão: Visa, Aura, American Express, Hipercard, Diners, JCB, Mastercard, Elo"
+				},
+				{
+					"srcIcon": "https://data.decoassets.com/true-source/8cc0d522-a58a-43fc-aa30-03e8020e5cd3/1742235046919-c78df953-28ee-4b2f-a7b7-ebf7583ebd17",
+					"iconWidth": 40,
+					"iconHeight": 40,
+					"__resolveType": "site/sections/CentralAtendimento/InfoCard.tsx",
+					"titleInfoCard": "pix",
+					"descriptionInfoCard": "Aperte em Finalizar compra para gerar o código QR. Confira os dados e realize o pagamento pelo app do seu banco. O pix é considerado uma promoção, portanto não acumula com outras promoções do site ou utilização de cupons."
+				},
+				{
+					"srcIcon": "https://data.decoassets.com/true-source/da92fbac-d0e1-425d-88de-97501ffe7bef/1742235052463-1be45b7e-2a49-416e-a6c1-15886041812c",
+					"iconWidth": 40,
+					"iconHeight": 40,
+					"__resolveType": "site/sections/CentralAtendimento/InfoCard.tsx",
+					"titleInfoCard": "PICPAY",
+					"descriptionInfoCard": "Pague com PicPay, direto do seu celular. Ao finalizar a compra, um código será exibido. Para pagar, basta escanear o código com seu PicPay."
+				}
+			],
+			"__resolveType": "site/sections/CentralAtendimento/NavigationPage.tsx"
+		},
+		{
+			"__resolveType": "Footer - 04"
+		},
+		{
+			"__resolveType": "Insider - Content Page"
+		}
+	],
+	"__resolveType": "website/pages/Page.tsx"
 }

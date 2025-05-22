@@ -1,66 +1,66 @@
 {
-  "seo": {
-    "type": "website",
-    "title": "Medicinal | Farmácia de Manipulação",
-    "jsonLDs": [],
-    "noIndexing": false,
-    "description": "A Medicinal foi fundada em 2001 com compromisso de oferecer aos nossos clientes o que há de melhor em formulações manipuladas. Com experiência herdada da tradição farmacêutica francesa, onde cada fórmula é única.  Para cada um, a sua fórmula, sua solução, seu cosmético.",
-    "titleTemplate": "%s",
-    "descriptionTemplate": "%s"
-  },
-  "vtex": {
-    "sp": {},
-    "io": {},
-    "vcs": {},
-    "my": {},
-    "api": {}
-  },
-  "global": [],
-  "routes": [
-    {
-      "__resolveType": "vtex/loaders/proxy.ts",
-      "includeSiteMap": [],
-      "extraPathsToProxy": [
-        "/robots.txt",
-        "/XMLData/*"
-      ],
-      "includeScriptsToHead": {
-        "includePlausible": true,
-        "includes": [
-          {
-            "__resolveType": "analytics/loaders/DecoAnalyticsScript.ts"
-          }
-        ]
-      }
-    },
-    {
-      "__resolveType": "website/loaders/pages.ts"
-    },
-    {
-      "__resolveType": "website/loaders/redirects.ts"
-    }
-  ],
-  "caching": {
-    "directives": []
-  },
-  "commerce": {
-    "platform": "other"
-  },
-  "platform": "vtex",
-  "__resolveType": "site/apps/site.ts",
-  "firstByteThresholdMS": false,
-  "abTesting": {
-    "replaces": [],
-    "includeScriptsToHead": {
-      "includes": []
-    },
-    "includeScriptsToBody": {
-      "includes": []
-    }
-  },
-  "flavor": {
-    "framework": "fresh"
-  },
-  "whilelistURLs": [],
-  "whitelistPatterns": []
+	"seo": {
+		"type": "website",
+		"title": "Medicinal | Farmácia de Manipulação",
+		"jsonLDs": [],
+		"noIndexing": false,
+		"description": "A Medicinal foi fundada em 2001 com compromisso de oferecer aos nossos clientes o que há de melhor em formulações manipuladas. Com experiência herdada da tradição farmacêutica francesa, onde cada fórmula é única.  Para cada um, a sua fórmula, sua solução, seu cosmético.",
+		"titleTemplate": "%s",
+		"descriptionTemplate": "%s"
+	},
+	"vtex": {
+		"sp": {},
+		"io": {},
+		"vcs": {},
+		"my": {},
+		"api": {}
+	},
+	"global": [],
+	"routes": [
+		{
+			"__resolveType": "vtex/loaders/proxy.ts",
+			"includeSiteMap": [],
+			"extraPathsToProxy": [
+				"/robots.txt",
+				"/XMLData/*"
+			],
+			"includeScriptsToHead": {
+				"includePlausible": true,
+				"includes": [
+					{
+						"__resolveType": "analytics/loaders/DecoAnalyticsScript.ts"
+					}
+				]
+			}
+		},
+		{
+			"__resolveType": "website/loaders/pages.ts"
+		},
+		{
+			"__resolveType": "website/loaders/redirects.ts"
+		}
+	],
+	"caching": {
+		"directives": []
+	},
+	"commerce": {
+		"platform": "other"
+	},
+	"platform": "vtex",
+	"__resolveType": "site/apps/site.ts",
+	"firstByteThresholdMS": false,
+	"abTesting": {
+		"replaces": [],
+		"includeScriptsToHead": {
+			"includes": []
+		},
+		"includeScriptsToBody": {
+			"includes": []
+		}
+	},
+	"flavor": {
+		"framework": "fresh"
+	},
+	"whilelistURLs": [],
+	"whitelistPatterns": []
 }

@@ -16,14 +16,8 @@ interface Props {
 }
 
 export default function Comparison({
-	have = [
-		'2,5g Colágeno Verisol®',
-		'22g de Proteína',
-	],
-	dontHave = [
-		'Glúten',
-		'Corantes artificiais',
-	],
+	have = ['2,5g Colágeno Verisol®', '22g de Proteína'],
+	dontHave = ['Glúten', 'Corantes artificiais'],
 	image = {
 		desktop: 'https://tfcucl.vtexassets.com/arquivos/whey.png',
 	},
@@ -33,7 +27,7 @@ export default function Comparison({
 		<div class='container flex flex-col gap-8 lg:gap-0 lg:grid grid-cols-7 mt-12'>
 			<div class='order-1 lg:order-1 col-span-2'>
 				<h3
-					class='text-base lg:text-lg font-bold uppercase mb-4 font-lemon-milk'
+					class='text-base lg:text-lg font-bold uppercase mb-4 '
 					style={{ color }}
 				>
 					Possui
@@ -69,7 +63,7 @@ export default function Comparison({
 				</Picture>
 			</div>
 			<div class='order-2 lg:order-3 col-span-2'>
-				<h3 class='text-base lg:text-lg lg:text-right text-dark font-bold uppercase mb-4 font-lemon-milk'>
+				<h3 class='text-base lg:text-lg lg:text-right text-dark font-bold uppercase mb-4 '>
 					Não possui
 				</h3>
 				<ul>

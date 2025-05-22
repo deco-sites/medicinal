@@ -42,19 +42,13 @@ export default function () {
 		return null
 	}
 
-	const {
-		productID,
-		seller,
-		quantity,
-		listPrice,
-		price,
-	} = currentSubscription.value
+	const { productID, seller, quantity, listPrice, price } = currentSubscription.value
 
 	const selected = useSignal<SubscriptionOptions | null>(null)
 	const { cart, addItems, addItemAttachment, updateItems } = useCart()
 	const loading = useSignal(false)
 
-	const discount = (listPrice * quantity) * 0.20
+	const discount = listPrice * quantity * 0.2
 
 	const submitHandler = async (e: Event) => {
 		try {
@@ -82,11 +76,13 @@ export default function () {
 				'vtex.subscription.key.purchaseday': `${currentDay}`,
 			}
 
-			const orderItems = [{
-				id: productID,
-				seller,
-				quantity: 1,
-			}]
+			const orderItems = [
+				{
+					id: productID,
+					seller,
+					quantity: 1,
+				},
+			]
 
 			for (let i = 0; i < quantity; i++) {
 				await addItems({ orderItems })
@@ -129,7 +125,7 @@ export default function () {
 				name: 'form_submit',
 				params: {
 					period: SUBSCRIPTION_PLAN,
-				}
+				},
 			})
 		} finally {
 			loading.value = false
@@ -167,7 +163,7 @@ export default function () {
 						class='flex flex-col gap-y-6 p-3 sm:p-6 overflow-y-auto h-full'
 						onSubmit={submitHandler}
 					>
-						<h3 class='flex items-center justify-between gap-4 font-lemon-milk text-sm sm:text-lg uppercase font-bold'>
+						<h3 class='flex items-center justify-between gap-4  text-sm sm:text-lg uppercase font-bold'>
 							<span>
 								<span>ASSINE E COMPRE COM</span> <span>ATÉ 20% OFF</span>
 							</span>
@@ -210,12 +206,12 @@ export default function () {
 							<div class='flex items-start gap-3 sm:gap-4 ml-auto'>
 								<div>
 									<span
-										class='block font-bold text-base sm:text-2xl text-dark font-lemon-milk m-0'
+										class='block font-bold text-base sm:text-2xl text-dark  m-0'
 										style={{
 											lineHeight: 1,
 										}}
 									>
-										{formatPrice((listPrice * quantity) - discount)}
+										{formatPrice(listPrice * quantity - discount)}
 									</span>
 									<small
 										class='text-xs sm:text-sm text-dark'
@@ -293,7 +289,7 @@ export default function () {
 							<button
 								type='submit'
 								disabled={!selected.value}
-								class='btn-cta-add-to-cart-product-page type-subscription disabled:bg-light-gray flex items-center justify-center gap-6 w-full bg-green rounded-md text-white font-bold border-0 h-14 shrink-0 text-[13px] font-lemon-milk uppercase'
+								class='btn-cta-add-to-cart-product-page type-subscription disabled:bg-light-gray flex items-center justify-center gap-6 w-full bg-green rounded-md text-white font-bold border-0 h-14 shrink-0 text-[13px]  uppercase'
 							>
 								{loading.value ? <Loading /> : (
 									<>
@@ -323,9 +319,7 @@ export const subscriptionOptions = {
 	'3M': ' 3 month',
 }
 
-function TimelineCalc({
-	selected,
-}: TimelineCalcProps) {
+function TimelineCalc({ selected }: TimelineCalcProps) {
 	if (!selected) return null
 
 	const today = new Date()
@@ -368,8 +362,7 @@ function TimelineCalc({
 								{shippingDay}º ENVIO
 								<span class='text-dark font-bold'>
 									{day <= 9 ? `0${day}` : day}/
-									{month <= 9 ? `0${month}` : month}/
-									{year}
+									{month <= 9 ? `0${month}` : month}/{year}
 								</span>
 							</div>
 						)
@@ -395,8 +388,7 @@ function TimelineCalc({
 						<div class='flex flex-col font-bold text-xs sm:text-sm text-red'>
 							{shippingDay}º ENVIO
 							<span class='text-dark font-bold'>
-								{day <= 9 ? `0${day}` : day}/
-								{month <= 9 ? `0${month}` : month}/
+								{day <= 9 ? `0${day}` : day}/{month <= 9 ? `0${month}` : month}/
 								{year}
 							</span>
 						</div>

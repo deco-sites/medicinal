@@ -109,18 +109,20 @@ export function loader(props: Props, _req: Request, ctx: AppContext) {
 	return { ...props, isMobile: ctx.device !== 'desktop' }
 }
 
-export default function AccordionWithImages(
-	{ sections, preload, isMobile, bottomRounded, grayBackground, topRounded }: ReturnType<typeof loader>,
-) {
+export default function AccordionWithImages({
+	sections,
+	preload,
+	isMobile,
+	bottomRounded,
+	grayBackground,
+	topRounded,
+}: ReturnType<typeof loader>) {
 	const id = useId()
 
 	if (isMobile) {
 		return (
 			<div class='mx-auto max-w-[1440px]'>
-				<div
-					id={id}
-					class='relative flex w-full'
-				>
+				<div id={id} class='relative flex w-full'>
 					<ul data-slider class='grid grid-cols-1 grid-rows-1 w-full h-[442px]'>
 						{sections.map((section, index) => (
 							<li
@@ -143,7 +145,7 @@ export default function AccordionWithImages(
 											{section.title}
 										</h2>
 										<p class='mb-2 text-sm leading-4'>{section.description}</p>
-										<span class='flex justify-center items-center gap-4 bg-gradient-to-r from-red to-orange px-6 py-3 rounded-full w-fit font-bold font-lemon text-[13px] leading-[18px] transition-all'>
+										<span class='flex justify-center items-center gap-4 bg-blue px-6 py-3 rounded-full w-fit font-bold font-lemon text-[13px] leading-[18px] transition-all'>
 											{section.button.text}
 											<Icon id='BannerArrowRight' strokeWidth={2} size={16} />
 										</span>
@@ -179,7 +181,7 @@ export default function AccordionWithImages(
 										params: {
 											position: index,
 										},
-									} as any}
+									} as unknown}
 								/>
 							</li>
 						))}
@@ -232,13 +234,10 @@ export default function AccordionWithImages(
 			style={{
 				'--flex': `${sections.length}`,
 			}}
-			class={'flex p-10 text-ice max-w-[1448px] mx-auto h-[600px]' + (
-				bottomRounded ? ' rounded-b-[35px] md:rounded-b-[40px]' : ''
-			) + (
-				grayBackground ? ' bg-ice' : ''
-			) + (
-				topRounded ? ' rounded-t-[35px] md:rounded-t-[40px]' : ''
-			)}
+			class={'flex p-10 text-ice max-w-[1448px] mx-auto h-[600px]' +
+				(bottomRounded ? ' rounded-b-[35px] md:rounded-b-[40px]' : '') +
+				(grayBackground ? ' bg-ice' : '') +
+				(topRounded ? ' rounded-t-[35px] md:rounded-t-[40px]' : '')}
 		>
 			{sections.map((section, index) => (
 				<li
@@ -276,7 +275,7 @@ export default function AccordionWithImages(
 						<p class='text-sm leading-4'>{section.description}</p>
 					</div>
 					<span
-						class={`bg-gradient-to-r from-red to-orange font-lemon font-bold text-[13px] leading-[18px] flex items-center justify-center gap-4 absolute right-10 bottom-10 transition-all z-[1] py-3 px-6 rounded-full pointer-events-none${
+						class={`bg-blue font-lemon font-bold text-[13px] leading-[18px] flex items-center justify-center gap-4 absolute right-10 bottom-10 transition-all z-[1] py-3 px-6 rounded-full pointer-events-none${
 							index === 0
 								? ' group-has-[~:hover]:opacity-0 opacity-100'
 								: ' opacity-0 group-hover:opacity-100'
@@ -307,7 +306,7 @@ export default function AccordionWithImages(
 							params: {
 								position: index,
 							},
-						} as any}
+						} as unknown}
 					/>
 				</li>
 			))}

@@ -16,7 +16,6 @@ export interface Props {
 }
 
 function ButtonCommon({
-	variant = 'icon',
 	productGroupID,
 	productID,
 	loading,
@@ -77,20 +76,8 @@ function ButtonCommon({
 			}}
 		>
 			{inWishlist
-				? (
-					<Icon
-						id='HeartFill'
-						size={isMobile ? 20 : 24}
-						class='text-orange'
-					/>
-				)
-				: (
-					<Icon
-						id='Heart'
-						size={isMobile ? 20 : 24}
-						class='text-gray'
-					/>
-				)}
+				? <Icon id='HeartFill' size={isMobile ? 20 : 24} class='text-orange' />
+				: <Icon id='Heart' size={isMobile ? 20 : 24} class='text-gray' />}
 		</Button>
 	)
 }
