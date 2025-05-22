@@ -1,12 +1,10 @@
 {
   "seo": {
     "type": "website",
-    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/true-source/3c5ddd57-7850-4287-8525-41dd520e0395/Logo-Web.jpg",
-    "title": "True Source: suplementos naturais e muito saborosos!",
-    "favicon": "https://data.decoassets.com/true-source/43048c8d-1e58-405e-bd20-4bccbb06af68/1742235041209-0b0b7cf6-2b7a-49f6-8a9c-9733994365e9",
+    "title": "Medicinal | Farmácia de Manipulação",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Os nossos produtos são saborosos e feitos com ingredientes naturais. Encontre whey, creatina, emagrecedores, proteína vegana e muito mais — conheça!",
+    "description": "A Medicinal foi fundada em 2001 com compromisso de oferecer aos nossos clientes o que há de melhor em formulações manipuladas. Com experiência herdada da tradição farmacêutica francesa, onde cada fórmula é única.  Para cada um, a sua fórmula, sua solução, seu cosmético.",
     "titleTemplate": "%s",
     "descriptionTemplate": "%s"
   },
@@ -17,241 +15,7 @@
     "my": {},
     "api": {}
   },
-  "global": [
-    {
-      "trackingIds": [],
-      "__resolveType": "website/sections/Analytics/Analytics.tsx",
-      "googleAnalyticsIds": []
-    },
-    {
-      "__resolveType": "algolia/sections/Analytics/Algolia.tsx"
-    },
-    {
-      "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx",
-      "domain": "truesource.com.br"
-    },
-    {
-      "__resolveType": "site/sections/Product/SubscriptionModal.tsx"
-    },
-    {
-      "couponCode": "primeiracompra5",
-      "__resolveType": "site/sections/Content/CouponPopup.tsx",
-      "discountPercentage": 5,
-      "pathnameBlackList": [
-        "/produto-qualquer/p"
-      ]
-    },
-    {
-      "topText": "<p><strong><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">LIBERTE-SE DA PREOCUPAÇÃO DE FICAR SEM SEUS SUPLEMENTOS</span></strong></p><p><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">E mais: Ganhe</span></p><p><strong><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">20% OFF + FRETE GRÁTIS*</span></strong></p><p><span style=\"white-space: pre-wrap;\" data-mce-style=\"white-space: pre-wrap;\">durante toda a sua assinatura.</span></p><p><span style=\"white-space: pre-wrap; font-size: 8pt;\" data-mce-style=\"white-space: pre-wrap; font-size: 8pt;\">* Consulte condições</span></p>",
-      "__resolveType": "site/sections/Content/SubscriptionPopup.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Social/WhatsAppFlutuante.tsx",
-      "pagina": [
-        {
-          "Sunday": {
-            "active": false,
-            "start": "09:00",
-            "end": "17:00"
-          },
-          "Monday": {
-            "start": "09:00",
-            "end": "17:00",
-            "active": true
-          },
-          "Tuesday": {
-            "active": true,
-            "start": "09:00",
-            "end": "17:00"
-          },
-          "Wednesday": {
-            "start": "09:00",
-            "end": "17:00",
-            "active": true
-          },
-          "Thursday": {
-            "end": "20:00",
-            "start": "09:00",
-            "active": true
-          },
-          "Friday": {
-            "start": "09:00",
-            "end": "17:00",
-            "active": true
-          },
-          "Saturday": {
-            "end": "22:00",
-            "start": "08:00",
-            "active": false
-          },
-          "matcher": "/",
-          "title": "Home",
-          "url": "https://api.whatsapp.com/send?phone=5527992555412&text=Ol%C3%A1%2C%20gostaria%20de%20ser%20atendido(a)!"
-        },
-        {
-          "Sunday": {
-            "active": false,
-            "start": "08:00",
-            "end": "22:00"
-          },
-          "Monday": {
-            "start": "09:00",
-            "end": "17:00",
-            "active": true
-          },
-          "Tuesday": {
-            "active": true,
-            "start": "09:00",
-            "end": "17:00"
-          },
-          "Wednesday": {
-            "start": "09:00",
-            "end": "17:00",
-            "active": true
-          },
-          "Thursday": {
-            "end": "17:00",
-            "start": "09:00",
-            "active": true
-          },
-          "Friday": {
-            "start": "09:00",
-            "end": "17:00",
-            "active": true
-          },
-          "Saturday": {
-            "end": "22:00",
-            "start": "08:00",
-            "active": false
-          },
-          "matcher": "product",
-          "title": "Produto",
-          "url": "/https://api.whatsapp.com/send?phone=5527992555412&text=Ol%C3%A1%2C%20gostaria%20de%20ser%20atendido(a)!"
-        },
-        {
-          "Sunday": {
-            "active": false,
-            "start": "08:00",
-            "end": "22:00"
-          },
-          "Monday": {
-            "start": "09:00",
-            "end": "17:00",
-            "active": true
-          },
-          "Tuesday": {
-            "active": true,
-            "start": "09:00",
-            "end": "17:00"
-          },
-          "Wednesday": {
-            "start": "09:00",
-            "end": "17:00",
-            "active": true
-          },
-          "Thursday": {
-            "end": "17:00",
-            "start": "09:00",
-            "active": true
-          },
-          "Friday": {
-            "start": "09:00",
-            "end": "17:00",
-            "active": true
-          },
-          "Saturday": {
-            "end": "22:00",
-            "start": "08:00",
-            "active": false
-          },
-          "matcher": "category",
-          "title": "Categorias",
-          "url": "/https://api.whatsapp.com/send?phone=5527992555412&text=Ol%C3%A1%2C%20gostaria%20de%20ser%20atendido(a)!"
-        },
-        {
-          "Sunday": {
-            "active": false,
-            "start": "09:00",
-            "end": "17:50"
-          },
-          "Monday": {
-            "start": "09:00",
-            "end": "17:00",
-            "active": false
-          },
-          "Tuesday": {
-            "active": false,
-            "start": "09:00",
-            "end": "17:00"
-          },
-          "Wednesday": {
-            "start": "09:00",
-            "end": "17:00",
-            "active": false
-          },
-          "Thursday": {
-            "end": "17:00",
-            "start": "09:00",
-            "active": false
-          },
-          "Friday": {
-            "start": "09:00",
-            "end": "16:00",
-            "active": false
-          },
-          "Saturday": {
-            "end": "17:50",
-            "start": "09:00",
-            "active": false
-          },
-          "matcher": "all",
-          "title": "Todas paginas",
-          "url": "/https://api.whatsapp.com/send?phone=5527999141539&text=Ol%C3%A1%2C%20gostaria%20de%20ser%20atendido(a)!"
-        },
-        {
-          "Sunday": {
-            "start": "09:00",
-            "end": "17:00"
-          },
-          "Monday": {
-            "active": false,
-            "start": "08:00",
-            "end": "17:00"
-          },
-          "Tuesday": {
-            "active": false,
-            "start": "08:00",
-            "end": "17:00"
-          },
-          "Wednesday": {
-            "active": false,
-            "start": "08:00",
-            "end": "17:00"
-          },
-          "Thursday": {
-            "active": false,
-            "start": "08:00",
-            "end": "17:00"
-          },
-          "Friday": {
-            "active": false,
-            "start": "08:00",
-            "end": "16:00"
-          },
-          "Saturday": {
-            "start": "09:00",
-            "end": "17:00"
-          },
-          "matcher": "https://www.truesource.com.br/270?map=productClusterIds&utm_source=grupos&utm_medium=whatsapp&utm_campaign=esquenta_black30&utm_term=cuidados_do_homem_mulher_e_toda_familia&utm_content=segmentado",
-          "title": "Coleção Esquenta Black Friday",
-          "url": "https://api.whatsapp.com/send?phone=5527992555412&text=Ol%C3%A1%2C%20gostaria%20de%20ser%20atendido(a)!"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Insider/OrderTracking.tsx"
-    }
-  ],
+  "global": [],
   "routes": [
     {
       "__resolveType": "vtex/loaders/proxy.ts",
@@ -264,8 +28,7 @@
         "includePlausible": true,
         "includes": [
           {
-            "__resolveType": "analytics/loaders/DecoAnalyticsScript.ts",
-            "domain": "truesource.com.br"
+            "__resolveType": "analytics/loaders/DecoAnalyticsScript.ts"
           }
         ]
       }
@@ -297,5 +60,7 @@
   },
   "flavor": {
     "framework": "fresh"
-  }
+  },
+  "whilelistURLs": [],
+  "whitelistPatterns": []
 }
